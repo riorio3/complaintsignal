@@ -64,7 +64,6 @@ export function useRegulatoryNews(refreshInterval = 60000) {
               source: source.name,
             }));
         } catch (err) {
-          console.warn(`Failed to fetch from ${source.name}:`, err);
           return [];
         }
       });

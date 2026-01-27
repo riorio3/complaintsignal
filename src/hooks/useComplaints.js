@@ -6,8 +6,6 @@ import complaintsData from '../data/complaints.json';
 // Updated through January 24, 2026
 const staticComplaints = complaintsData.hits?.hits?.map(hit => hit._source) || [];
 
-console.log(`Loaded ${staticComplaints.length} complaints from static data`);
-
 export function useComplaints(filters = {}) {
   const [loading, setLoading] = useState(true);
   const [lastUpdated] = useState(new Date());

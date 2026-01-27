@@ -73,12 +73,10 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
             const data = await response.json();
             if (data.prices && data.prices.length > 0) {
               historyData = data;
-              console.log(`CoinGecko API success via ${proxy}`);
               break;
             }
           }
         } catch (proxyErr) {
-          console.warn(`Proxy ${proxy} failed:`, proxyErr.message);
           continue;
         }
       }
@@ -130,8 +128,6 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
       throw new Error('No price data returned');
 
     } catch (err) {
-      console.warn('Using fallback price data:', err.message);
-
       // Use fallback static data
       const fallbackArray = Object.entries(FALLBACK_PRICES)
         .map(([month, price]) => ({ month, price }))

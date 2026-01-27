@@ -276,12 +276,19 @@ function NarrativeCard({ complaint, index, keywords }) {
     }
   };
 
+  // Escape HTML entities to prevent XSS
+  const escapeHtml = (str) => str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
   // Highlight matching keywords in narrative
   const highlightKeywords = (text) => {
-    if (!text || !keywords) return text;
+    if (!text || !keywords) return escapeHtml(text);
 
-    let highlightedText = text;
-    const lowerText = text.toLowerCase();
+    const escapedText = escapeHtml(text);
+    const lowerText = escapedText.toLowerCase();
 
     // Find all keyword matches and their positions
     const matches = [];
@@ -303,12 +310,12 @@ function NarrativeCard({ complaint, index, keywords }) {
     let lastEnd = 0;
     matches.forEach(match => {
       if (match.start >= lastEnd) {
-        result.push(text.slice(lastEnd, match.start));
-        result.push(`<mark class="bg-yellow-200 dark:bg-yellow-800 px-0.5 rounded">${text.slice(match.start, match.end)}</mark>`);
+        result.push(escapedText.slice(lastEnd, match.start));
+        result.push(`<mark class="bg-yellow-200 dark:bg-yellow-800 px-0.5 rounded">${escapedText.slice(match.start, match.end)}</mark>`);
         lastEnd = match.end;
       }
     });
-    result.push(text.slice(lastEnd));
+    result.push(escapedText.slice(lastEnd));
 
     return result.join('');
   };
