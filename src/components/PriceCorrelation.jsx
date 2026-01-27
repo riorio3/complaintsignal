@@ -112,18 +112,48 @@ export function PriceCorrelation({ trendData }) {
     );
   };
 
+  // Calculate smart tick interval based on data length and view
+  const getTickInterval = (expanded) => {
+    const dataLength = chartData.length;
+    if (!expanded) {
+      // Compact view: show ~5-6 labels max
+      return Math.max(Math.floor(dataLength / 5), 1);
+    }
+    // Expanded view: show ~12-15 labels (roughly yearly)
+    return Math.max(Math.floor(dataLength / 12), 1);
+  };
+
+  // Custom tick formatter - show year on January, abbreviated month otherwise
+  const formatXAxisTick = (value, index) => {
+    if (!value) return '';
+    // value is like "Jan 2019" or "Dec 2024"
+    const parts = value.split(' ');
+    if (parts.length !== 2) return value;
+    const [month, year] = parts;
+    // For January or if it's the first/last visible, show "Jan '19" format
+    if (month === 'Jan') {
+      return `'${year.slice(2)}`;
+    }
+    // For expanded view, show "Mar" style
+    if (isExpanded) {
+      return month;
+    }
+    return `'${year.slice(2)}`;
+  };
+
   const ChartContent = ({ height = 288 }) => (
     <ResponsiveContainer width="100%" height={height}>
-      <ComposedChart data={chartData} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+      <ComposedChart data={chartData} margin={{ top: 20, right: 45, left: 20, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" className="opacity-30" />
         <XAxis
           dataKey="label"
-          tick={{ fontSize: 11 }}
+          tick={{ fontSize: 10 }}
           tickLine={false}
-          interval={isExpanded ? 0 : "preserveStartEnd"}
-          angle={isExpanded ? -45 : 0}
-          textAnchor={isExpanded ? "end" : "middle"}
-          height={isExpanded ? 60 : 30}
+          interval={getTickInterval(isExpanded)}
+          angle={0}
+          textAnchor="middle"
+          height={30}
+          tickFormatter={formatXAxisTick}
         />
         <YAxis
           yAxisId="left"
@@ -313,8 +343,8 @@ export function PriceCorrelation({ trendData }) {
         {/* Clickable Event Tags */}
         <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-200 dark:border-gray-700/50 text-center">
           <p className="text-xs text-gray-500 dark:text-gray-500 mb-2">Key Events (tap for details):</p>
-          <div className="flex flex-wrap gap-1 sm:gap-1.5 justify-center">
-            {relevantEvents.slice(0, 6).map((event, i) => (
+          <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
+            {relevantEvents.slice(0, 8).map((event, i) => (
               <button
                 key={i}
                 onClick={() => setSelectedEvent(event)}
@@ -326,9 +356,10 @@ export function PriceCorrelation({ trendData }) {
                     : 'bg-violet-100 text-violet-700 border border-violet-300 dark:bg-violet-500/20 dark:text-violet-400 dark:border-violet-500/30'
                 }`}
               >
-                <span className="hidden sm:inline">{format(parseISO(event.date), 'MMM yy')}: </span>
-                <span className="sm:hidden">{format(parseISO(event.date), 'M/yy')} </span>
-                {event.event.length > 15 ? event.event.substring(0, 15) + '...' : event.event}
+                <span className="hidden sm:inline">{format(parseISO(event.date), "MMM ''yy")}: </span>
+                <span className="sm:hidden">{format(parseISO(event.date), "MMM")}: </span>
+                <span className="hidden sm:inline">{event.event.length > 18 ? event.event.substring(0, 18) + '...' : event.event}</span>
+                <span className="sm:hidden">{event.event.length > 12 ? event.event.substring(0, 12) + '...' : event.event}</span>
               </button>
             ))}
           </div>

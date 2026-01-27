@@ -127,43 +127,50 @@ export function CompanyComparison({ data, rawData = [] }) {
           <thead>
             <tr className="border-b border-gray-200 dark:border-gray-700">
               <th
-                className="px-3 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="px-2 sm:px-3 py-2 sm:py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('company')}
               >
-                Company <SortIcon column="company" />
+                <span className="hidden sm:inline">Company</span>
+                <span className="sm:hidden">Co.</span>
+                <SortIcon column="company" />
               </th>
               <th
-                className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('total')}
               >
-                Complaints <SortIcon column="total" />
+                <span className="hidden sm:inline">Complaints</span>
+                <span className="sm:hidden">#</span>
+                <SortIcon column="total" />
               </th>
               <th
-                className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="hidden sm:table-cell px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('timelyRate')}
               >
                 Timely % <SortIcon column="timelyRate" />
               </th>
               <th
-                className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="hidden md:table-cell px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('disputeRate')}
               >
                 Disputed % <SortIcon column="disputeRate" />
               </th>
               <th
-                className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('fraudRate')}
               >
-                Fraud % <SortIcon column="fraudRate" />
+                <span className="hidden sm:inline">Fraud %</span>
+                <span className="sm:hidden">Fraud</span>
+                <SortIcon column="fraudRate" />
               </th>
               <th
-                className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
+                className="hidden md:table-cell px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                 onClick={() => handleSort('reliefRate')}
               >
                 Relief % <SortIcon column="reliefRate" />
               </th>
-              <th className="px-3 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
-                30d Trend
+              <th className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                <span className="hidden sm:inline">30d Trend</span>
+                <span className="sm:hidden">Trend</span>
               </th>
             </tr>
           </thead>
@@ -174,30 +181,30 @@ export function CompanyComparison({ data, rawData = [] }) {
                 onClick={() => setSelectedCompany(company)}
                 className="hover:bg-gray-50 dark:hover:bg-gray-700/50 cursor-pointer transition-colors"
               >
-                <td className="px-3 py-3">
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs font-medium text-gray-400 dark:text-gray-500 w-5">
+                <td className="px-2 sm:px-3 py-2 sm:py-3">
+                  <div className="flex items-center gap-1 sm:gap-2">
+                    <span className="text-xs font-medium text-gray-400 dark:text-gray-500 w-4 sm:w-5">
                       {index + 1}
                     </span>
-                    <span className="text-sm font-medium text-gray-900 dark:text-white truncate max-w-[180px]">
+                    <span className="text-xs sm:text-sm font-medium text-gray-900 dark:text-white truncate max-w-[100px] sm:max-w-[180px]">
                       {company.company}
                     </span>
                   </div>
                 </td>
-                <td className="px-3 py-3 text-sm text-right">
-                  <div className="flex items-center justify-end gap-2">
-                    <div className="w-16 h-1.5 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                <td className="px-2 sm:px-3 py-2 sm:py-3 text-sm text-right">
+                  <div className="flex items-center justify-end gap-1 sm:gap-2">
+                    <div className="hidden sm:block w-16 h-1.5 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
                       <div
                         className="h-full bg-blue-500 rounded-full"
                         style={{ width: `${Math.min((company.total / sortedData[0].total) * 100, 100)}%` }}
                       />
                     </div>
-                    <span className="text-gray-700 dark:text-gray-300 w-12 text-right">
+                    <span className="text-xs sm:text-sm text-gray-700 dark:text-gray-300 w-8 sm:w-12 text-right">
                       {company.total.toLocaleString()}
                     </span>
                   </div>
                 </td>
-                <td className="px-3 py-3 text-sm text-right">
+                <td className="hidden sm:table-cell px-3 py-3 text-sm text-right">
                   <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.timelyRate >= 90
                       ? 'bg-emerald-600 text-white'
@@ -208,7 +215,7 @@ export function CompanyComparison({ data, rawData = [] }) {
                     {company.timelyRate}%
                   </span>
                 </td>
-                <td className="px-3 py-3 text-sm text-right">
+                <td className="hidden md:table-cell px-3 py-3 text-sm text-right">
                   <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.disputeRate <= 10
                       ? 'bg-emerald-600 text-white'
@@ -219,8 +226,8 @@ export function CompanyComparison({ data, rawData = [] }) {
                     {company.disputeRate}%
                   </span>
                 </td>
-                <td className="px-3 py-3 text-sm text-right">
-                  <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
+                <td className="px-2 sm:px-3 py-2 sm:py-3 text-sm text-right">
+                  <span className={`inline-flex px-1.5 sm:px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.fraudRate <= 15
                       ? 'bg-emerald-600 text-white'
                       : company.fraudRate <= 30
@@ -230,14 +237,14 @@ export function CompanyComparison({ data, rawData = [] }) {
                     {company.fraudRate}%
                   </span>
                 </td>
-                <td className="px-3 py-3 text-sm text-right text-gray-700 dark:text-gray-300">
+                <td className="hidden md:table-cell px-3 py-3 text-sm text-right text-gray-700 dark:text-gray-300">
                   {company.reliefRate}%
                 </td>
-                <td className="px-3 py-3 text-sm text-right">
+                <td className="px-2 sm:px-3 py-2 sm:py-3 text-xs sm:text-sm text-right">
                   {company.trend === 'up' ? (
-                    <span className="text-red-600 dark:text-red-400 font-semibold">↑ {company.trendPercent}%</span>
+                    <span className="text-red-600 dark:text-red-400 font-semibold">↑{company.trendPercent}%</span>
                   ) : company.trend === 'down' ? (
-                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">↓ {company.trendPercent}%</span>
+                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">↓{company.trendPercent}%</span>
                   ) : (
                     <span className="text-gray-500">—</span>
                   )}
