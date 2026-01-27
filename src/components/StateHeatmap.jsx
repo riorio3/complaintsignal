@@ -1,6 +1,6 @@
 import { memo, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
-import { scaleQuantile } from 'd3-scale';
+import { scaleThreshold } from 'd3-scale';
 
 const geoUrl = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json';
 
@@ -29,13 +29,8 @@ const COLOR_SCALE = [
   '#ef4444', // red-500 (highest)
 ];
 
-// Helper to generate legend labels
-function getLegendLabel(index, quantiles) {
-  if (quantiles.length === 0) return '';
-  if (index === 0) return `0 - ${Math.round(quantiles[0]).toLocaleString()}`;
-  if (index === quantiles.length) return `${Math.round(quantiles[index - 1]).toLocaleString()}+`;
-  return `${Math.round(quantiles[index - 1]).toLocaleString()} - ${Math.round(quantiles[index]).toLocaleString()}`;
-}
+// Fixed thresholds for cleaner legend
+const THRESHOLDS = [100, 500, 1000, 2000];
 
 function StateHeatmap({ data, selectedState, onStateClick }) {
   // Group complaints by state
@@ -50,20 +45,12 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
     return counts;
   }, [data]);
 
-  // Create color scale and get quantile thresholds
-  const { colorScale, quantiles } = useMemo(() => {
-    const values = Object.values(stateData);
-    if (values.length === 0) return { colorScale: () => '#EEE', quantiles: [] };
-
-    const scale = scaleQuantile()
-      .domain(values)
+  // Create color scale with fixed thresholds
+  const colorScale = useMemo(() => {
+    return scaleThreshold()
+      .domain(THRESHOLDS)
       .range(COLOR_SCALE);
-
-    return {
-      colorScale: scale,
-      quantiles: scale.quantiles(),
-    };
-  }, [stateData]);
+  }, []);
 
   const getStateColor = (stateAbbr) => {
     const count = stateData[stateAbbr] || 0;
@@ -139,27 +126,18 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
           {COLOR_SCALE.map((color, i) => (
             <div
               key={i}
-              className="flex flex-col items-center"
-            >
-              <div
-                className="w-6 sm:w-8 h-3 sm:h-4 rounded-sm"
-                style={{ backgroundColor: color }}
-                title={getLegendLabel(i, quantiles)}
-              />
-            </div>
+              className="flex-1 h-3 sm:h-4 first:rounded-l-sm last:rounded-r-sm"
+              style={{ backgroundColor: color }}
+            />
           ))}
           <span className="text-xs text-gray-500 dark:text-gray-400 ml-1">High</span>
         </div>
-        <div className="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 px-6">
-          {quantiles.length > 0 ? (
-            <>
-              <span>0</span>
-              {quantiles.map((q, i) => (
-                <span key={i}>{Math.round(q).toLocaleString()}</span>
-              ))}
-              <span>{Math.max(...Object.values(stateData)).toLocaleString()}+</span>
-            </>
-          ) : null}
+        <div className="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 ml-6 mr-6">
+          <span>0</span>
+          {THRESHOLDS.map((t) => (
+            <span key={t}>{t.toLocaleString()}</span>
+          ))}
+          <span>{THRESHOLDS[THRESHOLDS.length - 1].toLocaleString()}+</span>
         </div>
       </div>
 
