@@ -72,7 +72,7 @@ export function Dashboard() {
                 ComplaintChain
               </h1>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                Crypto Complaint Intelligence by Rio Zelaya
+                Crypto Complaint Intelligence by Rio
               </p>
             </div>
             <div className="flex items-center gap-3">
@@ -178,7 +178,7 @@ export function Dashboard() {
                 Data refreshes weekly • Covers Coinbase, Block, Robinhood, Kraken, Gemini & more
               </p>
               <p className="mt-2 text-xs font-medium">
-                Built by Rio Zelaya
+                Built by Rio
               </p>
             </div>
           </>
