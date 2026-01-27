@@ -11,7 +11,7 @@ import {
 } from 'recharts';
 import { format, parseISO } from 'date-fns';
 
-const COLORS = ['#0052ff', '#1e40af', '#3b82f6', '#60a5fa', '#93c5fd', '#bfdbfe', '#dbeafe'];
+const COLORS = ['#1d4ed8', '#2563eb', '#3b82f6', '#0369a1', '#0891b2', '#0d9488', '#059669'];
 
 export function IssueBreakdown({ data, rawData = [] }) {
   const [selectedIssue, setSelectedIssue] = useState(null);
@@ -206,7 +206,7 @@ function ComplaintCard({ complaint, index }) {
           </span>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-blue-600 text-white">
             {complaint.state || 'N/A'}
           </span>
           <span className="text-xs text-gray-500 dark:text-gray-400">
@@ -217,30 +217,33 @@ function ComplaintCard({ complaint, index }) {
 
       {/* Sub-issue */}
       {complaint.sub_issue && (
-        <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
-          <span className="font-medium">Sub-issue:</span> {complaint.sub_issue}
-        </p>
+        <div className="flex items-center gap-2 mb-2 flex-wrap">
+          <span className="text-sm font-semibold text-gray-700 dark:text-gray-200">Sub-issue:</span>
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-purple-600 text-white">
+            {complaint.sub_issue}
+          </span>
+        </div>
       )}
 
       {/* Company Response */}
       {complaint.company_response && (
         <div className="flex items-center gap-2 mb-2">
-          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${
+          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-bold ${
             complaint.company_response.toLowerCase().includes('relief')
-              ? 'bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300'
+              ? 'bg-emerald-600 text-white'
               : complaint.company_response.toLowerCase().includes('closed')
-              ? 'bg-gray-100 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
-              : 'bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300'
+              ? 'bg-slate-600 text-white'
+              : 'bg-amber-500 text-white'
           }`}>
             {complaint.company_response}
           </span>
           {complaint.timely === 'Yes' && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-green-600 text-white">
               Timely Response
             </span>
           )}
           {complaint.consumer_disputed === 'Yes' && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-red-600 text-white">
               Consumer Disputed
             </span>
           )}
@@ -266,7 +269,7 @@ function ComplaintCard({ complaint, index }) {
           </button>
           {isExpanded && (
             <div className="mt-2 p-3 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600">
-              <p className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
+              <p className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-wrap leading-relaxed">
                 {complaint.complaint_what_happened}
               </p>
             </div>

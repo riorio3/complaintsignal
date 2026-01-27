@@ -130,17 +130,17 @@ export function IssueInsights({ data, onFilterByKeyword }) {
               </span>
             </span>
           </p>
-          <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">
+          <p className="text-xs text-gray-600 dark:text-gray-400 mt-0.5">
             Click any category below to view individual complaints
           </p>
         </div>
         <div className="text-right">
-          <span className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-full ${
+          <span className={`inline-flex items-center px-2 py-1 text-xs font-bold rounded-full ${
             fraudStats.percentage > 30
-              ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-400'
+              ? 'bg-red-600 text-white'
               : fraudStats.percentage > 15
-              ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300'
-              : 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300'
+              ? 'bg-amber-500 text-white'
+              : 'bg-green-600 text-white'
           }`}>
             {fraudStats.percentage}% fraud-related
           </span>
@@ -166,12 +166,12 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                 <span className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
                   {pattern.count.toLocaleString()} mentions →
                 </span>
-                <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded-full ${
+                <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                   pattern.percentage > 30
-                    ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-400'
+                    ? 'bg-red-600 text-white dark:bg-red-600 dark:text-white'
                     : pattern.percentage > 15
-                    ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300'
-                    : 'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300'
+                    ? 'bg-amber-500 text-white dark:bg-amber-500 dark:text-white'
+                    : 'bg-blue-600 text-white dark:bg-blue-600 dark:text-white'
                 }`}>
                   {pattern.percentage}%
                 </span>
@@ -187,8 +187,8 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             </div>
 
             {/* Actionable insight */}
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              <span className="font-medium">Action:</span> {pattern.actionable}
+            <p className="text-xs text-gray-700 dark:text-gray-300">
+              <span className="font-semibold">Action:</span> {pattern.actionable}
             </p>
           </div>
         ))}
@@ -196,8 +196,8 @@ export function IssueInsights({ data, onFilterByKeyword }) {
 
       {/* QC Insight Summary */}
       <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-        <p className="text-xs text-gray-500 dark:text-gray-400">
-          <span className="font-medium">Key Finding:</span>{' '}
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          <span className="font-semibold">Key Finding:</span>{' '}
           {patternAnalysis[0] && (
             <>
               {patternAnalysis[0].percentage}% of complaints mention {patternAnalysis[0].label.toLowerCase()} issues.
@@ -322,7 +322,7 @@ function NarrativeCard({ complaint, index, keywords }) {
     matches.forEach(match => {
       if (match.start >= lastEnd) {
         result.push(escapedText.slice(lastEnd, match.start));
-        result.push(`<mark class="bg-yellow-200 dark:bg-yellow-800 px-0.5 rounded">${escapedText.slice(match.start, match.end)}</mark>`);
+        result.push(`<mark class="bg-yellow-300 dark:bg-yellow-600 text-gray-900 dark:text-white px-0.5 rounded font-semibold">${escapedText.slice(match.start, match.end)}</mark>`);
         lastEnd = match.end;
       }
     });
@@ -340,18 +340,18 @@ function NarrativeCard({ complaint, index, keywords }) {
       {/* Header Row */}
       <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
         <div className="flex items-center gap-2">
-          <span className="text-xs font-medium text-gray-400 dark:text-gray-500">
+          <span className="text-xs font-bold text-gray-500 dark:text-gray-400">
             #{index + 1}
           </span>
-          <span className="text-sm font-medium text-gray-900 dark:text-white">
+          <span className="text-sm font-bold text-gray-900 dark:text-white">
             {complaint.company || 'Unknown Company'}
           </span>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-blue-600 text-white">
             {complaint.state || 'N/A'}
           </span>
-          <span className="text-xs text-gray-500 dark:text-gray-400">
+          <span className="text-xs font-medium text-gray-700 dark:text-gray-300">
             {formatDate(complaint.date_received)}
           </span>
         </div>
@@ -360,12 +360,12 @@ function NarrativeCard({ complaint, index, keywords }) {
       {/* Issue & Sub-issue */}
       <div className="flex flex-wrap gap-2 mb-2">
         {complaint.issue && (
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-purple-100 dark:bg-purple-900/50 text-purple-800 dark:text-purple-300">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-purple-600 text-white">
             {complaint.issue}
           </span>
         )}
         {complaint.sub_issue && (
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-gray-600 text-white">
             {complaint.sub_issue}
           </span>
         )}
@@ -374,22 +374,22 @@ function NarrativeCard({ complaint, index, keywords }) {
       {/* Company Response */}
       {complaint.company_response && (
         <div className="flex items-center gap-2 mb-3">
-          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${
+          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-bold ${
             complaint.company_response.toLowerCase().includes('relief')
-              ? 'bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300'
+              ? 'bg-emerald-600 text-white'
               : complaint.company_response.toLowerCase().includes('closed')
-              ? 'bg-gray-100 dark:bg-gray-600 text-gray-800 dark:text-gray-300'
-              : 'bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300'
+              ? 'bg-slate-600 text-white'
+              : 'bg-amber-500 text-white'
           }`}>
             {complaint.company_response}
           </span>
           {complaint.timely === 'Yes' && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-green-600 text-white">
               Timely
             </span>
           )}
           {complaint.consumer_disputed === 'Yes' && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-400">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-red-600 text-white">
               Disputed
             </span>
           )}
@@ -399,7 +399,7 @@ function NarrativeCard({ complaint, index, keywords }) {
       {/* Narrative with keyword highlighting */}
       <div className="mt-2 p-3 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600">
         <p
-          className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap"
+          className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-wrap"
           dangerouslySetInnerHTML={{
             __html: highlightKeywords(
               isExpanded ? narrative : narrative.slice(0, previewLength) + (hasMoreContent ? '...' : '')
@@ -409,7 +409,7 @@ function NarrativeCard({ complaint, index, keywords }) {
         {hasMoreContent && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="mt-2 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+            className="mt-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
           >
             {isExpanded ? 'Show less' : 'Read full narrative →'}
           </button>

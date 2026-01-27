@@ -127,7 +127,7 @@ export function Dashboard() {
             </div>
 
             {/* Row 1: Price Correlation + State Heatmap */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 items-start">
               <PriceCorrelation trendData={trendData} />
               <StateHeatmap
                 data={data}
@@ -137,7 +137,7 @@ export function Dashboard() {
             </div>
 
             {/* Row 2: Issue Breakdown + Issue Insights */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 items-start">
               <IssueBreakdown data={issueData} rawData={data} />
               <IssueInsights data={data} />
             </div>

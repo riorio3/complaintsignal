@@ -113,7 +113,7 @@ export function CompanyComparison({ data, rawData = [] }) {
       <div className="flex justify-between items-start mb-4">
         <div>
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">Company Comparison</h3>
-          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+          <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
             Click any row to see company details • Click headers to sort
           </p>
         </div>
@@ -198,34 +198,34 @@ export function CompanyComparison({ data, rawData = [] }) {
                   </div>
                 </td>
                 <td className="px-3 py-3 text-sm text-right">
-                  <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded-full ${
+                  <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.timelyRate >= 90
-                      ? 'bg-emerald-500/20 text-emerald-400'
+                      ? 'bg-emerald-600 text-white'
                       : company.timelyRate >= 70
-                      ? 'bg-yellow-500/20 text-yellow-400'
-                      : 'bg-red-500/20 text-red-400'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-red-600 text-white'
                   }`}>
                     {company.timelyRate}%
                   </span>
                 </td>
                 <td className="px-3 py-3 text-sm text-right">
-                  <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded-full ${
+                  <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.disputeRate <= 10
-                      ? 'bg-emerald-500/20 text-emerald-400'
+                      ? 'bg-emerald-600 text-white'
                       : company.disputeRate <= 25
-                      ? 'bg-yellow-500/20 text-yellow-400'
-                      : 'bg-red-500/20 text-red-400'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-red-600 text-white'
                   }`}>
                     {company.disputeRate}%
                   </span>
                 </td>
                 <td className="px-3 py-3 text-sm text-right">
-                  <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded-full ${
+                  <span className={`inline-flex px-2 py-0.5 text-xs font-bold rounded-full ${
                     company.fraudRate <= 15
-                      ? 'bg-emerald-500/20 text-emerald-400'
+                      ? 'bg-emerald-600 text-white'
                       : company.fraudRate <= 30
-                      ? 'bg-yellow-500/20 text-yellow-400'
-                      : 'bg-red-500/20 text-red-400'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-red-600 text-white'
                   }`}>
                     {company.fraudRate}%
                   </span>
@@ -235,11 +235,11 @@ export function CompanyComparison({ data, rawData = [] }) {
                 </td>
                 <td className="px-3 py-3 text-sm text-right">
                   {company.trend === 'up' ? (
-                    <span className="text-red-400">↑ {company.trendPercent}%</span>
+                    <span className="text-red-600 dark:text-red-400 font-semibold">↑ {company.trendPercent}%</span>
                   ) : company.trend === 'down' ? (
-                    <span className="text-emerald-400">↓ {company.trendPercent}%</span>
+                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">↓ {company.trendPercent}%</span>
                   ) : (
-                    <span className="text-gray-400">—</span>
+                    <span className="text-gray-500">—</span>
                   )}
                 </td>
               </tr>
@@ -317,16 +317,16 @@ export function CompanyComparison({ data, rawData = [] }) {
                 <div className="flex items-center gap-2">
                   {selectedCompany.trend === 'up' ? (
                     <>
-                      <span className="text-red-400 text-lg">↑ {selectedCompany.trendPercent}%</span>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">increase in complaints</span>
+                      <span className="text-red-600 dark:text-red-400 text-lg font-bold">↑ {selectedCompany.trendPercent}%</span>
+                      <span className="text-sm text-gray-700 dark:text-gray-300">increase in complaints</span>
                     </>
                   ) : selectedCompany.trend === 'down' ? (
                     <>
-                      <span className="text-emerald-400 text-lg">↓ {selectedCompany.trendPercent}%</span>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">decrease in complaints</span>
+                      <span className="text-emerald-600 dark:text-emerald-400 text-lg font-bold">↓ {selectedCompany.trendPercent}%</span>
+                      <span className="text-sm text-gray-700 dark:text-gray-300">decrease in complaints</span>
                     </>
                   ) : (
-                    <span className="text-gray-400">No significant change ({selectedCompany.recentCount} complaints in last 30 days)</span>
+                    <span className="text-gray-600 dark:text-gray-400">No significant change ({selectedCompany.recentCount} complaints in last 30 days)</span>
                   )}
                 </div>
               </div>
@@ -348,10 +348,10 @@ export function CompanyComparison({ data, rawData = [] }) {
                       )}
                       {complaint.company_response && (
                         <div className="mt-1">
-                          <span className={`inline-flex px-2 py-0.5 text-xs rounded ${
+                          <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded ${
                             complaint.company_response.toLowerCase().includes('relief')
-                              ? 'bg-emerald-500/20 text-emerald-400'
-                              : 'bg-gray-200 dark:bg-gray-600 text-gray-600 dark:text-gray-300'
+                              ? 'bg-emerald-600 text-white'
+                              : 'bg-gray-500 text-white'
                           }`}>
                             {complaint.company_response}
                           </span>
