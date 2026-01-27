@@ -52,18 +52,44 @@ export function IssueInsights({ data, onFilterByKeyword }) {
   const [selectedPattern, setSelectedPattern] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Analyze complaints for each pattern - now storing the actual matches
+  // Analyze complaints for each pattern with 30-day trend
   const patternAnalysis = useMemo(() => {
     const narrativeComplaints = data.filter(c => c.complaint_what_happened?.length > 50);
     const total = narrativeComplaints.length;
 
     if (total === 0) return [];
 
+    // Calculate date thresholds for trend analysis
+    const now = new Date();
+    const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+    const sixtyDaysAgo = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000);
+
     return ISSUE_PATTERNS.map(pattern => {
       const matches = narrativeComplaints.filter(c => {
         const text = c.complaint_what_happened.toLowerCase();
         return pattern.keywords.some(kw => text.includes(kw));
       });
+
+      // Calculate trend: last 30 days vs previous 30 days
+      const recentMatches = matches.filter(c => {
+        const date = new Date(c.date_received);
+        return date >= thirtyDaysAgo;
+      }).length;
+
+      const previousMatches = matches.filter(c => {
+        const date = new Date(c.date_received);
+        return date >= sixtyDaysAgo && date < thirtyDaysAgo;
+      }).length;
+
+      let trendPercent = 0;
+      let trend = 'neutral';
+      if (previousMatches > 0) {
+        trendPercent = Math.round(((recentMatches - previousMatches) / previousMatches) * 100);
+        trend = trendPercent > 0 ? 'up' : trendPercent < 0 ? 'down' : 'neutral';
+      } else if (recentMatches > 0) {
+        trend = 'up';
+        trendPercent = 100; // New complaints where there were none
+      }
 
       // Sort matches by date, newest first
       const sortedMatches = matches.sort((a, b) => {
@@ -75,8 +101,9 @@ export function IssueInsights({ data, onFilterByKeyword }) {
       return {
         ...pattern,
         count: matches.length,
-        percentage: Math.round((matches.length / total) * 100),
-        complaints: sortedMatches, // Store actual complaints
+        trend,
+        trendPercent: Math.abs(trendPercent),
+        complaints: sortedMatches,
       };
     }).sort((a, b) => b.count - a.count);
   }, [data]);
@@ -174,26 +201,34 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                 </span>
               </div>
               <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-                <span className="text-xs sm:text-sm text-blue-600 dark:text-blue-400">
-                  {pattern.count.toLocaleString()} →
+                <span className="text-sm sm:text-base font-semibold text-gray-900 dark:text-white">
+                  {pattern.count.toLocaleString()}
                 </span>
-                <span className={`inline-flex px-1.5 sm:px-2 py-0.5 text-xs font-bold rounded-full ${
-                  pattern.percentage > 30
-                    ? 'bg-red-600 text-white dark:bg-red-600 dark:text-white'
-                    : pattern.percentage > 15
-                    ? 'bg-amber-500 text-white dark:bg-amber-500 dark:text-white'
-                    : 'bg-blue-600 text-white dark:bg-blue-600 dark:text-white'
-                }`}>
-                  {pattern.percentage}%
-                </span>
+                {pattern.trend === 'up' && (
+                  <span className="text-xs sm:text-sm font-bold text-red-600 dark:text-red-400">
+                    ↑{pattern.trendPercent}%
+                  </span>
+                )}
+                {pattern.trend === 'down' && (
+                  <span className="text-xs sm:text-sm font-bold text-green-600 dark:text-green-400">
+                    ↓{pattern.trendPercent}%
+                  </span>
+                )}
+                {pattern.trend === 'neutral' && (
+                  <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">
+                    —
+                  </span>
+                )}
               </div>
             </div>
 
-            {/* Progress bar */}
+            {/* Progress bar - relative to total complaints with narratives */}
             <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2 mb-2">
               <div
-                className="bg-blue-600 dark:bg-blue-500 h-2 rounded-full transition-all"
-                style={{ width: `${Math.min(pattern.percentage, 100)}%` }}
+                className={`h-2 rounded-full transition-all ${
+                  pattern.trend === 'up' ? 'bg-red-500' : pattern.trend === 'down' ? 'bg-green-500' : 'bg-blue-600'
+                }`}
+                style={{ width: `${narrativeCount > 0 ? Math.round((pattern.count / narrativeCount) * 100) : 0}%` }}
               />
             </div>
 
@@ -211,8 +246,14 @@ export function IssueInsights({ data, onFilterByKeyword }) {
           <span className="font-semibold">Key Finding:</span>{' '}
           {patternAnalysis[0] && (
             <>
-              {patternAnalysis[0].percentage}% of complaints mention {patternAnalysis[0].label.toLowerCase()} issues.
-              {patternAnalysis[0].percentage > 25 && ' This represents a significant process improvement opportunity.'}
+              {patternAnalysis[0].label} is the top issue with {patternAnalysis[0].count.toLocaleString()} complaints
+              {patternAnalysis[0].trend === 'up' && (
+                <span className="text-red-600 dark:text-red-400 font-semibold"> (↑{patternAnalysis[0].trendPercent}% vs last 30 days)</span>
+              )}
+              {patternAnalysis[0].trend === 'down' && (
+                <span className="text-green-600 dark:text-green-400 font-semibold"> (↓{patternAnalysis[0].trendPercent}% vs last 30 days)</span>
+              )}
+              .
             </>
           )}
         </p>
