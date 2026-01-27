@@ -20,11 +20,18 @@ const STOP_WORDS = new Set([
   'weeks', 'month', 'months', 'year', 'years', 'email', 'phone', 'called'
 ]);
 
-// Fraud-related keywords
+// Fraud-related keywords (matches IssueInsights.jsx fraud category)
 const FRAUD_KEYWORDS = [
-  'scam', 'scammed', 'fraud', 'fraudulent', 'stolen', 'hacked', 'hack',
-  'unauthorized', 'phishing', 'fake', 'impersonator', 'impersonation',
-  'identity theft', 'theft', 'criminals', 'criminal', 'stole', 'stealing'
+  'scam', 'scammed', 'scammer',
+  'fraud', 'fraudulent', 'defrauded',
+  'stolen', 'stole', 'stealing', 'theft',
+  'hacked', 'hack', 'hacker', 'hacking',
+  'unauthorized', 'unauthorised',
+  'phishing', 'phished',
+  'fake', 'impersonator', 'impersonation',
+  'identity theft', 'criminals', 'criminal',
+  'compromised', 'breached',
+  'someone accessed', 'not me', 'didnt authorize'
 ];
 
 // Common complaint themes to look for

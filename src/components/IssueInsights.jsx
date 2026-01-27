@@ -1,50 +1,134 @@
 import { useMemo, useState } from 'react';
 import { format, parseISO } from 'date-fns';
-import { detectFraudComplaints, getComplaintsWithNarratives } from '../utils/textAnalysis';
+import { getComplaintsWithNarratives } from '../utils/textAnalysis';
 
 // Issue patterns with descriptions for QC analysts
+// Keywords are ordered by specificity - more specific phrases first
 const ISSUE_PATTERNS = [
   {
     id: 'locked_account',
     label: 'Account Access',
-    keywords: ['locked', 'lock', 'access', 'login', 'disabled', 'restricted', 'suspended', 'frozen'],
+    keywords: [
+      'locked', 'locked out', 'lock',
+      'suspended', 'suspension',
+      'frozen', 'freeze',
+      'disabled', 'deactivated',
+      'restricted', 'restriction',
+      'blocked', 'closed my account',
+      'cant login', 'cannot login', 'login issue',
+      'access denied', 'no access'
+    ],
     icon: '🔒',
     actionable: 'Review account verification and unlock procedures',
+    color: 'blue',
+    barClass: 'bg-blue-500',
+    textClass: 'text-blue-600 dark:text-blue-400',
   },
   {
     id: 'verification',
     label: 'Verification Issues',
-    keywords: ['verification', 'verify', 'kyc', 'identity', 'documents', 'id', 'selfie', 'photo'],
+    keywords: [
+      'verification', 'verify', 'verified',
+      'kyc', 'know your customer',
+      'identity', 'id verification',
+      'documents', 'document', 'documentation',
+      'selfie', 'photo id', 'drivers license', 'passport',
+      'proof of address', 'utility bill',
+      'ssn', 'social security',
+      'rejected', 'failed verification'
+    ],
     icon: '📋',
     actionable: 'Streamline KYC process, improve document requirements clarity',
+    color: 'purple',
+    barClass: 'bg-purple-500',
+    textClass: 'text-purple-600 dark:text-purple-400',
   },
   {
     id: 'withdrawal',
     label: 'Withdrawal Problems',
-    keywords: ['withdraw', 'withdrawal', 'transfer', 'send', 'funds', 'money', 'bank'],
+    keywords: [
+      'withdraw', 'withdrawal', 'withdrawing',
+      'transfer out', 'send out',
+      'cash out', 'cashing out',
+      'ach', 'wire transfer', 'bank transfer',
+      'pending withdrawal', 'stuck', 'processing',
+      'cant get my money', 'wont release',
+      'holding my funds', 'held hostage'
+    ],
     icon: '💸',
     actionable: 'Review withdrawal processing times and limits',
+    color: 'emerald',
+    barClass: 'bg-emerald-500',
+    textClass: 'text-emerald-600 dark:text-emerald-400',
   },
   {
     id: 'customer_service',
     label: 'Support Response',
-    keywords: ['support', 'response', 'contact', 'help', 'waiting', 'ignored', 'no response', 'customer service', 'ticket'],
+    keywords: [
+      'support', 'customer support', 'customer service',
+      'no response', 'not responding', 'never responded',
+      'waiting', 'waited', 'still waiting',
+      'ignored', 'ignoring',
+      'ticket', 'case number', 'reference number',
+      'cant reach', 'no one', 'nobody',
+      'unhelpful', 'useless', 'runaround',
+      'automated', 'bot', 'generic response'
+    ],
     icon: '📞',
     actionable: 'Improve response SLAs and ticket routing',
+    color: 'amber',
+    barClass: 'bg-amber-500',
+    textClass: 'text-amber-600 dark:text-amber-400',
   },
   {
     id: 'fraud',
     label: 'Fraud/Scam Reports',
-    keywords: ['scam', 'fraud', 'stolen', 'hacked', 'unauthorized', 'phishing', 'hack'],
+    keywords: [
+      'scam', 'scammed', 'scammer',
+      'fraud', 'fraudulent', 'defrauded',
+      'stolen', 'stole', 'stealing', 'theft',
+      'hacked', 'hack', 'hacker', 'hacking',
+      'unauthorized', 'unauthorised',
+      'phishing', 'phished',
+      'fake', 'impersonator', 'impersonation',
+      'identity theft', 'criminals', 'criminal',
+      'compromised', 'breached',
+      'someone accessed', 'not me', 'didnt authorize'
+    ],
     icon: '⚠️',
     actionable: 'Enhance fraud detection and recovery procedures',
+    color: 'red',
+    barClass: 'bg-red-500',
+    textClass: 'text-red-600 dark:text-red-400',
   },
   {
     id: 'fees',
     label: 'Fee Disputes',
-    keywords: ['fee', 'fees', 'charge', 'charged', 'cost', 'expensive', 'hidden'],
+    keywords: [
+      'fee', 'fees',
+      'charge', 'charged', 'charges',
+      'cost', 'costs',
+      'expensive', 'overcharged',
+      'hidden', 'hidden fees', 'undisclosed',
+      'commission', 'spread',
+      'converted', 'conversion fee',
+      'unexpected charge', 'surprise fee'
+    ],
     icon: '💰',
     actionable: 'Improve fee transparency and disclosure',
+    color: 'teal',
+    barClass: 'bg-teal-500',
+    textClass: 'text-teal-600 dark:text-teal-400',
+  },
+  {
+    id: 'other',
+    label: 'Other Issues',
+    keywords: [],
+    icon: '📝',
+    actionable: 'Review for emerging issue patterns',
+    color: 'gray',
+    barClass: 'bg-gray-400',
+    textClass: 'text-gray-600 dark:text-gray-400',
   },
 ];
 
@@ -52,7 +136,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
   const [selectedPattern, setSelectedPattern] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Analyze complaints for each pattern with 30-day trend
+  // Analyze complaints for each pattern with 30-day trend (exclusive categorization)
   const patternAnalysis = useMemo(() => {
     const narrativeComplaints = data.filter(c => c.complaint_what_happened?.length > 50);
     const total = narrativeComplaints.length;
@@ -64,11 +148,32 @@ export function IssueInsights({ data, onFilterByKeyword }) {
     const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
     const sixtyDaysAgo = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000);
 
-    return ISSUE_PATTERNS.map(pattern => {
-      const matches = narrativeComplaints.filter(c => {
-        const text = c.complaint_what_happened.toLowerCase();
-        return pattern.keywords.some(kw => text.includes(kw));
+    // Step 1: Assign each complaint to exactly ONE category (highest keyword match count)
+    const categorizedComplaints = new Map();
+    ISSUE_PATTERNS.forEach(p => categorizedComplaints.set(p.id, []));
+
+    narrativeComplaints.forEach(complaint => {
+      const text = complaint.complaint_what_happened.toLowerCase();
+
+      let bestPatternId = 'other';
+      let bestScore = 0;
+
+      // Find category with most keyword matches (excluding 'other' which has no keywords)
+      ISSUE_PATTERNS.forEach(pattern => {
+        if (pattern.id === 'other') return;
+        const score = pattern.keywords.filter(kw => text.includes(kw)).length;
+        if (score > bestScore) {
+          bestScore = score;
+          bestPatternId = pattern.id;
+        }
       });
+
+      categorizedComplaints.get(bestPatternId).push(complaint);
+    });
+
+    // Step 2: Build pattern analysis from categorized complaints
+    return ISSUE_PATTERNS.map(pattern => {
+      const matches = categorizedComplaints.get(pattern.id) || [];
 
       // Calculate trend: last 30 days vs previous 30 days
       const recentMatches = matches.filter(c => {
@@ -88,11 +193,11 @@ export function IssueInsights({ data, onFilterByKeyword }) {
         trend = trendPercent > 0 ? 'up' : trendPercent < 0 ? 'down' : 'neutral';
       } else if (recentMatches > 0) {
         trend = 'up';
-        trendPercent = 100; // New complaints where there were none
+        trendPercent = 100;
       }
 
       // Sort matches by date, newest first
-      const sortedMatches = matches.sort((a, b) => {
+      const sortedMatches = [...matches].sort((a, b) => {
         const dateA = a.date_received || '';
         const dateB = b.date_received || '';
         return dateB.localeCompare(dateA);
@@ -106,15 +211,6 @@ export function IssueInsights({ data, onFilterByKeyword }) {
         complaints: sortedMatches,
       };
     }).sort((a, b) => b.count - a.count);
-  }, [data]);
-
-  // Calculate fraud stats
-  const fraudStats = useMemo(() => {
-    const fraudComplaints = detectFraudComplaints(data);
-    return {
-      count: fraudComplaints.length,
-      percentage: data.length > 0 ? Math.round((fraudComplaints.length / data.length) * 100) : 0,
-    };
   }, [data]);
 
   // Get total with narratives
@@ -147,15 +243,6 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">
               Issue Pattern Analysis
             </h3>
-            <span className={`sm:hidden inline-flex items-center px-2 py-0.5 text-xs font-bold rounded-full flex-shrink-0 ${
-              fraudStats.percentage > 30
-                ? 'bg-red-600 text-white'
-                : fraudStats.percentage > 15
-                ? 'bg-amber-500 text-white'
-                : 'bg-green-600 text-white'
-            }`}>
-              {fraudStats.percentage}% fraud
-            </span>
           </div>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-1">
             Based on {narrativeCount.toLocaleString()} of {data.length.toLocaleString()} complaints
@@ -172,22 +259,11 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             Tap any category to view complaints
           </p>
         </div>
-        <div className="hidden sm:block text-right flex-shrink-0">
-          <span className={`inline-flex items-center px-2 py-1 text-xs font-bold rounded-full ${
-            fraudStats.percentage > 30
-              ? 'bg-red-600 text-white'
-              : fraudStats.percentage > 15
-              ? 'bg-amber-500 text-white'
-              : 'bg-green-600 text-white'
-          }`}>
-            {fraudStats.percentage}% fraud-related
-          </span>
-        </div>
       </div>
 
       {/* Pattern Cards */}
       <div className="space-y-3 flex-grow">
-        {patternAnalysis.slice(0, 5).map(pattern => (
+        {patternAnalysis.map(pattern => (
           <div
             key={pattern.id}
             className="p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer active:bg-gray-200 dark:active:bg-gray-600"
@@ -200,34 +276,15 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                   {pattern.label}
                 </span>
               </div>
-              <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-                <span className="text-sm sm:text-base font-semibold text-gray-900 dark:text-white">
-                  {pattern.count.toLocaleString()}
-                </span>
-                {pattern.trend === 'up' && (
-                  <span className="text-xs sm:text-sm font-bold text-red-600 dark:text-red-400">
-                    ↑{pattern.trendPercent}%
-                  </span>
-                )}
-                {pattern.trend === 'down' && (
-                  <span className="text-xs sm:text-sm font-bold text-green-600 dark:text-green-400">
-                    ↓{pattern.trendPercent}%
-                  </span>
-                )}
-                {pattern.trend === 'neutral' && (
-                  <span className="text-xs sm:text-sm font-bold text-gray-500 dark:text-gray-400">
-                    —
-                  </span>
-                )}
-              </div>
+              <span className={`text-sm sm:text-base font-bold ${pattern.textClass}`}>
+                {pattern.count.toLocaleString()}
+              </span>
             </div>
 
             {/* Progress bar - relative to total complaints with narratives */}
             <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2 mb-2">
               <div
-                className={`h-2 rounded-full transition-all ${
-                  pattern.trend === 'up' ? 'bg-red-500' : pattern.trend === 'down' ? 'bg-green-500' : 'bg-blue-600'
-                }`}
+                className={`h-2 rounded-full transition-all ${pattern.barClass}`}
                 style={{ width: `${narrativeCount > 0 ? Math.round((pattern.count / narrativeCount) * 100) : 0}%` }}
               />
             </div>
@@ -238,25 +295,6 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             </p>
           </div>
         ))}
-      </div>
-
-      {/* QC Insight Summary */}
-      <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          <span className="font-semibold">Key Finding:</span>{' '}
-          {patternAnalysis[0] && (
-            <>
-              {patternAnalysis[0].label} is the top issue with {patternAnalysis[0].count.toLocaleString()} complaints
-              {patternAnalysis[0].trend === 'up' && (
-                <span className="text-red-600 dark:text-red-400 font-semibold"> (↑{patternAnalysis[0].trendPercent}% vs last 30 days)</span>
-              )}
-              {patternAnalysis[0].trend === 'down' && (
-                <span className="text-green-600 dark:text-green-400 font-semibold"> (↓{patternAnalysis[0].trendPercent}% vs last 30 days)</span>
-              )}
-              .
-            </>
-          )}
-        </p>
       </div>
 
       {/* Drill-down Modal */}
@@ -273,7 +311,10 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                   </h3>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                  {selectedPattern.count} complaint{selectedPattern.count !== 1 ? 's' : ''} matching keywords: {selectedPattern.keywords.slice(0, 5).join(', ')}
+                  {selectedPattern.count} complaint{selectedPattern.count !== 1 ? 's' : ''}{' '}
+                  {selectedPattern.keywords.length > 0
+                    ? `matching keywords: ${selectedPattern.keywords.slice(0, 5).join(', ')}`
+                    : '(no specific keyword matches)'}
                 </p>
                 <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
                   <span className="font-medium">Recommended Action:</span> {selectedPattern.actionable}
@@ -310,7 +351,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             {/* Modal Footer */}
             <div className="p-4 border-t dark:border-gray-700 flex justify-between items-center">
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                Showing all {selectedPattern.complaints.length} complaints with {selectedPattern.label.toLowerCase()} keywords
+                Showing all {selectedPattern.complaints.length} complaints categorized as {selectedPattern.label.toLowerCase()}
               </p>
               <button
                 onClick={() => setIsModalOpen(false)}

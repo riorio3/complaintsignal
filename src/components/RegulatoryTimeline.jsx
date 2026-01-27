@@ -70,7 +70,7 @@ export function RegulatoryTimeline() {
           <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">
             Regulatory Actions
           </h3>
-          <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
             {showLive ? 'Live regulatory news' : 'Major enforcement'}
             {lastUpdated && showLive && (
               <span className="ml-1 sm:ml-2 text-xs">
@@ -109,14 +109,14 @@ export function RegulatoryTimeline() {
       {loading && showLive && (
         <div className="flex items-center justify-center py-4">
           <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
-          <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">Fetching latest news...</span>
+          <span className="ml-2 text-sm text-gray-600 dark:text-gray-300">Fetching latest news...</span>
         </div>
       )}
 
       {/* News Items */}
       <div className="space-y-2 sm:space-y-3 max-h-64 sm:max-h-80 overflow-y-auto">
         {displayItems.length === 0 ? (
-          <p className="text-center text-gray-500 dark:text-gray-400 py-6 sm:py-8 text-sm">
+          <p className="text-center text-gray-600 dark:text-gray-300 py-6 sm:py-8 text-sm">
             {showLive ? 'No crypto regulatory news found' : 'No actions found'}
           </p>
         ) : (
@@ -125,7 +125,7 @@ export function RegulatoryTimeline() {
               key={`${item.date}-${index}`}
               className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 active:bg-gray-100 dark:active:bg-gray-700 transition-colors"
             >
-              <div className="flex-shrink-0 w-16 sm:w-20 text-xs text-gray-500 dark:text-gray-400 pt-0.5 sm:pt-1">
+              <div className="flex-shrink-0 w-16 sm:w-20 text-xs font-medium text-gray-700 dark:text-gray-200 pt-0.5 sm:pt-1">
                 {formatDate(item.date)}
                 {item.isLive && (
                   <span className="block text-green-600 dark:text-green-400 mt-1">● Live</span>

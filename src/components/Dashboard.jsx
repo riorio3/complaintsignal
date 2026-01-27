@@ -71,8 +71,10 @@ export function Dashboard() {
               <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white truncate">
                 ComplaintChain
               </h1>
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
-                Crypto Complaint Intelligence by Rio
+              <p className="text-xs sm:text-sm font-semibold tracking-wide">
+                <span className="text-blue-600 dark:text-blue-400">Crypto Complaint Intelligence</span>
+                <span className="text-gray-400 dark:text-gray-500 mx-1">•</span>
+                <span className="text-gray-700 dark:text-gray-300">by Rio</span>
               </p>
             </div>
             <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
