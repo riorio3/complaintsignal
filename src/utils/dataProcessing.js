@@ -98,11 +98,10 @@ export function groupByCompany(complaints) {
 }
 
 /**
- * Calculate summary metrics
+ * Calculate summary metrics with automatic month-over-month trend
  */
-export function calculateMetrics(complaints, previousPeriodComplaints = []) {
+export function calculateMetrics(complaints) {
   const total = complaints.length;
-  const previousTotal = previousPeriodComplaints.length;
 
   const timelyCount = complaints.filter(c => c.timely === 'Yes').length;
   const timelyRate = total > 0 ? Math.round((timelyCount / total) * 100) : 0;
@@ -111,12 +110,29 @@ export function calculateMetrics(complaints, previousPeriodComplaints = []) {
   const issueGroups = groupByIssue(complaints);
   const topIssue = issueGroups[0]?.issue || 'N/A';
 
-  // Calculate trend
+  // Calculate month-over-month trend from the data
   let trend = 'neutral';
   let trendPercent = 0;
-  if (previousTotal > 0) {
-    trendPercent = Math.round(((total - previousTotal) / previousTotal) * 100);
-    trend = trendPercent > 0 ? 'up' : trendPercent < 0 ? 'down' : 'neutral';
+
+  if (complaints.length > 0) {
+    const now = new Date();
+    const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+    const sixtyDaysAgo = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000);
+
+    const recentComplaints = complaints.filter(c => {
+      const date = new Date(c.date_received);
+      return date >= thirtyDaysAgo;
+    }).length;
+
+    const previousComplaints = complaints.filter(c => {
+      const date = new Date(c.date_received);
+      return date >= sixtyDaysAgo && date < thirtyDaysAgo;
+    }).length;
+
+    if (previousComplaints > 0) {
+      trendPercent = Math.round(((recentComplaints - previousComplaints) / previousComplaints) * 100);
+      trend = trendPercent > 0 ? 'up' : trendPercent < 0 ? 'down' : 'neutral';
+    }
   }
 
   return {

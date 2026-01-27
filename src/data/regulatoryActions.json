@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2023-06-06",
+    "agency": "SEC",
+    "target": "Coinbase",
+    "action": "Lawsuit filed",
+    "description": "SEC sues Coinbase for operating an unregistered securities exchange",
+    "url": "https://www.sec.gov/news/press-release/2023-102"
+  },
+  {
+    "date": "2023-06-05",
+    "agency": "SEC",
+    "target": "Binance",
+    "action": "Lawsuit filed",
+    "description": "SEC charges Binance and founder CZ with securities violations",
+    "url": "https://www.sec.gov/news/press-release/2023-101"
+  },
+  {
+    "date": "2023-11-21",
+    "agency": "DOJ",
+    "target": "Binance",
+    "action": "Settlement",
+    "description": "Binance pleads guilty to money laundering violations, $4.3B fine",
+    "url": "https://www.justice.gov/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution"
+  },
+  {
+    "date": "2023-10-19",
+    "agency": "NYAG",
+    "target": "Gemini/Genesis",
+    "action": "Lawsuit filed",
+    "description": "NY AG sues Gemini, Genesis, DCG for $1B fraud",
+    "url": "https://ag.ny.gov/press-release/2023/attorney-general-james-sues-cryptocurrency-companies-defrauding-investors"
+  },
+  {
+    "date": "2022-12-13",
+    "agency": "SEC",
+    "target": "Sam Bankman-Fried",
+    "action": "Charges filed",
+    "description": "SEC charges SBF with defrauding FTX investors",
+    "url": "https://www.sec.gov/news/press-release/2022-219"
+  },
+  {
+    "date": "2023-02-09",
+    "agency": "SEC",
+    "target": "Kraken",
+    "action": "Settlement",
+    "description": "Kraken settles with SEC, ends staking for US customers, $30M fine",
+    "url": "https://www.sec.gov/news/press-release/2023-25"
+  },
+  {
+    "date": "2023-01-12",
+    "agency": "CFPB",
+    "target": "Nexo",
+    "action": "Order",
+    "description": "CFPB and states order Nexo to pay $45M",
+    "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-and-states-order-nexo-to-pay-45-million/"
+  },
+  {
+    "date": "2022-08-01",
+    "agency": "OFAC",
+    "target": "Tornado Cash",
+    "action": "Sanctions",
+    "description": "Treasury sanctions Tornado Cash mixer",
+    "url": "https://home.treasury.gov/news/press-releases/jy0916"
+  },
+  {
+    "date": "2023-03-27",
+    "agency": "CFTC",
+    "target": "Binance",
+    "action": "Lawsuit filed",
+    "description": "CFTC sues Binance for illegal derivatives trading",
+    "url": "https://www.cftc.gov/PressRoom/PressReleases/8680-23"
+  },
+  {
+    "date": "2023-08-29",
+    "agency": "SEC",
+    "target": "Impact Theory",
+    "action": "Settlement",
+    "description": "SEC settles with Impact Theory over NFT securities offering",
+    "url": "https://www.sec.gov/news/press-release/2023-163"
+  },
+  {
+    "date": "2024-01-17",
+    "agency": "SEC",
+    "target": "Ripple",
+    "action": "Partial Victory",
+    "description": "Ripple fined $125M for institutional sales (reduced from $2B ask)",
+    "url": "https://www.sec.gov/litigation/litreleases"
+  },
+  {
+    "date": "2023-09-07",
+    "agency": "FTC",
+    "target": "Voyager",
+    "action": "Order",
+    "description": "FTC orders Voyager to pay $1.65B for deceiving customers",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/09/ftc-action-voyager-digital"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "date": "2019-06-26",
+    "event": "Bitcoin Hits $13K",
+    "description": "Bitcoin surges to $13,000, highest level since January 2018, driven by Facebook Libra announcement.",
+    "impact": "Increased retail interest and onboarding complaints.",
+    "type": "positive"
+  },
+  {
+    "date": "2020-03-12",
+    "event": "COVID Black Thursday",
+    "description": "Bitcoin crashes 50% in 24 hours from $8,000 to $4,000 as COVID-19 pandemic triggers global market panic.",
+    "impact": "Massive spike in complaints about liquidations, withdrawals, and platform outages.",
+    "type": "crash"
+  },
+  {
+    "date": "2020-05-11",
+    "event": "Third Bitcoin Halving",
+    "description": "Bitcoin's third halving reduces block reward from 12.5 to 6.25 BTC.",
+    "impact": "Increased trading activity and new user signups.",
+    "type": "positive"
+  },
+  {
+    "date": "2020-10-21",
+    "event": "PayPal Enables Crypto",
+    "description": "PayPal announces support for buying, selling, and holding cryptocurrency.",
+    "impact": "Massive new user influx to crypto exchanges, verification backlogs.",
+    "type": "positive"
+  },
+  {
+    "date": "2020-12-16",
+    "event": "Bitcoin Breaks $20K ATH",
+    "description": "Bitcoin breaks its 2017 all-time high, crossing $20,000 for the first time since December 2017.",
+    "impact": "Record trading volumes and support ticket volumes.",
+    "type": "positive"
+  },
+  {
+    "date": "2021-02-08",
+    "event": "Tesla Buys $1.5B Bitcoin",
+    "description": "Tesla announces $1.5 billion Bitcoin purchase and plans to accept BTC for payments.",
+    "impact": "Mainstream attention drives massive new user signups.",
+    "type": "positive"
+  },
+  {
+    "date": "2021-04-14",
+    "event": "Coinbase IPO",
+    "description": "Coinbase goes public on NASDAQ at $381 per share, valuing company at $86 billion.",
+    "impact": "Increased legitimacy drives new users, platform strain reported.",
+    "type": "positive"
+  },
+  {
+    "date": "2021-05-12",
+    "event": "Tesla Suspends BTC Payments",
+    "description": "Elon Musk announces Tesla will no longer accept Bitcoin due to environmental concerns.",
+    "impact": "Market drops 15%, complaints surge about losses.",
+    "type": "crash"
+  },
+  {
+    "date": "2021-05-19",
+    "event": "China Crypto Crackdown",
+    "description": "China bans financial institutions from crypto services, BTC drops to $30K.",
+    "impact": "Massive volatility leads to platform outages and liquidation complaints.",
+    "type": "crash"
+  },
+  {
+    "date": "2021-09-07",
+    "event": "El Salvador BTC Legal Tender",
+    "description": "El Salvador becomes first country to adopt Bitcoin as legal tender.",
+    "impact": "Positive sentiment but technical issues with government wallet.",
+    "type": "positive"
+  },
+  {
+    "date": "2021-11-10",
+    "event": "Bitcoin Hits $69K ATH",
+    "description": "Bitcoin reaches all-time high of $69,000 driven by institutional adoption and inflation fears.",
+    "impact": "Peak trading volumes, widespread platform performance issues.",
+    "type": "positive"
+  },
+  {
+    "date": "2022-05-09",
+    "event": "Luna/UST Collapse",
+    "description": "Terra Luna and UST stablecoin collapse, wiping out approximately $40 billion in value. One of the largest crypto crashes in history.",
+    "impact": "Massive increase in complaints related to lost funds and platform freezes.",
+    "type": "crash"
+  },
+  {
+    "date": "2022-06-13",
+    "event": "Celsius Freezes Withdrawals",
+    "description": "Celsius Network halts all withdrawals, swaps, and transfers citing extreme market conditions.",
+    "impact": "Spike in complaints from users unable to access funds.",
+    "type": "crash"
+  },
+  {
+    "date": "2022-07-13",
+    "event": "Voyager Bankruptcy",
+    "description": "Voyager Digital files for Chapter 11 bankruptcy protection after 3AC default.",
+    "impact": "Significant increase in fraud and account access complaints.",
+    "type": "crash"
+  },
+  {
+    "date": "2022-11-08",
+    "event": "FTX Collapse Begins",
+    "description": "Binance backs out of FTX acquisition deal, triggering massive withdrawals and liquidity crisis.",
+    "impact": "Largest spike in crypto complaints recorded - 340% increase.",
+    "type": "crash"
+  },
+  {
+    "date": "2022-11-11",
+    "event": "FTX Files Bankruptcy",
+    "description": "FTX, FTX.US, and Alameda Research file for Chapter 11 bankruptcy. Sam Bankman-Fried resigns as CEO.",
+    "impact": "Sustained high complaint volume for months following.",
+    "type": "crash"
+  },
+  {
+    "date": "2023-03-08",
+    "event": "Silvergate Bank Collapse",
+    "description": "Silvergate Bank announces voluntary liquidation after crypto market losses.",
+    "impact": "Banking access issues for crypto companies and their customers.",
+    "type": "crash"
+  },
+  {
+    "date": "2023-06-05",
+    "event": "SEC Sues Binance",
+    "description": "SEC files 13 charges against Binance and CZ for securities violations and operating unregistered exchange.",
+    "impact": "Regulatory uncertainty drives complaints about account restrictions.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2023-06-06",
+    "event": "SEC Sues Coinbase",
+    "description": "SEC sues Coinbase for operating an unregistered securities exchange, broker, and clearing agency.",
+    "impact": "Increased complaints about service changes and account limitations.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2023-11-21",
+    "event": "Binance $4.3B Settlement",
+    "description": "Binance pleads guilty to money laundering violations, CZ resigns, company pays $4.3 billion fine.",
+    "impact": "User concerns about platform stability and fund safety.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2024-01-10",
+    "event": "Bitcoin ETF Approved",
+    "description": "SEC approves 11 spot Bitcoin ETFs including BlackRock and Fidelity products.",
+    "impact": "Positive sentiment, but increased onboarding complaints from new users.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-03-14",
+    "event": "Bitcoin Hits $73K ATH",
+    "description": "Bitcoin reaches new all-time high of $73,750 driven by ETF inflows and halving anticipation.",
+    "impact": "High trading volume leads to platform issues and support backlogs.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-04-20",
+    "event": "Bitcoin Halving",
+    "description": "Fourth Bitcoin halving reduces block reward from 6.25 to 3.125 BTC.",
+    "impact": "Increased trading activity and associated customer service strain.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-05-23",
+    "event": "Ethereum ETF Approved",
+    "description": "SEC approves spot Ethereum ETFs, following Bitcoin ETF success.",
+    "impact": "New wave of institutional and retail interest.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-08-05",
+    "event": "Crypto Market Crash",
+    "description": "Bitcoin drops 15% in 24 hours amid global market selloff and Japan rate hike fears.",
+    "impact": "Sharp increase in complaints about liquidations and withdrawal delays.",
+    "type": "crash"
+  },
+  {
+    "date": "2024-11-06",
+    "event": "Trump Election Victory",
+    "description": "Donald Trump wins US presidential election on pro-crypto platform, promises crypto-friendly regulation.",
+    "impact": "Market rallies, increased account creation and verification complaints.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-11-22",
+    "event": "Bitcoin Approaches $100K",
+    "description": "Bitcoin reaches $99,000, approaching psychological $100K milestone.",
+    "impact": "Record trading volumes strain customer support systems.",
+    "type": "positive"
+  },
+  {
+    "date": "2024-12-05",
+    "event": "Bitcoin Breaks $100K",
+    "description": "Bitcoin breaks $100,000 for the first time in history, reaching $103,000.",
+    "impact": "Massive influx of new users, verification backlogs reported.",
+    "type": "positive"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Trump Inauguration",
+    "description": "Donald Trump inaugurated as 47th President, expected to implement pro-crypto policies.",
+    "impact": "Anticipation of regulatory clarity and mainstream adoption.",
+    "type": "positive"
+  },
+  {
+    "date": "2025-02-14",
+    "event": "SEC Drops Coinbase Case",
+    "description": "SEC announces dismissal of lawsuit against Coinbase following change in regulatory approach under new administration.",
+    "impact": "Major relief for exchanges, reduced compliance uncertainty complaints.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2025-03-15",
+    "event": "Bitcoin Correction",
+    "description": "Bitcoin corrects 20% from highs, dropping from $105K to $84K amid profit-taking.",
+    "impact": "Spike in complaints about margin calls and liquidations.",
+    "type": "crash"
+  },
+  {
+    "date": "2025-05-10",
+    "event": "Stablecoin Legislation Passed",
+    "description": "Congress passes comprehensive stablecoin regulation bill providing clarity for issuers.",
+    "impact": "Increased institutional adoption, onboarding surge.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "Bitcoin Hits $110K ATH",
+    "description": "Bitcoin reaches new all-time high of $110,000 driven by institutional demand and regulatory clarity.",
+    "impact": "Platform congestion and support ticket backlogs.",
+    "type": "positive"
+  },
+  {
+    "date": "2025-08-12",
+    "event": "Major Exchange Hack",
+    "description": "Large DeFi protocol suffers $200M exploit, affecting multiple centralized exchange users.",
+    "impact": "Surge in fraud-related complaints and security concerns.",
+    "type": "crash"
+  },
+  {
+    "date": "2025-10-01",
+    "event": "Crypto Tax Framework",
+    "description": "IRS releases comprehensive crypto tax reporting guidelines effective 2026.",
+    "impact": "Increased support requests about tax reporting and compliance.",
+    "type": "regulatory"
+  },
+  {
+    "date": "2025-11-15",
+    "event": "Solana ETF Approved",
+    "description": "SEC approves first Solana spot ETF, expanding crypto investment options.",
+    "impact": "New user onboarding surge, verification backlogs.",
+    "type": "positive"
+  },
+  {
+    "date": "2025-12-10",
+    "event": "Year-End Rally",
+    "description": "Bitcoin and major altcoins rally heading into year-end, BTC crosses $105K.",
+    "impact": "High trading volumes stress platform infrastructure.",
+    "type": "positive"
+  },
+  {
+    "date": "2026-01-15",
+    "event": "2026 Tax Season Begins",
+    "description": "First tax season under new crypto reporting rules creates compliance demand.",
+    "impact": "Surge in tax-related support requests and document generation complaints.",
+    "type": "regulatory"
+  }
+]
