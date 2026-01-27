@@ -1,77 +1,139 @@
 @import "tailwindcss";
 
-/* Modern sleek dark mode overrides */
+/*
+ * Dark Mode: True black/zinc palette (no blue tint)
+ * Light Mode: Clean white backgrounds
+ */
+
+/* Override Tailwind's gray palette in dark mode to zinc (neutral) */
 @layer base {
-  :root {
-    --background: 255 255 255;
-    --foreground: 15 23 42;
-    --card: 255 255 255;
-    --card-foreground: 15 23 42;
-    --border: 226 232 240;
-  }
-
+  /* Dark mode - true blacks and neutral grays */
   .dark {
-    --background: 9 9 11;
-    --foreground: 250 250 250;
-    --card: 14 14 16;
-    --card-foreground: 250 250 250;
-    --border: 39 39 42;
+    --color-gray-50: 24 24 27;
+    --color-gray-100: 39 39 42;
+    --color-gray-200: 52 52 56;
+    --color-gray-300: 82 82 91;
+    --color-gray-400: 113 113 122;
+    --color-gray-500: 142 142 148;
+    --color-gray-600: 161 161 170;
+    --color-gray-700: 24 24 27;
+    --color-gray-800: 14 14 16;
+    --color-gray-900: 9 9 11;
+    --color-gray-950: 4 4 5;
   }
+}
 
-  /* Override Tailwind's default gray-800/900 in dark mode to true blacks */
-  .dark .bg-gray-800 {
-    background-color: rgb(14 14 16) !important;
-  }
+/* Force dark mode backgrounds to true black */
+.dark body,
+.dark .bg-gray-900 {
+  background-color: #09090b !important;
+}
 
-  .dark .bg-gray-900 {
-    background-color: rgb(9 9 11) !important;
-  }
+.dark .bg-gray-800,
+.dark .bg-white {
+  background-color: #0e0e10 !important;
+}
 
-  .dark .bg-gray-700 {
-    background-color: rgb(24 24 27) !important;
-  }
+.dark .bg-gray-700 {
+  background-color: #18181b !important;
+}
 
-  .dark .bg-gray-700\/50 {
-    background-color: rgb(24 24 27 / 0.5) !important;
-  }
+.dark .bg-gray-700\/50 {
+  background-color: rgba(24, 24, 27, 0.5) !important;
+}
 
-  .dark .bg-gray-50 {
-    background-color: rgb(24 24 27) !important;
-  }
+.dark .bg-gray-600 {
+  background-color: #27272a !important;
+}
 
-  .dark .border-gray-700 {
-    border-color: rgb(39 39 42) !important;
-  }
+.dark .bg-gray-100,
+.dark .bg-gray-50 {
+  background-color: #18181b !important;
+}
 
-  .dark .border-gray-600 {
-    border-color: rgb(52 52 56) !important;
-  }
+/* Dark mode borders */
+.dark .border-gray-700 {
+  border-color: #27272a !important;
+}
 
-  /* Smoother text colors */
-  .dark .text-gray-400 {
-    color: rgb(113 113 122) !important;
-  }
+.dark .border-gray-600 {
+  border-color: #3f3f46 !important;
+}
 
-  .dark .text-gray-500 {
-    color: rgb(82 82 91) !important;
-  }
+.dark .border-gray-200,
+.dark .border-gray-300 {
+  border-color: #27272a !important;
+}
 
-  .dark .text-gray-300 {
-    color: rgb(161 161 170) !important;
-  }
+/* Dark mode text - neutral grays */
+.dark .text-gray-900,
+.dark .text-gray-800 {
+  color: #fafafa !important;
+}
 
-  /* Card shadows for depth */
-  .dark .shadow {
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3) !important;
-  }
+.dark .text-gray-700 {
+  color: #e4e4e7 !important;
+}
 
-  .dark .shadow-lg {
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4) !important;
-  }
+.dark .text-gray-600 {
+  color: #a1a1aa !important;
+}
 
-  .dark .shadow-xl {
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5) !important;
-  }
+.dark .text-gray-500 {
+  color: #71717a !important;
+}
+
+.dark .text-gray-400 {
+  color: #a1a1aa !important;
+}
+
+.dark .text-gray-300 {
+  color: #d4d4d8 !important;
+}
+
+/* Dark mode hover states */
+.dark .hover\:bg-gray-700:hover {
+  background-color: #27272a !important;
+}
+
+.dark .hover\:bg-gray-600:hover {
+  background-color: #3f3f46 !important;
+}
+
+.dark .hover\:bg-gray-200:hover,
+.dark .hover\:bg-gray-100:hover {
+  background-color: #27272a !important;
+}
+
+/* Dark mode dividers */
+.dark .divide-gray-700 > * + * {
+  border-color: #27272a !important;
+}
+
+.dark .divide-gray-200 > * + * {
+  border-color: #27272a !important;
+}
+
+/* Ring colors */
+.dark .ring-gray-700 {
+  --tw-ring-color: #27272a !important;
+}
+
+/* Card shadows for depth in dark mode */
+.dark .shadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4) !important;
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.3) !important;
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.5) !important;
+}
+
+.dark .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.6), 0 8px 10px -6px rgb(0 0 0 / 0.6) !important;
 }
 
 /* Scrollbar styling for dark mode */
@@ -81,21 +143,41 @@
 }
 
 .dark ::-webkit-scrollbar-track {
-  background: rgb(14 14 16);
+  background: #0e0e10;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: rgb(39 39 42);
+  background: #27272a;
   border-radius: 4px;
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: rgb(52 52 56);
+  background: #3f3f46;
 }
 
-/* Smooth transitions */
-* {
-  transition-property: background-color, border-color;
-  transition-duration: 150ms;
-  transition-timing-function: ease-in-out;
+/* Input and select styling for dark mode */
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+  color: #fafafa !important;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #3b82f6 !important;
+  outline: none;
+}
+
+/* Modal backdrops */
+.dark .bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Ensure charts and tooltips have proper dark backgrounds */
+.dark .recharts-default-tooltip {
+  background-color: #0e0e10 !important;
+  border-color: #27272a !important;
 }
