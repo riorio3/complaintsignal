@@ -176,8 +176,8 @@ export function PriceCorrelation({ trendData }) {
           dot={isExpanded}
         />
 
-        {/* Event markers on chart - show all in expanded, limited in compact */}
-        {(isExpanded ? relevantEvents : relevantEvents.slice(0, 8)).map((event, i) => {
+        {/* Event markers on chart - show all events */}
+        {relevantEvents.map((event, i) => {
           const eventMonth = event.date.substring(0, 7);
           const dataPoint = chartData.find(d => d.month === eventMonth);
           if (!dataPoint) return null;
