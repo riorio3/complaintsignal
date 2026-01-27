@@ -89,6 +89,29 @@ export function PriceCorrelation({ trendData }) {
     }
   };
 
+  // Custom clickable label for event markers
+  const ClickableEventLabel = ({ viewBox, event, color }) => {
+    const { x } = viewBox;
+    return (
+      <g>
+        <circle
+          cx={x}
+          cy={8}
+          r={6}
+          fill={color}
+          style={{ cursor: 'pointer' }}
+          onClick={(e) => {
+            e.stopPropagation();
+            setSelectedEvent(event);
+          }}
+          onMouseEnter={() => setHoveredEvent(event)}
+          onMouseLeave={() => setHoveredEvent(null)}
+        />
+        <title>{`${format(parseISO(event.date), 'MMM yyyy')}: ${event.event}`}</title>
+      </g>
+    );
+  };
+
   const ChartContent = ({ height = 288 }) => (
     <ResponsiveContainer width="100%" height={height}>
       <ComposedChart data={chartData} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
@@ -171,13 +194,7 @@ export function PriceCorrelation({ trendData }) {
               strokeWidth={isHovered ? 3 : (isExpanded ? 2 : 1)}
               strokeOpacity={isHovered ? 1 : 0.7}
               ifOverflow="extendDomain"
-              label={isExpanded ? {
-                value: '●',
-                position: 'top',
-                fill: getEventColor(event.type),
-                fontSize: 12,
-                cursor: 'pointer',
-              } : null}
+              label={<ClickableEventLabel event={event} color={getEventColor(event.type)} />}
             />
           );
         })}
