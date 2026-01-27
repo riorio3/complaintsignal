@@ -5,7 +5,7 @@ export function MetricCard({ title, value, subtitle, trend, trendValue }) {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 sm:p-6 text-center">
-      <h3 className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">{title}</h3>
+      <h3 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 uppercase tracking-wide">{title}</h3>
       <p className="mt-1 sm:mt-2 text-2xl sm:text-3xl font-semibold text-gray-900 dark:text-white">{value}</p>
       {trend && trendValue !== undefined && (
         <p className={`mt-1 text-xs sm:text-sm font-medium ${trendColor}`}>

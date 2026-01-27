@@ -15,6 +15,7 @@ const AGENCY_COLORS = {
 
 export function RegulatoryTimeline() {
   const [selectedAgency, setSelectedAgency] = useState('all');
+  const [isExpanded, setIsExpanded] = useState(false);
 
   // Fetch live news with 60-second refresh
   const { news: liveNews, loading, lastUpdated } = useRegulatoryNews(60000);
@@ -106,48 +107,69 @@ export function RegulatoryTimeline() {
       )}
 
       {/* News Items */}
-      <div className="space-y-2 sm:space-y-3 max-h-64 sm:max-h-80 overflow-y-auto">
-        {displayItems.length === 0 ? (
-          <p className="text-center text-gray-600 dark:text-gray-300 py-6 sm:py-8 text-sm">
-            No regulatory actions found
-          </p>
-        ) : (
-          displayItems.map((item, index) => (
-            <div
-              key={`${item.date}-${index}`}
-              className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 active:bg-gray-100 dark:active:bg-gray-700 transition-colors"
-            >
-              <div className="flex-shrink-0 w-16 sm:w-20 text-xs font-medium text-gray-700 dark:text-gray-200 pt-0.5 sm:pt-1">
-                {formatDate(item.date)}
-                {item.isRecent && (
-                  <span className="block text-blue-600 dark:text-blue-400 mt-1 text-[10px]">Recent</span>
-                )}
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded ${AGENCY_COLORS[item.agency] || 'bg-gray-100 text-gray-800 dark:bg-gray-600 dark:text-gray-200'}`}>
-                    {item.agency}
-                  </span>
-                  <span className="font-medium text-gray-900 dark:text-white truncate">
-                    {item.target}
-                  </span>
+      <div className="relative">
+        <div className={`space-y-2 sm:space-y-3 overflow-y-auto transition-all duration-300 ${
+          isExpanded ? 'max-h-[600px]' : 'max-h-64 sm:max-h-80'
+        }`}>
+          {displayItems.length === 0 ? (
+            <p className="text-center text-gray-600 dark:text-gray-300 py-6 sm:py-8 text-sm">
+              No regulatory actions found
+            </p>
+          ) : (
+            displayItems.map((item, index) => (
+              <div
+                key={`${item.date}-${index}`}
+                className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 active:bg-gray-100 dark:active:bg-gray-700 transition-colors"
+              >
+                <div className="flex-shrink-0 w-16 sm:w-20 text-xs font-medium text-gray-700 dark:text-gray-200 pt-0.5 sm:pt-1">
+                  {formatDate(item.date)}
+                  {item.isRecent && (
+                    <span className="block text-blue-600 dark:text-blue-400 mt-1 text-[10px]">Recent</span>
+                  )}
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
-                  {item.description}
-                </p>
-                {item.url && (
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1 inline-block"
-                  >
-                    View source →
-                  </a>
-                )}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded ${AGENCY_COLORS[item.agency] || 'bg-gray-100 text-gray-800 dark:bg-gray-600 dark:text-gray-200'}`}>
+                      {item.agency}
+                    </span>
+                    <span className="font-medium text-gray-900 dark:text-white truncate">
+                      {item.target}
+                    </span>
+                  </div>
+                  <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                    {item.description}
+                  </p>
+                  {item.url && (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1 inline-block"
+                    >
+                      View source →
+                    </a>
+                  )}
+                </div>
               </div>
-            </div>
-          ))
+            ))
+          )}
+        </div>
+        {/* Expand/Collapse Button */}
+        {displayItems.length > 3 && (
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="absolute bottom-1 right-1 p-1.5 rounded-full bg-gray-200/90 dark:bg-gray-600/90 hover:bg-gray-300 dark:hover:bg-gray-500 transition-all shadow-sm"
+            title={isExpanded ? 'Collapse' : 'Expand'}
+          >
+            <svg
+              className={`w-4 h-4 text-gray-600 dark:text-gray-300 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
         )}
       </div>
 

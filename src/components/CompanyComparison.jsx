@@ -13,6 +13,7 @@ export function CompanyComparison({ data, rawData = [] }) {
   const [showAll, setShowAll] = useState(false);
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [selectedComplaint, setSelectedComplaint] = useState(null);
+  const [showAllComplaints, setShowAllComplaints] = useState(false);
   const [showReliefTooltip, setShowReliefTooltip] = useState(false);
   const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
   const reliefBtnRef = useRef(null);
@@ -321,7 +322,7 @@ export function CompanyComparison({ data, rawData = [] }) {
 
       {/* Company Detail Modal */}
       {selectedCompany && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={() => setSelectedCompany(null)}>
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={() => { setSelectedCompany(null); setShowAllComplaints(false); }}>
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl w-full max-w-2xl max-h-[80vh] overflow-auto" onClick={e => e.stopPropagation()}>
             <div className="sticky top-0 bg-white dark:bg-gray-800 p-6 border-b border-gray-200 dark:border-gray-700">
               <div className="flex justify-between items-start">
@@ -339,7 +340,7 @@ export function CompanyComparison({ data, rawData = [] }) {
                   </p>
                 </div>
                 <button
-                  onClick={() => setSelectedCompany(null)}
+                  onClick={() => { setSelectedCompany(null); setShowAllComplaints(false); }}
                   className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
                 >
                   <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -393,10 +394,10 @@ export function CompanyComparison({ data, rawData = [] }) {
               {/* Recent Complaints Preview */}
               <div>
                 <div className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
-                  Recent Complaints ({Math.min(5, selectedCompany.complaints?.length || 0)} of {selectedCompany.complaints?.length || 0})
+                  Recent Complaints ({selectedCompany.complaints?.length || 0})
                 </div>
-                <div className="space-y-2 max-h-64 overflow-y-auto">
-                  {selectedCompany.complaints?.slice(0, 5).map((complaint, i) => (
+                <div className={`space-y-2 overflow-y-auto ${showAllComplaints ? 'max-h-96' : 'max-h-64'}`}>
+                  {(showAllComplaints ? selectedCompany.complaints : selectedCompany.complaints?.slice(0, 5))?.map((complaint, i) => (
                     <div
                       key={i}
                       className="p-3 bg-gray-50 dark:bg-gray-700/30 rounded-lg text-sm cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -424,6 +425,14 @@ export function CompanyComparison({ data, rawData = [] }) {
                     </div>
                   ))}
                 </div>
+                {selectedCompany.complaints?.length > 5 && (
+                  <button
+                    onClick={() => setShowAllComplaints(!showAllComplaints)}
+                    className="mt-3 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
+                  >
+                    {showAllComplaints ? 'Show less' : `Show all ${selectedCompany.complaints.length} complaints`}
+                  </button>
+                )}
               </div>
             </div>
           </div>
