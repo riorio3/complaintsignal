@@ -339,29 +339,63 @@ export function PriceCorrelation({ trendData }) {
                 <ChartContent height={500} />
               </div>
 
-              {/* All Events - Clickable */}
+              {/* Interactive Event Legend */}
               <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
-                <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-3">All Market Events (click for details)</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-                  {sortedEvents.map((event, i) => (
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-sm font-medium text-gray-900 dark:text-white">
+                    Chart Events ({relevantEvents.length} shown)
+                  </h3>
+                  <div className="flex gap-3 text-xs">
+                    <span className="flex items-center gap-1">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500"></span> Positive
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <span className="w-2 h-2 rounded-full bg-red-500"></span> Crash
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <span className="w-2 h-2 rounded-full bg-violet-500"></span> Regulatory
+                    </span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1.5 max-h-64 overflow-y-auto">
+                  {relevantEvents
+                    .sort((a, b) => new Date(a.date) - new Date(b.date))
+                    .map((event, i) => (
                     <button
                       key={i}
                       onClick={() => setSelectedEvent(event)}
-                      className={`p-3 rounded text-left hover:opacity-80 transition-opacity ${
+                      onMouseEnter={() => setHoveredEvent(event)}
+                      onMouseLeave={() => setHoveredEvent(null)}
+                      className={`p-2 rounded text-left transition-all border ${
+                        hoveredEvent === event
+                          ? 'ring-2 ring-blue-500 border-transparent'
+                          : 'border-transparent hover:border-gray-300 dark:hover:border-gray-600'
+                      } ${
                         event.type === 'crash'
-                          ? 'bg-red-50 dark:bg-red-900/30 hover:bg-red-100 dark:hover:bg-red-900/50'
+                          ? 'bg-red-500/10 hover:bg-red-500/20'
                           : event.type === 'positive'
-                          ? 'bg-green-50 dark:bg-green-900/30 hover:bg-green-100 dark:hover:bg-green-900/50'
-                          : 'bg-purple-50 dark:bg-purple-900/30 hover:bg-purple-100 dark:hover:bg-purple-900/50'
+                          ? 'bg-emerald-500/10 hover:bg-emerald-500/20'
+                          : 'bg-violet-500/10 hover:bg-violet-500/20'
                       }`}
                     >
-                      <div className="font-medium text-gray-900 dark:text-white text-sm">
-                        {format(parseISO(event.date), 'MMM d, yyyy')}
+                      <div className="flex items-center gap-2">
+                        <span
+                          className="w-2 h-2 rounded-full flex-shrink-0"
+                          style={{ backgroundColor: getEventColor(event.type) }}
+                        />
+                        <span className="text-xs text-gray-500 dark:text-gray-400 flex-shrink-0">
+                          {format(parseISO(event.date), 'MMM yyyy')}
+                        </span>
+                        <span className="text-xs text-gray-800 dark:text-gray-200 truncate">
+                          {event.event}
+                        </span>
                       </div>
-                      <div className="text-gray-600 dark:text-gray-300 text-sm truncate">{event.event}</div>
                     </button>
                   ))}
                 </div>
+                <p className="mt-2 text-xs text-gray-400 dark:text-gray-500">
+                  Hover over an event to highlight its line on the chart. Click for details.
+                </p>
               </div>
 
               {/* Correlation Analysis */}
