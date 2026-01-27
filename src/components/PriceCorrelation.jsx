@@ -10,6 +10,7 @@ import {
   Legend,
   ResponsiveContainer,
   ReferenceLine,
+  ReferenceArea,
 } from 'recharts';
 import { format, parseISO } from 'date-fns';
 import marketEvents from '../data/marketEvents.json';
@@ -18,6 +19,7 @@ import { useCryptoPrice } from '../hooks/useCryptoPrice';
 export function PriceCorrelation({ trendData }) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [hoveredEvent, setHoveredEvent] = useState(null);
 
   // Fetch live BTC price data (refresh every 5 minutes)
   const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive } = useCryptoPrice('bitcoin', 730, 300000);
@@ -151,11 +153,13 @@ export function PriceCorrelation({ trendData }) {
           dot={isExpanded}
         />
 
-        {/* Event markers on chart */}
-        {relevantEvents.slice(0, isExpanded ? 15 : 5).map((event, i) => {
+        {/* Event markers on chart - show all in expanded, limited in compact */}
+        {(isExpanded ? relevantEvents : relevantEvents.slice(0, 8)).map((event, i) => {
           const eventMonth = event.date.substring(0, 7);
           const dataPoint = chartData.find(d => d.month === eventMonth);
           if (!dataPoint) return null;
+
+          const isHovered = hoveredEvent === event;
 
           return (
             <ReferenceLine
@@ -163,8 +167,17 @@ export function PriceCorrelation({ trendData }) {
               x={dataPoint.label}
               yAxisId="left"
               stroke={getEventColor(event.type)}
-              strokeDasharray="3 3"
-              strokeWidth={isExpanded ? 2 : 1}
+              strokeDasharray={isHovered ? "0" : "3 3"}
+              strokeWidth={isHovered ? 3 : (isExpanded ? 2 : 1)}
+              strokeOpacity={isHovered ? 1 : 0.7}
+              ifOverflow="extendDomain"
+              label={isExpanded ? {
+                value: '●',
+                position: 'top',
+                fill: getEventColor(event.type),
+                fontSize: 12,
+                cursor: 'pointer',
+              } : null}
             />
           );
         })}

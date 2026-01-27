@@ -66,53 +66,58 @@ export function IssueBreakdown({ data, rawData = [] }) {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-      <div className="flex justify-between items-start mb-4">
+      <div className="flex justify-between items-start mb-3">
         <div>
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">Top Issues by Category</h3>
           <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-            Click a bar to see individual complaints {getDateRange() && `(${getDateRange()})`}
+            Click to see individual complaints {getDateRange() && `• ${getDateRange()}`}
           </p>
         </div>
       </div>
-      <div className="h-72">
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart
-            data={topIssues}
-            layout="vertical"
-            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-          >
-            <CartesianGrid strokeDasharray="3 3" className="opacity-30" horizontal={false} />
-            <XAxis type="number" tick={{ fontSize: 12 }} className="dark:fill-gray-400" />
-            <YAxis
-              type="category"
-              dataKey="issue"
-              tick={{ fontSize: 11 }}
-              width={150}
-              tickFormatter={value =>
-                value.length > 25 ? `${value.substring(0, 25)}...` : value
-              }
-              className="dark:fill-gray-400"
-            />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: 'var(--tooltip-bg, #fff)',
-                border: '1px solid #e5e7eb',
-                borderRadius: '8px',
-              }}
-              formatter={(value, name) => [value, 'Complaints']}
-            />
-            <Bar
-              dataKey="count"
-              radius={[0, 4, 4, 0]}
-              onClick={handleBarClick}
-              style={{ cursor: 'pointer' }}
+
+      {/* Issue list with bars */}
+      <div className="space-y-2">
+        {topIssues.map((item, index) => {
+          const maxCount = topIssues[0]?.count || 1;
+          const percentage = (item.count / maxCount) * 100;
+
+          return (
+            <button
+              key={item.issue}
+              onClick={() => handleBarClick(item)}
+              className="w-full group"
             >
-              {topIssues.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
+              <div className="flex items-center gap-3">
+                {/* Color indicator */}
+                <div
+                  className="w-3 h-3 rounded-full flex-shrink-0"
+                  style={{ backgroundColor: COLORS[index % COLORS.length] }}
+                />
+                {/* Issue name */}
+                <div className="flex-1 min-w-0 text-left">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-sm text-gray-700 dark:text-gray-200 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                      {item.issue}
+                    </span>
+                    <span className="text-sm font-medium text-gray-900 dark:text-white flex-shrink-0">
+                      {item.count.toLocaleString()}
+                    </span>
+                  </div>
+                  {/* Progress bar */}
+                  <div className="mt-1 h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                    <div
+                      className="h-full rounded-full transition-all duration-300 group-hover:opacity-80"
+                      style={{
+                        width: `${percentage}%`,
+                        backgroundColor: COLORS[index % COLORS.length],
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </button>
+          );
+        })}
       </div>
 
       {/* Drill-down Modal */}
