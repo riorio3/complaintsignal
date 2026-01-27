@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react';
 import { useComplaints } from '../hooks/useComplaints';
 import {
   groupByMonth,
-  groupByIssue,
   groupByCompany,
   calculateMetrics,
   getUniqueIssues,
@@ -11,7 +10,6 @@ import {
 import { calculateFraudRate, getComplaintsWithNarratives } from '../utils/textAnalysis';
 import { MetricCard } from './MetricCard';
 import { TrendChart } from './TrendChart';
-import { IssueBreakdown } from './IssueBreakdown';
 import { CompanyComparison } from './CompanyComparison';
 import { Filters } from './Filters';
 import StateHeatmap from './StateHeatmap';
@@ -26,7 +24,6 @@ export function Dashboard() {
 
   // Process data for charts
   const trendData = useMemo(() => groupByMonth(data), [data]);
-  const issueData = useMemo(() => groupByIssue(data), [data]);
   const companyData = useMemo(() => groupByCompany(data), [data]);
   const metrics = useMemo(() => calculateMetrics(data), [data]);
   const fraudRate = useMemo(() => calculateFraudRate(data), [data]);
@@ -144,17 +141,12 @@ export function Dashboard() {
               <IssueInsights data={data} />
             </div>
 
-            {/* Row 2: Issue Breakdown (full width) */}
-            <div className="mb-6">
-              <IssueBreakdown data={issueData} rawData={data} />
-            </div>
-
-            {/* Row 3: Regulatory Timeline */}
+            {/* Row 2: Regulatory Timeline */}
             <div className="mb-6">
               <RegulatoryTimeline />
             </div>
 
-            {/* Row 4: Company Comparison */}
+            {/* Row 3: Company Comparison */}
             <CompanyComparison data={companyData} rawData={data} />
 
             {/* Footer */}

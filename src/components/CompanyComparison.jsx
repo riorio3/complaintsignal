@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef } from 'react';
 import { format, parseISO } from 'date-fns';
 
-// Colors for bars (matches IssueBreakdown)
+// Colors for bars
 const COLORS = ['#1d4ed8', '#2563eb', '#3b82f6', '#0369a1', '#0891b2', '#0d9488', '#059669'];
 
 // Fraud keywords for detection
