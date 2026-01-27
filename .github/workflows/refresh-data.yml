@@ -1,11 +1,11 @@
 name: Refresh CFPB Complaint Data
 
 on:
-  # Weekly schedule - Sundays at 6 AM UTC
-  schedule:
-    - cron: '0 6 * * 0'
+  # Disabled for now - uncomment to enable weekly refresh
+  # schedule:
+  #   - cron: '0 6 * * 0'
 
-  # Allow manual trigger
+  # Manual trigger only
   workflow_dispatch:
     inputs:
       force_commit:
