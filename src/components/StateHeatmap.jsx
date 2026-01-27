@@ -79,7 +79,7 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
   }, [stateData]);
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 sm:p-6">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 sm:p-6 lg:h-full flex flex-col">
       <div className="flex justify-between items-start gap-2 mb-3 sm:mb-4">
         <div>
           <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">Complaints by State</h3>
@@ -95,7 +95,7 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
         )}
       </div>
 
-      <div className="relative">
+      <div className="relative flex-grow flex items-center">
         <ComposableMap projection="geoAlbersUsa" className="w-full h-auto">
           <Geographies geography={geoUrl}>
             {({ geographies }) =>

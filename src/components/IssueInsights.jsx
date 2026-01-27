@@ -113,7 +113,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 sm:p-6">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 sm:p-6 lg:h-full flex flex-col">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-4">
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between sm:justify-start gap-2">
@@ -159,7 +159,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
       </div>
 
       {/* Pattern Cards */}
-      <div className="space-y-3">
+      <div className="space-y-3 flex-grow">
         {patternAnalysis.slice(0, 5).map(pattern => (
           <div
             key={pattern.id}

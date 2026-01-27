@@ -340,28 +340,27 @@ export function PriceCorrelation({ trendData }) {
           <ChartContent />
         </div>
 
-        {/* Clickable Event Tags */}
-        <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-gray-200 dark:border-gray-700/50 text-center">
-          <p className="text-xs text-gray-500 dark:text-gray-500 mb-2">Key Events (tap for details):</p>
-          <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
-            {relevantEvents.slice(0, 8).map((event, i) => (
-              <button
-                key={i}
-                onClick={() => setSelectedEvent(event)}
-                className={`inline-flex items-center px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded cursor-pointer active:brightness-90 transition-all ${
-                  event.type === 'crash'
-                    ? 'bg-red-100 text-red-700 border border-red-300 dark:bg-red-500/20 dark:text-red-400 dark:border-red-500/30'
-                    : event.type === 'positive'
-                    ? 'bg-emerald-100 text-emerald-700 border border-emerald-300 dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30'
-                    : 'bg-violet-100 text-violet-700 border border-violet-300 dark:bg-violet-500/20 dark:text-violet-400 dark:border-violet-500/30'
-                }`}
-              >
-                <span className="hidden sm:inline">{format(parseISO(event.date), "MMM ''yy")}: </span>
-                <span className="sm:hidden">{format(parseISO(event.date), "MMM")}: </span>
-                <span className="hidden sm:inline">{event.event.length > 18 ? event.event.substring(0, 18) + '...' : event.event}</span>
-                <span className="sm:hidden">{event.event.length > 12 ? event.event.substring(0, 12) + '...' : event.event}</span>
-              </button>
-            ))}
+        {/* Clickable Event Tags - Compact horizontal scroll */}
+        <div className="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700/50">
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-gray-500 dark:text-gray-500 flex-shrink-0">Events:</span>
+            <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
+              {relevantEvents.slice(0, 10).map((event, i) => (
+                <button
+                  key={i}
+                  onClick={() => setSelectedEvent(event)}
+                  className={`inline-flex items-center px-2 py-0.5 text-xs rounded whitespace-nowrap flex-shrink-0 cursor-pointer active:brightness-90 transition-all ${
+                    event.type === 'crash'
+                      ? 'bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-400'
+                      : event.type === 'positive'
+                      ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-400'
+                      : 'bg-violet-100 text-violet-700 dark:bg-violet-500/20 dark:text-violet-400'
+                  }`}
+                >
+                  {format(parseISO(event.date), "MMM ''yy")}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>

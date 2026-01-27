@@ -127,20 +127,24 @@ export function Dashboard() {
               />
             </div>
 
-            {/* Row 1: Price Correlation + State Heatmap */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 items-start">
+            {/* Hero: BTC Price Correlation (full width) */}
+            <div className="mb-6">
               <PriceCorrelation trendData={trendData} />
+            </div>
+
+            {/* Row 1: State Heatmap + Issue Insights (equal height) */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
               <StateHeatmap
                 data={data}
                 selectedState={filters.state}
                 onStateClick={handleStateClick}
               />
+              <IssueInsights data={data} />
             </div>
 
-            {/* Row 2: Issue Breakdown + Issue Insights */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 items-start">
+            {/* Row 2: Issue Breakdown (full width) */}
+            <div className="mb-6">
               <IssueBreakdown data={issueData} rawData={data} />
-              <IssueInsights data={data} />
             </div>
 
             {/* Row 3: Regulatory Timeline */}
