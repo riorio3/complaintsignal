@@ -223,3 +223,24 @@
   background-color: #0e0e10 !important;
   border-color: #27272a !important;
 }
+
+/* More saturated colors for dark mode readability */
+.dark .text-red-300 {
+  color: #f87171 !important; /* red-400 */
+}
+
+.dark .text-red-400 {
+  color: #f87171 !important; /* red-400 - more saturated */
+}
+
+.dark .text-yellow-300 {
+  color: #fbbf24 !important; /* yellow-400 */
+}
+
+.dark .text-green-300 {
+  color: #4ade80 !important; /* green-400 */
+}
+
+.dark .text-purple-300 {
+  color: #c084fc !important; /* purple-400 */
+}

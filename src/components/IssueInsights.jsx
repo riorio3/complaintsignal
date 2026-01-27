@@ -137,7 +137,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
         <div className="text-right">
           <span className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-full ${
             fraudStats.percentage > 30
-              ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-300'
+              ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-400'
               : fraudStats.percentage > 15
               ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300'
               : 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300'
@@ -168,7 +168,7 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                 </span>
                 <span className={`inline-flex px-2 py-0.5 text-xs font-medium rounded-full ${
                   pattern.percentage > 30
-                    ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-300'
+                    ? 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-400'
                     : pattern.percentage > 15
                     ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300'
                     : 'bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300'
@@ -389,7 +389,7 @@ function NarrativeCard({ complaint, index, keywords }) {
             </span>
           )}
           {complaint.consumer_disputed === 'Yes' && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300">
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-400">
               Disputed
             </span>
           )}
