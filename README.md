@@ -1,43 +1,79 @@
-# ComplaintChain
+<div align="center">
+  <h1>ComplaintChain</h1>
+  <p><strong>Crypto Complaint Intelligence Dashboard</strong></p>
 
-> Crypto Complaint Intelligence Dashboard
+  <p>
+    <a href="https://complaintchain.vercel.app">
+      <img src="https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge" alt="Live Demo">
+    </a>
+    <img src="https://img.shields.io/badge/complaints-21%2C000%2B-blue?style=for-the-badge" alt="Complaints">
+    <img src="https://img.shields.io/github/stars/riorio3/complaintchain?style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/license/riorio3/complaintchain?style=for-the-badge" alt="License">
+  </p>
 
-**[Live Demo](https://complaintchain.vercel.app)**
+  <p>Track 21,000+ crypto complaints cross-referenced with BTC price and regulatory actions</p>
+</div>
 
-ComplaintChain visualizes 21,000+ consumer complaints filed against cryptocurrency companies with the CFPB (Consumer Financial Protection Bureau), cross-referenced with BTC price data and regulatory enforcement actions.
+---
+
+## Table of Contents
+- [Why ComplaintChain?](#why-complaintchain)
+- [Features](#features)
+- [Key Insights](#key-insights)
+- [Tech Stack](#built-with)
+- [Quick Start](#quick-start)
+- [Data Sources](#data-sources)
+- [Contributing](#contributing)
+
+---
+
+## Why ComplaintChain?
+
+Crypto complaints to the CFPB grew **10x** from 2019-2024, yet this data is buried in government databases. ComplaintChain makes it accessible, visual, and actionable.
+
+**Use cases:**
+- Research crypto company reputation before investing
+- Journalists investigating industry trends
+- Regulators tracking complaint patterns
+- Traders correlating sentiment with price
 
 ---
 
 ## Features
 
-### Analytics
-- **BTC Price vs Complaints** - Interactive chart showing correlation between Bitcoin price movements and complaint volume (with live BTC price)
-- **Complaint Trends** - Monthly complaint volume over 6+ years of data
-- **Company Comparison** - Side-by-side metrics for 200+ crypto companies (response rates, dispute rates, resolution times)
-- **Pattern Analysis** - AI-powered issue categorization and trend detection
-- **Geographic Distribution** - Complaints by state with interactive map
-
-### Data Sources
-- **CFPB Database** - Real consumer complaints (updated regularly)
-- **Live BTC Price** - CoinGecko API integration
-- **Regulatory News** - Live feed of SEC, DOJ, CFTC enforcement actions + crypto news
-
-### Tools
-- **Complaint Search** - Look up any complaint by ID
-- **Market Event Overlay** - Major crypto events (crashes, regulations, hacks) mapped on charts
-- **Dark/Light Mode** - Full theme support
+| Feature | Description |
+|---------|-------------|
+| **Price Correlation** | BTC price vs complaint volume with live data |
+| **Company Comparison** | 200+ crypto companies ranked by response metrics |
+| **Regulatory Feed** | Live SEC, DOJ, CFTC enforcement actions |
+| **Complaint Search** | Look up any complaint by ID |
+| **Geographic View** | Complaints mapped by state |
+| **Dark Mode** | Full theme support |
 
 ---
 
-## Tech Stack
+## Key Insights
 
-| Category | Technology |
-|----------|------------|
-| Framework | React 18 + Vite |
-| Styling | Tailwind CSS |
-| Charts | Recharts |
-| Data | CFPB API, CoinGecko API |
-| Deployment | Vercel |
+> **"When Bitcoin crashes, complaints spike."**
+
+| Insight | Finding |
+|---------|---------|
+| Correlation | Complaints surge during market downturns |
+| Top Issue | Account access & fraud dominate complaints |
+| Growth | 10x increase in crypto complaints (2019-2024) |
+| Response Gap | Company response rates range 40-98% |
+
+---
+
+## Built With
+
+<p>
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Recharts-2-FF6384?logo=chartdotjs&logoColor=white" alt="Recharts">
+  <img src="https://img.shields.io/badge/Vercel-Deploy-000000?logo=vercel&logoColor=white" alt="Vercel">
+</p>
 
 ---
 
@@ -59,20 +95,13 @@ Open [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Key Insights
+## Data Sources
 
-Some interesting findings from the data:
-
-- **Correlation**: Complaint volume tends to spike during market downturns
-- **Top Issues**: "Managing, opening, or closing account" and "Fraud/scams" dominate
-- **Response Rates**: Vary significantly between companies (40-98%)
-- **Growth**: Crypto complaints grew 10x from 2019 to 2024
-
----
-
-## Screenshots
-
-*Dashboard showing BTC price correlation, regulatory timeline, and company metrics*
+| Source | Description |
+|--------|-------------|
+| **CFPB Database** | Real consumer complaints (updated regularly) |
+| **CoinGecko API** | Live BTC price data |
+| **Regulatory News** | SEC, DOJ, CFTC enforcement actions + crypto news |
 
 ---
 
@@ -88,4 +117,10 @@ MIT
 
 ---
 
-Built by [Rio](https://github.com/riorio3)
+<div align="center">
+  <p>
+    <a href="https://complaintchain.vercel.app"><strong>Live Demo</strong></a> •
+    <a href="https://github.com/riorio3"><strong>Built by Rio</strong></a>
+  </p>
+  <p>Star this repo if you find it useful!</p>
+</div>
