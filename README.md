@@ -1,54 +1,91 @@
-# Crypto Complaints Dashboard
+# ComplaintChain
 
-A React dashboard analyzing consumer complaints against cryptocurrency companies using data from the CFPB (Consumer Financial Protection Bureau).
+> Crypto Complaint Intelligence Dashboard
+
+**[Live Demo](https://complaintchain.vercel.app)**
+
+ComplaintChain visualizes 21,000+ consumer complaints filed against cryptocurrency companies with the CFPB (Consumer Financial Protection Bureau), cross-referenced with BTC price data and regulatory enforcement actions.
+
+---
 
 ## Features
 
-- **Complaint Trends**: Line chart showing complaint volume over time
-- **Issue Breakdown**: Bar chart of top complaint categories
-- **Company Comparison**: Table comparing crypto companies by response metrics
-- **Interactive Filters**: Filter by company, issue type, and date range
-- **Key Metrics**: Total complaints, timely response rate, top issues
+### Analytics
+- **BTC Price vs Complaints** - Interactive chart showing correlation between Bitcoin price movements and complaint volume (with live BTC price)
+- **Complaint Trends** - Monthly complaint volume over 6+ years of data
+- **Company Comparison** - Side-by-side metrics for 200+ crypto companies (response rates, dispute rates, resolution times)
+- **Pattern Analysis** - AI-powered issue categorization and trend detection
+- **Geographic Distribution** - Complaints by state with interactive map
 
-## Data Source
+### Data Sources
+- **CFPB Database** - Real consumer complaints (updated regularly)
+- **Live BTC Price** - CoinGecko API integration
+- **Regulatory News** - Live feed of SEC, DOJ, CFTC enforcement actions + crypto news
 
-This dashboard uses the [CFPB Consumer Complaint Database API](https://www.consumerfinance.gov/data-research/consumer-complaints/), which contains real consumer complaints submitted to the CFPB about financial products and services.
+### Tools
+- **Complaint Search** - Look up any complaint by ID
+- **Market Event Overlay** - Major crypto events (crashes, regulations, hacks) mapped on charts
+- **Dark/Light Mode** - Full theme support
 
-The dashboard filters for complaints related to "Virtual Currency" products.
+---
 
 ## Tech Stack
 
-- React + Vite
-- Recharts for data visualization
-- Tailwind CSS for styling
-- date-fns for date handling
+| Category | Technology |
+|----------|------------|
+| Framework | React 18 + Vite |
+| Styling | Tailwind CSS |
+| Charts | Recharts |
+| Data | CFPB API, CoinGecko API |
+| Deployment | Vercel |
 
-## Getting Started
+---
+
+## Quick Start
 
 ```bash
-# Install dependencies
+# Clone
+git clone https://github.com/riorio3/complaintchain.git
+cd complaintchain
+
+# Install
 npm install
 
-# Run development server
+# Run
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## Deployment
+Open [http://localhost:5173](http://localhost:5173)
 
-This project is configured for easy deployment on Vercel:
+---
 
-1. Push to GitHub
-2. Import project in Vercel
-3. Deploy
+## Key Insights
 
-## Project Purpose
+Some interesting findings from the data:
 
-Built to demonstrate QC analytics skills for compliance/regulatory roles in fintech. The dashboard showcases:
+- **Correlation**: Complaint volume tends to spike during market downturns
+- **Top Issues**: "Managing, opening, or closing account" and "Fraud/scams" dominate
+- **Response Rates**: Vary significantly between companies (40-98%)
+- **Growth**: Crypto complaints grew 10x from 2019 to 2024
 
-- Root cause analysis through trend identification
-- Pattern recognition in complaint data
-- Regulatory data awareness (CFPB)
-- Data visualization and reporting capabilities
+---
+
+## Screenshots
+
+*Dashboard showing BTC price correlation, regulatory timeline, and company metrics*
+
+---
+
+## Contributing
+
+Issues and PRs welcome.
+
+---
+
+## License
+
+MIT
+
+---
+
+Built by [Rio](https://github.com/riorio3)
