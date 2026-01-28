@@ -247,6 +247,7 @@ export function PriceCorrelation({ trendData }) {
           if (!dataPoint) return null;
 
           const isHovered = hoveredEvent === event;
+          const isDimmed = hoveredEvent && hoveredEvent !== event;
 
           return (
             <ReferenceLine
@@ -256,9 +257,9 @@ export function PriceCorrelation({ trendData }) {
               stroke={getEventColor(event.type)}
               strokeDasharray={isHovered ? "0" : "3 3"}
               strokeWidth={isHovered ? 3 : (isExpanded ? 2 : 1)}
-              strokeOpacity={isHovered ? 1 : 0.7}
+              strokeOpacity={isDimmed ? 0.15 : (isHovered ? 1 : 0.7)}
               ifOverflow="extendDomain"
-              label={<ClickableEventLabel event={event} color={getEventColor(event.type)} />}
+              label={isDimmed ? null : <ClickableEventLabel event={event} color={getEventColor(event.type)} />}
             />
           );
         })}
@@ -365,7 +366,7 @@ export function PriceCorrelation({ trendData }) {
           <ChartContent />
         </div>
 
-        {/* Clickable Event Tags - Desktop only, newest first */}
+        {/* Clickable Event Tags - Desktop only, newest first, with hover interaction */}
         {!isMobile && (
           <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-700/50">
             <div className="flex items-center gap-2">
@@ -375,7 +376,13 @@ export function PriceCorrelation({ trendData }) {
                   <button
                     key={i}
                     onClick={() => setSelectedEvent(event)}
-                    className={`inline-flex items-center gap-1.5 px-2 py-0.5 text-xs rounded whitespace-nowrap flex-shrink-0 cursor-pointer active:brightness-90 transition-all ${
+                    onMouseEnter={() => setHoveredEvent(event)}
+                    onMouseLeave={() => setHoveredEvent(null)}
+                    className={`inline-flex items-center gap-1.5 px-2 py-0.5 text-xs rounded whitespace-nowrap flex-shrink-0 cursor-pointer transition-all ${
+                      hoveredEvent === event
+                        ? 'ring-2 ring-offset-1 ring-blue-500 scale-105'
+                        : hoveredEvent ? 'opacity-50' : ''
+                    } ${
                       event.type === 'crash'
                         ? 'bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-400'
                         : event.type === 'positive'
