@@ -22,7 +22,24 @@ export function Dashboard() {
   const [filters, setFilters] = useState({});
   const [showHistoryModal, setShowHistoryModal] = useState(false);
   const [historyExpanded, setHistoryExpanded] = useState(false);
+  const [searchId, setSearchId] = useState('');
+  const [searchedComplaint, setSearchedComplaint] = useState(null);
+  const [searchError, setSearchError] = useState(null);
   const { data, loading, error, lastUpdated, isLive, totalCount } = useComplaints(filters);
+
+  // Search for complaint by ID
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (!searchId.trim()) return;
+    const found = data.find(c => String(c.complaint_id) === searchId.trim());
+    if (found) {
+      setSearchedComplaint(found);
+      setSearchError(null);
+    } else {
+      setSearchError(`Complaint #${searchId} not found`);
+      setSearchedComplaint(null);
+    }
+  };
 
   // Get most recent complaint date
   const latestDate = useMemo(() => {
@@ -118,6 +135,31 @@ export function Dashboard() {
           </div>
         </div>
       </header>
+
+      {/* Complaint Search Bar */}
+      <div className="bg-gray-50 dark:bg-gray-800/50 border-b border-gray-200 dark:border-gray-700">
+        <div className="max-w-7xl mx-auto px-3 py-2 sm:px-6">
+          <form onSubmit={handleSearch} className="flex items-center gap-2">
+            <label className="text-xs text-gray-500 dark:text-gray-400 hidden sm:block">Search:</label>
+            <input
+              type="text"
+              value={searchId}
+              onChange={(e) => { setSearchId(e.target.value); setSearchError(null); }}
+              placeholder="Complaint ID (e.g. 17918037)"
+              className="flex-1 max-w-xs px-3 py-1.5 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+            <button
+              type="submit"
+              className="px-3 py-1.5 text-sm font-medium bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Find
+            </button>
+            {searchError && (
+              <span className="text-xs text-red-500">{searchError}</span>
+            )}
+          </form>
+        </div>
+      </div>
 
       <main className="max-w-7xl mx-auto px-2 py-4 sm:px-6 sm:py-6 lg:px-8">
         {/* Filters */}
@@ -272,6 +314,76 @@ export function Dashboard() {
               <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
                 Total: {data.length.toLocaleString()} complaints
               </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Searched Complaint Modal */}
+      {searchedComplaint && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={() => setSearchedComplaint(null)}>
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-4 border-b dark:border-gray-700 flex justify-between items-start sticky top-0 bg-white dark:bg-gray-800">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Complaint #{searchedComplaint.complaint_id}
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  {searchedComplaint.date_received && new Date(searchedComplaint.date_received).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </p>
+              </div>
+              <button
+                onClick={() => setSearchedComplaint(null)}
+                className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
+              >
+                <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="p-4 space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">Company</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.company || 'N/A'}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">Product</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.product || 'N/A'}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">Issue</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.issue || 'N/A'}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">State</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.state || 'N/A'}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">Company Response</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.company_response || 'N/A'}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase">Timely?</p>
+                  <p className="text-sm font-medium text-gray-900 dark:text-white">{searchedComplaint.timely || 'N/A'}</p>
+                </div>
+              </div>
+              {searchedComplaint.complaint_what_happened && (
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 uppercase mb-1">Consumer Narrative</p>
+                  <p className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg max-h-64 overflow-y-auto">
+                    {searchedComplaint.complaint_what_happened}
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="p-4 border-t dark:border-gray-700 flex justify-end">
+              <button
+                onClick={() => setSearchedComplaint(null)}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
