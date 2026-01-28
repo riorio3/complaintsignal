@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { useTheme } from '../hooks/useTheme';
 import {
   ComposedChart,
@@ -120,14 +120,29 @@ export function PriceCorrelation({ trendData }) {
     );
   };
 
-  // Calculate smart tick interval based on data length and view
+  // Check if mobile (will be used for responsive adjustments)
+  const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' && window.innerWidth < 640);
+
+  // Detect mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 640);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Calculate smart tick interval based on data length, view, and screen size
   const getTickInterval = (expanded) => {
     const dataLength = chartData.length;
+    if (isMobile && !expanded) {
+      // Mobile: show only ~3-4 labels (years only)
+      return Math.max(Math.floor(dataLength / 3), 1);
+    }
     if (!expanded) {
-      // Compact view: show ~5-6 labels max
+      // Desktop compact: show ~5-6 labels
       return Math.max(Math.floor(dataLength / 5), 1);
     }
-    // Expanded view: show ~12-15 labels (roughly yearly)
+    // Expanded view: show ~12-15 labels
     return Math.max(Math.floor(dataLength / 12), 1);
   };
 
@@ -149,35 +164,43 @@ export function PriceCorrelation({ trendData }) {
     return `'${year.slice(2)}`;
   };
 
-  const ChartContent = ({ height = 288 }) => (
+  const ChartContent = ({ height = 288, showEventMarkers = true }) => (
     <ResponsiveContainer width="100%" height={height}>
-      <ComposedChart data={chartData} margin={{ top: 20, right: 45, left: 20, bottom: 5 }}>
+      <ComposedChart
+        data={chartData}
+        margin={isMobile && !isExpanded
+          ? { top: 10, right: 35, left: 0, bottom: 0 }
+          : { top: 20, right: 45, left: 20, bottom: 5 }
+        }
+      >
         <CartesianGrid strokeDasharray="3 3" className="opacity-30" />
         <XAxis
           dataKey="label"
-          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile ? 10 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           interval={getTickInterval(isExpanded)}
           angle={0}
           textAnchor="middle"
-          height={30}
+          height={25}
           tickFormatter={formatXAxisTick}
         />
         <YAxis
           yAxisId="left"
-          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile ? 9 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
-          label={{ value: 'Complaints', angle: -90, position: 'insideLeft', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 }}
+          width={isMobile ? 30 : 50}
+          label={!isMobile || isExpanded ? { value: 'Complaints', angle: -90, position: 'insideLeft', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 } : undefined}
         />
         <YAxis
           yAxisId="right"
           orientation="right"
-          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile ? 9 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
+          width={isMobile ? 35 : 50}
           tickFormatter={(value) => `$${value}k`}
-          label={{ value: 'BTC Price', angle: 90, position: 'insideRight', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 }}
+          label={!isMobile || isExpanded ? { value: 'BTC Price', angle: 90, position: 'insideRight', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 } : undefined}
         />
         <Tooltip
           contentStyle={{
@@ -192,7 +215,7 @@ export function PriceCorrelation({ trendData }) {
             return [value, name];
           }}
         />
-        <Legend />
+        <Legend wrapperStyle={{ fontSize: isMobile ? 10 : 12 }} />
 
         {/* Complaint volume bars */}
         <Bar
@@ -215,8 +238,8 @@ export function PriceCorrelation({ trendData }) {
           dot={isExpanded}
         />
 
-        {/* Event markers on chart - show all events */}
-        {relevantEvents.map((event, i) => {
+        {/* Event markers - hide on mobile compact view to prevent overlap */}
+        {showEventMarkers && !isMobile && relevantEvents.map((event, i) => {
           const eventMonth = event.date.substring(0, 7);
           const dataPoint = chartData.find(d => d.month === eventMonth);
           if (!dataPoint) return null;
@@ -397,7 +420,7 @@ export function PriceCorrelation({ trendData }) {
             </div>
             <div className="p-6">
               <div className="h-[500px]">
-                <ChartContent height={500} />
+                <ChartContent height={500} showEventMarkers={true} />
               </div>
 
               {/* Interactive Event Legend */}
