@@ -166,36 +166,38 @@ export function PriceCorrelation({ trendData }) {
       <ComposedChart
         data={chartData}
         margin={isMobile && !isExpanded
-          ? { top: 10, right: 10, left: 10, bottom: 5 }
+          ? { top: 5, right: 5, left: 0, bottom: 0 }
           : { top: 20, right: 45, left: 20, bottom: 5 }
         }
       >
         <CartesianGrid strokeDasharray="3 3" className="opacity-30" />
         <XAxis
           dataKey="label"
-          tick={{ fontSize: isMobile && !isExpanded ? 10 : 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile && !isExpanded ? 9 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           interval={getTickInterval(isExpanded)}
           angle={0}
           textAnchor="middle"
-          height={30}
+          height={isMobile && !isExpanded ? 18 : 30}
           tickFormatter={formatXAxisTick}
         />
         <YAxis
           yAxisId="left"
-          tick={isMobile && !isExpanded ? false : { fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile && !isExpanded ? 8 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
-          width={isMobile && !isExpanded ? 1 : 50}
+          width={isMobile && !isExpanded ? 28 : 50}
+          tickCount={isMobile && !isExpanded ? 4 : 5}
           label={!isMobile || isExpanded ? { value: 'Complaints', angle: -90, position: 'insideLeft', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 } : undefined}
         />
         <YAxis
           yAxisId="right"
           orientation="right"
-          tick={isMobile && !isExpanded ? false : { fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
+          tick={{ fontSize: isMobile && !isExpanded ? 8 : 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
-          width={isMobile && !isExpanded ? 1 : 50}
+          width={isMobile && !isExpanded ? 32 : 50}
+          tickCount={isMobile && !isExpanded ? 4 : 5}
           tickFormatter={(value) => `$${value}k`}
           label={!isMobile || isExpanded ? { value: 'BTC Price', angle: 90, position: 'insideRight', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 } : undefined}
         />
@@ -212,7 +214,10 @@ export function PriceCorrelation({ trendData }) {
             return [value, name];
           }}
         />
-        {(!isMobile || isExpanded) && <Legend wrapperStyle={{ fontSize: 12 }} />}
+        <Legend
+          wrapperStyle={{ fontSize: isMobile && !isExpanded ? 9 : 12 }}
+          iconSize={isMobile && !isExpanded ? 8 : 14}
+        />
 
         {/* Complaint volume bars */}
         <Bar
@@ -356,7 +361,7 @@ export function PriceCorrelation({ trendData }) {
           </div>
         </div>
 
-        <div className="h-52 sm:h-72">
+        <div className="h-44 sm:h-72 overflow-hidden">
           <ChartContent />
         </div>
 
