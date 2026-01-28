@@ -4,11 +4,8 @@
 
   <p>
     <a href="https://complaintchain.vercel.app">
-      <img src="https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge" alt="Live Demo">
+      <img src="https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge" alt="View Live Demo">
     </a>
-    <img src="https://img.shields.io/badge/complaints-21%2C000%2B-blue?style=for-the-badge" alt="Complaints">
-    <img src="https://img.shields.io/github/stars/riorio3/complaintchain?style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/license/riorio3/complaintchain?style=for-the-badge" alt="License">
   </p>
 
   <p>Track 21,000+ crypto complaints cross-referenced with BTC price and regulatory actions</p>
@@ -67,13 +64,7 @@ Crypto complaints to the CFPB grew **10x** from 2019-2024, yet this data is buri
 
 ## Built With
 
-<p>
-  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white" alt="React">
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Recharts-2-FF6384?logo=chartdotjs&logoColor=white" alt="Recharts">
-  <img src="https://img.shields.io/badge/Vercel-Deploy-000000?logo=vercel&logoColor=white" alt="Vercel">
-</p>
+React 18 / Vite / Tailwind CSS / Recharts / Vercel
 
 ---
 
@@ -118,9 +109,5 @@ MIT
 ---
 
 <div align="center">
-  <p>
-    <a href="https://complaintchain.vercel.app"><strong>Live Demo</strong></a> •
-    <a href="https://github.com/riorio3"><strong>Built by Rio</strong></a>
-  </p>
-  <p>Star this repo if you find it useful!</p>
+  <p>Built by Rio</p>
 </div>
