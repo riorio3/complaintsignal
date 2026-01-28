@@ -158,11 +158,11 @@ export function RegulatoryTimeline() {
         {displayItems.length > 3 && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="absolute bottom-1 right-1 p-1.5 rounded-full bg-gray-200/90 dark:bg-gray-600/90 hover:bg-gray-300 dark:hover:bg-gray-500 transition-all shadow-sm"
+            className="absolute bottom-1 right-1 p-1.5 rounded-full bg-blue-600 hover:bg-blue-700 dark:bg-gray-600/90 dark:hover:bg-gray-500 transition-all shadow-md"
             title={isExpanded ? 'Collapse' : 'Expand'}
           >
             <svg
-              className={`w-4 h-4 text-gray-600 dark:text-gray-300 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+              className={`w-4 h-4 text-white dark:text-gray-300 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

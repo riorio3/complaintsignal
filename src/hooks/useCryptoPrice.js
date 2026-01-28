@@ -82,12 +82,15 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
   }, [coin]);
 
   const fetchPriceData = useCallback(async () => {
+    let gotLivePrice = false;
+
     try {
       // Fetch current price first (separate, more reliable call)
       const livePrice = await fetchCurrentPrice();
       if (livePrice) {
         setCurrentPrice(livePrice);
         setIsLive(true);
+        gotLivePrice = true;
       }
 
       // Try to fetch historical data from CoinGecko via CORS proxies
@@ -146,7 +149,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
 
       if (processed.length > 0) {
         setPriceData(processed);
-        if (!livePrice) {
+        if (!gotLivePrice) {
           // Only use historical price if live price fetch failed
           const latestPrice = historyData.prices[historyData.prices.length - 1];
           if (latestPrice) {
@@ -175,20 +178,20 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
       setPriceData(fallbackArray);
 
       // Only use fallback price if we didn't get a live price
-      if (!currentPrice) {
+      if (!gotLivePrice) {
         const latestMonth = Object.keys(FALLBACK_PRICES).sort().pop();
         setCurrentPrice({
           price: FALLBACK_PRICES[latestMonth],
           change24h: null,
         });
       }
-      setIsLive(currentPrice !== null);
+      setIsLive(gotLivePrice);
       setLastUpdated(new Date());
       setError(null);
     } finally {
       setLoading(false);
     }
-  }, [coin, days, fetchCurrentPrice, currentPrice]);
+  }, [coin, days, fetchCurrentPrice]);
 
   // Initial fetch
   useEffect(() => {

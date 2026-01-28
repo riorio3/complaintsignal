@@ -20,7 +20,33 @@ import { ThemeToggle } from './ThemeToggle';
 
 export function Dashboard() {
   const [filters, setFilters] = useState({});
+  const [showHistoryModal, setShowHistoryModal] = useState(false);
+  const [historyExpanded, setHistoryExpanded] = useState(false);
   const { data, loading, error, lastUpdated, isLive, totalCount } = useComplaints(filters);
+
+  // Get most recent complaint date
+  const latestDate = useMemo(() => {
+    if (data.length === 0) return null;
+    const dates = data.map(c => c.date_received).filter(Boolean).sort();
+    return dates[dates.length - 1];
+  }, [data]);
+
+  // Group complaints by week for history view
+  const weeklyHistory = useMemo(() => {
+    const weeks = {};
+    data.forEach(c => {
+      if (!c.date_received) return;
+      const date = new Date(c.date_received);
+      // Get Monday of that week
+      const day = date.getDay();
+      const diff = date.getDate() - day + (day === 0 ? -6 : 1);
+      const monday = new Date(date.setDate(diff));
+      const weekKey = monday.toISOString().slice(0, 10);
+      weeks[weekKey] = (weeks[weekKey] || 0) + 1;
+    });
+    return Object.entries(weeks)
+      .sort((a, b) => b[0].localeCompare(a[0]));
+  }, [data]);
 
   // Process data for charts
   const trendData = useMemo(() => groupByMonth(data), [data]);
@@ -75,10 +101,17 @@ export function Dashboard() {
               </p>
             </div>
             <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-              <span className="inline-flex items-center px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
-                {data.length.toLocaleString()}
-                <span className="hidden sm:inline ml-1">Complaints</span>
-              </span>
+              <button
+                onClick={() => setShowHistoryModal(true)}
+                className="flex flex-col items-center px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors cursor-pointer"
+              >
+                <span className="font-semibold">{data.length.toLocaleString()} Complaints</span>
+                {latestDate && (
+                  <span className="text-[10px] font-normal text-blue-600 dark:text-blue-300 opacity-80">
+                    {new Date(latestDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} · weekly
+                  </span>
+                )}
+              </button>
               <ThemeToggle />
             </div>
           </div>
@@ -183,6 +216,65 @@ export function Dashboard() {
           </>
         )}
       </main>
+
+      {/* Weekly History Modal */}
+      {showHistoryModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4" onClick={() => { setShowHistoryModal(false); setHistoryExpanded(false); }}>
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-md max-h-[80vh] flex flex-col" onClick={e => e.stopPropagation()}>
+            <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Weekly Complaint History</h3>
+                <p className="text-xs text-gray-500 dark:text-gray-400">{weeklyHistory.length} weeks of data</p>
+              </div>
+              <button
+                onClick={() => { setShowHistoryModal(false); setHistoryExpanded(false); }}
+                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg"
+              >
+                <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto p-4">
+              <div className="space-y-1">
+                {(historyExpanded ? weeklyHistory : weeklyHistory.slice(0, 20)).map(([week, count]) => {
+                  const maxCount = Math.max(...weeklyHistory.map(([, c]) => c));
+                  const percentage = (count / maxCount) * 100;
+                  return (
+                    <div key={week} className="flex items-center gap-3">
+                      <span className="text-xs text-gray-600 dark:text-gray-400 w-24 flex-shrink-0">
+                        {new Date(week).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' })}
+                      </span>
+                      <div className="flex-1 h-5 bg-gray-100 dark:bg-gray-700 rounded overflow-hidden">
+                        <div
+                          className="h-full bg-blue-500 rounded"
+                          style={{ width: `${percentage}%` }}
+                        />
+                      </div>
+                      <span className="text-xs font-medium text-gray-900 dark:text-white w-10 text-right">
+                        {count}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+              {weeklyHistory.length > 20 && (
+                <button
+                  onClick={() => setHistoryExpanded(!historyExpanded)}
+                  className="w-full mt-3 py-2 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
+                >
+                  {historyExpanded ? 'Show less' : `Show all (${weeklyHistory.length - 20} more weeks)`}
+                </button>
+              )}
+            </div>
+            <div className="p-4 border-t dark:border-gray-700">
+              <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+                Total: {data.length.toLocaleString()} complaints
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
