@@ -70,7 +70,7 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
       <div className="flex justify-between items-start gap-2 mb-3 sm:mb-4">
         <div>
           <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">Complaints by State</h3>
-          <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">Tap a state to filter</p>
+          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-200">Tap a state to filter</p>
         </div>
         {selectedState && (
           <button
@@ -120,9 +120,9 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
 
       {/* Color Legend */}
       <div className="mt-3 sm:mt-4 border-t dark:border-gray-700 pt-3 sm:pt-4">
-        <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">Volume:</p>
+        <p className="text-xs font-medium text-gray-700 dark:text-gray-300 mb-2">Volume:</p>
         <div className="flex items-center gap-0.5 sm:gap-1 mb-2 sm:mb-3">
-          <span className="text-xs text-gray-500 dark:text-gray-400 mr-1">Low</span>
+          <span className="text-xs font-medium text-gray-600 dark:text-gray-300 mr-1">Low</span>
           {COLOR_SCALE.map((color, i) => (
             <div
               key={i}
@@ -130,9 +130,9 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
               style={{ backgroundColor: color }}
             />
           ))}
-          <span className="text-xs text-gray-500 dark:text-gray-400 ml-1">High</span>
+          <span className="text-xs font-medium text-gray-600 dark:text-gray-300 ml-1">High</span>
         </div>
-        <div className="flex items-center justify-between text-xs text-gray-400 dark:text-gray-500 ml-6 mr-6">
+        <div className="flex items-center justify-between text-xs font-medium text-gray-600 dark:text-gray-400 ml-6 mr-6">
           <span>0</span>
           {THRESHOLDS.map((t) => (
             <span key={t}>{t.toLocaleString()}</span>
@@ -143,7 +143,7 @@ function StateHeatmap({ data, selectedState, onStateClick }) {
 
       {/* Top States */}
       <div className="mt-4 border-t dark:border-gray-700 pt-4">
-        <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">Top States:</p>
+        <p className="text-xs font-medium text-gray-700 dark:text-gray-300 mb-2">Top States:</p>
         <div className="flex flex-wrap gap-2">
           {topStates.map(([state, count]) => (
             <button

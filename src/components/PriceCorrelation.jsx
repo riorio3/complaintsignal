@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useTheme } from '../hooks/useTheme';
 import {
   ComposedChart,
   Line,
@@ -17,9 +18,16 @@ import marketEvents from '../data/marketEvents.json';
 import { useCryptoPrice } from '../hooks/useCryptoPrice';
 
 export function PriceCorrelation({ trendData }) {
+  const { isDark } = useTheme();
   const [isExpanded, setIsExpanded] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [hoveredEvent, setHoveredEvent] = useState(null);
+
+  // Dynamic colors for chart based on theme
+  const chartColors = {
+    tickText: isDark ? '#e5e7eb' : '#374151',
+    axisLabel: isDark ? '#ffffff' : '#1f2937',
+  };
 
   // Fetch live BTC price data (refresh every 5 minutes)
   const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive } = useCryptoPrice('bitcoin', 730, 300000);
@@ -147,7 +155,7 @@ export function PriceCorrelation({ trendData }) {
         <CartesianGrid strokeDasharray="3 3" className="opacity-30" />
         <XAxis
           dataKey="label"
-          tick={{ fontSize: 10 }}
+          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           interval={getTickInterval(isExpanded)}
           angle={0}
@@ -157,26 +165,27 @@ export function PriceCorrelation({ trendData }) {
         />
         <YAxis
           yAxisId="left"
-          tick={{ fontSize: 11 }}
+          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
-          label={{ value: 'Complaints', angle: -90, position: 'insideLeft', fontSize: 11 }}
+          label={{ value: 'Complaints', angle: -90, position: 'insideLeft', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 }}
         />
         <YAxis
           yAxisId="right"
           orientation="right"
-          tick={{ fontSize: 11 }}
+          tick={{ fontSize: 11, fill: chartColors.tickText, fontWeight: 500 }}
           tickLine={false}
           axisLine={false}
           tickFormatter={(value) => `$${value}k`}
-          label={{ value: 'BTC Price', angle: 90, position: 'insideRight', fontSize: 11 }}
+          label={{ value: 'BTC Price', angle: 90, position: 'insideRight', fontSize: 11, fill: chartColors.axisLabel, fontWeight: 600 }}
         />
         <Tooltip
           contentStyle={{
-            backgroundColor: 'rgba(255,255,255,0.95)',
-            border: '1px solid #e5e7eb',
+            backgroundColor: 'rgba(17, 24, 39, 0.95)',
+            border: '1px solid #374151',
             borderRadius: '8px',
           }}
+          labelStyle={{ color: '#ffffff', fontWeight: 600 }}
           formatter={(value, name) => {
             if (name === 'Complaints') return [value.toLocaleString(), name];
             if (name === 'BTC Price') return [`$${(value * 1000).toLocaleString()}`, name];
@@ -298,35 +307,26 @@ export function PriceCorrelation({ trendData }) {
               </svg>
             </button>
           </div>
-          <div className="flex items-center justify-between sm:justify-end gap-3">
+          <div className="flex items-center gap-3 sm:gap-4">
             {/* Current BTC Price */}
             {currentPrice && (
-              <div className="text-left sm:text-right">
-                <div className="text-sm font-medium text-gray-900 dark:text-white">
-                  ${currentPrice.price?.toLocaleString()}
-                </div>
-                {currentPrice.change24h !== null && (
-                  <div className={`text-xs ${currentPrice.change24h >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                    {currentPrice.change24h >= 0 ? '↑' : '↓'} {Math.abs(currentPrice.change24h || 0).toFixed(2)}%
-                  </div>
-                )}
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xs text-gray-500 dark:text-gray-400">BTC</span>
+                <span className="text-sm font-bold text-gray-900 dark:text-white">${currentPrice.price?.toLocaleString()}</span>
               </div>
             )}
             {/* Correlation */}
             {correlation !== null && (
-              <div className="text-right">
-                <span className="text-xs text-gray-500 dark:text-gray-400">r=</span>
-                <span className={`font-mono font-medium ${
-                  parseFloat(correlation) > 0 ? 'text-red-600 dark:text-red-400' : 'text-green-600 dark:text-green-400'
-                }`}>
-                  {correlation}
-                </span>
+              <div className={`text-sm font-mono font-bold ${
+                parseFloat(correlation) > 0 ? 'text-red-500' : 'text-green-500'
+              }`}>
+                r={correlation}
               </div>
             )}
-            {/* Expand Button - desktop */}
+            {/* Expand Button */}
             <button
               onClick={() => setIsExpanded(true)}
-              className="hidden sm:block p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+              className="hidden sm:flex p-1.5 rounded-md bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
               title="Expand chart"
             >
               <svg className="w-4 h-4 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -343,7 +343,7 @@ export function PriceCorrelation({ trendData }) {
         {/* Clickable Event Tags - Compact horizontal scroll */}
         <div className="mt-2 pt-2 border-t border-gray-200 dark:border-gray-700/50">
           <div className="flex items-center gap-2">
-            <span className="text-xs text-gray-500 dark:text-gray-500 flex-shrink-0">Events:</span>
+            <span className="text-xs text-gray-600 dark:text-gray-200 flex-shrink-0">Events:</span>
             <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
               {relevantEvents.slice(0, 10).map((event, i) => (
                 <button

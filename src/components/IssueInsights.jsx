@@ -135,6 +135,7 @@ const ISSUE_PATTERNS = [
 export function IssueInsights({ data, onFilterByKeyword }) {
   const [selectedPattern, setSelectedPattern] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showAllModal, setShowAllModal] = useState(false);
 
   // Analyze complaints for each pattern with 30-day trend (exclusive categorization)
   const patternAnalysis = useMemo(() => {
@@ -243,6 +244,12 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">
               Issue Pattern Analysis
             </h3>
+            <button
+              onClick={() => setShowAllModal(true)}
+              className="text-xs sm:text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
+            >
+              View All ({data.length})
+            </button>
           </div>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-1">
             Based on {narrativeCount.toLocaleString()} of {data.length.toLocaleString()} complaints
@@ -362,6 +369,156 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             </div>
           </div>
         </div>
+      )}
+
+      {/* View All Complaints Modal */}
+      {showAllModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-4xl max-h-[90vh] flex flex-col">
+            {/* Modal Header */}
+            <div className="p-4 border-b dark:border-gray-700 flex justify-between items-start">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  All Complaints
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                  {data.length} complaint{data.length !== 1 ? 's' : ''} matching current filters
+                </p>
+              </div>
+              <button
+                onClick={() => setShowAllModal(false)}
+                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              >
+                <svg className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Modal Body - Scrollable List */}
+            <div className="flex-1 overflow-y-auto p-4">
+              {data.length === 0 ? (
+                <p className="text-center text-gray-500 dark:text-gray-400 py-8">No complaints found</p>
+              ) : (
+                <div className="space-y-3">
+                  {[...data]
+                    .sort((a, b) => (b.date_received || '').localeCompare(a.date_received || ''))
+                    .map((complaint, index) => (
+                      <AllComplaintCard key={complaint.complaint_id || index} complaint={complaint} index={index} />
+                    ))}
+                </div>
+              )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="p-4 border-t dark:border-gray-700 flex justify-between items-center">
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                Sorted by date (newest first)
+              </p>
+              <button
+                onClick={() => setShowAllModal(false)}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Simplified complaint card for View All modal
+function AllComplaintCard({ complaint, index }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const formatDate = (dateStr) => {
+    if (!dateStr) return 'Unknown date';
+    try {
+      return format(parseISO(dateStr), 'MMM d, yyyy');
+    } catch {
+      return dateStr;
+    }
+  };
+
+  const narrative = complaint.complaint_what_happened || '';
+  const hasNarrative = narrative.length > 0;
+
+  return (
+    <div className="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 border border-gray-200 dark:border-gray-600">
+      {/* Header Row */}
+      <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-bold text-gray-500 dark:text-gray-400">#{index + 1}</span>
+          <span className="text-sm font-bold text-gray-900 dark:text-white">
+            {complaint.company || 'Unknown Company'}
+          </span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-blue-600 text-white">
+            {complaint.state || 'N/A'}
+          </span>
+          <span className="text-xs font-medium text-gray-700 dark:text-gray-300">
+            {formatDate(complaint.date_received)}
+          </span>
+        </div>
+      </div>
+
+      {/* Issue */}
+      <div className="flex flex-wrap gap-2 mb-2">
+        {complaint.issue && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-purple-600 text-white">
+            {complaint.issue}
+          </span>
+        )}
+        {complaint.sub_issue && (
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-gray-600 text-white">
+            {complaint.sub_issue}
+          </span>
+        )}
+      </div>
+
+      {/* Response */}
+      {complaint.company_response && (
+        <div className="flex items-center gap-2 mb-2">
+          <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-bold ${
+            complaint.company_response.toLowerCase().includes('relief')
+              ? 'bg-emerald-600 text-white'
+              : 'bg-slate-600 text-white'
+          }`}>
+            {complaint.company_response}
+          </span>
+          {complaint.timely === 'Yes' && (
+            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-green-600 text-white">
+              Timely
+            </span>
+          )}
+        </div>
+      )}
+
+      {/* Narrative */}
+      {hasNarrative && (
+        <div className="mt-2">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-xs font-medium text-blue-600 dark:text-blue-400 hover:text-blue-700"
+          >
+            {isExpanded ? 'Hide narrative ↑' : 'Show narrative →'}
+          </button>
+          {isExpanded && (
+            <div className="mt-2 p-3 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600">
+              <p className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-wrap">
+                {narrative}
+              </p>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ID */}
+      {complaint.complaint_id && (
+        <p className="mt-2 text-xs text-gray-400 dark:text-gray-500">ID: {complaint.complaint_id}</p>
       )}
     </div>
   );
