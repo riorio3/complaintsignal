@@ -102,12 +102,6 @@ Issues and PRs welcome.
 
 ---
 
-## License
-
-MIT
-
----
-
 <div align="center">
   <p>Built by Rio</p>
 </div>
