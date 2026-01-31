@@ -17,7 +17,7 @@ function parseDate(str) {
   return { year: y, month: m - 1, day: d };
 }
 
-export function CalendarPicker({ value, onChange, label }) {
+export function CalendarPicker({ value, onChange, label, placeholder }) {
   const parsed = parseDate(value);
   const today = new Date();
   const [open, setOpen] = useState(false);
@@ -75,13 +75,13 @@ export function CalendarPicker({ value, onChange, label }) {
 
   return (
     <div className="relative" ref={ref}>
-      <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{label}</label>
+      {label && <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{label}</label>}
       <button
         type="button"
         onClick={() => { setOpen(!open); setShowYearGrid(false); }}
-        className="w-full text-left rounded-md border-gray-300 dark:border-gray-600 shadow-sm text-sm p-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors"
+        className="text-left rounded-md border-gray-300 dark:border-gray-600 shadow-sm text-xs sm:text-sm py-1.5 px-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors whitespace-nowrap"
       >
-        {displayValue || <span className="text-gray-400">Select date</span>}
+        {displayValue || <span className="text-gray-400">{placeholder || 'Select date'}</span>}
       </button>
 
       {open && (

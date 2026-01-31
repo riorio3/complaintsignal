@@ -34,101 +34,88 @@ export function Filters({ filters, setFilters, companies, issues }) {
   const activeFiltersCount = Object.values(filters).filter(v => v && v !== 'all').length;
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-3 sm:p-4 mb-4 sm:mb-6">
-      <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 sm:gap-4 items-end">
-        <div className="col-span-2 sm:flex-1 sm:min-w-[200px]">
-          <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Company</label>
-          <select
-            value={filters.company || 'all'}
-            onChange={e => handleChange('company', e.target.value)}
-            className="w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm p-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-          >
-            <option value="all">All Companies</option>
-            {companies.map(company => (
-              <option key={company} value={company}>
-                {company.length > 30 ? `${company.substring(0, 30)}...` : company}
-              </option>
-            ))}
-          </select>
-        </div>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow mb-4 sm:mb-6">
+      <div className="flex flex-wrap items-center gap-2 px-3 py-2.5 sm:px-4 sm:py-3">
+        <select
+          value={filters.company || 'all'}
+          onChange={e => handleChange('company', e.target.value)}
+          className="flex-1 min-w-[140px] rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs sm:text-sm py-1.5 px-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+        >
+          <option value="all">All Companies</option>
+          {companies.map(company => (
+            <option key={company} value={company}>
+              {company.length > 30 ? `${company.substring(0, 30)}...` : company}
+            </option>
+          ))}
+        </select>
 
-        <div className="col-span-2 sm:flex-1 sm:min-w-[200px]">
-          <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Issue Type</label>
-          <select
-            value={filters.issue || 'all'}
-            onChange={e => handleChange('issue', e.target.value)}
-            className="w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm p-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-          >
-            <option value="all">All Issues</option>
-            {issues.map(issue => (
-              <option key={issue} value={issue}>
-                {issue.length > 30 ? `${issue.substring(0, 30)}...` : issue}
-              </option>
-            ))}
-          </select>
-        </div>
+        <select
+          value={filters.issue || 'all'}
+          onChange={e => handleChange('issue', e.target.value)}
+          className="flex-1 min-w-[140px] rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs sm:text-sm py-1.5 px-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+        >
+          <option value="all">All Issues</option>
+          {issues.map(issue => (
+            <option key={issue} value={issue}>
+              {issue.length > 30 ? `${issue.substring(0, 30)}...` : issue}
+            </option>
+          ))}
+        </select>
 
-        <div className="col-span-2 sm:col-span-1">
-          <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Date Range</label>
-          <div className="flex rounded-md border border-gray-300 dark:border-gray-600 overflow-hidden">
-            {DATE_RANGES.map(r => (
-              <button
-                key={r.value}
-                onClick={() => handleRange(r.value)}
-                className={`flex-1 px-2 py-2 text-xs sm:text-sm font-medium transition-colors ${
-                  rangeMode === r.value
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
-                }`}
-              >
-                {r.label}
-              </button>
-            ))}
-          </div>
+        <div className="flex items-center rounded-md border border-gray-300 dark:border-gray-600 overflow-hidden">
+          {DATE_RANGES.map(r => (
+            <button
+              key={r.value}
+              onClick={() => handleRange(r.value)}
+              className={`px-2.5 py-1.5 text-xs sm:text-sm font-medium transition-colors ${
+                rangeMode === r.value
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
+              }`}
+            >
+              {r.label}
+            </button>
+          ))}
         </div>
 
         {rangeMode === 'custom' && (
           <>
-            <div className="col-span-1">
-              <CalendarPicker
-                label="From"
-                value={filters.dateFrom || ''}
-                onChange={v => handleChange('dateFrom', v || undefined)}
-              />
-            </div>
-            <div className="col-span-1">
-              <CalendarPicker
-                label="To"
-                value={filters.dateTo || ''}
-                onChange={v => handleChange('dateTo', v || undefined)}
-              />
-            </div>
+            <CalendarPicker
+              label=""
+              placeholder="From"
+              value={filters.dateFrom || ''}
+              onChange={v => handleChange('dateFrom', v || undefined)}
+            />
+            <CalendarPicker
+              label=""
+              placeholder="To"
+              value={filters.dateTo || ''}
+              onChange={v => handleChange('dateTo', v || undefined)}
+            />
           </>
         )}
 
-        <button
-          onClick={() => { setFilters({}); setRangeMode('all'); }}
-          className="col-span-2 sm:col-span-1 px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-        >
-          Reset {activeFiltersCount > 0 && `(${activeFiltersCount})`}
-        </button>
-      </div>
-
-      {/* Active state filter indicator */}
-      {filters.state && (
-        <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-          <span className="text-sm text-gray-600 dark:text-gray-400">
-            Filtering by state:{' '}
+        {filters.state && (
+          <span className="flex items-center gap-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/30 px-2.5 py-1.5 rounded-md">
             <span className="font-medium text-blue-600 dark:text-blue-400">{filters.state}</span>
             <button
               onClick={() => handleChange('state', null)}
-              className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+              className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 ml-0.5"
             >
               ✕
             </button>
           </span>
-        </div>
-      )}
+        )}
+
+        {activeFiltersCount > 0 && (
+          <button
+            onClick={() => { setFilters({}); setRangeMode('all'); }}
+            className="px-2.5 py-1.5 text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors"
+          >
+            Reset ({activeFiltersCount})
+          </button>
+        )}
+      </div>
     </div>
   );
 }
