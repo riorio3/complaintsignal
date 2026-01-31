@@ -3,7 +3,7 @@
   <p><strong>Crypto Complaint Intelligence Dashboard</strong></p>
 
   <p>
-    <a href="https://complaintsignal.vercel.app">
+    <a href="https://complaintsignal.com">
       <img src="https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge" alt="View Live Demo">
     </a>
   </p>
