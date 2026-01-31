@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>ComplaintChain</h1>
+  <h1>ComplaintSignal</h1>
   <p><strong>Crypto Complaint Intelligence Dashboard</strong></p>
 
   <p>
-    <a href="https://complaintchain.vercel.app">
+    <a href="https://complaintsignal.vercel.app">
       <img src="https://img.shields.io/badge/View_Live_Demo-000000?style=for-the-badge" alt="View Live Demo">
     </a>
   </p>
@@ -14,7 +14,7 @@
 ---
 
 ## Table of Contents
-- [Why ComplaintChain?](#why-complaintchain)
+- [Why ComplaintSignal?](#why-complaintsignal)
 - [Features](#features)
 - [Key Insights](#key-insights)
 - [Built With](#built-with)
@@ -23,9 +23,9 @@
 
 ---
 
-## Why ComplaintChain?
+## Why ComplaintSignal?
 
-Crypto complaints to the CFPB grew **10x** from 2019-2024, yet this data is buried in government databases. ComplaintChain makes it accessible, visual, and actionable.
+Crypto complaints to the CFPB grew **10x** from 2019-2024, yet this data is buried in government databases. ComplaintSignal makes it accessible, visual, and actionable.
 
 **Use cases:**
 - Research crypto company reputation before investing

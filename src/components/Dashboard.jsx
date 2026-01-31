@@ -109,7 +109,7 @@ export function Dashboard() {
           <div className="flex items-center justify-between gap-2">
             <div className="min-w-0">
               <h1 className="text-base sm:text-2xl font-bold text-gray-900 dark:text-white leading-tight">
-                ComplaintChain
+                ComplaintSignal
               </h1>
               <p className="text-[9px] sm:text-sm text-blue-600 dark:text-blue-400 font-medium">
                 Crypto Complaint Intelligence
