@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CalendarPicker } from './CalendarPicker';
 
 const DATE_RANGES = [
   { label: 'All Time', value: 'all' },
@@ -89,21 +90,17 @@ export function Filters({ filters, setFilters, companies, issues }) {
         {rangeMode === 'custom' && (
           <>
             <div className="col-span-1">
-              <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">From</label>
-              <input
-                type="date"
+              <CalendarPicker
+                label="From"
                 value={filters.dateFrom || ''}
-                onChange={e => handleChange('dateFrom', e.target.value)}
-                className="w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm p-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                onChange={v => handleChange('dateFrom', v || undefined)}
               />
             </div>
             <div className="col-span-1">
-              <label className="block text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">To</label>
-              <input
-                type="date"
+              <CalendarPicker
+                label="To"
                 value={filters.dateTo || ''}
-                onChange={e => handleChange('dateTo', e.target.value)}
-                className="w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-sm p-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                onChange={v => handleChange('dateTo', v || undefined)}
               />
             </div>
           </>
