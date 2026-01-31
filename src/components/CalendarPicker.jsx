@@ -85,7 +85,7 @@ export function CalendarPicker({ value, onChange, label, placeholder }) {
       </button>
 
       {open && (
-        <div className="absolute z-50 mt-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-xl p-3 w-64">
+        <div className="absolute right-0 z-50 mt-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-xl p-3 w-64">
           {/* Header: month/year nav */}
           <div className="flex items-center justify-between mb-2">
             <button type="button" onClick={prevMonth} className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded text-gray-600 dark:text-gray-300">
