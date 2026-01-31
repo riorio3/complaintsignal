@@ -45,6 +45,15 @@ const DocumentTextIcon = ({ className }) => (
   </svg>
 );
 
+// Escape special regex characters in a string
+const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Test if keyword appears as a whole word/phrase in text
+const matchesWholeWord = (text, keyword) => {
+  const pattern = new RegExp('\\b' + escapeRegex(keyword) + '\\b', 'i');
+  return pattern.test(text);
+};
+
 // Issue patterns with descriptions for QC analysts
 // Keywords are ordered by specificity - more specific phrases first
 const ISSUE_PATTERNS = [
@@ -52,6 +61,8 @@ const ISSUE_PATTERNS = [
     id: 'locked_account',
     label: 'Account Access',
     keywords: [
+      'account locked', 'account frozen', 'account suspended', 'account closure',
+      'locked me out', 'unable to access', "can't access my account",
       'locked', 'locked out', 'lock',
       'suspended', 'suspension',
       'frozen', 'freeze',
@@ -71,6 +82,7 @@ const ISSUE_PATTERNS = [
     id: 'verification',
     label: 'Verification Issues',
     keywords: [
+      'identity verification', 'verification process', 'upload documents', 'pending verification',
       'verification', 'verify', 'verified',
       'kyc', 'know your customer',
       'identity', 'id verification',
@@ -90,6 +102,8 @@ const ISSUE_PATTERNS = [
     id: 'withdrawal',
     label: 'Withdrawal Problems',
     keywords: [
+      "can't withdraw", 'withdrawal pending', 'funds stuck', 'money stuck',
+      "won't let me withdraw",
       'withdraw', 'withdrawal', 'withdrawing',
       'transfer out', 'send out',
       'cash out', 'cashing out',
@@ -108,7 +122,8 @@ const ISSUE_PATTERNS = [
     id: 'customer_service',
     label: 'Support Response',
     keywords: [
-      'support', 'customer support', 'customer service',
+      'customer service', 'no help', 'no reply', 'unresponsive',
+      'support', 'customer support',
       'no response', 'not responding', 'never responded',
       'waiting', 'waited', 'still waiting',
       'ignored', 'ignoring',
@@ -127,6 +142,7 @@ const ISSUE_PATTERNS = [
     id: 'fraud',
     label: 'Fraud/Scam Reports',
     keywords: [
+      'unauthorized transaction', 'unauthorized access', 'money stolen', 'account hacked',
       'scam', 'scammed', 'scammer',
       'fraud', 'fraudulent', 'defrauded',
       'stolen', 'stole', 'stealing', 'theft',
@@ -148,11 +164,12 @@ const ISSUE_PATTERNS = [
     id: 'fees',
     label: 'Fee Disputes',
     keywords: [
+      'unexpected fee', 'hidden charge', 'excessive fee', 'fee charged',
       'fee', 'fees',
       'charge', 'charged', 'charges',
       'cost', 'costs',
       'expensive', 'overcharged',
-      'hidden', 'hidden fees', 'undisclosed',
+      'hidden fees', 'undisclosed',
       'commission', 'spread',
       'converted', 'conversion fee',
       'unexpected charge', 'surprise fee'
@@ -194,20 +211,26 @@ export function IssueInsights({ data, onFilterByKeyword }) {
     const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
     const sixtyDaysAgo = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000);
 
+    // Pre-compile regex patterns for whole-word matching (once per memo)
+    const compiledPatterns = ISSUE_PATTERNS.map(p => ({
+      ...p,
+      regexes: p.keywords.map(kw => new RegExp('\\b' + escapeRegex(kw) + '\\b', 'i'))
+    }));
+
     // Step 1: Assign each complaint to exactly ONE category (highest keyword match count)
     const categorizedComplaints = new Map();
     ISSUE_PATTERNS.forEach(p => categorizedComplaints.set(p.id, []));
 
     narrativeComplaints.forEach(complaint => {
-      const text = complaint.complaint_what_happened.toLowerCase();
+      const text = complaint.complaint_what_happened;
 
       let bestPatternId = 'other';
       let bestScore = 0;
 
       // Find category with most keyword matches (excluding 'other' which has no keywords)
-      ISSUE_PATTERNS.forEach(pattern => {
+      compiledPatterns.forEach(pattern => {
         if (pattern.id === 'other') return;
-        const score = pattern.keywords.filter(kw => text.includes(kw)).length;
+        const score = pattern.regexes.filter(rx => rx.test(text)).length;
         if (score > bestScore) {
           bestScore = score;
           bestPatternId = pattern.id;
@@ -726,15 +749,14 @@ function NarrativeCard({ complaint, index, keywords }) {
     if (!text || !keywords) return escapeHtml(text);
 
     const escapedText = escapeHtml(text);
-    const lowerText = escapedText.toLowerCase();
 
-    // Find all keyword matches and their positions
+    // Find all whole-word keyword matches and their positions
     const matches = [];
     keywords.forEach(keyword => {
-      let pos = lowerText.indexOf(keyword.toLowerCase());
-      while (pos !== -1) {
-        matches.push({ start: pos, end: pos + keyword.length });
-        pos = lowerText.indexOf(keyword.toLowerCase(), pos + 1);
+      const regex = new RegExp('\\b' + escapeRegex(keyword) + '\\b', 'gi');
+      let match;
+      while ((match = regex.exec(escapedText)) !== null) {
+        matches.push({ start: match.index, end: match.index + match[0].length });
       }
     });
 
