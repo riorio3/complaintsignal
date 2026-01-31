@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { format, parseISO } from 'date-fns';
 import { getComplaintsWithNarratives } from '../utils/textAnalysis';
+import aiClassifications from '../data/classifications.json';
 
 // SVG Icon components
 const LockIcon = ({ className }) => (
@@ -222,12 +223,20 @@ export function IssueInsights({ data, onFilterByKeyword }) {
     ISSUE_PATTERNS.forEach(p => categorizedComplaints.set(p.id, []));
 
     narrativeComplaints.forEach(complaint => {
-      const text = complaint.complaint_what_happened;
+      const id = String(complaint.complaint_id);
+      const aiCategory = aiClassifications[id];
 
+      // Use AI classification if available and valid
+      if (aiCategory && categorizedComplaints.has(aiCategory)) {
+        categorizedComplaints.get(aiCategory).push(complaint);
+        return;
+      }
+
+      // Fallback to keyword matching
+      const text = complaint.complaint_what_happened;
       let bestPatternId = 'other';
       let bestScore = 0;
 
-      // Find category with most keyword matches (excluding 'other' which has no keywords)
       compiledPatterns.forEach(pattern => {
         if (pattern.id === 'other') return;
         const score = pattern.regexes.filter(rx => rx.test(text)).length;

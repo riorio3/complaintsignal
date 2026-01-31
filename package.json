@@ -8,9 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-data": "node scripts/fetch-cfpb-data.cjs"
+    "fetch-data": "node scripts/fetch-cfpb-data.cjs",
+    "classify": "node scripts/classify-complaints.cjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.1",
+    "@google/generative-ai": "^0.21.0",
     "d3-scale": "^4.0.2",
     "date-fns": "^4.1.0",
     "prop-types": "^15.8.1",

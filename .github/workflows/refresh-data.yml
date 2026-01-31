@@ -52,10 +52,16 @@ jobs:
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
 
+      - name: Classify complaints with AI
+        run: node scripts/classify-complaints.cjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet src/data/complaints.json; then
+          if git diff --quiet src/data/complaints.json src/data/classifications.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No changes detected in complaints data"
           else
@@ -80,7 +86,7 @@ jobs:
           AFTER=${{ steps.after.outputs.count }}
           DIFF=$((AFTER - BEFORE))
 
-          git add src/data/complaints.json
+          git add src/data/complaints.json src/data/classifications.json
           git commit -m "chore: refresh CFPB complaint data
 
           Updated complaints: $BEFORE -> $AFTER (+$DIFF new)

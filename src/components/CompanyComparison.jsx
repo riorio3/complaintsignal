@@ -1,21 +1,9 @@
 import { useState, useMemo, useRef } from 'react';
 import { format, parseISO } from 'date-fns';
+import aiClassifications from '../data/classifications.json';
 
 // Colors for bars
 const COLORS = ['#1d4ed8', '#2563eb', '#3b82f6', '#0369a1', '#0891b2', '#0d9488', '#059669'];
-
-// Fraud keywords for detection (matches textAnalysis.js)
-const FRAUD_KEYWORDS = [
-  'scam', 'scammed', 'scammer',
-  'fraud', 'fraudulent', 'defrauded',
-  'stolen', 'stole', 'stealing', 'theft',
-  'hacked', 'hack', 'hacker', 'hacking',
-  'unauthorized', 'unauthorised',
-  'phishing', 'phished',
-  'fake', 'impersonator', 'impersonation',
-  'identity theft', 'criminals', 'criminal',
-  'compromised', 'breached'
-];
 
 export function CompanyComparison({ data, rawData = [] }) {
   const [sortBy, setSortBy] = useState('total');
@@ -36,11 +24,10 @@ export function CompanyComparison({ data, rawData = [] }) {
       // Get complaints for this company
       const companyComplaints = rawData.filter(c => c.company === company.company);
 
-      // Calculate fraud rate
+      // Calculate fraud rate from AI classifications
       const fraudCount = companyComplaints.filter(c => {
-        const narrative = (c.complaint_what_happened || '').toLowerCase();
-        const issue = (c.issue || '').toLowerCase();
-        return FRAUD_KEYWORDS.some(kw => narrative.includes(kw) || issue.includes(kw));
+        const id = String(c.complaint_id);
+        return aiClassifications[id] === 'fraud';
       }).length;
       const fraudRate = companyComplaints.length > 0
         ? Math.round((fraudCount / companyComplaints.length) * 100)

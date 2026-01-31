@@ -7,7 +7,8 @@ import {
   getUniqueIssues,
   getUniqueCompanies,
 } from '../utils/dataProcessing';
-import { calculateFraudRate, getComplaintsWithNarratives } from '../utils/textAnalysis';
+import { getComplaintsWithNarratives } from '../utils/textAnalysis';
+import aiClassifications from '../data/classifications.json';
 import { MetricCard } from './MetricCard';
 import { TrendChart } from './TrendChart';
 import { CompanyComparison } from './CompanyComparison';
@@ -69,7 +70,11 @@ export function Dashboard() {
   const trendData = useMemo(() => groupByMonth(data), [data]);
   const companyData = useMemo(() => groupByCompany(data), [data]);
   const metrics = useMemo(() => calculateMetrics(data), [data]);
-  const fraudRate = useMemo(() => calculateFraudRate(data), [data]);
+  const fraudRate = useMemo(() => {
+    if (!data || data.length === 0) return 0;
+    const fraudCount = data.filter(c => aiClassifications[String(c.complaint_id)] === 'fraud').length;
+    return Math.round((fraudCount / data.length) * 100);
+  }, [data]);
   const narrativeData = useMemo(() => getComplaintsWithNarratives(data), [data]);
 
   // Get filter options from data
@@ -193,7 +198,7 @@ export function Dashboard() {
               <MetricCard
                 title="Fraud-Related"
                 value={`${fraudRate}%`}
-                subtitle="Mentions scam, hack, stolen"
+                subtitle="AI-classified fraud complaints"
               />
               <MetricCard
                 title="With Narratives"
