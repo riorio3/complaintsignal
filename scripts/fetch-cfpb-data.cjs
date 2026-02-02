@@ -23,6 +23,55 @@ const CONFIG = {
   RETRY_DELAY_MS: 2000,
 };
 
+// Pure crypto companies — keep ALL complaints
+const PURE_CRYPTO_COMPANIES = new Set([
+  'Coinbase, Inc.',
+  'Foris DAX, Inc.',
+  'Winklevoss Exchange LLC',
+  'BAM Management US Holdings Inc.',
+  'Payward Ventures Inc. dba Kraken',
+  'Blockchain.com, Inc.',
+  'Abra',
+  'BlockFi Inc',
+  'Paxos Trust Company, LLC',
+  'Voyager Digital (Canada) Ltd.',
+  'Celsius Network LLC',
+  'FTX Trading Ltd.',
+]);
+
+// Mixed companies — filter to crypto-relevant sub_products only
+const MIXED_COMPANIES = new Set([
+  'Block, Inc.',
+  'Paypal Holdings, Inc',
+  'ROBINHOOD MARKETS INC.',
+]);
+
+// Sub-products to keep for mixed companies
+const CRYPTO_SUB_PRODUCTS = new Set([
+  'Virtual currency',
+  'Mobile or digital wallet',
+  'Domestic (US) money transfer',
+  'International money transfer',
+  'Foreign currency exchange',
+  'Other banking product or service',
+  'Checking account',
+  'Savings account',
+  'General-purpose prepaid card',
+  'General-purpose credit card or charge card',
+  'I do not know',
+]);
+
+function isCryptoRelevant(hit) {
+  const company = hit._source?.company || '';
+  if (PURE_CRYPTO_COMPANIES.has(company)) return true;
+  if (MIXED_COMPANIES.has(company)) {
+    const subProduct = hit._source?.sub_product || '';
+    return CRYPTO_SUB_PRODUCTS.has(subProduct);
+  }
+  // Unknown company (e.g. from old data) — keep as-is
+  return true;
+}
+
 // Crypto-related companies to fetch
 const CRYPTO_COMPANIES = [
   'Block, Inc.',
@@ -251,9 +300,16 @@ async function main() {
       process.exit(1);
     }
 
+    // Filter new hits to crypto-relevant complaints only
+    const filteredHits = newHits.filter(isCryptoRelevant);
+    const droppedCount = newHits.length - filteredHits.length;
+    if (droppedCount > 0) {
+      console.log(`Filtered out ${droppedCount} non-crypto complaints from mixed companies`);
+    }
+
     // Merge: deduplicate by _id
     let addedCount = 0;
-    for (const hit of newHits) {
+    for (const hit of filteredHits) {
       if (!existing.ids.has(hit._id)) {
         existing.hits.push(hit);
         existing.ids.add(hit._id);
