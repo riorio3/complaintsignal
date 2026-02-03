@@ -231,7 +231,11 @@ export function PriceCorrelation({ trendData }) {
   }), [isDark]);
 
   // Fetch live BTC price data (refresh every 5 minutes)
-  const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive } = useCryptoPrice('bitcoin', 730, 300000);
+  const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive, dataSource } = useCryptoPrice('bitcoin', 730, 300000);
+
+  // Check if data is stale (older than 10 minutes)
+  const isStale = lastUpdated && (Date.now() - lastUpdated.getTime() > 10 * 60 * 1000);
+  const isFallback = dataSource === 'fallback';
 
   // Merge complaint data with price data
   const chartData = useMemo(() => {
@@ -334,11 +338,28 @@ export function PriceCorrelation({ trendData }) {
               <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white">
                 BTC Price vs Complaints
               </h3>
-              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1">
                 {priceLoading ? 'Loading...' : (
                   <>
-                    {isLive ? '● Live' : 'Static'}
-                    {lastUpdated && <span className="hidden sm:inline ml-1">(Updated {formatTime(lastUpdated)})</span>}
+                    {isFallback ? (
+                      <span className="text-red-500 flex items-center gap-1" title="Using static fallback data - API unavailable">
+                        <span className="w-2 h-2 rounded-full bg-red-500"></span>
+                        Static
+                      </span>
+                    ) : isStale ? (
+                      <span className="text-amber-500 flex items-center gap-1" title={`Data may be outdated (last updated ${formatTime(lastUpdated)})`}>
+                        <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+                        Stale
+                      </span>
+                    ) : isLive ? (
+                      <span className="text-green-500 flex items-center gap-1" title={dataSource ? `Source: ${dataSource}` : 'Live data'}>
+                        <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                        Live
+                      </span>
+                    ) : (
+                      <span>Static</span>
+                    )}
+                    {lastUpdated && <span className="hidden sm:inline ml-1 text-gray-400">({formatTime(lastUpdated)})</span>}
                   </>
                 )}
               </p>

@@ -8,14 +8,18 @@ const CORS_PROXIES = [
 ];
 const COINGECKO_API = 'https://api.coingecko.com/api/v3';
 
+// Alternative APIs (no CORS issues, more reliable)
+const BINANCE_API = 'https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT';
+const COINCAP_API = 'https://api.coincap.io/v2/assets/bitcoin';
+
 // Cache configuration
 const CACHE_KEY = 'btc_price_cache';
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 
 // Reduced timeout for faster failure detection
-const REQUEST_TIMEOUT = 3000;
+const REQUEST_TIMEOUT = 2000;
 
-// Fallback static data in case API fails (2019 through Jan 2026)
+// Fallback static data in case API fails (2019 through Feb 2026)
 const FALLBACK_PRICES = {
   // 2019 - Bear Market Recovery
   '2019-01': 3600, '2019-02': 3800, '2019-03': 4000, '2019-04': 5200,
@@ -45,8 +49,9 @@ const FALLBACK_PRICES = {
   '2025-01': 102000, '2025-02': 96000, '2025-03': 82000, '2025-04': 84000,
   '2025-05': 103000, '2025-06': 106000, '2025-07': 97000, '2025-08': 59000,
   '2025-09': 63000, '2025-10': 69000, '2025-11': 96000, '2025-12': 94000,
-  // 2026 - Current Year
-  '2026-01': 83000,
+  // 2026 - Current Year (updated with accurate prices)
+  '2026-01': 97000, // January started high, dropped by end
+  '2026-02': 98000, // Current accurate price range
 };
 
 // Pre-computed fallback array (optimization: avoid repeated conversion)
@@ -72,6 +77,34 @@ async function fetchWithProxyRace(url, timeout = REQUEST_TIMEOUT) {
 
   // Promise.any returns first fulfilled promise
   return Promise.any(fetchPromises);
+}
+
+// Fetch current price from Binance (no CORS, very reliable)
+async function fetchFromBinance(timeout = REQUEST_TIMEOUT) {
+  const response = await fetch(BINANCE_API, {
+    signal: AbortSignal.timeout(timeout),
+  });
+  if (!response.ok) throw new Error('Binance API error');
+  const data = await response.json();
+  return {
+    price: Math.round(parseFloat(data.price)),
+    change24h: null, // Binance ticker doesn't include 24h change
+    source: 'binance',
+  };
+}
+
+// Fetch current price from CoinCap (no CORS, generous limits)
+async function fetchFromCoinCap(timeout = REQUEST_TIMEOUT) {
+  const response = await fetch(COINCAP_API, {
+    signal: AbortSignal.timeout(timeout),
+  });
+  if (!response.ok) throw new Error('CoinCap API error');
+  const data = await response.json();
+  return {
+    price: Math.round(parseFloat(data.data.priceUsd)),
+    change24h: parseFloat(data.data.changePercent24Hr),
+    source: 'coincap',
+  };
 }
 
 // Load cached data from localStorage
@@ -109,6 +142,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
   const [error, setError] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
   const [isLive, setIsLive] = useState(false);
+  const [dataSource, setDataSource] = useState(null); // 'binance', 'coincap', 'coingecko', 'cache', or 'fallback'
   const isFetching = useRef(false);
 
   // Load cached data on mount (instant display)
@@ -119,23 +153,42 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
       setCurrentPrice(cached.currentPrice);
       setLoading(false);
       setIsLive(true);
+      setDataSource('cache');
     }
   }, []);
 
-  // Fetch current price (races all proxies)
+  // Fetch current price with cascading fallback: CoinCap → Binance → CoinGecko
+  // Priority order considers: reliability, CORS-friendliness, geo-availability
   const fetchCurrentPrice = useCallback(async () => {
-    const priceUrl = `${COINGECKO_API}/simple/price?ids=${coin}&vs_currencies=usd&include_24hr_change=true`;
+    // Try CoinCap first (no CORS, includes 24h change, widely available)
+    try {
+      const result = await fetchFromCoinCap();
+      if (result?.price) return result;
+    } catch {
+      // CoinCap failed, try next
+    }
 
+    // Try Binance second (no CORS, very reliable but geo-restricted in some regions)
+    try {
+      const result = await fetchFromBinance();
+      if (result?.price) return result;
+    } catch {
+      // Binance failed, try next
+    }
+
+    // Try CoinGecko with CORS proxies as last resort
+    const priceUrl = `${COINGECKO_API}/simple/price?ids=${coin}&vs_currencies=usd&include_24hr_change=true`;
     try {
       const data = await fetchWithProxyRace(priceUrl);
       if (data[coin]) {
         return {
           price: Math.round(data[coin].usd),
           change24h: data[coin].usd_24h_change,
+          source: 'coingecko',
         };
       }
     } catch {
-      // All proxies failed
+      // All sources failed
     }
     return null;
   }, [coin]);
@@ -174,6 +227,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
       if (priceResult.status === 'fulfilled' && priceResult.value) {
         setCurrentPrice(priceResult.value);
         setIsLive(true);
+        setDataSource(priceResult.value.source || 'api');
         gotLivePrice = true;
       }
 
@@ -233,6 +287,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
             price: FALLBACK_PRICES[latestMonth],
             change24h: null,
           });
+          setDataSource('fallback');
         }
       }
 
@@ -249,6 +304,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
         change24h: null,
       });
       setIsLive(false);
+      setDataSource('fallback');
       setLastUpdated(new Date());
       setError(null);
     } finally {
@@ -274,5 +330,5 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
     return () => clearInterval(interval);
   }, [fetchPriceData, refreshInterval]);
 
-  return { priceData, currentPrice, loading, error, lastUpdated, isLive, refetch: fetchPriceData };
+  return { priceData, currentPrice, loading, error, lastUpdated, isLive, dataSource, refetch: fetchPriceData };
 }
