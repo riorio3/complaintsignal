@@ -13,14 +13,48 @@ const AGENCY_COLORS = {
   NEWS: 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
 };
 
+const ITEMS_PER_PAGE = 10;
+
+function NewsItem({ item, formatDate }) {
+  return (
+    <div className="flex items-start gap-1.5 sm:gap-3 p-1.5 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50">
+      <div className="flex-shrink-0 w-14 sm:w-20 text-[9px] sm:text-xs font-medium text-gray-700 dark:text-gray-200">
+        {formatDate(item.date)}
+      </div>
+      <div className="flex-1 min-w-0 overflow-x-auto">
+        <div className="flex items-center gap-1 sm:gap-2 mb-0.5 sm:mb-1 whitespace-nowrap">
+          <span className={`inline-flex flex-shrink-0 px-1 sm:px-2 py-0.5 text-[9px] sm:text-xs font-medium rounded ${AGENCY_COLORS[item.agency] || 'bg-gray-100 text-gray-800 dark:bg-gray-600 dark:text-gray-200'}`}>
+            {item.agency}
+          </span>
+          <span className="text-[10px] sm:text-sm font-medium text-gray-900 dark:text-white">
+            {item.target}
+          </span>
+        </div>
+        <p className="text-[9px] sm:text-sm text-gray-600 dark:text-gray-300 line-clamp-2 sm:line-clamp-none whitespace-nowrap sm:whitespace-normal">
+          {item.description}
+        </p>
+        {item.url && (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[9px] sm:text-xs text-blue-600 dark:text-blue-400 hover:underline mt-0.5 sm:mt-1 inline-block"
+          >
+            Source →
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export function RegulatoryTimeline() {
   const [selectedAgency, setSelectedAgency] = useState('all');
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const [showHistorical, setShowHistorical] = useState(false);
 
-  // Fetch live news with 60-second refresh
   const { news: liveNews, loading, lastUpdated } = useRegulatoryNews(60000);
 
-  // Get unique agencies from both sources
   const agencies = useMemo(() => {
     const agencySet = new Set([
       ...regulatoryActions.map(a => a.agency),
@@ -29,26 +63,30 @@ export function RegulatoryTimeline() {
     return ['all', ...Array.from(agencySet).sort()];
   }, [liveNews]);
 
-  // Combine ALL items (live news + historical) and sort by date
-  const displayItems = useMemo(() => {
-    const liveItems = liveNews.map(item => ({
+  // Live/cached news feed — strictly chronological
+  const newsItems = useMemo(() => {
+    const items = liveNews.map(item => ({
       date: item.date,
       agency: item.agency,
       target: item.title,
       description: item.description,
       url: item.url,
-      isRecent: true,
     }));
 
-    const historicalItems = regulatoryActions.map(item => ({
-      ...item,
-      isRecent: false,
-    }));
-
-    return [...liveItems, ...historicalItems]
+    return items
       .filter(item => selectedAgency === 'all' || item.agency === selectedAgency)
       .sort((a, b) => new Date(b.date) - new Date(a.date));
   }, [liveNews, selectedAgency]);
+
+  // Historical notable enforcement actions — separate section
+  const historicalItems = useMemo(() => {
+    return regulatoryActions
+      .filter(item => selectedAgency === 'all' || item.agency === selectedAgency)
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+  }, [selectedAgency]);
+
+  const visibleNews = newsItems.slice(0, visibleCount);
+  const hasMoreNews = newsItems.length > visibleCount;
 
   const formatDate = (dateStr) => {
     const date = new Date(dateStr);
@@ -86,7 +124,10 @@ export function RegulatoryTimeline() {
         <div className="flex items-center gap-2 flex-shrink-0">
           <select
             value={selectedAgency}
-            onChange={(e) => setSelectedAgency(e.target.value)}
+            onChange={(e) => {
+              setSelectedAgency(e.target.value);
+              setVisibleCount(ITEMS_PER_PAGE);
+            }}
             className="text-xs sm:text-sm border border-gray-300 dark:border-gray-600 rounded-md px-1 sm:px-2 py-1 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
           >
             {agencies.map(agency => (
@@ -99,80 +140,62 @@ export function RegulatoryTimeline() {
       </div>
 
       {/* Loading State */}
-      {loading && (
+      {loading && newsItems.length === 0 && (
         <div className="flex items-center justify-center py-4">
           <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
           <span className="ml-2 text-xs sm:text-sm text-gray-600 dark:text-gray-300">Fetching latest news...</span>
         </div>
       )}
 
-      {/* News Items */}
-      <div className="relative">
-        {/* Vertical list with expand/collapse */}
-        <div className={`space-y-2 sm:space-y-3 overflow-y-auto transition-all duration-300 ${
-          isExpanded ? 'max-h-[600px]' : 'max-h-64 sm:max-h-80'
-        }`}>
-          {displayItems.length === 0 ? (
-            <p className="text-center text-gray-600 dark:text-gray-300 py-6 sm:py-8 text-[10px] sm:text-sm">
-              No regulatory actions found
-            </p>
-          ) : (
-            displayItems.map((item, index) => (
-              <div
-                key={`${item.date}-${index}`}
-                className="flex items-start gap-1.5 sm:gap-3 p-1.5 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50"
-              >
-                <div className="flex-shrink-0 w-14 sm:w-20 text-[9px] sm:text-xs font-medium text-gray-700 dark:text-gray-200">
-                  {formatDate(item.date)}
-                  {item.isRecent && (
-                    <span className="block text-blue-600 dark:text-blue-400 mt-0.5 text-[8px] sm:text-[10px]">New</span>
-                  )}
-                </div>
-                <div className="flex-1 min-w-0 overflow-x-auto">
-                  <div className="flex items-center gap-1 sm:gap-2 mb-0.5 sm:mb-1 whitespace-nowrap">
-                    <span className={`inline-flex flex-shrink-0 px-1 sm:px-2 py-0.5 text-[9px] sm:text-xs font-medium rounded ${AGENCY_COLORS[item.agency] || 'bg-gray-100 text-gray-800 dark:bg-gray-600 dark:text-gray-200'}`}>
-                      {item.agency}
-                    </span>
-                    <span className="text-[10px] sm:text-sm font-medium text-gray-900 dark:text-white">
-                      {item.target}
-                    </span>
-                  </div>
-                  <p className="text-[9px] sm:text-sm text-gray-600 dark:text-gray-300 line-clamp-2 sm:line-clamp-none whitespace-nowrap sm:whitespace-normal">
-                    {item.description}
-                  </p>
-                  {item.url && (
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[9px] sm:text-xs text-blue-600 dark:text-blue-400 hover:underline mt-0.5 sm:mt-1 inline-block"
-                    >
-                      Source →
-                    </a>
-                  )}
-                </div>
-              </div>
-            ))
-          )}
-        </div>
-        {/* Expand/Collapse Button */}
-        {displayItems.length > 3 && (
+      {/* Live News Feed */}
+      <div className="space-y-2 sm:space-y-3">
+        {visibleNews.length === 0 && !loading ? (
+          <p className="text-center text-gray-600 dark:text-gray-300 py-6 sm:py-8 text-[10px] sm:text-sm">
+            No recent regulatory news found
+          </p>
+        ) : (
+          visibleNews.map((item, index) => (
+            <NewsItem key={`${item.url || item.target}-${index}`} item={item} formatDate={formatDate} />
+          ))
+        )}
+
+        {/* Show More button */}
+        {hasMoreNews && (
           <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className="absolute bottom-1 right-1 p-1.5 rounded-full bg-blue-600 hover:bg-blue-700 dark:bg-gray-600/90 dark:hover:bg-gray-500 transition-all shadow-md"
-            title={isExpanded ? 'Collapse' : 'Expand'}
+            onClick={() => setVisibleCount(prev => prev + ITEMS_PER_PAGE)}
+            className="w-full py-2 text-xs sm:text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors"
+          >
+            Show more ({newsItems.length - visibleCount} remaining)
+          </button>
+        )}
+      </div>
+
+      {/* Notable Historical Actions — collapsible */}
+      {historicalItems.length > 0 && (
+        <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+          <button
+            onClick={() => setShowHistorical(!showHistorical)}
+            className="flex items-center gap-2 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors mb-2"
           >
             <svg
-              className={`w-4 h-4 text-white dark:text-gray-300 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+              className={`w-3.5 h-3.5 transition-transform duration-200 ${showHistorical ? 'rotate-90' : ''}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
+            Notable Enforcement Actions ({historicalItems.length})
           </button>
-        )}
-      </div>
+          {showHistorical && (
+            <div className="space-y-2 sm:space-y-3">
+              {historicalItems.map((item, index) => (
+                <NewsItem key={`hist-${item.date}-${index}`} item={item} formatDate={formatDate} />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Agency Legend */}
       <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
@@ -180,7 +203,10 @@ export function RegulatoryTimeline() {
           {Object.keys(AGENCY_COLORS).map(agency => (
             <button
               key={agency}
-              onClick={() => setSelectedAgency(selectedAgency === agency ? 'all' : agency)}
+              onClick={() => {
+                setSelectedAgency(selectedAgency === agency ? 'all' : agency);
+                setVisibleCount(ITEMS_PER_PAGE);
+              }}
               className={`inline-flex px-2 py-1 text-xs rounded transition-opacity ${AGENCY_COLORS[agency]} ${
                 selectedAgency !== 'all' && selectedAgency !== agency ? 'opacity-50' : ''
               }`}
