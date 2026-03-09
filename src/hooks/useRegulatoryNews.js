@@ -1,7 +1,50 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 // RSS-to-JSON proxy (free, no auth)
 const RSS2JSON_API = 'https://api.rss2json.com/v1/api.json?rss_url=';
+
+const NEWS_CACHE_KEY = 'complaintsignal_news_cache';
+const NEWS_CACHE_MAX_AGE_DAYS = 30;
+
+function loadCachedNews() {
+  try {
+    const cached = localStorage.getItem(NEWS_CACHE_KEY);
+    if (!cached) return [];
+    const parsed = JSON.parse(cached);
+    // Prune items older than max age
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - NEWS_CACHE_MAX_AGE_DAYS);
+    return parsed.filter(item => new Date(item.date) >= cutoff);
+  } catch {
+    return [];
+  }
+}
+
+function saveCachedNews(items) {
+  try {
+    localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify(items));
+  } catch {
+    // localStorage full or unavailable — ignore
+  }
+}
+
+function mergeAndDeduplicateNews(existing, incoming) {
+  const seen = new Map();
+  // Incoming (fresh) items take priority
+  for (const item of incoming) {
+    const key = item.url || item.title;
+    seen.set(key, item);
+  }
+  for (const item of existing) {
+    const key = item.url || item.title;
+    if (!seen.has(key)) {
+      seen.set(key, item);
+    }
+  }
+  const merged = Array.from(seen.values());
+  merged.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return merged;
+}
 
 // News sources - mix of official and crypto news
 const NEWS_SOURCES = [
@@ -64,14 +107,15 @@ function isRegulationRelated(title, description) {
 }
 
 export function useRegulatoryNews(refreshInterval = 60000) {
-  const [news, setNews] = useState([]);
+  const [news, setNews] = useState(() => loadCachedNews());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
+  const cacheRef = useRef(loadCachedNews());
 
   const fetchNews = useCallback(async () => {
     try {
-      const allNews = [];
+      const freshNews = [];
 
       // Fetch from all sources in parallel
       const promises = NEWS_SOURCES.map(async (source) => {
@@ -86,7 +130,6 @@ export function useRegulatoryNews(refreshInterval = 60000) {
             .filter(item => {
               const title = item.title || '';
               const desc = item.description || '';
-              // Apply filters based on source settings
               if (source.filterCrypto && !isCryptoRelated(title, desc)) return false;
               if (source.filterRegulation && !isRegulationRelated(title, desc)) return false;
               return true;
@@ -105,12 +148,14 @@ export function useRegulatoryNews(refreshInterval = 60000) {
       });
 
       const results = await Promise.all(promises);
-      results.forEach(items => allNews.push(...items));
+      results.forEach(items => freshNews.push(...items));
 
-      // Sort by date (newest first)
-      allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+      // Merge fresh items with cached items, deduplicate by URL/title
+      const merged = mergeAndDeduplicateNews(cacheRef.current, freshNews);
+      cacheRef.current = merged;
+      saveCachedNews(merged);
 
-      setNews(allNews.slice(0, 20)); // Keep top 20
+      setNews(merged);
       setLastUpdated(new Date());
       setError(null);
     } catch (err) {
