@@ -286,8 +286,8 @@ export function Dashboard() {
             <div className="flex-1 overflow-y-auto p-4">
               <div className="space-y-1">
                 {(historyExpanded ? weeklyHistory : weeklyHistory.slice(0, 20)).map(([week, count]) => {
-                  const maxCount = Math.max(...weeklyHistory.map(([, c]) => c));
-                  const percentage = (count / maxCount) * 100;
+                  const maxCount = Math.max(...weeklyHistory.map(([, c]) => c), 0);
+                  const percentage = maxCount > 0 ? (count / maxCount) * 100 : 0;
                   return (
                     <div key={week} className="flex items-center gap-3">
                       <span className="text-xs text-gray-600 dark:text-gray-400 w-24 flex-shrink-0">

@@ -422,16 +422,11 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
     }
   }, [fetchCurrentPrice, fetchHistoricalData]);
 
-  // Initial fetch (skip if we have valid cache)
+  // Initial fetch on mount
   useEffect(() => {
-    const cached = loadFromCache();
-    if (!cached) {
-      fetchPriceData();
-    } else {
-      // Still fetch in background to update cache
-      fetchPriceData();
-    }
-  }, [fetchPriceData]);
+    fetchPriceData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Auto-refresh (default 5 minutes)
   useEffect(() => {

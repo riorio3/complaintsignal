@@ -250,7 +250,7 @@ export function CompanyComparison({ data, rawData = [] }) {
                       <div
                         className="h-full rounded-full"
                         style={{
-                          width: `${Math.min((company.total / sortedData[0].total) * 100, 100)}%`,
+                          width: `${sortedData[0].total > 0 ? Math.min((company.total / sortedData[0].total) * 100, 100) : 0}%`,
                           backgroundColor: COLORS[index % COLORS.length],
                         }}
                       />
