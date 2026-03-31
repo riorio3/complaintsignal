@@ -1,10 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
-// RSS-to-JSON proxy (free, no auth)
+// RSS-to-JSON proxies (free, no auth)
 const RSS2JSON_API = 'https://api.rss2json.com/v1/api.json?rss_url=';
+const FEED2JSON_API = 'https://feed2json.org/convert?url=';
 
 const NEWS_CACHE_KEY = 'complaintsignal_news_cache';
-const NEWS_CACHE_MAX_AGE_DAYS = 30;
+const NEWS_CACHE_MAX_AGE_DAYS = 60;
 
 function loadCachedNews() {
   try {
@@ -77,14 +78,30 @@ const NEWS_SOURCES = [
     filterCrypto: false,
     filterRegulation: true,
   },
+  {
+    name: 'The Block',
+    url: 'https://www.theblock.co/rss/all',
+    agency: 'NEWS',
+    filterCrypto: false,
+    filterRegulation: true,
+  },
+  {
+    name: 'Bitcoin Magazine',
+    url: 'https://bitcoinmagazine.com/.rss/full/',
+    agency: 'NEWS',
+    filterCrypto: false,
+    filterRegulation: true,
+  },
 ];
 
 // Keywords to filter for crypto-related news (for SEC)
 const CRYPTO_KEYWORDS = [
   'crypto', 'bitcoin', 'digital asset', 'virtual currency', 'blockchain',
   'coinbase', 'binance', 'kraken', 'gemini', 'ftx', 'celsius', 'voyager',
-  'defi', 'nft', 'token', 'stablecoin', 'exchange', 'trading platform',
-  'cryptocurrency', 'ethereum', 'ripple', 'tether', 'usdc'
+  'defi', 'nft', 'stablecoin', 'crypto exchange', 'digital token',
+  'crypto trading', 'crypto asset', 'virtual asset', 'web3',
+  'cryptocurrency', 'ethereum', 'ripple', 'tether', 'usdc',
+  'solana', 'cardano', 'dogecoin'
 ];
 
 // Keywords to filter for regulatory news (for crypto news sources)
@@ -117,34 +134,49 @@ export function useRegulatoryNews(refreshInterval = 60000) {
     try {
       const freshNews = [];
 
-      // Fetch from all sources in parallel
+      // Fetch from all sources in parallel, with Feed2JSON fallback
       const promises = NEWS_SOURCES.map(async (source) => {
-        try {
-          const response = await fetch(`${RSS2JSON_API}${encodeURIComponent(source.url)}`);
-          if (!response.ok) return [];
-
-          const data = await response.json();
-          if (data.status !== 'ok') return [];
-
-          return (data.items || [])
+        const parseItems = (items) =>
+          items
             .filter(item => {
               const title = item.title || '';
-              const desc = item.description || '';
+              const desc = item.description || item.content || '';
               if (source.filterCrypto && !isCryptoRelated(title, desc)) return false;
               if (source.filterRegulation && !isRegulationRelated(title, desc)) return false;
               return true;
             })
             .map(item => ({
               title: item.title,
-              description: item.description?.replace(/<[^>]*>/g, '').slice(0, 200) + '...',
-              date: item.pubDate,
-              url: item.link,
+              description: (item.description || item.content || '').replace(/<[^>]*>/g, '').slice(0, 200) + '...',
+              date: item.pubDate || item.date_published,
+              url: item.link || item.url,
               agency: source.agency,
               source: source.name,
             }));
-        } catch (err) {
-          return [];
-        }
+
+        // Try rss2json first
+        try {
+          const response = await fetch(`${RSS2JSON_API}${encodeURIComponent(source.url)}`);
+          if (response.ok) {
+            const data = await response.json();
+            if (data.status === 'ok' && data.items?.length > 0) {
+              return parseItems(data.items);
+            }
+          }
+        } catch {}
+
+        // Fallback to Feed2JSON
+        try {
+          const response = await fetch(`${FEED2JSON_API}${encodeURIComponent(source.url)}`);
+          if (response.ok) {
+            const data = await response.json();
+            if (data.items?.length > 0) {
+              return parseItems(data.items);
+            }
+          }
+        } catch {}
+
+        return [];
       });
 
       const results = await Promise.all(promises);

@@ -159,13 +159,21 @@ export function RegulatoryTimeline() {
           ))
         )}
 
-        {/* Show More button */}
+        {/* Show More / Collapse buttons */}
         {hasMoreNews && (
           <button
             onClick={() => setVisibleCount(prev => prev + ITEMS_PER_PAGE)}
             className="w-full py-2 text-xs sm:text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors"
           >
             Show more ({newsItems.length - visibleCount} remaining)
+          </button>
+        )}
+        {visibleCount > ITEMS_PER_PAGE && (
+          <button
+            onClick={() => setVisibleCount(ITEMS_PER_PAGE)}
+            className="w-full py-2 text-xs sm:text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 font-medium transition-colors"
+          >
+            Collapse
           </button>
         )}
       </div>
