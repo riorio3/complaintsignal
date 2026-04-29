@@ -55,6 +55,31 @@ const matchesWholeWord = (text, keyword) => {
   return pattern.test(text);
 };
 
+// Map CFPB structured `issue` values to our categories.
+// Used as a fallback for complaints without a narrative so every complaint
+// gets categorized, not just the narrative subset.
+const CFPB_ISSUE_TO_CATEGORY = {
+  'Fraud or scam': 'fraud',
+  'Unauthorized transactions or other transaction problem': 'fraud',
+  'Identity theft protection or other monitoring services': 'fraud',
+  'Money was not available when promised': 'withdrawal',
+  'Problem adding money': 'withdrawal',
+  'Problem with a purchase or transfer': 'withdrawal',
+  'Trouble accessing funds in your mobile or digital wallet': 'locked_account',
+  'Managing, opening, or closing your mobile wallet account': 'locked_account',
+  'Closing an account': 'locked_account',
+  'Opening an account': 'locked_account',
+  'Managing an account': 'locked_account',
+  'Confusing or missing disclosures': 'fees',
+  'Unexpected or other fees': 'fees',
+  'Wrong amount charged or received': 'fees',
+  'Fees or interest': 'fees',
+  'Problem with customer service': 'customer_service',
+  'Other service problem': 'customer_service',
+  'Confusing or misleading advertising or marketing': 'other',
+  'Other transaction problem': 'other',
+};
+
 // Issue patterns with descriptions for QC analysts
 // Keywords are ordered by specificity - more specific phrases first
 const ISSUE_PATTERNS = [
@@ -200,12 +225,14 @@ export function IssueInsights({ data, onFilterByKeyword }) {
   const [selectedAllComplaint, setSelectedAllComplaint] = useState(null);
   const [visibleCount, setVisibleCount] = useState(50); // Pagination for View All modal
 
-  // Analyze complaints for each pattern with 30-day trend (exclusive categorization)
+  // Analyze complaints for each pattern with 30-day trend (exclusive categorization).
+  // Categorization priority per complaint:
+  //   1. AI classification (when available, narrative-based)
+  //   2. Keyword match on narrative (when narrative is long enough)
+  //   3. CFPB structured `issue` field mapping (covers complaints without narratives)
+  //   4. 'other' as a last resort
   const patternAnalysis = useMemo(() => {
-    const narrativeComplaints = data.filter(c => c.complaint_what_happened?.length > 50);
-    const total = narrativeComplaints.length;
-
-    if (total === 0) return [];
+    if (data.length === 0) return [];
 
     // Calculate date thresholds for trend analysis
     const now = new Date();
@@ -218,35 +245,48 @@ export function IssueInsights({ data, onFilterByKeyword }) {
       regexes: p.keywords.map(kw => new RegExp('\\b' + escapeRegex(kw) + '\\b', 'i'))
     }));
 
-    // Step 1: Assign each complaint to exactly ONE category (highest keyword match count)
     const categorizedComplaints = new Map();
     ISSUE_PATTERNS.forEach(p => categorizedComplaints.set(p.id, []));
 
-    narrativeComplaints.forEach(complaint => {
+    data.forEach(complaint => {
       const id = String(complaint.complaint_id);
-      const aiCategory = aiClassifications[id];
+      const narrative = complaint.complaint_what_happened || '';
+      const hasNarrative = narrative.length > 50;
 
-      // Use AI classification if available and valid
+      // 1. AI classification (highest confidence)
+      const aiCategory = aiClassifications[id];
       if (aiCategory && categorizedComplaints.has(aiCategory)) {
         categorizedComplaints.get(aiCategory).push(complaint);
         return;
       }
 
-      // Fallback to keyword matching
-      const text = complaint.complaint_what_happened;
-      let bestPatternId = 'other';
-      let bestScore = 0;
-
-      compiledPatterns.forEach(pattern => {
-        if (pattern.id === 'other') return;
-        const score = pattern.regexes.filter(rx => rx.test(text)).length;
-        if (score > bestScore) {
-          bestScore = score;
-          bestPatternId = pattern.id;
+      // 2. Keyword match on narrative
+      if (hasNarrative) {
+        let bestPatternId = null;
+        let bestScore = 0;
+        compiledPatterns.forEach(pattern => {
+          if (pattern.id === 'other') return;
+          const score = pattern.regexes.filter(rx => rx.test(narrative)).length;
+          if (score > bestScore) {
+            bestScore = score;
+            bestPatternId = pattern.id;
+          }
+        });
+        if (bestPatternId) {
+          categorizedComplaints.get(bestPatternId).push(complaint);
+          return;
         }
-      });
+      }
 
-      categorizedComplaints.get(bestPatternId).push(complaint);
+      // 3. CFPB structured `issue` mapping (works for everything else)
+      const mapped = CFPB_ISSUE_TO_CATEGORY[complaint.issue];
+      if (mapped && categorizedComplaints.has(mapped)) {
+        categorizedComplaints.get(mapped).push(complaint);
+        return;
+      }
+
+      // 4. Fallback bucket
+      categorizedComplaints.get('other').push(complaint);
     });
 
     // Step 2: Build pattern analysis from categorized complaints
@@ -329,13 +369,13 @@ export function IssueInsights({ data, onFilterByKeyword }) {
             </button>
           </div>
           <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 flex items-center gap-1 mt-1">
-            Based on {narrativeCount.toLocaleString()} of {data.length.toLocaleString()} complaints
+            All {data.length.toLocaleString()} complaints categorized ({narrativeCount.toLocaleString()} via narrative analysis)
             <span className="group relative hidden sm:inline">
               <svg className="w-4 h-4 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 cursor-help" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
               <span className="invisible group-hover:visible absolute left-1/2 -translate-x-1/2 top-6 w-64 p-2 bg-gray-900 dark:bg-gray-700 text-white text-xs rounded shadow-lg z-50">
-                Only complaints with consumer narratives can be analyzed for keyword patterns. Some consumers don't provide details or don't consent to publish.
+                Complaints with narratives are categorized via AI / keyword matching. The rest are categorized via the CFPB structured issue field.
               </span>
             </span>
           </p>
@@ -365,11 +405,11 @@ export function IssueInsights({ data, onFilterByKeyword }) {
               </span>
             </div>
 
-            {/* Progress bar - relative to total complaints with narratives */}
+            {/* Progress bar - relative to all complaints */}
             <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2 mb-2">
               <div
                 className={`h-2 rounded-full transition-all ${pattern.barClass}`}
-                style={{ width: `${narrativeCount > 0 ? Math.round((pattern.count / narrativeCount) * 100) : 0}%` }}
+                style={{ width: `${data.length > 0 ? Math.round((pattern.count / data.length) * 100) : 0}%` }}
               />
             </div>
 
@@ -395,10 +435,10 @@ export function IssueInsights({ data, onFilterByKeyword }) {
                   </h3>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                  {selectedPattern.count} complaint{selectedPattern.count !== 1 ? 's' : ''}{' '}
+                  {selectedPattern.count.toLocaleString()} complaint{selectedPattern.count !== 1 ? 's' : ''}
                   {selectedPattern.keywords.length > 0
-                    ? `matching keywords: ${selectedPattern.keywords.slice(0, 5).join(', ')}`
-                    : '(no specific keyword matches)'}
+                    ? ` (keywords: ${selectedPattern.keywords.slice(0, 5).join(', ')})`
+                    : ''}
                 </p>
                 <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
                   <span className="font-medium">Recommended Action:</span> {selectedPattern.actionable}
@@ -854,25 +894,31 @@ function NarrativeCard({ complaint, index, keywords }) {
         </div>
       )}
 
-      {/* Narrative with keyword highlighting */}
-      <div className="mt-2 p-3 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600">
-        <p
-          className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-wrap"
-          dangerouslySetInnerHTML={{
-            __html: highlightKeywords(
-              isExpanded ? narrative : narrative.slice(0, previewLength) + (hasMoreContent ? '...' : '')
-            )
-          }}
-        />
-        {hasMoreContent && (
-          <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className="mt-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
-          >
-            {isExpanded ? 'Show less' : 'Read full narrative →'}
-          </button>
-        )}
-      </div>
+      {/* Narrative with keyword highlighting (only when present) */}
+      {narrative.length > 0 ? (
+        <div className="mt-2 p-3 bg-white dark:bg-gray-800 rounded border border-gray-200 dark:border-gray-600">
+          <p
+            className="text-sm text-gray-800 dark:text-gray-200 whitespace-pre-wrap"
+            dangerouslySetInnerHTML={{
+              __html: highlightKeywords(
+                isExpanded ? narrative : narrative.slice(0, previewLength) + (hasMoreContent ? '...' : '')
+              )
+            }}
+          />
+          {hasMoreContent && (
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
+            >
+              {isExpanded ? 'Show less' : 'Read full narrative →'}
+            </button>
+          )}
+        </div>
+      ) : (
+        <p className="mt-2 text-xs italic text-gray-500 dark:text-gray-400">
+          No consumer narrative provided. Categorized from CFPB issue: <span className="font-medium">{complaint.issue || 'Unknown'}</span>
+        </p>
+      )}
 
       {/* Complaint ID */}
       {complaint.complaint_id && (

@@ -135,6 +135,21 @@ async function main() {
   const existingCount = Object.keys(classifications).length;
   console.log(`  ${existingCount} existing classifications`);
 
+  // Prune stale entries: classifications for complaint IDs that no longer
+  // exist in the dataset (e.g. after a data prune or filter change).
+  const validIds = new Set(complaints.map(c => String(c.complaint_id)));
+  let pruned = 0;
+  for (const id of Object.keys(classifications)) {
+    if (!validIds.has(id)) {
+      delete classifications[id];
+      pruned++;
+    }
+  }
+  if (pruned > 0) {
+    console.log(`  Pruned ${pruned} stale classifications (complaint IDs no longer in dataset)`);
+    saveClassifications(classifications);
+  }
+
   const unclassified = getUnclassifiedComplaints(complaints, classifications);
   console.log(`  ${unclassified.length} complaints need classification`);
 
