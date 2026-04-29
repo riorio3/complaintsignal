@@ -46,19 +46,10 @@ const MIXED_COMPANIES = new Set([
   'ROBINHOOD MARKETS INC.',
 ]);
 
-// Sub-products to keep for mixed companies
+// Sub-products to keep for mixed companies (crypto-relevant only)
 const CRYPTO_SUB_PRODUCTS = new Set([
   'Virtual currency',
   'Mobile or digital wallet',
-  'Domestic (US) money transfer',
-  'International money transfer',
-  'Foreign currency exchange',
-  'Other banking product or service',
-  'Checking account',
-  'Savings account',
-  'General-purpose prepaid card',
-  'General-purpose credit card or charge card',
-  'I do not know',
 ]);
 
 function isCryptoRelevant(hit) {
