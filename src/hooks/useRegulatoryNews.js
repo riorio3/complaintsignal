@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import seedNews from '../data/recentNews.json';
 
 // RSS-to-JSON proxies (free, no auth)
 const RSS2JSON_API = 'https://api.rss2json.com/v1/api.json?rss_url=';
@@ -7,18 +8,32 @@ const FEED2JSON_API = 'https://feed2json.org/convert?url=';
 const NEWS_CACHE_KEY = 'complaintsignal_news_cache';
 const NEWS_CACHE_MAX_AGE_DAYS = 60;
 
+function pruneByAge(items) {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - NEWS_CACHE_MAX_AGE_DAYS);
+  return items.filter((item) => new Date(item.date) >= cutoff);
+}
+
+// Seed JSON is committed daily by scripts/fetch-news.cjs (GitHub Action), so
+// every visitor — including first-time ones — sees accumulated history that
+// live RSS feeds can't provide on their own.
+function loadSeedNews() {
+  return Array.isArray(seedNews) ? pruneByAge(seedNews) : [];
+}
+
 function loadCachedNews() {
   try {
     const cached = localStorage.getItem(NEWS_CACHE_KEY);
     if (!cached) return [];
     const parsed = JSON.parse(cached);
-    // Prune items older than max age
-    const cutoff = new Date();
-    cutoff.setDate(cutoff.getDate() - NEWS_CACHE_MAX_AGE_DAYS);
-    return parsed.filter(item => new Date(item.date) >= cutoff);
+    return pruneByAge(parsed);
   } catch {
     return [];
   }
+}
+
+function loadInitialNews() {
+  return mergeAndDeduplicateNews(loadCachedNews(), loadSeedNews());
 }
 
 function saveCachedNews(items) {
@@ -80,14 +95,36 @@ const NEWS_SOURCES = [
   },
   {
     name: 'The Block',
-    url: 'https://www.theblock.co/rss/all',
+    url: 'https://www.theblock.co/rss.xml',
     agency: 'NEWS',
     filterCrypto: false,
     filterRegulation: true,
   },
   {
     name: 'Bitcoin Magazine',
-    url: 'https://bitcoinmagazine.com/.rss/full/',
+    url: 'https://bitcoinmagazine.com/feed',
+    agency: 'NEWS',
+    filterCrypto: false,
+    filterRegulation: true,
+  },
+  // Daily-coverage feeds — broader scope, kept regulation-filtered to fill date gaps
+  {
+    name: 'Cointelegraph',
+    url: 'https://cointelegraph.com/rss',
+    agency: 'NEWS',
+    filterCrypto: false,
+    filterRegulation: true,
+  },
+  {
+    name: 'CryptoSlate',
+    url: 'https://cryptoslate.com/feed/',
+    agency: 'NEWS',
+    filterCrypto: false,
+    filterRegulation: true,
+  },
+  {
+    name: 'Bitcoin.com News',
+    url: 'https://news.bitcoin.com/feed/',
     agency: 'NEWS',
     filterCrypto: false,
     filterRegulation: true,
@@ -124,17 +161,19 @@ function isRegulationRelated(title, description) {
 }
 
 export function useRegulatoryNews(refreshInterval = 60000) {
-  const [news, setNews] = useState(() => loadCachedNews());
+  const [news, setNews] = useState(() => loadInitialNews());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
-  const cacheRef = useRef(loadCachedNews());
+  const cacheRef = useRef(loadInitialNews());
 
   const fetchNews = useCallback(async () => {
     try {
       const freshNews = [];
 
-      // Fetch from all sources in parallel, with Feed2JSON fallback
+      // Fetch from all sources in parallel. Query BOTH proxies and merge —
+      // rss2json caps at ~10 items, feed2json often returns 25–60. Using both
+      // gives us multi-month depth so daily news populates without gaps.
       const promises = NEWS_SOURCES.map(async (source) => {
         const parseItems = (items) =>
           items
@@ -154,29 +193,24 @@ export function useRegulatoryNews(refreshInterval = 60000) {
               source: source.name,
             }));
 
-        // Try rss2json first
-        try {
-          const response = await fetch(`${RSS2JSON_API}${encodeURIComponent(source.url)}`);
-          if (response.ok) {
+        const fetchFromProxy = async (proxyUrl) => {
+          try {
+            const response = await fetch(`${proxyUrl}${encodeURIComponent(source.url)}`);
+            if (!response.ok) return [];
             const data = await response.json();
-            if (data.status === 'ok' && data.items?.length > 0) {
-              return parseItems(data.items);
-            }
+            const items = data.items || [];
+            if (items.length === 0) return [];
+            return parseItems(items);
+          } catch {
+            return [];
           }
-        } catch {}
+        };
 
-        // Fallback to Feed2JSON
-        try {
-          const response = await fetch(`${FEED2JSON_API}${encodeURIComponent(source.url)}`);
-          if (response.ok) {
-            const data = await response.json();
-            if (data.items?.length > 0) {
-              return parseItems(data.items);
-            }
-          }
-        } catch {}
-
-        return [];
+        const [rss2jsonItems, feed2jsonItems] = await Promise.all([
+          fetchFromProxy(RSS2JSON_API),
+          fetchFromProxy(FEED2JSON_API),
+        ]);
+        return [...rss2jsonItems, ...feed2jsonItems];
       });
 
       const results = await Promise.all(promises);

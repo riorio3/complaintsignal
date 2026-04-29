@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch-data": "node scripts/fetch-cfpb-data.cjs",
+    "fetch-news": "node scripts/fetch-news.cjs",
     "classify": "node scripts/classify-complaints.cjs"
   },
   "dependencies": {
