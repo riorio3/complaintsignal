@@ -1,5 +1,261 @@
 [
   {
+    "title": "DeFi lender Aave asks court to block $71 million crypto seizure tied to North Korea claims",
+    "description": "The filing challenges a New York restraining notice that froze ETH on Arbitrum after the rsETH exploit, with Aave arguing the funds belong to users, not North Korea judgment creditors...",
+    "date": "2026-05-05 08:18:23",
+    "url": "https://www.coindesk.com/policy/2026/05/05/defi-lender-aave-asks-court-to-block-usd71-million-crypto-seizure-tied-to-north-korea-claims",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Bitcoin Breaks $81,000 Behind ETF Inflows, Iran De-escalation and a Short Squeeze",
+    "description": "\nBitcoin climbed above $81,000 on Tuesday for the first time since January, powered by $2.44 billion in April ETF inflows, geopolitical relief following the U.S.-Iran de-escalation, and a short squeez...",
+    "date": "2026-05-05 07:15:57",
+    "url": "https://news.bitcoin.com/bitcoin-breaks-81000-etf-inflows-iran-deescalation-short-squeeze-may-2026/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Stablecoin proposal still ‘falls short’ of protecting bank deposits: US banks",
+    "description": "\n\nUS Senator Thom Tillis said the current text of the CLARITY Act offers a compromise for the crypto industry and banks and provides a bipartisan path for the bill’s passage.\n...",
+    "date": "2026-05-05 07:07:27",
+    "url": "https://cointelegraph.com/news/bankers-still-says-new-proposal-in-clarity-act-falls-short-of-protecting-bank-deposits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "From Rebels to Banks: Why the Crypto Industry Is Finally Embracing Legacy Finance",
+    "description": "\nSpencer Bogart, general partner at Blockchain Capital, noted that while years ago fintech companies aimed to be bank-like but not banks, this trend has now reversed, with over 20 companies pursuing O...",
+    "date": "2026-05-05 06:30:19",
+    "url": "https://news.bitcoin.com/from-rebels-to-banks-why-the-crypto-industry-is-finally-embracing-legacy-finance/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Polygon rolls out private stablecoin payments targeting institutions",
+    "description": "\n\nThe new wallet feature hides senders, receivers and amounts onchain while maintaining compliance through know your transaction screening and auditable files.\n...",
+    "date": "2026-05-05 06:08:31",
+    "url": "https://cointelegraph.com/news/polygon-rolls-out-private-payments-for-institutions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "UAE’s Innovation City Launches Blockchain-Based IDs, Pushing Firms to Instant Checks",
+    "description": "\nInnovation City, an AI-powered free zone in Ras Al Khaimah, has launched a blockchain-based digital business identity system to replace traditional and static business licenses with “living,” cryptog...",
+    "date": "2026-05-05 05:30:21",
+    "url": "https://news.bitcoin.com/uaes-innovation-city-launches-blockchain-based-ids-pushing-firms-to-instant-checks/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Prediction Market Traders Push April 2026 Volume to $8.6B, Kalshi Takes the Lead",
+    "description": "\nThe prediction market sector posted $8.6 billion in taker volume during April 2026, with Kalshi overtaking Polymarket to claim the top spot, according to onchain data tracked by Dune Analytics. Key T...",
+    "date": "2026-05-05 04:30:23",
+    "url": "https://news.bitcoin.com/prediction-market-traders-push-april-2026-volume-to-8-6b-kalshi-takes-the-lead/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Aave files emergency motion to lift restraining notice on frozen ETH",
+    "description": "\n\nAave argued that a thief doesn’t gain lawful ownership of property by stealing it and that Gerstein Harrow’s legal argument “defies logic, common sense and the law.”\n...",
+    "date": "2026-05-05 03:51:15",
+    "url": "https://cointelegraph.com/news/aave-asks-court-to-lift-restraining-notice-on-frozen-kelp-exploit-ether?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Haun Ventures Unveils $1 Billion Fund to Build the Next Financial System",
+    "description": "\nThe new fund will focus on supporting initiatives targeting innovation in three key areas: services for the new financial infrastructure, including crypto and other technologies; new assets and marke...",
+    "date": "2026-05-05 03:30:25",
+    "url": "https://news.bitcoin.com/haun-ventures-unveils-1-billion-fund-to-build-the-next-financial-system/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Securitize Gets FINRA Approval to Broaden Tokenized Securities Operations",
+    "description": "\nSecuritize Markets received expanded FINRA approval to custody, settle, underwrite, and distribute tokenized securities. The decision lets the broker-dealer support on-chain settlement against stable...",
+    "date": "2026-05-05 02:30:15",
+    "url": "https://news.bitcoin.com/securitize-gets-finra-approval-to-broaden-tokenized-securities-operations/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Ripple Shares DPRK Threat Data on Fraud Domains, Wallets, Campaigns",
+    "description": "\nRipple will share DPRK-linked threat intelligence with Crypto ISAC to help crypto firms screen applicants, contractors, and vendors. The program covers fraud domains, wallets, and compromise indicato...",
+    "date": "2026-05-05 00:30:37",
+    "url": "https://news.bitcoin.com/ripple-shares-dprk-threat-data-on-fraud-domains-wallets-campaigns/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Uphold Rejects New York Claims After $5M Customer Repayment Deal",
+    "description": "\nUphold rejected New York’s CredEarn settlement claims, saying the regulator misrepresented its role in Cred LLC’s collapse. The company agreed to more than $5 million in customer repayment while deny...",
+    "date": "2026-05-04 23:30:34",
+    "url": "https://news.bitcoin.com/uphold-rejects-new-york-claims-after-5m-customer-repayment-deal/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Stefan Muehlbauer Warns DOJ Indictments End ‘Safe Zone’ as US Army Sergeant Case Expands Risk",
+    "description": "\nAccording to Certik’s Stefan Muehlbauer, the recent indictment of an Army sergeant for using nonpublic information to bet on Polymarket establishes a precedent: misappropriating government or corpora...",
+    "date": "2026-05-04 22:50:55",
+    "url": "https://news.bitcoin.com/stefan-muehlbauer-warns-doj-indictments-end-safe-zone-as-us-army-sergeant-case-expands-risk/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Aave Fights to Unfreeze $71 Million as Kelp DAO Hack Spills Into Court",
+    "description": "A federal case over frozen crypto could determine whether DeFi recovery funds can be seized to satisfy unrelated judgments....",
+    "date": "2026-05-04 21:56:03",
+    "url": "https://decrypt.co/366744/aave-unfreeze-71m-arbitrum-kelp-dao-hack",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "DTCC eyes October tokenized securities launch with 50 DeFi and TradFi giants",
+    "description": "\n\nWith $114 trillion in custodied liquid assets, Depository Trust &amp; Clearing Corporation looks to position tokenization as the future of existing financial system.\n...",
+    "date": "2026-05-04 21:55:00",
+    "url": "https://cointelegraph.com/news/dtcc-eyes-october-tokenized-securities-launch-with-dozens-of-wall-street-giants?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.\n...",
+    "date": "2026-05-04 21:55:00",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "K-Pop Firm's Stock Plunges as It Dumps Bitcoin Treasury Plan for AI Pivot",
+    "description": "K Wave Media is shifting $485 million in funding from its Bitcoin treasury strategy towards an AI infrastructure play....",
+    "date": "2026-05-04 21:15:24",
+    "url": "https://decrypt.co/366740/k-pop-firm-stock-plunges-dumps-bitcoin-treasury-plan-ai-pivot",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Haun Ventures Raises $1 Billion Fund for the Intersection of Crypto and AI Agents",
+    "description": "Katie Haun’s venture firm closes a $1 billion fund to target crypto infrastructure and systems for AI agents to transact autonomously....",
+    "date": "2026-05-04 20:32:03",
+    "url": "https://decrypt.co/366728/haun-ventures-raises-1-billion-fund-intersection-crypto-tech-ai-agents",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "DeepClaude Lets You Run Claude Code With DeepSeek's Brain for 17x Cheaper",
+    "description": "A new open-source script swaps Claude Code's expensive Anthropic backend for DeepSeek V4 Pro, OpenRouter, or Fireworks AI—keeping the agent loop, slashing the bill....",
+    "date": "2026-05-04 20:19:37",
+    "url": "https://decrypt.co/366729/deepclaude-run-claude-code-deepseek-brain-17x-cheaper",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "GameStop's $55.5 billion eBay takeover bid puts its $368 million bitcoin stash in the crosshairs",
+    "description": "The video game retailer’s proposed acquisition plan revives question on whether its $368 million bitcoin stash could be sold to fund the expansion....",
+    "date": "2026-05-04 20:16:04",
+    "url": "https://www.coindesk.com/business/2026/05/04/gamestop-s-usd55-5-billion-ebay-takeover-bid-puts-its-usd368-million-bitcoin-stash-in-the-crosshairs",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "If GameStop buys eBay, Bitcoin payments could suddenly have a 135M-buyer marketplace test case",
+    "description": "\nGameStop's unsolicited $55.5 billion bid for eBay could give the video game retailer a far larger e-commerce platform, a broader resale network, and a potential opening to test whether Bitcoin can mo...",
+    "date": "2026-05-04 19:10:38",
+    "url": "https://cryptoslate.com/if-gamestop-buys-ebay-bitcoin-payments-could-suddenly-have-a-135m-buyer-marketplace-test-case/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Colorado Lawmakers Move to Replace Contentious AI Law With New Rules",
+    "description": "A new proposed bill aims to ease industry pressure while preserving safeguards for consumers....",
+    "date": "2026-05-04 18:41:52",
+    "url": "https://decrypt.co/366683/colorado-replace-contentious-ai-law-new-rules",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Banks Stay Tight-Lipped as Senators Reveal Proposed Clarity Act Stablecoin Deal",
+    "description": "Senators unveiled a Clarity Act compromise on the subject of stablecoin rewards. Crypto seems happy enough, but what about the banks?...",
+    "date": "2026-05-04 18:01:52",
+    "url": "https://decrypt.co/366680/banks-stay-tight-lipped-as-senators-reveal-proposed-clarity-act-stablecoin-deal",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
+    "description": "The market is starting to price in potential winners as stablecoin yield compromise opens path for passing key U.S. digital asset regulation, one analyst said....",
+    "date": "2026-05-04 17:34:28",
+    "url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Grok’s crypto wallet was just exploited by a tweet sent in morse code without any private key compromise",
+    "description": "\nTagging @grok in an X post plus a few dots and dashes was all that was needed last night for a bad actor to pickpocket a verified crypto wallet without ever touching the private keys. Agentic token l...",
+    "date": "2026-05-04 17:30:38",
+    "url": "https://cryptoslate.com/how-one-trader-exploited-grok-and-morse-code-to-trick-ai-agent-into-sending-billions-of-crypto-tokens-from-a-verified-wallet/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "'This Is Fine' Creator Says AI Startup Stole His Meme for Subway Ads",
+    "description": "KC Green, who drew the iconic burning-dog comic in 2013, says Artisan used his artwork in a paid ad campaign without his knowledge—and told followers to vandalize it on sight....",
+    "date": "2026-05-04 17:12:59",
+    "url": "https://decrypt.co/366650/this-is-fine-creator-ai-startup-stole-meme-subway-ads",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "The government should promote innovation, not punish it",
+    "description": "District Attorney of Sacramento County, Ho argues that ambiguous rules and enforcement practices, such as those for crypto, lead to confusion, rather than seeking clarity in the law to further growth....",
+    "date": "2026-05-04 16:30:00",
+    "url": "https://www.coindesk.com/opinion/2026/05/04/the-government-should-promote-innovation-not-punish-it",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "SEC delays prediction market ETFs over mechanics and risk concerns: Report",
+    "description": "\n\nThe regulator reportedly requested more information from Roundhill, GraniteShares and Bitwise about how the event contract funds would work.\n...",
+    "date": "2026-05-04 15:35:46",
+    "url": "https://cointelegraph.com/news/prediction-market-etf-sec-delay-mechanics-concerns?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Why has Trump’s World Liberty Finance (WLFI) now filed a lawsuit against Tron’s Justin Sun?",
+    "description": "\nWorld Liberty Financial (WLFI) opened a legal counteroffensive against Justin Sun, accusing one of crypto’s most prominent billionaires of defamation after he sued the Trump-linked venture over froze...",
+    "date": "2026-05-04 15:30:16",
+    "url": "https://cryptoslate.com/trumps-wlfi-sues-justin-sun-everything-we-know-so-far/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "CLARITY Act markup could come next week after stablecoin deal breakthrough",
+    "description": "\nThe CLARITY Act is moving toward its next procedural test after Senate negotiators released compromise language on stablecoin rewards last week, raising expectations that the Senate Banking Committee...",
+    "date": "2026-05-04 14:00:27",
+    "url": "https://cryptoslate.com/clarity-act-markup-could-come-next-week-after-stablecoin-deal-breakthrough/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "South Korea crypto sector warns AML proposal goes too far: Report",
+    "description": "\n\nCrypto industry body DAXA said the proposed rules could push suspicious transaction reports from South Korea’s five largest exchanges to more than 5.4 million a year, Yonhap reported.\n...",
+    "date": "2026-05-04 12:31:47",
+    "url": "https://cointelegraph.com/news/south-koreas-crypto-exchanges-push-bank-on-10m-won-reporting-rule-report?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
+    "description": "\n\nNew York AG Letitia James secured a $5 million settlement from Uphold for promoting CredEarn, a crypto savings product that misled users about its risks.\n...",
+    "date": "2026-05-04 08:56:10",
+    "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
     "title": "US law firm attempts to block transfer of frozen ETH from Kelp exploit",
     "description": "\n\nGerstein Harrow has filed similar cases in the past, arguing its clients have a claim to funds stolen by the DPRK and frozen by crypto firms.\n...",
     "date": "2026-05-04 08:27:35",
@@ -104,7 +360,7 @@
     "source": "CryptoSlate"
   },
   {
-    "title": "A Tether-linked billionaire poured £22M into UK politics – Now new donation rules may close the door",
+    "title": "Tether-linked billionaire pours millions into UK politics – But new donation rules may close the door",
     "description": "\nChristopher Harborne is British-born, Cambridge-educated, and has lived in Thailand since 1996. He goes by the Thai name Chakrit Sakunkrit, holds Thai citizenship, and controls a reported 12% stake i...",
     "date": "2026-05-03 16:30:46",
     "url": "https://cryptoslate.com/a-tether-linked-billionaire-poured-22m-into-uk-politics-now-new-donation-rules-may-close-the-door/",
@@ -118,14 +374,6 @@
     "url": "https://cryptoslate.com/why-xrp-ledger-is-becoming-a-3-6b-hot-spot-for-tokenized-energy-commodities/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.\n...",
-    "date": "2026-05-03 14:00:00",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "Wall Street’s $292 billion risk-on rotation just created a new bullish setup for Bitcoin",
@@ -142,14 +390,6 @@
     "url": "https://cryptoslate.com/xrps-leverage-has-been-flushed-out-while-price-holds-and-the-next-move-is-now-wide-open/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
-    "description": "\n\nNew York AG Letitia James secured a $5 million settlement from Uphold for promoting CredEarn, a crypto savings product that misled users about its risks.\n...",
-    "date": "2026-05-03 08:56:10",
-    "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
   },
   {
     "title": "Worker Wins Landmark AI Substitution Case in China",
@@ -1072,14 +1312,6 @@
     "source": "Cointelegraph Regulation"
   },
   {
-    "title": "KuCoin EU hires new AML chief after Austria ban on new business under MiCA",
-    "description": "...",
-    "date": "2026-04-29T18:32:59.000Z",
-    "url": "https://cointelegraph.com/news/kucoin-eu-hires-new-aml-chief-after-austria-ban-on-new-business-under-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
     "title": "U.S. senator holding cards on Clarity Act's next move says it's ready to get to hearing",
     "description": "...",
     "date": "2026-04-29T18:00:54.000Z",
@@ -1198,6 +1430,14 @@
     "url": "https://news.bitcoin.com/blackrock-pulls-112m-from-ibit-as-bitcoin-etf-outflows-extend-cooling-phase/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
+  },
+  {
+    "title": "KuCoin EU hires new AML chief after Austria ban on new business under MiCA",
+    "description": "...",
+    "date": "2026-04-29T14:28:24.000Z",
+    "url": "https://cointelegraph.com/news/kucoin-eu-hires-new-aml-chief-after-austria-ban-on-new-business-under-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
   },
   {
     "title": "Wall Street is launching the first ever prediction market ETFs for U.S. elections",
