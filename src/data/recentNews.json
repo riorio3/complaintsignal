@@ -1,5 +1,205 @@
 [
   {
+    "title": "Flagged Live: Attacker Flips $11.5M in Stolen Verus Assets to ETH Following Tornado Cash Setup",
+    "description": "\nA coordinated exploit drained approximately $11.5 million from the Verus-Ethereum bridge on May 18, with security firm Blockaid linking the attacker’s wallet to Tornado Cash. Attacker Converts Loot t...",
+    "date": "2026-05-18 10:30:50",
+    "url": "https://news.bitcoin.com/verus-ethereum-bridge-hack-11-million-tornado-cash-2026/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Crypto ATM Operator Bitcoin Depot Files for Chapter 11 Bankruptcy",
+    "description": "North America's largest Bitcoin ATM operator cited a hostile regulatory environment and an 'unsustainable' business model....",
+    "date": "2026-05-18 09:36:09",
+    "url": "https://decrypt.co/368146/crypto-atm-operator-bitcoin-depot-files-for-chapter-11-bankruptcy",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Crypto Bridge Exploits Hit $328.6M in May as Peckshield Tracks 8 Major Incidents",
+    "description": "\nCross-chain bridges, infrastructure that allows assets to move between separate blockchain networks, have now lost $328.6 million to attackers across eight separate incidents in May 2026. Crypto’s Wo...",
+    "date": "2026-05-18 09:30:33",
+    "url": "https://news.bitcoin.com/crypto-bridge-exploits-328-million-may-2026-peckshield/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Iran-linked report says Hormuz Safe bitcoin-settled insurance platform aims to generate $10 billion",
+    "description": "Iranian media reported the launch of Hormuz Safe, a bitcoin-settled insurance platform tied to Strait of Hormuz cargo transit....",
+    "date": "2026-05-18 09:27:06",
+    "url": "https://www.theblock.co/post/401612/iran-linked-report-says-hormuz-safe-bitcoin-settled-insurance-platform-aims-to-generate-10-billion?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "CLARITY Act could be signed into law by President Donald Trump in early August — Galaxy Digital",
+    "description": "\nThe CLARITY Act could be signed into law in the week of Aug. 3 if Congress keeps pace after a bipartisan Senate Banking Committee vote moved the crypto market structure bill into its next phase, Gala...",
+    "date": "2026-05-18 09:21:55",
+    "url": "https://cryptoslate.com/clarity-act-could-be-signed-into-law-by-president-donald-trump-in-early-august-galaxy-digital/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "French BTC treasury firm Capital B buys $15 million in bitcoin following raise",
+    "description": "Capital B said it raised a total of $20 million from three capital increase contracts, involving Blockstream CEO Adam Back....",
+    "date": "2026-05-18 09:01:00",
+    "url": "https://www.theblock.co/post/401608/capital-b-192-btc?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Bitcoin Flash Crash: Price Slides Below $77K, Triggering $657 Million in Crypto Liquidations",
+    "description": "\nBitcoin fell below $77,000 on Monday, extending a four-day losing streak, triggering $657 million in total liquidations across crypto markets in 24 hours, with long positions bearing the brunt of the...",
+    "date": "2026-05-18 07:30:19",
+    "url": "https://news.bitcoin.com/bitcoin-77000-657-million-liquidations-machi-big-brother-may-2026/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Kraken cuts 150 staff amid AI efficiencies, potentially delaying IPO: Report",
+    "description": "\n\nKraken has cut 150 staff due to the rising use of AI, adding to more than 5,000 layoffs across the crypto sector so far this year, Bloomberg reports.\n...",
+    "date": "2026-05-18 07:14:27",
+    "url": "https://cointelegraph.com/news/kraken-parent-payward-cuts-150-staff-potentially-delaying-ipo-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Crypto security is turning into an AI arms race as agents may overwhelm compliance teams",
+    "description": "AI agents and automated payments could reach a scale that crypto monitoring systems built for human-paced markets cannot handle, Elliptic CEO Simone Maini warned....",
+    "date": "2026-05-18 07:13:08",
+    "url": "https://www.coindesk.com/tech/2026/05/18/crypto-security-is-turning-into-an-ai-arms-race-as-agents-may-overwhelm-compliance-teams",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Verus Ethereum bridge reportedly exploited for $11.6M in latest DeFi attack",
+    "description": "\n\nTwo security companies have flagged the address where the stolen funds are allegedly being held, showing the cryptocurrencies have been converted into 5,402 Ether.\n\n...",
+    "date": "2026-05-18 07:11:30",
+    "url": "https://cointelegraph.com/news/verus-ethereum-bridge-reportedly-exploited-for-millions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
+    "description": "Bitcoin Depot, the largest bitcoin ATM operator in North America and publicly listed on Nasdaq, has filed for Chapter 11 bankruptcy....",
+    "date": "2026-05-18 06:55:50",
+    "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "US crypto ATM operator Bitcoin Depot files for Chapter 11 to wind down business",
+    "description": "Bitcoin Depot said changing regulatory environments have made it difficult to continue its current business model....",
+    "date": "2026-05-18 06:10:05",
+    "url": "https://www.theblock.co/post/401590/bitcoin-depot-chapter-11?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Clarity in a K-Shaped Economy  – Week in Review",
+    "description": "\nThis editorial is from last week’s edition of the newsletter Week in Review. Subscribe to the newsletter to get this weekly editorial the second it’s finished. The newsletter also includes the bigges...",
+    "date": "2026-05-18 05:30:36",
+    "url": "https://news.bitcoin.com/clarity-in-a-k-shaped-economy-week-in-review/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Senate crypto bill at risk beyond midterms if not passed by August: NYDIG",
+    "description": "\n\nNYDIG’s Greg Cipolaro says the Senate’s crypto market structure bill is at risk of failing if it cannot clear a floor vote by August.\n\n...",
+    "date": "2026-05-18 05:23:11",
+    "url": "https://cointelegraph.com/news/senate-crypto-bill-august-advance-in-lame-duck-session-nydig?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Senate crypto bill at risk beyond midterms if not passed by August: NYDIG",
+    "description": "\n\nNYDIG’s Greg Cipolaro says the Senate’s crypto market structure bill is at risk of failing if it cannot clear a floor vote by August.\n\n...",
+    "date": "2026-05-18 05:23:11",
+    "url": "https://cointelegraph.com/news/senate-crypto-bill-august-advance-in-lame-duck-session-nydig?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitget AI Hits 1 Million Users and $1.2B in Agent Trading Volume Across 58 Tools",
+    "description": "\nBitget’s unified artificial intelligence (AI) trading platform has crossed 1 million users and recorded more than $1.2 billion in cumulative trading volume across 58 AI-powered tools, the exchange re...",
+    "date": "2026-05-18 04:30:06",
+    "url": "https://news.bitcoin.com/bitget-ai-hits-1-million-users-and-1-2b-in-agent-trading-volume-across-58-tools/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin slides under $77,000 as oil shock and Treasury yields hit risk assets",
+    "description": "Long-term holders are still sitting tight and exchange balances remain near six-year lows, Binance Research data shows, but underwater short-term holders leave BTC vulnerable to macro shocks....",
+    "date": "2026-05-18 03:52:10",
+    "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Grayscale, VanEck amend US spot BNB ETF filings, stepping closer to potential launch",
+    "description": "\n\nThe US securities regulator approved 21Shares’ Hyperliquid ETF last week, adding to a growing number of cryptocurrencies converted into ETF wrappers in the US.\n...",
+    "date": "2026-05-18 02:40:22",
+    "url": "https://cointelegraph.com/news/grayscale-vaneck-advance-bnb-etf-filings-for-potential-sec-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Darknet Kingpin’s Fatal Flaw: Buying Gold Bars With Crypto Leads to Arrest",
+    "description": "\nOwe Martin Andresen, a German national, faces money laundering charges after using a cryptocurrency-based payment processor to purchase gold bars and sending them to his home address. Adresen was the...",
+    "date": "2026-05-18 02:30:34",
+    "url": "https://news.bitcoin.com/darknet-kingpins-fatal-flaw-buying-gold-bars-with-crypto-leads-to-arrest/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "KuCoin Australia’s ‘Evolution’ Showcases Regulatory Focus, Mastercard Launch",
+    "description": "The exchange’s KuCard rollout enables users to make \"seamless payments\" to Mastercard merchants using USDC....",
+    "date": "2026-05-18 00:01:03",
+    "url": "https://decrypt.co/367114/kucoin-australias-evolution-showcases-regulatory-focus-mastercard-launch",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.\n...",
+    "date": "2026-05-17 22:30:00",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Japan’s SBI, Rakuten developing crypto investment trusts in-house: Nikkei",
+    "description": "The push comes after Japan's cabinet approved a bill last month that would reclassify crypto under the Financial Instruments and Exchange Act. ...",
+    "date": "2026-05-17 18:44:53",
+    "url": "https://www.theblock.co/post/401561/japans-sbi-rakuten-developing-crypto-investment-trusts-in-house-nikkei?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "CLARITY Act advances, but crypto’s retail trust test is only starting",
+    "description": "\nThe CLARITY Act has moved one step closer to becoming the first broad US market-structure framework for digital assets, giving the crypto industry a policy signal it has waited years to see. The vote...",
+    "date": "2026-05-17 13:35:35",
+    "url": "https://cryptoslate.com/clarity-act-is-not-law-yet-but-the-markup-is-a-retail-trust-catalyst/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Wall Street’s fight with Hyperliquid could decide who controls 24/7 markets",
+    "description": "\nCME Group plans to make its cryptocurrency futures and options trade around the clock beginning May 29, a product line that posted $3 trillion in notional volume in 2025 and is running 46% above that...",
+    "date": "2026-05-17 11:15:44",
+    "url": "https://cryptoslate.com/hyperliquid-oil-perps-wall-street-24-7-trading/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitcoin has one level left before macro pressure opens the path to $75k as Treasury yields extend two-day correction",
+    "description": "\nBitcoin touched $77,711 intraday before recovering to near $78,225, spending a second consecutive session under macro stress as US Treasury yields held near multi-month highs. The 10-year yield reach...",
+    "date": "2026-05-17 09:30:42",
+    "url": "https://cryptoslate.com/bitcoin-macro-pressure-path-to-75000-treasury-yields-extend-correction/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
     "title": "A Russian stablecoin built to dodge sanctions says it can survive even if they're lifted",
     "description": "A7A5, the Russia-linked stablecoin built to move money around banking restrictions, says faster trade settlement, yield and regional crypto infrastructure could keep it relevant even if geopolitical t...",
     "date": "2026-05-17 08:00:00",
@@ -102,14 +302,6 @@
     "url": "https://cryptoslate.com/thorchain-exploit-defi-halt-trust-test/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.\n...",
-    "date": "2026-05-16 15:30:00",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "Bitcoin ETF flows reverse as US funds shed $1B amid inflation fears",
@@ -454,6 +646,22 @@
     "url": "https://www.theblock.co/post/401482/strategy-to-retire-1-5-billion-in-convertible-notes-at-a-discount-may-sell-bitcoin-to-fund-buyback?utm_source=rss&utm_medium=rss",
     "agency": "NEWS",
     "source": "The Block"
+  },
+  {
+    "title": "Strategy (MSTR) Files to Repurchase $1.5B in 2029 Convertible Notes as STRC Hits Record $1.53B Daily Volume",
+    "description": "\nBitcoin MagazineStrategy (MSTR) Files to Repurchase $1.5B in 2029 Convertible Notes as STRC Hits Record $1.53B Daily Volume\nStrategy said Friday it plans to repurchase $1.5 billion in 2029 convertibl...",
+    "date": "2026-05-15 13:01:30",
+    "url": "https://bitcoinmagazine.com/news/strategy-mstr-files-to-repurchase-1-5b",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Poland Passes Crypto Bill as Fraud Probe Deepens Political Divide",
+    "description": "\nBitcoin MagazinePoland Passes Crypto Bill as Fraud Probe Deepens Political Divide\nPolish lawmakers approved a long-debated crypto bill to align with the EU’s MiCA rules, as a fraud probe tied to a ma...",
+    "date": "2026-05-15 12:26:36",
+    "url": "https://bitcoinmagazine.com/news/poland-passes-crypto-bill-as-fraud",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
   },
   {
     "title": "South Korea plans July rules for tokenized securities",
