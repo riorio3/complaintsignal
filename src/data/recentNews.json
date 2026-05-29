@@ -1,5 +1,333 @@
 [
   {
+    "title": "Paxos Secures SEC Registration as Clearing Agency",
+    "description": "The approval makes Paxos the “only blockchain-native firm” approved by the SEC to operate as a registered clearing agency in the U.S....",
+    "date": "2026-05-29 10:34:30",
+    "url": "https://decrypt.co/369440/paxos-secures-sec-registration-as-clearing-agency",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Aave Labs secures dual UK licenses for regulated crypto payments infrastructure through local subsidiary",
+    "description": "Aave Labs has obtained FCA cryptoasset registration in the U.K. for its Push subsidiaries, unlocking zero-fee fiat on-ramps....",
+    "date": "2026-05-29 10:18:22",
+    "url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Kalshi follows CFTC in suing Minnesota over law criminalizing prediction markets",
+    "description": "The Governor of Minnesota signed into law a measure that, starting Aug. 1, makes it a crime to advertise and operate prediction market platforms across the state....",
+    "date": "2026-05-29 09:59:39",
+    "url": "https://www.coindesk.com/policy/2026/05/29/kalshi-follows-cftc-in-suing-minnesota-over-law-criminalizing-prediction-markets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "‘First and only’: Paxos secures SEC registration as clearing and settlement agency",
+    "description": "Paxos said it is the first and only blockchain-native firm to be registered as a clearing agency under the SEC....",
+    "date": "2026-05-29 08:51:59",
+    "url": "https://www.theblock.co/post/402994/paxos-sec-registration?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "OKX Ventures, Korea Investment &amp; Securities to buy 19.6% Coinone stake for $106M",
+    "description": "\n\nOKX Ventures and KIS to invest $53 million each for a 19.6% stake in Coinone, deepening ties between traditional finance and crypto in South Korea’s tightly regulated market.\n...",
+    "date": "2026-05-29 08:31:00",
+    "url": "https://cointelegraph.com/news/okx-ventures-korea-investment-securities-buy-196-stake-in-coinone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Stake DAO Freezes Arbitrum vsdCRV Markets After Attacker Mints 5.4T Synthetic Tokens",
+    "description": "\nOn May 27, decentralized finance platform Stake DAO suffered an infinite-minting exploit on its Arbitrum protocol. However, Stake DAO core contributors quickly secured the mainnet funds backing the t...",
+    "date": "2026-05-29 08:30:52",
+    "url": "https://news.bitcoin.com/stake-dao-freezes-arbitrum-vsdcrv-markets-after-attacker-mints-5-4t-synthetic-tokens/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Solana, Sui and Aptos wallet data targeted in TrapDoor package attack",
+    "description": "The campaign targets crypto, DeFi, AI and security developers with fake tooling packages to steal wallets, SSH keys, GitHub tokens, cloud credentials and browser data....",
+    "date": "2026-05-29 08:19:42",
+    "url": "https://www.coindesk.com/tech/2026/05/29/solana-sui-and-aptos-wallet-data-targeted-in-trapdoor-package-attack",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "New lawsuit claims Satoshi Nakamoto’s Bitcoin is “Lost Property” worth under $10 per wallet",
+    "description": "\nA New York lawsuit is seeking to treat some of Bitcoin’s oldest dormant wallets, including addresses tied to the cryptocurrency’s creator, as lost property valued at less than $10 each. The amended c...",
+    "date": "2026-05-29 08:10:51",
+    "url": "https://cryptoslate.com/new-lawsuit-claims-satoshi-nakamotos-bitcoin-is-lost-property-worth-under-10-per-wallet/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Sui Network Suffers 6-Hour Outage Following 1.72 Upgrade Bug",
+    "description": "\nThe Sui blockchain experienced a nearly six-hour network stall, halting all onchain block production. The disruption marks the second major downtime event for the high-throughput network this year. O...",
+    "date": "2026-05-29 07:30:38",
+    "url": "https://news.bitcoin.com/sui-network-suffers-6-hour-outage-following-upgrade-bug/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bit Digital Grows Treasury to 158,462 ETH With New $20M Purchase",
+    "description": "\nBit Digital purchased 8,568 ETH for $20 million, expanding its ethereum treasury to 158,462 ETH. The company said the move supports its broader strategy across ethereum, AI infrastructure, and strate...",
+    "date": "2026-05-29 06:30:11",
+    "url": "https://news.bitcoin.com/bit-digital-grows-treasury-to-158462-eth-with-new-20m-purchase/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "OKX Ventures buys $53 million stake in Korea's Coinone exchange",
+    "description": "The crypto exchange's investment arm and Korea Investment &amp; Securities will each invest 80 billion won ($53 million) as Coinone pushes into stablecoins and tokenized securities....",
+    "date": "2026-05-29 06:07:27",
+    "url": "https://www.coindesk.com/markets/2026/05/29/okx-ventures-buys-usd53-million-stake-in-korea-s-coinone-exchange",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "OKX confirms $53 million investment to acquire 20% stake in Coinone crypto exchange",
+    "description": "This marks the latest move by a global crypto giant to secure a foothold in South Korea, following Binance's acquisition of Gopax....",
+    "date": "2026-05-29 06:00:00",
+    "url": "https://www.theblock.co/post/402969/okx-confirms-53-million-coinone?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "SEC approves Paxos as ‘blockchain-native’ clearing agency",
+    "description": "\n\nPaxos says its approval as a blockchain-focused clearing agency represents a “critical piece of financial market infrastructure” as Wall Street becomes more interested in crypto.\n...",
+    "date": "2026-05-29 05:37:25",
+    "url": "https://cointelegraph.com/news/paxos-becomes-first-crypto-firm-to-win-sec-clearing-agency-registration?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "SEC approves Paxos as ‘blockchain-native’ clearing agency",
+    "description": "\n\nPaxos says its approval as a blockchain-focused clearing agency represents a “critical piece of financial market infrastructure” as Wall Street becomes more interested in crypto.\n...",
+    "date": "2026-05-29 05:37:25",
+    "url": "https://cointelegraph.com/news/paxos-becomes-first-crypto-firm-to-win-sec-clearing-agency-registration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin, ether little-changed despite record stocks, falling oil and easing war fears",
+    "description": "Global stocks hit records and oil cracked on a tentative US-Iran ceasefire extension. Crypto stayed on the sidelines, with some analysts saying the next catalyst is regulatory, not geopolitical....",
+    "date": "2026-05-29 04:41:55",
+    "url": "https://www.coindesk.com/markets/2026/05/29/bitcoin-ether-little-changed-despite-record-stocks-falling-oil-and-easing-war-fears",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Bitcoin’s trapped under $74K while $9B options expiry looms: Are bears back in control?",
+    "description": "\n\nBears hold the upper hand for Friday's $9 billion options expiry, keeping Bitcoin under pressure amid heavy ETF outflows and corporate selling\n...",
+    "date": "2026-05-29 03:44:40",
+    "url": "https://cointelegraph.com/markets/bitcoins-trapped-under-74k-while-9b-options-expiry-looms-are-bears-back-in-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Treasury Secretary Scott Bessent reiterates ‘no CBDC’ commitment under Trump admin",
+    "description": "During a Thursday press briefing, Bessent also urged the House and the Senate to get the Clarity Act to the finish line....",
+    "date": "2026-05-29 02:53:58",
+    "url": "https://www.theblock.co/post/402971/scott-bessent-reiterates-no-cbdc?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "CFTC Sues Rhode Island as State Rules Threaten Prediction Markets",
+    "description": "\nThe Commodity Futures Trading Commission (CFTC) moved to intervene in Rhode Island litigation over prediction markets, seeking to block state gambling laws from being applied to federally regulated e...",
+    "date": "2026-05-29 02:30:45",
+    "url": "https://news.bitcoin.com/cftc-sues-rhode-island-as-state-rules-threaten-prediction-markets/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Anti-Crypto Army Lost: Ripple CEO Cites Trump’s Future-Proof Crypto Push",
+    "description": "\nRipple CEO Brad Garlinghouse framed President Trump’s crypto post as a sign of a new U.S. policy opening for digital assets. XRP remains part of the broader market debate as lawmakers weigh clearer f...",
+    "date": "2026-05-29 01:30:23",
+    "url": "https://news.bitcoin.com/anti-crypto-army-lost-ripple-ceo-cites-trumps-future-proof-crypto-push/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "CFTC Moves to Drop Gemini Restrictions in Case It Says Shouldn’t Exist",
+    "description": "\nThe CFTC says its Gemini crypto case should never have been filed under current enforcement standards. The agency has joined Gemini in asking a federal court to remove remaining settlement restrictio...",
+    "date": "2026-05-29 00:30:02",
+    "url": "https://news.bitcoin.com/cftc-moves-to-drop-gemini-restrictions-in-case-it-says-shouldnt-exist/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Solana open interest drops 30% as altcoins slump: Is $68 SOL next?",
+    "description": "\n\nBulls abandon ship as SOL futures open interest dropped 30% in May. With the price weakening near $80, Solana may be destined for new lows.\n...",
+    "date": "2026-05-28 22:39:43",
+    "url": "https://cointelegraph.com/markets/solana-open-interest-drops-30-as-68-retest-comes-back-into-play?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Fidelity Digital Assets highlights 'growing evidence' of shift from dollar-based systems",
+    "description": "\n\nThe investment firm said nation-states and central banks are increasingly turning to assets like Bitcoin and gold as alternative settlement systems outside of US control.\n...",
+    "date": "2026-05-28 22:32:50",
+    "url": "https://cointelegraph.com/news/fidelity-digital-assets-shift-dollar-based-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Prediction markets legal battles heat up in Minnesota, Rhode Island",
+    "description": "\n\nKalshi sued Minnesota while the CFTC filed against Rhode Island as legal wrangling with state-level authorities seems likely headed to the US Supreme Court.\n...",
+    "date": "2026-05-28 22:06:00",
+    "url": "https://cointelegraph.com/news/kalshi-cftc-lawsuit-minnesota-prediction-markets-ban?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Prediction markets legal battles heat up in Minnesota, Rhode Island",
+    "description": "\n\nKalshi sued Minnesota while the CFTC filed against Rhode Island as legal wrangling with state-level authorities seems likely headed to the US Supreme Court.\n...",
+    "date": "2026-05-28 22:06:00",
+    "url": "https://cointelegraph.com/news/kalshi-cftc-lawsuit-minnesota-prediction-markets-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Calamos bets protected Bitcoin ETFs can outlast crypto market swings",
+    "description": "As more than $1 billion exited spot Bitcoin ETFs last week, Calamos says investors are rotating into Bitcoin products with built-in downside protection....",
+    "date": "2026-05-28 22:03:42",
+    "url": "https://www.coindesk.com/coindesk-news/2026/05/28/calamos-bets-protected-bitcoin-etfs-can-outlast-crypto-market-swings",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Anthropic Nears $1 Trillion Valuation, Topping OpenAI After Fresh $65 Billion Raise",
+    "description": "Claude maker Anthropic said annualized revenue surpassed $47 billion as it expands cloud and compute partnerships....",
+    "date": "2026-05-28 20:51:52",
+    "url": "https://decrypt.co/369434/anthropic-nears-1-trillion-valuation-topping-openai-65-billion-raise",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "SEC Commissioner Peirce defends crypto privacy tools against surveillance push",
+    "description": "\n\nThe leader of the regulator's Crypto Task Force said privacy-enhancing technologies can strengthen investor protection and urged regulators not to treat them with suspicion.\n...",
+    "date": "2026-05-28 20:49:32",
+    "url": "https://cointelegraph.com/news/sec-hester-peirce-defends-crypto-privacy-tools-surveillance?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Trump claims he can ‘future proof’ crypto regulation with CLARITY Act",
+    "description": "\n\nThe future of a digital asset market structure bill in Congress is still uncertain amid concerns over ethics provisions, with the president, whose crypto ties are under scrutiny, weighing in on soci...",
+    "date": "2026-05-28 20:35:00",
+    "url": "https://cointelegraph.com/news/donald-trump-future-proof-crypto-clarity-act?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "France's AMF regulator sets June 30 deadline for MiCA licensing",
+    "description": "\n\nThe European Union's Markets in Crypto Assets regulations first took effect in 2024, but gave crypto service providers time to fully comply with the framework.\n...",
+    "date": "2026-05-28 20:19:52",
+    "url": "https://cointelegraph.com/news/france-amf-regulator-june-deadline-mica-licensing?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Bitcoin Miners Face AI Squeeze as Hash Rate Flattens and Network Enters New Security Phase, Fidelity Says",
+    "description": "...",
+    "date": "2026-05-28T19:55:14.000Z",
+    "url": "https://bitcoinmagazine.com/news/bitcoin-miners-face-ai-squeeze",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
+    "description": "FalconX has hired Cantor and other bankers to advise on a potential IPO and confidentially filed draft paperwork with the SEC, though the listing is not expected until later this year amid volatile ma...",
+    "date": "2026-05-28 19:53:38",
+    "url": "https://www.coindesk.com/business/2026/05/28/crypto-trading-firm-falconx-confidentially-files-with-sec-for-ipo-hires-bankers",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "The Digital Chamber ramps up pressure on Congress with call to action to pass Clarity Act",
+    "description": "The Digital Chamber published a website to serve as a central spot for people to write to lawmakers in its latest push to pass a crypto bill....",
+    "date": "2026-05-28 19:35:02",
+    "url": "https://www.theblock.co/post/402948/the-digital-chamber-ramps-up-pressure-on-congress-with-call-to-action-to-pass-clarity-act?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Kalshi Sues to Stop Minnesota From Enforcing America’s First Prediction Market Ban",
+    "description": "Prediction market giant Kalshi has asked a federal judge to prevent Minnesota from allowing the ban to go into effect in August....",
+    "date": "2026-05-28 19:07:33",
+    "url": "https://decrypt.co/369408/kalshi-sues-stop-minnesota-enforcing-prediction-market-ban",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Anonymous Plaintiff Seeks Legal Title to $293 Billion in Dormant Bitcoin, Without Holding Any Private Keys",
+    "description": "...",
+    "date": "2026-05-28T18:44:08.000Z",
+    "url": "https://bitcoinmagazine.com/news/anonymous-plaintiff-seeks-legal-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Anthropic's Claude Mythos AI Model Nearing Release After Raising Cybersecurity Alarms",
+    "description": "Anthropic signaled that broader access to its controversial Claude Mythos AI models may arrive \"in the coming weeks\" after limited testing....",
+    "date": "2026-05-28 18:27:39",
+    "url": "https://decrypt.co/369383/anthropic-claude-mythos-ai-model-nearing-release-cybersecurity-alarms",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Have AI agents made the entire $148 billion DeFi sector unsafe?",
+    "description": "\nA warning from one of decentralized finance’s (DeFi) early security figures has turned a difficult stretch of hacks into a broader test of how the industry can defend itself against artificial intell...",
+    "date": "2026-05-28 18:05:47",
+    "url": "https://cryptoslate.com/have-ai-agents-made-the-entire-148-billion-defi-sector-unsafe/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "What the Clarity Act Means for the Rest of the World",
+    "description": "The Senate’s crypto bill has supporters excited—and opponents concerned—about the bill’s potential reverberations beyond America’s borders....",
+    "date": "2026-05-28 17:52:49",
+    "url": "https://decrypt.co/369245/what-clarity-act-means-rest-of-world",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Australia’s Project Acacia shows why tokenized markets still hinge on settlement money",
+    "description": "\nProject Acacia has now tested how tokenized asset markets could settle in Australia. The Reserve Bank of Australia and Digital Finance Cooperative Research Centre released findings from Project Acaci...",
+    "date": "2026-05-28 15:55:00",
+    "url": "https://cryptoslate.com/project-acacia-tokenized-market-settlement/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Sequans (SQNS) Completes Bitcoin Unwind, Exits Digital Asset Strategy After Less Than a Year",
+    "description": "\nBitcoin MagazineSequans (SQNS) Completes Bitcoin Unwind, Exits Digital Asset Strategy After Less Than a Year\nSequans Communications exited its Bitcoin treasury strategy in under a year after selling ...",
+    "date": "2026-05-28 15:48:03",
+    "url": "https://bitcoinmagazine.com/news/sequans-completes-bitcoin-unwind",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Argentina bill targets crypto payments to illegal gambling sites",
+    "description": "\n\nArgentina’s proposed online gambling bill would restrict banks, payment firms and crypto providers from serving unauthorized betting platforms.\n...",
+    "date": "2026-05-28 15:05:21",
+    "url": "https://cointelegraph.com/news/argentina-bill-crypto-payments-illegal-gambling?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Stablecoins were supposed to bypass credit cards, but now Visa is winning crypto card payments",
+    "description": "\nStablecoins were built on the premise that removing intermediaries between sender and recipient would erode the relevance of legacy payment networks, but the fastest-growing consumer stablecoin produ...",
+    "date": "2026-05-28 12:05:54",
+    "url": "https://cryptoslate.com/stablecoins-bypass-visa-winning-crypto-card-payments/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
     "title": "Bitcoin Slips Under $73K as Crypto Liquidations Near $1B",
     "description": "The near-$1 billion crypto liquidation spree comes amid rising tensions over the U.S.-Iran conflict and ETF outflows....",
     "date": "2026-05-28 10:39:44",
@@ -70,6 +398,14 @@
     "url": "https://cointelegraph.com/news/crypto-markets-tank-80b-as-us-carries-out-fresh-strikes-on-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
+  },
+  {
+    "title": "CFTC seeks to reverse settlement deal with Gemini",
+    "description": "\n\nThe CFTC claimed that its settled complaint filed under the Biden administration relied heavily on a whistleblower’s allegations that Gemini inflated trading activity to distort user demand.\n...",
+    "date": "2026-05-28 06:41:24",
+    "url": "https://cointelegraph.com/news/cftc-moves-to-reverse-settlement-deal-against-gemini?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "CFTC seeks to reverse settlement deal with Gemini",
@@ -198,6 +534,14 @@
     "url": "https://decrypt.co/369240/how-much-bitcoin-elon-musk-control-spacex-tesla-merge",
     "agency": "NEWS",
     "source": "Decrypt"
+  },
+  {
+    "title": "Strive’s SATA Tops Estimated 490 Bitcoin in a Single Day — More Than the Entire Daily Mining Supply",
+    "description": "\nBitcoin MagazineStrive’s SATA Tops Estimated 490 Bitcoin in a Single Day — More Than the Entire Daily Mining Supply\nAt the time of writing today, Strive, Inc.’s SATA preferred stock program bought ro...",
+    "date": "2026-05-27 20:36:54",
+    "url": "https://bitcoinmagazine.com/news/strives-sata-tops-estimated-490-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
   },
   {
     "title": "ElevenLabs, Stability AI Drop New AI Music Models—Can They Catch Suno?",
@@ -553,8 +897,8 @@
   },
   {
     "title": "This signal shows Bitcoin is heading towards $60,000 tied to a $14 billion liquidation setup",
-    "description": "\nBitcoin is trading below below $78,000 as weakening demand from US spot exchange-traded funds (ETFs) collides with a buildup of leveraged positions that could deepen selling if key support levels fai...",
-    "date": "2026-05-26 12:15:43",
+    "description": "...",
+    "date": "2026-05-26T12:15:43.000Z",
     "url": "https://cryptoslate.com/signal-bitcoin-60000-14-billion-liquidation/",
     "agency": "NEWS",
     "source": "CryptoSlate"
@@ -592,6 +936,14 @@
     "source": "Bitcoin.com News"
   },
   {
+    "title": "CFTC may gain broader crypto oversight as staff who questioned major firms were reportedly sidelined",
+    "description": "...",
+    "date": "2026-05-25T18:10:24.000Z",
+    "url": "https://cryptoslate.com/cftc-crypto-oversight-clarity-act-independence-test/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
     "title": "With Central Bank’s Blessing, Georgia Taps Tether for 'Official' Stablecoin",
     "description": "...",
     "date": "2026-05-25T18:06:03.000Z",
@@ -606,6 +958,14 @@
     "url": "https://cointelegraph.com/press-releases/ariqo-makes-its-bangkok-debut-at-seabw-drawing-industry-attention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
+  },
+  {
+    "title": "Nasdaq’s Bitcoin options win SEC approval, but Wall Street’s real battle is still ahead",
+    "description": "...",
+    "date": "2026-05-25T14:05:28.000Z",
+    "url": "https://cryptoslate.com/nasdaq-bitcoin-index-options-sec-approval/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
   },
   {
     "title": "Indonesia blocks Polymarket amid crackdown on online betting",
