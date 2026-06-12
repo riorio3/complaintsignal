@@ -1,5 +1,301 @@
 [
   {
+    "title": "CFTC’s Mike Selig Vows to End Regulation by Enforcement as He Steers US Crypto Solo",
+    "description": "\nCommodity Futures Trading Commission (CFTC) Chair Mike Selig said crypto markets have “for too long” operated under uncertainty, vowing clear rules over enforcement even as he becomes the agency’s on...",
+    "date": "2026-06-12 10:30:23",
+    "url": "https://news.bitcoin.com/cftc-mike-selig-end-regulation-by-enforcement/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Metaplanet buys Siiibo Securities to accelerate bitcoin financial ecosystem plans",
+    "description": "The approximately $13.1 million acquisition gives Metaplanet a regulated securities platform to develop Bitcoin-linked investment products....",
+    "date": "2026-06-12 10:00:12",
+    "url": "https://www.coindesk.com/markets/2026/06/12/metaplanet-buys-siiibo-securities-to-accelerate-bitcoin-financial-ecosystem-plans",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "CLARITY Act moves to a fight between cops and coders",
+    "description": "\nOn June 10, administration officials hosted law enforcement groups at the White House to resolve the provision most likely to block the CLARITY Act from reaching the Senate floor for a vote. As Elean...",
+    "date": "2026-06-12 09:59:07",
+    "url": "https://cryptoslate.com/clarity-act-moves-to-a-fight-between-cops-and-coders/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Crypto scammers exploit World Cup ticket demand, TRM warns",
+    "description": "\n\nFIFA and the FBI warned of ticket scams as TRM Labs identified World Cup-themed crypto fraud operations tied to multiple wallet addresses.\n...",
+    "date": "2026-06-12 09:52:36",
+    "url": "https://cointelegraph.com/news/trm-world-cup-crypto-scams-fake-tickets-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Metaplanet to acquire Siiibo Securities for $13 million to develop bitcoin-linked yield products",
+    "description": "Metaplanet CEO Simon Gerovich said the deal is expected to close in July, and the company plans to rename the business Metaplanet Securities....",
+    "date": "2026-06-12 09:39:38",
+    "url": "https://www.theblock.co/post/404564/metaplanet-siiibo-securities-acquisition?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-06-12 07:00:00",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "SEC plan to scrap ‘Rule 611’ positive for tokenized US stocks: Galaxy",
+    "description": "\n\nGalaxy’s Alex Thorn says a plan to scrap rules on stock orders and quotes would remove a major barrier to tokenized stocks trading on decentralized platforms.\n...",
+    "date": "2026-06-12 06:44:20",
+    "url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "SEC plan to scrap ‘Rule 611’ positive for tokenized US stocks: Galaxy",
+    "description": "\n\nGalaxy’s Alex Thorn says a plan to scrap rules on stock orders and quotes would remove a major barrier to tokenized stocks trading on decentralized platforms.\n...",
+    "date": "2026-06-12 06:44:20",
+    "url": "https://cointelegraph.com/news/sec-plan-to-scrap-rule-611-a-boon-for-tokenized-us-stocks-galaxy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Figure Buys Kiavi for $717M as It Targets $200 Billion Lending Market",
+    "description": "\nFigure has agreed to acquire Kiavi’s technology and operating platform in a $717 million transaction. The deal is expected to bring more than $7 billion in annual first-lien loan volume onto Figure’s...",
+    "date": "2026-06-12 06:30:26",
+    "url": "https://news.bitcoin.com/figure-buys-kiavi-for-717m-as-it-targets-200-billion-lending-market/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Former SEC, CFTC Chair Gary Gensler argues that prediction markets don't overrule state regulations",
+    "description": "The former regulator joined a number of interest groups in arguing that prediction markets are overstepping their bounds by offering sports-related contracts....",
+    "date": "2026-06-12 06:27:20",
+    "url": "https://www.coindesk.com/policy/2026/06/12/former-sec-cftc-chair-gary-gensler-argues-that-prediction-markets-don-t-overrule-state-regulations",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance Lists Circle and Nvidia Bstocks as 1:1 Equity Tokens Enter Crypto Wallets",
+    "description": "\nBinance has introduced a new line of fully backed tokenized securities representing select U.S. stocks. Bridging Traditional Finance and DeFi Global crypto exchange, Binance, has begun offering tradi...",
+    "date": "2026-06-12 05:30:01",
+    "url": "https://news.bitcoin.com/binance-lists-circle-and-nvidia-bstocks-as-11-equity-tokens-enter-crypto-wallets/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Avalanche Treasury shares fall 38% on Nasdaq debut after $675 million merger",
+    "description": "The company intends to accelerate the growth of the Avalanche ecosystem and plans to acquire over $1 billion worth of AVAX over time....",
+    "date": "2026-06-12 05:14:10",
+    "url": "https://www.theblock.co/post/404523/avalanche-treasury-nasdaq-debut?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Brazil Introduces Bill 2946 to Turn Central Bank Crypto Rules Into Federal Law",
+    "description": "\nBill 2,946/2026, introduced by Federal Deputy Jonas Donizette, enshrines the VASP rules adopted by the Central Bank of Brazil in Resolution 519 and other resolutions as law, bringing stability and ce...",
+    "date": "2026-06-12 04:30:03",
+    "url": "https://news.bitcoin.com/brazil-introduces-bill-2946-to-turn-central-bank-crypto-rules-into-federal-law/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Avalanche Treasury falls 16% as it debuts on Nasdaq",
+    "description": "\n\nAvalanche Treasury holds about 15 million of the blockchain’s native token, AVAX, which is trading at a five-year low. \n\n...",
+    "date": "2026-06-12 04:16:51",
+    "url": "https://cointelegraph.com/news/avalanche-treasury-starts-trading-on-nasdaq-but-shares-fall-16-on-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "SEC’s proposal to scrap key NMS rules a major unlock for tokenized US stocks: analysts",
+    "description": "Galaxy's Thorn said this would remove barriers that prevented DeFi automated market makers from trading tokenized US equities at scale....",
+    "date": "2026-06-12 04:15:13",
+    "url": "https://www.theblock.co/post/404515/sec-proposal-major-unlock-tokenized-stocks?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Ripple and Bitso Expand Stablecoin Settlement on XRP Ledger",
+    "description": "\nRipple and Bitso are expanding stablecoin settlement on the XRP Ledger, bringing MXNB and RLUSD into Ripple’s enterprise payments infrastructure. The effort focuses on the U.S.-Mexico corridor and ai...",
+    "date": "2026-06-12 03:30:53",
+    "url": "https://news.bitcoin.com/ripple-and-bitso-expand-stablecoin-settlement-on-xrp-ledger/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Coinbase, MassPay Link 180-Country Network to Enterprise USDC Payouts",
+    "description": "\nCoinbase and MassPay are connecting USDC settlement to a payout network spanning 180 countries, giving enterprises a simpler path for global disbursements. The integration supports dollar funding, US...",
+    "date": "2026-06-12 02:30:50",
+    "url": "https://news.bitcoin.com/coinbase-masspay-link-180-country-network-to-enterprise-usdc-payouts/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "XRP Gets AI Agent Payment Support in Ripple’s XRPL AI Starter Kit as Executive Sees Billions Ahead",
+    "description": "\nXRP is being positioned for AI-driven commerce as Ripple launches a developer toolkit that enables autonomous software to transact on the XRP Ledger. The XRPL AI Starter Kit adds support for XRP and ...",
+    "date": "2026-06-12 01:30:24",
+    "url": "https://news.bitcoin.com/xrp-gets-ai-agent-payment-support-in-ripples-xrpl-ai-starter-kit-as-executive-sees-billions-ahead/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "‘Anarchistic neobanks’ are bitcoin’s next frontier, says Blockrise CEO",
+    "description": "Blockrise CEO Jos Lazet sees bitcoin-native institutions evolving into alternatives to banks, in an interview at BTC Prague. ...",
+    "date": "2026-06-12 00:01:02",
+    "url": "https://www.theblock.co/post/404469/anarchistic-neobanks-bitcoins-next-frontier-says-blockrise-ceo?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?",
+    "description": "\n\nWith $1.9 billion exiting the spot Bitcoin ETFs and tech stocks under pressure, BTC is failing as a hedge and at risk of falling below the $60,000 support.\n...",
+    "date": "2026-06-11 22:58:52",
+    "url": "https://cointelegraph.com/markets/big-tech-crash-oil-volatility-rattles-markets-will-bitcoin-hold-above-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin Must Prepare for Quantum Threat Now, Coinbase Says",
+    "description": "Coinbase's quantum advisory council says crypto developers should begin post-quantum migration work now, warning that unresolved questions around abandoned and vulnerable coins could become one of Bit...",
+    "date": "2026-06-11 21:50:06",
+    "url": "https://decrypt.co/370851/bitcoin-quantum-threat-now-coinbase",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Citi launches blockchain marketplace for shares of private companies: Report",
+    "description": "\n\nThe US banking giant's blockchain marketplace will offer tokenized depositary receipts of private company shares amid Wall Street's broad embrace of tokenized assets.\n...",
+    "date": "2026-06-11 21:24:56",
+    "url": "https://cointelegraph.com/news/citi-launches-blockchain-marketplace-private-company-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Elon Musk’s SpaceX IPO fever sparks $1 billion crypto bet before Nasdaq debut",
+    "description": "\nCrypto traders have turned Elon Musk’s expected SpaceX listing into a round-the-clock proxy market, pushing more than $1 billion through SpaceX-linked perpetual futures in the last three days as inve...",
+    "date": "2026-06-11 21:05:49",
+    "url": "https://cryptoslate.com/elon-musks-spacex-ipo-fever-sparks-1-billion-crypto-bet-before-nasdaq-debut/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Ripple CEO Takes Aim at JPMorgan's Jamie Dimon Over Clarity Act Crypto Bill Criticism",
+    "description": "Ripple's Brad Garlinghouse spoke out against JPMorgan CEO Jamie Dimon and his comments on the key piece of crypto legislation....",
+    "date": "2026-06-11 20:44:14",
+    "url": "https://decrypt.co/370840/ripple-ceo-takes-aim-jpmorgan-jamie-dimon-clarity-act-comments",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Nasdaq-Listed Bitcoin Firm Nakamoto Sells BTC, Cuts Debt and Authorizes Share Buyback",
+    "description": "Nakamoto, the Nasdaq-listed Bitcoin services and treasury firm, sold about $48 million worth of BTC and derivatives to help reduce debt....",
+    "date": "2026-06-11 20:19:46",
+    "url": "https://decrypt.co/370842/nasdaq-listed-bitcoin-firm-nakamoto-sells-btc-cuts-debt-share-buyback",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Americans secretly drove as much as $34 billion in offshore prediction market bets, new report claims",
+    "description": "A new report from a boutique consulting firm claims that nearly a third of U.S. prediction market volume occurs on offshore platforms....",
+    "date": "2026-06-11 20:15:54",
+    "url": "https://www.theblock.co/post/404505/americans-secretly-drove-34-billion-offshore-prediction-market-bets-report-claims?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Coinbase Launches Tool That Lets AI Agents Trade Crypto and Make Payments for Users",
+    "description": "Coinbase's new product allows AI agents to execute crypto trades, payments, and portfolio management tasks within user-defined limits....",
+    "date": "2026-06-11 19:29:44",
+    "url": "https://decrypt.co/370835/coinbase-tool-ai-agents-trade-crypto-make-payments",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Anthropic Apologizes for Claude Fable 5 Secret Censorship—But the Fix Has a Catch",
+    "description": "One day after the AI community erupted over invisible performance sabotage, Anthropic reversed course. Visible safeguards are coming—and so are more false positives....",
+    "date": "2026-06-11 18:55:48",
+    "url": "https://decrypt.co/370831/anthropic-apologizes-claude-fable-5-secret-censorship",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web",
+    "description": "\nBitcoin MagazineU.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web\nFederal prosecutors charged two Eastern European nationals with operating AudiA6, a c...",
+    "date": "2026-06-11 17:55:44",
+    "url": "https://bitcoinmagazine.com/news/u-s-charges-two-men-389-million-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Japan’s SBI is using XRP to solve a banking problem",
+    "description": "\nSBI Shinsei Bank is reportedly offering crypto deposit rewards to customers, with vouchers worth 20% of their interest payments redeemable for BTC, ETH, or XRP through SBI VC Trade. A three-month cam...",
+    "date": "2026-06-11 17:20:23",
+    "url": "https://cryptoslate.com/sbi-shinsei-crypto-vouchers/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Hungary Backs Away From Bitcoin and Crypto Criminalization in Regulatory U-Turn",
+    "description": "\nBitcoin MagazineHungary Backs Away From Bitcoin and Crypto Criminalization in Regulatory U-Turn\nHungary is reversing its restrictive crypto laws, moving to decriminalize Bitcoin and cryptocurrency tr...",
+    "date": "2026-06-11 16:16:20",
+    "url": "https://bitcoinmagazine.com/news/hungary-backs-away-from-bitcoin-laws",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "BlackRock races Goldman Sachs to turn Bitcoin volatility into ETF income",
+    "description": "\nBlackRock has updated its regulatory filing for a new Bitcoin Premium Income ETF, signaling an imminent launch that intensifies a Wall Street race against Goldman Sachs Group to capture yield-seeking...",
+    "date": "2026-06-11 15:10:55",
+    "url": "https://cryptoslate.com/bitcoin-premium-income-etf/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitcoin’s $60,000 support is still a bet on the dollar breaking",
+    "description": "\nGlassnode's latest Week On-chain report says Bitcoin has entered a deep discount phase, with over 95% of short-term holders underwater and realized losses approaching levels associated with severe ca...",
+    "date": "2026-06-11 13:30:56",
+    "url": "https://cryptoslate.com/bitcoin-60000-support-dxy-yields/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Hungary to reverse crypto trading crackdown after EU scrutiny",
+    "description": "\n\nHungary’s government said it will unwind crypto trading restrictions that required approved validation for conversions and exposed users and service providers to criminal liability.\n...",
+    "date": "2026-06-11 12:52:15",
+    "url": "https://cointelegraph.com/news/hungary-decriminalize-crypto-trading-prison-terms?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Public Companies Added 43,557 BTC in May as SpaceX Enters Bitcoin Treasury Race",
+    "description": "\nBitcoin MagazinePublic Companies Added 43,557 BTC in May as SpaceX Enters Bitcoin Treasury Race\nPublic companies added a net 43,557 BTC worth $3.2 billion in May, led by Strategy’s continued accumula...",
+    "date": "2026-06-11 12:37:50",
+    "url": "https://bitcoinmagazine.com/news/public-companies-added-43557-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Japan crypto bill advances with ETF, tax reform path: Report",
+    "description": "\n\nJapan’s Lower House reportedly passed a bill that would bring crypto under the country’s financial instruments framework, potentially opening the door to ETFs and lower tax treatment.\n...",
+    "date": "2026-06-11 12:17:21",
+    "url": "https://cointelegraph.com/news/japan-crypto-bill-etf-tax-reform-path?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Why is Solana falling despite ETF inflows and booming activity?",
+    "description": "\nSolana spot ETF AUM crossed $1 billion by month-end, following $115.3 million in net inflows in May, the best monthly figure of 2026. The market cap of tokenized real-world assets hit $2.8 billion, s...",
+    "date": "2026-06-11 11:50:41",
+    "url": "https://cryptoslate.com/why-is-solana-falling/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
     "title": "Bithumb CEO Booked as Suspect Over South Korea Bribery Case",
     "description": "South Korean police have placed Lee Jae-won under investigation for bribery over allegedly hiring a legislator’s relatives....",
     "date": "2026-06-11 11:09:01",
@@ -48,20 +344,20 @@
     "source": "CoinDesk"
   },
   {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-06-11 07:55:49",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
     "title": "Dragonfly’s Rob Hadick Says Stablecoins Could Grow 10x as Payments Adoption Expands",
     "description": "\nStablecoins may have begun as a reserve-yield business. Still, Dragonfly’s Rob Hadick argues the next phase of value creation will come from distribution, compliance, payments, and the collapse of le...",
     "date": "2026-06-11 07:30:02",
     "url": "https://news.bitcoin.com/dragonflys-rob-hadick-says-stablecoins-could-grow-10x-as-payments-adoption-expands/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
+  },
+  {
+    "title": "US lawmakers seek coordinated federal response to crypto theft and scams",
+    "description": "\n\nThe bipartisan bill envisions the Justice Department leading a task force to coordinate crypto theft investigations, support local law enforcement and improve blockchain forensics efforts.\n...",
+    "date": "2026-06-11 07:00:00",
+    "url": "https://cointelegraph.com/news/doj-crypto-theft-task-force-proposed-by-bipartisan-lawmakers?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "ASK Group Taps Eric Schimdt-Backed Keeta to Tokenize Oil, Gold and Copper",
@@ -489,8 +785,8 @@
   },
   {
     "title": "Dan Loeb Reveals DOJ Threat to Trump Over Ross Ulbricht Commutation in Final Hours of First Term",
-    "description": "\nBitcoin MagazineDan Loeb Reveals DOJ Threat to Trump Over Ross Ulbricht Commutation in Final Hours of First Term\nHedge fund manager Dan Loeb disclosed that the DOJ warned President Trump it would “go...",
-    "date": "2026-06-09 15:46:28",
+    "description": "...",
+    "date": "2026-06-09T15:46:28.000Z",
     "url": "https://bitcoinmagazine.com/politics/dan-loeb-reveals-doj-threat-to-trump-over-ross-ulbricht-commutation-in-final-hours-of-first-term",
     "agency": "NEWS",
     "source": "Bitcoin Magazine"
@@ -537,8 +833,8 @@
   },
   {
     "title": "Second Launches Bark on Bitcoin Mainnet, Targeting Self-Custody UX Gap",
-    "description": "\nBitcoin MagazineSecond Launches Bark on Bitcoin Mainnet, Targeting Self-Custody UX Gap\nSecond has officially launched Bark — its implementation of the Ark protocol — on the Bitcoin mainnet.\nThis post...",
-    "date": "2026-06-09 12:59:24",
+    "description": "...",
+    "date": "2026-06-09T12:59:24.000Z",
     "url": "https://bitcoinmagazine.com/news/second-launches-bark-on-bitcoin-mainnet",
     "agency": "NEWS",
     "source": "Bitcoin Magazine"
@@ -713,16 +1009,16 @@
   },
   {
     "title": "Full Text of Strategic Bitcoin Reserve Bill Officially Published, Revealing 20-Year Lock-Up, Proof-of-Reserve Mandates",
-    "description": "\nBitcoin MagazineFull Text of Strategic Bitcoin Reserve Bill Officially Published, Revealing 20-Year Lock-Up, Proof-of-Reserve Mandates\nThe full text of H.R. 8957 reveals that the proposed Strategic B...",
-    "date": "2026-06-08 17:42:40",
+    "description": "...",
+    "date": "2026-06-08T17:42:40.000Z",
     "url": "https://bitcoinmagazine.com/news/full-of-strategic-bitcoin-reserve-bill",
     "agency": "NEWS",
     "source": "Bitcoin Magazine"
   },
   {
     "title": "Sam Bankman-Fried Formally Seeks Presidential Pardon From Trump, Files Clemency Petition",
-    "description": "\nBitcoin MagazineSam Bankman-Fried Formally Seeks Presidential Pardon From Trump, Files Clemency Petition\nSam Bankman-Fried has formally petitioned for a presidential pardon from President Donald Trum...",
-    "date": "2026-06-08 16:54:03",
+    "description": "...",
+    "date": "2026-06-08T16:54:03.000Z",
     "url": "https://bitcoinmagazine.com/news/sam-bankman-fried-formally-seeks-pardon",
     "agency": "NEWS",
     "source": "Bitcoin Magazine"
