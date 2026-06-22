@@ -1,5 +1,205 @@
 [
   {
+    "title": "Michael Saylor’s Strategy buys another 520 BTC for $35 million, adds to USD reserve despite STRC slide",
+    "description": "Strategy's total holdings account for more than 4% of the 21 million bitcoin supply cap — worth around $55 billion....",
+    "date": "2026-06-22 12:07:46",
+    "url": "https://www.theblock.co/post/405565/michael-saylor-strategy-buys-more-bitcoin-despite-strc-slide?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+    "description": "The Bank of England published draft rules for systemic stablecoins, easing reserve requirements and replacing holding limits with a temporary 40-billion British pound issuance cap....",
+    "date": "2026-06-22 11:16:52",
+    "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+    "description": "Crypto hackers stole $755 million across 83 cybersecurity incidents, as cross–chain bridges remained the most costly attack vector of the crypto industry....",
+    "date": "2026-06-22 10:52:50",
+    "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bank of England backs down on strict stablecoin holding limits, sets $50 billion issuance cap",
+    "description": "The U.K. central bank abandons retail holding limits for a 40-billion-pound aggregate cap and sweetens yield terms for token issuers ahead of a 2027 market launch....",
+    "date": "2026-06-22 10:48:14",
+    "url": "https://www.coindesk.com/policy/2026/06/22/bank-of-england-backs-down-on-strict-stablecoin-holding-limits-sets-usd50-billion-issuance-cap",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Bank of England drops proposed holding caps for sterling stablecoins, sets £40 billion issuance guardrail",
+    "description": "The Bank of England proposed a £40 billion systemic stablecoin issuance guardrail and revised backing assets, targeting a 2027 launch....",
+    "date": "2026-06-22 10:46:50",
+    "url": "https://www.theblock.co/post/405545/bank-of-england-drops-proposed-individual-holding-caps-for-sterling-stablecoins-sets-40-billion-issuance-guardrail?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "ETH stakers could see rewards cut as Ethereum fights to fund its future",
+    "description": "\nEthereum core contributors are debating a structural overhaul that could redirect Ethereum staking rewards toward ecosystem development. The protocol-level proposal seeks to solve a persistent coordi...",
+    "date": "2026-06-22 10:37:02",
+    "url": "https://cryptoslate.com/ethereum-staking-rewards-funding-proposal/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Taiko Halts Withdrawals as Hackers Pull $1.7M Through Bridge Validation Flaw",
+    "description": "\nEthereum scaling solution Taiko confirmed that its bridge source-signal proof validation mechanism was compromised, allowing hackers to bypass protocols and drain an estimated $1.7 million from its E...",
+    "date": "2026-06-22 10:30:00",
+    "url": "https://news.bitcoin.com/taiko-halts-withdrawals-as-hackers-pull-1-7m-through-bridge-validation-flaw/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Spot bitcoin ETFs log sixth consecutive week of net outflows; analyst says selling wave is exhausting itself",
+    "description": "US spot bitcoin ETFs saw $227 million in net outflows last week, extending the negative flow streak to six consecutive weeks....",
+    "date": "2026-06-22 10:20:57",
+    "url": "https://www.theblock.co/post/405540/spot-bitcoin-etfs-sixth-consecutive-week-outflow?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Bank of Korea advances CBDC deposit token initiative to test real-world usage: report",
+    "description": "South Korea's CBDC pilot project is entering its second phase, where deposit tokens will be integrated into existing banking systems....",
+    "date": "2026-06-22 10:02:46",
+    "url": "https://www.theblock.co/post/405529/south-korea-cbdc-second-phase?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "FDIC: US Banks Post $80 Billion in Profit as Unrealized Losses Swell to $325 Billion",
+    "description": "\nU.S. banks held $325.1 billion in unrealized losses on their investment securities at the end of the first quarter of 2026, according to the Federal Deposit Insurance Corporation. The figure rose for...",
+    "date": "2026-06-22 09:30:17",
+    "url": "https://news.bitcoin.com/fdic-us-banks-325-billion-unrealized-losses-q1-2026/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Taiko halts its Ethereum layer-2 network after a bridge exploit, token dives",
+    "description": "An attacker forged withdrawal proofs to drain about $1.7 million, the same type of flaw behind this year's biggest bridge hacks. Fast containment kept the damage small....",
+    "date": "2026-06-22 09:23:02",
+    "url": "https://www.coindesk.com/tech/2026/06/22/taiko-halts-its-ethereum-layer-2-network-after-a-bridge-exploit-token-dives-10",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Kraken adds 2,500 unapproved Solana tokens to its app – says risk stays on-chain",
+    "description": "\nThe exchange wraps DEX access in a familiar interface and warns users the tokens sit outside Kraken review.\nThe post Kraken adds 2,500 unapproved Solana tokens to its app – says risk stays on-chain a...",
+    "date": "2026-06-22 09:10:03",
+    "url": "https://cryptoslate.com/kraken-solana-tokens-dex-risk/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+    "description": "South Korea’s FIU is calling for broader crypto transfer reporting rules during FATF talks, citing offshore risks and uneven global AML enforcement....",
+    "date": "2026-06-22 08:58:43",
+    "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Why Lummis Says the CLARITY Act Will End the ‘Absurdity’ Facing US Software Developers",
+    "description": "\nU.S. Senator Cynthia Lummis is urging colleagues to pass the Digital Asset Market Clarity Act, arguing the bill would free software developers from the threat of prosecution for simply publishing cod...",
+    "date": "2026-06-22 08:30:29",
+    "url": "https://news.bitcoin.com/lummis-clarity-act-software-developers-code-legal/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Live markets: Strategy buys 520 more bitcoin and raises reserves to $1.4 billion",
+    "description": "Eased ETF selling and improving risk appetite are being offset by a firmer dollar and cautious institutional flows, leaving bitcoin range-bound, one analyst said....",
+    "date": "2026-06-22 07:34:05",
+    "url": "https://www.coindesk.com/tech/2026/06/22/live-markets-bitcoin-is-stuck-near-usd64-000-as-etf-outflows-reach-a-sixth-week",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "How Does Tether Make Money? Understanding the Business Model Behind USDT",
+    "description": "Tether primarily makes money by earning interest on the reserve assets that back USDT, the world’s largest stablecoin. When USDT is minted, Tether receives dollars or equivalent assets and invests mos...",
+    "date": "2026-06-22 07:05:14",
+    "url": "https://www.theblock.co/learn/405498/how-does-tether-make-money?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "CryptoBandits malware lets criminals use your USB drive to access crypto wallets – Microsoft warns",
+    "description": "\nMicrosoft’s latest crypto malware research points to crypto wallets, one of several places a transaction can fail, as a key practical weakness in self-custody, A compromised Windows machine can chang...",
+    "date": "2026-06-22 06:55:35",
+    "url": "https://cryptoslate.com/cryptobandits-malware-usb-wallet-theft/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "South Korea’s Toss Bank to test blockchain-based financial infrastructure on Solana",
+    "description": "Toss Bank and Solana will work on a proof-of-concept for overseas remittances and payments involving stablecoins....",
+    "date": "2026-06-22 06:37:28",
+    "url": "https://www.theblock.co/post/405505/toss-solana-partnership?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "That $100,000 Lottery Ticket in Indiana Came Down to One Printing Detail",
+    "description": "\nThe Indiana Lottery has suspended sales of its “Space Invaders Cash Invasion” scratch-off game after a ticket-printing error led some players to think they’d hit much larger prizes. Mike Fields said ...",
+    "date": "2026-06-22 06:30:04",
+    "url": "https://news.bitcoin.com/that-100000-lottery-ticket-in-indiana-came-down-to-one-printing-detail-49201/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation....",
+    "date": "2026-06-22 06:00:00",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Wall Street’s idle cash just found a way into crypto trading, but the fine print is still hidden",
+    "description": "\nThe first-client deployment shows tokenized money-market funds can become working collateral, but the hard questions sit in custody, valuation, and liquidation terms.\nThe post Wall Street’s idle cash...",
+    "date": "2026-06-22 04:25:38",
+    "url": "https://cryptoslate.com/ubs-umint-collateral-bybit/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+    "description": "An exploit of the Secret Network went undiscovered for a week as the hacker moved the loot into Ethereum and then to exchanges....",
+    "date": "2026-06-22 03:49:49",
+    "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin may finally feel instant at checkout, if merchants trust the miner behind it",
+    "description": "\nGoMining's live SDK and API give merchants instant BTC acceptance, while its own pool becomes the trust layer to watch.\nThe post Bitcoin may finally feel instant at checkout, if merchants trust the m...",
+    "date": "2026-06-22 03:45:44",
+    "url": "https://cryptoslate.com/gobtc-pay-bitcoin-checkout-miner-settlement/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Franklin Templeton Files New Bitcoin DRIP ETFs That Turn Stock Dividends Into BTC",
+    "description": "\nFranklin Templeton has proposed two ETFs that pair broad U.S. stock exposure with a rules-based bitcoin allocation tied to dividend reinvestment. Proposed ETFs Blend US Stocks With Systematic Bitcoin...",
+    "date": "2026-06-22 02:40:21",
+    "url": "https://news.bitcoin.com/franklin-templeton-files-new-bitcoin-drip-etfs-that-turn-stock-dividends-into-btc/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin treasury firms race to buy more BTC, but shareholders may pay the price",
+    "description": "\nShareholders are being asked to back more Bitcoin exposure while weighing dilution, credit capacity, and preference-share claims.\nThe post Bitcoin treasury firms race to buy more BTC, but shareholder...",
+    "date": "2026-06-22 00:45:08",
+    "url": "https://cryptoslate.com/bitcoin-treasury-companies-europe-shareholder-cost/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
     "title": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
     "description": "STRC’s slide below par has emboldened critics, slowed Strategy’s Bitcoin buys and sparked debate over whether Michael Saylor’s BTC flywheel is still fine....",
     "date": "2026-06-21 10:15:57",
@@ -14,14 +214,6 @@
     "url": "https://news.bitcoin.com/iran-linked-hackers-claim-control-of-us-security-drones-ahead-of-the-world-cup-kickoff-49201/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation....",
-    "date": "2026-06-21 04:36:29",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "WhiteBIT Lands MiCA License in Austria, Opens Door to 35M EU Users",
@@ -101,7 +293,7 @@
     "date": "2026-06-20 14:57:41",
     "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "agency": "NEWS",
-    "source": "Cointelegraph"
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "Texas questions whether AI data centers should pay for the grid they strain",
@@ -13982,77 +14174,5 @@
     "url": "https://cointelegraph.com/news/crypto-groups-market-structure-markup-critical?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Apple fixes bug that allowed FBI to read deleted Signal messages",
-    "description": "...",
-    "date": "2026-04-23T07:05:30.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/apple-fixes-bug-fbi-read-encrypted-messages-signal-via-notifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Kalshi bans 3 US politicians for betting on their own election races",
-    "description": "...",
-    "date": "2026-04-23T03:38:19.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/kalshi-bans-us-candidates-election-betting-insider-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "New York, Illinois sign EOs banning state employees from prediction markets",
-    "description": "...",
-    "date": "2026-04-23T02:53:56.000Z",
-    "url": "https://cointelegraph.com/news/new-york-illinois-sign-executive-order-banning-official-from-prediction-markets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "New York, Illinois sign EOs banning state employees from prediction markets",
-    "description": "...",
-    "date": "2026-04-23T02:53:56.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/new-york-illinois-sign-executive-order-banning-official-from-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "LONGITUDE recap: Adam Back on Satoshi, crypto regulation needs tweaks",
-    "description": "...",
-    "date": "2026-04-23T01:30:34.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Sam Bankman-Fried pulls motion for a new trial, still asks for new judge",
-    "description": "...",
-    "date": "2026-04-22T22:52:15.000Z",
-    "url": "https://cointelegraph.com/news/sam-bankman-fried-withdraws-motion-new-trial-new-judge?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Sam Bankman-Fried pulls motion for a new trial, still asks for new judge",
-    "description": "...",
-    "date": "2026-04-22T22:52:15.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/sam-bankman-fried-withdraws-motion-new-trial-new-judge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Banking group asks for more time to comment on US stablecoin bill",
-    "description": "...",
-    "date": "2026-04-22T21:32:17.000Z",
-    "url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Banking group asks for more time to comment on US stablecoin bill",
-    "description": "...",
-    "date": "2026-04-22T21:32:17.000Z",
-    "url": "https://conpletus.cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   }
 ]
