@@ -1,5 +1,205 @@
 [
   {
+    "title": "Grayscale's Pandl hopes Strategy sells $3B in Bitcoin to restore confidence",
+    "description": "\n\nGrayscale's research head Zach Pandl said Strategy should sell $3 billion in Bitcoin to cover its cash obligations, but CryptoQuant argued the company has other ways to support STRC.\n...",
+    "date": "2026-06-28 07:59:28",
+    "url": "https://cointelegraph.com/news/grayscales-pandl-strategy-sells-3b-bitcoin-confidence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Brazil Proposes Mandatory 24-Hour Hold on Large Crypto Stablecoin Transactions",
+    "description": "\nThe 24-hour hold period would allow virtual asset service providers to screen the transactions and verify the legitimacy of the funds moved. The funds could be released in a shorter timeframe, provid...",
+    "date": "2026-06-28 07:30:52",
+    "url": "https://news.bitcoin.com/brazil-proposes-mandatory-24-hour-hold-on-large-crypto-stablecoin-transactions/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
+    "description": "The token is down nearly 7% on the week with the altcoins falling harder. Bitcoin and ether are both ending the second quarter in the red, a back-to-back losing first half that runs against the usual ...",
+    "date": "2026-06-28 07:10:52",
+    "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "ESMA Tells Unauthorized Crypto Firms to Wind Down as MiCA Deadline Hits in 3 Days",
+    "description": "\nThe European Securities and Markets Authority (ESMA) has directed unauthorized crypto asset service providers to stop accepting new EU clients and begin exiting the market before MiCA’s transitional ...",
+    "date": "2026-06-28 06:30:09",
+    "url": "https://news.bitcoin.com/esma-tells-unauthorized-crypto-firms-to-wind-down-as-mica-deadline-hits-in-3-days/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Certik Joins XDC Network as Validator to Strengthen Trade Finance Infrastructure",
+    "description": "\nWeb3 security firm Certik has signed a memorandum of understanding to become an institutional masternode validator for the XDC Network. Hybrid Architecture and Security Controls Web3 security firm Ce...",
+    "date": "2026-06-28 05:30:56",
+    "url": "https://news.bitcoin.com/certik-joins-xdc-network-as-validator-to-strengthen-trade-finance-infrastructure/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Base post-mortem reveals sequencer bug behind back-to-back outages",
+    "description": "\n\nA “race condition” after the system was reset prevented the sequencers from catching up, causing the second outage. \n\n...",
+    "date": "2026-06-28 05:14:05",
+    "url": "https://cointelegraph.com/news/base-post-mortem-reveals-sequencer-bug-behind-back-to-back-outages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Framework Ventures Raises $400 Million Fourth Fund as Crypto VC Pushes Into AI, Robotics and Energy",
+    "description": "\nFramework Ventures has raised $400 million for its fourth fund, an oversubscribed vehicle the crypto-focused firm plans to deploy beyond digital assets into artificial intelligence, robotics, and ene...",
+    "date": "2026-06-28 03:30:23",
+    "url": "https://news.bitcoin.com/framework-ventures-400-million-fourth-fund-ai-robotics/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "China Could Win Big if CLARITY Act Dies in Washington, Strategist Warns",
+    "description": "\nChina could gain influence over digital-asset standards if Congress fails to pass the CLARITY Act. A strategist has warned that U.S. hesitation could affect financial infrastructure, dollar dominance...",
+    "date": "2026-06-28 02:30:18",
+    "url": "https://news.bitcoin.com/china-could-win-big-if-clarity-act-dies-in-washington-strategist-warns/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "SecondFi maps recovery path after $2.4 million Cardano wallet exploit, aims to return funds within two weeks",
+    "description": "An exploit drained about $2.4 million in ADA from 374 addresses over three days through a flaw in SecondFi's wallet-generation software....",
+    "date": "2026-06-27 23:10:39",
+    "url": "https://www.theblock.co/post/406457/secondfi-maps-recovery-path-after-2-4-million-cardano-wallet-exploit-aims-to-return-funds-within-two-weeks?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "CLARITY Act Failure Could Trigger More Bitcoin Pain, Grayscale Says",
+    "description": "\nGrayscale said bitcoin could face more pressure if the CLARITY Act stalls, as Senate delays and tighter rate expectations weigh on crypto sentiment. Bitcoin’s Next Price Test Narrows Around the CLARI...",
+    "date": "2026-06-27 22:40:06",
+    "url": "https://news.bitcoin.com/clarity-act-failure-could-trigger-more-bitcoin-pain-grayscale-says/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Fed stress tests reveal whether banks can survive a 10% unemployment shock",
+    "description": "\nAll 32 of America's largest banks made it through the Federal Reserve's annual stress test on June 24. This year's scenario was unusually brutal: the Fed asked them to imagine unemployment climbing t...",
+    "date": "2026-06-27 20:55:34",
+    "url": "https://cryptoslate.com/fed-stress-tests-reveal-whether-banks-can-survive-a-10-unemployment-shock/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
+    "description": "\n\nThe asset manager argues Bitcoin's fixed supply schedule does not undermine network security, even as miners face shrinking block rewards after each halving.\n...",
+    "date": "2026-06-27 20:53:02",
+    "url": "https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "A $223M DAO vote could turn governance into a cash-out button",
+    "description": "\nGnosisDAO's GIP-151 passed with 215% of the required quorum, 49 votes representing a voting weight roughly 2.15 times the 75,000 GNO minimum threshold. The proposal authorized a one-time pro rata tre...",
+    "date": "2026-06-27 19:40:42",
+    "url": "https://cryptoslate.com/a-223m-dao-vote-could-turn-governance-into-a-cash-out-button/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-06-27 19:34:45",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "The UK softened stablecoin rules, but may still be capping its own market",
+    "description": "\nThe Bank of England has dropped the piece of its stablecoin plan that the industry hated most, the proposed £20,000 limit on how much sterling stablecoin any one person could hold, along with the £10...",
+    "date": "2026-06-27 18:25:33",
+    "url": "https://cryptoslate.com/the-uk-softened-stablecoin-rules-but-may-still-be-capping-its-own-market/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "European crypto users are being paid to move before MiCA closes the door",
+    "description": "\nThe European Union's Markets in Crypto-Assets (MiCA) has triggered a fight among licensed crypto exchanges to capture users and deposits from platforms that may no longer be allowed to serve the bloc...",
+    "date": "2026-06-27 17:10:25",
+    "url": "https://cryptoslate.com/european-crypto-users-are-being-paid-to-move-before-mica-closes-the-door/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Average IBIT investor now down about 40% as spot bitcoin ETFs cap second-worst week on record",
+    "description": "Friday's $444.51 million net outflow capped a seventh straight negative week, the longest weekly run on record for the category....",
+    "date": "2026-06-27 16:29:22",
+    "url": "https://www.theblock.co/post/406451/average-ibit-investor-now-down-about-40-as-spot-bitcoin-etfs-cap-second-worst-week-on-record?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Did $6B in ETF outflows just mark Bitcoin’s first Wall Street capitulation?",
+    "description": "\nOver the past six weeks, investors have pulled roughly $5.94 billion from US spot Bitcoin ETFs, marking the longest unbroken run of weekly outflows since these funds first opened for business in 2024...",
+    "date": "2026-06-27 15:55:13",
+    "url": "https://cryptoslate.com/did-bitcoin-etfs-just-have-their-first-real-capitulation-event/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Tether putting $23 billion gold stockpile to work with bullion-backed loans",
+    "description": "The stablecoin issuer is extending its tokenized gold strategy by allowing holders of XAUT to borrow against their bullion, mirroring bitcoin-backed lending without selling the underlying asset....",
+    "date": "2026-06-27 15:00:00",
+    "url": "https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Billionaire Jeremy Grantham Dismisses Bitcoin, Says Crypto Will Fade 'With a Whimper'",
+    "description": "The seasoned investor has little faith in Bitcoin's staying power, expecting crypto to quietly fade away over time....",
+    "date": "2026-06-27 14:34:32",
+    "url": "https://decrypt.co/372205/billionaire-jeremy-grantham-dismisses-bitcoin-crypto",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Polymarket hack updated to $3.1 million days after the platform promised users full refunds",
+    "description": "The prediction markets giant is under investigation in connection with false or deceptive marketing practices, according to news reports....",
+    "date": "2026-06-27 14:13:22",
+    "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license",
+    "description": "Brian Armstrong of Coinbase and Star Xu of OKX offered new users sign up bonuses of up to 8% of their deposits or transfers from other accounts....",
+    "date": "2026-06-27 14:11:45",
+    "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Michael Saylor’s Bitcoin machine hits $8 billion cash wall as STRC crashes 25% below par",
+    "description": "\nStrategy, the Bitcoin treasury and enterprise software company formerly known as MicroStrategy, has spent years turning public markets into a funding engine for Bitcoin purchases. That model helped m...",
+    "date": "2026-06-27 12:15:10",
+    "url": "https://cryptoslate.com/michael-saylors-bitcoin-machine-hits-8-billion-cash-wall-as-strc-crashes-25-below-par/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "SecondFi targets two-week recovery after Cardano wallet exploit",
+    "description": "\n\nSecondFi says it has completed forensic investigations, taken a final balance snapshot and is preparing to return assets.\n...",
+    "date": "2026-06-27 12:00:56",
+    "url": "https://cointelegraph.com/news/secondfi-two-week-recovery-cardano-wallet-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "EU lawmakers urge assessing DeFi, staking, NFT regulation",
+    "description": "\n\nThe nonbinding report outlines Parliament's vision for future EU crypto regulation and warns against national MiCA rules.\n...",
+    "date": "2026-06-27 08:21:04",
+    "url": "https://cointelegraph.com/news/eu-lawmakers-assessing-defi-staking-nft-regulation?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
     "title": "EU lawmakers urge assessing DeFi, staking, NFT regulation",
     "description": "\n\nThe nonbinding report outlines Parliament's vision for future EU crypto regulation and warns against national MiCA rules.\n...",
     "date": "2026-06-27 08:21:04",
@@ -36,14 +236,6 @@
     "description": "\n\nSecuritize says less than 30% of shareholders in the acquisition firm taking it public elected to redeem, giving it an expected $400 million on its upcoming debut.\n...",
     "date": "2026-06-27 05:35:27",
     "url": "https://cointelegraph.com/news/securitize-expects-to-raise-400m-ahead-of-public-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-06-27 05:30:00",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
   },
@@ -110,6 +302,14 @@
     "url": "https://cryptoslate.com/metaplanet-bets-bitcoin-treasury-firms-can-survive-by-packaging-bitcoin-income/",
     "agency": "NEWS",
     "source": "CryptoSlate"
+  },
+  {
+    "title": "Galaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out",
+    "description": "\nBitcoin MagazineGalaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out\nGalaxy Research cut its odds of the Senate passing the CLARITY Act to 50-50, citing dwindling time befo...",
+    "date": "2026-06-26 20:48:42",
+    "url": "https://bitcoinmagazine.com/news/galaxy-research-cuts-clarity-act-passage",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
   },
   {
     "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
@@ -208,6 +408,14 @@
     "source": "CryptoSlate"
   },
   {
+    "title": "Billionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’",
+    "description": "\nBitcoin MagazineBillionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’\nJeremy Grantham doubled down on his long-standing Bitcoin skepticism, predicting the cryptocurrency wi...",
+    "date": "2026-06-26 17:57:49",
+    "url": "https://bitcoinmagazine.com/news/billionaire-jeremy-grantham-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
     "title": "Base suffers second mainnet stall in two days",
     "description": "Base block production resumed as of 16:11 UTC, following an alert to another mainnet chain stall at 15:33 UTC....",
     "date": "2026-06-26 17:50:02",
@@ -230,6 +438,14 @@
     "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance Suspending Crypto Services in EU Markets After Failing to Secure MiCA Approval",
+    "description": "...",
+    "date": "2026-06-26T17:25:11.000Z",
+    "url": "https://news.bitcoin.com/binance-suspending-crypto-services-in-eu-markets-after-failing-to-secure-mica-approval/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
   },
   {
     "title": "Tokenization firm Securitize eyes early July NYSE debut with $400 million SPAC deal",
@@ -296,6 +512,14 @@
     "source": "Decrypt"
   },
   {
+    "title": "Tether’s USDT Flips Ether in Market Cap as Stablecoin Climbs to $186 Billion",
+    "description": "...",
+    "date": "2026-06-26T13:20:10.000Z",
+    "url": "https://news.bitcoin.com/tether-usdt-flips-ether-market-cap-186-billion/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
     "title": "Hyperliquid added to Singapore's Investor Alert List",
     "description": "\n\nSingapore’s financial regulator added Hyperliquid to its Investor Alert List, as a reminder that the decentralized exchange was not licensed in the region.\n...",
     "date": "2026-06-26 13:11:29",
@@ -318,6 +542,14 @@
     "url": "https://cointelegraph.com/news/australia-asic-extends-crypto-licensing-relief-september?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Solstice and Tensorx to Buy $1 Billion in AI Infrastructure to Support EU Sovereign AI Demand",
+    "description": "...",
+    "date": "2026-06-26T11:00:22.000Z",
+    "url": "https://news.bitcoin.com/solstice-and-tensorx-to-buy-1-billion-in-ai-infrastructure-to-support-eu-sovereign-ai-demand/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
   },
   {
     "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
@@ -488,6 +720,14 @@
     "source": "Decrypt"
   },
   {
+    "title": "Strategy Stock (MSTR) Nearly Craters Another 10% as Securities Lawsuit Lands",
+    "description": "\nBitcoin MagazineStrategy Stock (MSTR) Nearly Craters Another 10% as Securities Lawsuit Lands\nStrategy shares plunged some more today as Bitcoin fell to $59,000.\nThis post Strategy Stock (MSTR) Nearly...",
+    "date": "2026-06-25 19:52:39",
+    "url": "https://bitcoinmagazine.com/markets/strategy-stock-mstr-craters-another-10",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
     "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
     "description": "SBI Holdings has agreed to a nearly $289 million deal to acquire crypto exchange Bitbank, pending regulatory approval....",
     "date": "2026-06-25 19:42:54",
@@ -510,6 +750,14 @@
     "url": "https://cryptoslate.com/cynthia-lummis-gave-clarity-act-a-july-promise-but-it-still-needs-a-senate-path/",
     "agency": "NEWS",
     "source": "CryptoSlate"
+  },
+  {
+    "title": "Matt Corallo Urges Bitcoin Projects to Exit GitHub After Rust Lightning Ban",
+    "description": "\nBitcoin MagazineMatt Corallo Urges Bitcoin Projects to Exit GitHub After Rust Lightning Ban\nSenior developers including Andrew Poelstra highlighted broken merge scripts, hidden diffs, and unreliable ...",
+    "date": "2026-06-25 17:54:13",
+    "url": "https://bitcoinmagazine.com/business/matt-corallo-urges-bitcoin-projects-to-exit-github-after-rust-lightning-ban",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
   },
   {
     "title": "Bitcoin’s bear market struggle is killing crypto jobs but fueling a $10 billion Wall Street-backed M&amp;A boom",
@@ -1269,7 +1517,7 @@
     "date": "2026-06-23T16:54:38.000Z",
     "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
+    "source": "Cointelegraph"
   },
   {
     "title": "European Union’s ESMA Orders Unlicensed Crypto Firms to Exit EU Market as MiCA Deadline Arrives",
@@ -1349,7 +1597,7 @@
     "date": "2026-06-23T12:24:54.000Z",
     "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
+    "source": "Cointelegraph"
   },
   {
     "title": "Bitcoin volatility looks cheap as $10 billion options settlement nears",
@@ -1413,7 +1661,7 @@
     "date": "2026-06-23T08:47:59.000Z",
     "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
+    "source": "Cointelegraph"
   },
   {
     "title": "Musk Loses $150 Billion in a Day as SpaceX Stock Tumbles Hard",
@@ -15446,269 +15694,5 @@
     "url": "https://cointelegraph.com/news/celsius-founder-settlement-includes-10m-payment-suspended-47b-judgment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
-  },
-  {
-    "title": "Judge Shoots Down Sam Bankman-Fried's Bid for New Trial",
-    "description": "...",
-    "date": "2026-04-29T09:55:18.000Z",
-    "url": "https://decrypt.co/365915/judge-shoots-down-sam-bankman-frieds-bid-for-new-trial",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Circle Mints $500 Million in USDC on Solana as Weekly Issuance Tops $3.25 Billion",
-    "description": "...",
-    "date": "2026-04-29T09:55:11.000Z",
-    "url": "https://news.bitcoin.com/circle-mints-500-million-usdc-solana-weekly-issuance/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "‘This is the future’: Czech central bank governor makes case for bitcoin in sovereign reserves",
-    "description": "...",
-    "date": "2026-04-29T09:54:50.000Z",
-    "url": "https://www.theblock.co/post/399330/this-is-the-future-czech-central-bank-governor-makes-case-for-bitcoin-in-sovereign-reserves?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Canada proposes crypto ATM ban over scams and money laundering",
-    "description": "...",
-    "date": "2026-04-29T09:49:45.000Z",
-    "url": "https://cointelegraph.com/news/canada-proposes-crypto-atm-ban-over-scams-and-money-laundering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Litecoin’s MWEB Chain Split Resolved as F2pool Mines All 13 Blocks",
-    "description": "\nMining pool F2pool confirmed it mined all 13 consecutive blocks needed to close Litecoin’s temporary chain split, which was triggered when an exploit of the network’s MimbleWimble Extension Blocks (M...",
-    "date": "2026-04-29 09:30:27",
-    "url": "https://news.bitcoin.com/f2pool-litecoin-mweb-chain-split-resolved/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "CLARITY’s delay to test Wall Street’s $6.6 trillion stablecoin warning which is at odds with White House view",
-    "description": "\nThe CLARITY Act has stalled in Senate Banking deliberations, setting back an array of market rules that would solidify into law most of the pro-crypto stance that took hold in the President Donald Tr...",
-    "date": "2026-04-29 09:00:31",
-    "url": "https://cryptoslate.com/claritys-delay-to-test-wall-streets-6-6-trillion-stablecoin-warning-which-is-at-odds-with-white-house/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Startale Group Embeds Privacy Boost, Enables Sub-500ms Shielded Asset Transfers",
-    "description": "\nStartale Group has selected Sunnyside Labs’ Privacy Boost as the privacy partner for its app, introducing onchain features that let users shield assets and carry out private transfers. Key Takeaways:...",
-    "date": "2026-04-29 08:30:15",
-    "url": "https://news.bitcoin.com/startale-group-embeds-privacy-boost-enables-sub-500ms-shielded-asset-transfers/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "US court sentences Cartier descendant to 8 years in $470 million crypto laundering case",
-    "description": "...",
-    "date": "2026-04-29T08:00:02.000Z",
-    "url": "https://www.theblock.co/post/399314/us-sentences-cartier-descendant-crypto-laundering?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Gibraltar mulls allowing tokenized fund shares for some companies",
-    "description": "\n\nThe proposed legislation would allow regulated funds to issue blockchain-based shares with full legal recognition and investor protections.\n...",
-    "date": "2026-04-29 07:00:00",
-    "url": "https://cointelegraph.com/news/gibraltar-moves-to-legalize-tokenized-fund-shares-under-new-bill?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "CFTC pulls Wisconsin into fight over prediction market jurisdiction",
-    "description": "...",
-    "date": "2026-04-29T05:27:05.000Z",
-    "url": "https://cointelegraph.com/news/cftc-sues-wisconsin-over-prediction-markets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "CFTC pulls Wisconsin into fight over prediction market jurisdiction",
-    "description": "...",
-    "date": "2026-04-29T05:27:05.000Z",
-    "url": "https://cointelegraph.com/news/cftc-sues-wisconsin-over-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Canada proposes ban on crypto ATMs as fraud cases mount",
-    "description": "...",
-    "date": "2026-04-29T05:14:33.000Z",
-    "url": "https://www.coindesk.com/markets/2026/04/29/canada-proposes-ban-on-bitcoin-atms-as-fraud-cases-mount",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Canada moves to ban crypto ATMs, labeling them as ‘primary method’ for fraud",
-    "description": "...",
-    "date": "2026-04-29T04:20:43.000Z",
-    "url": "https://www.theblock.co/post/399294/canada-crypto-atm-ban?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Judge rejects new trial for former FTX CEO Sam Bankman-Fried",
-    "description": "...",
-    "date": "2026-04-29T00:41:01.000Z",
-    "url": "https://cointelegraph.com/news/judge-denies-new-trial-sam-bankman-fried?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Strategy’s (MSTR) Michael Saylor Says STRC is ‘Going Viral’ After $8.5 Billion Run‑Up",
-    "description": "...",
-    "date": "2026-04-28T23:33:54.000Z",
-    "url": "https://bitcoinmagazine.com/news/strategys-mstr-michael-saylor-says-strc",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "AI Agent Deletes Startup’s Database in 9 Seconds, Founder Says",
-    "description": "...",
-    "date": "2026-04-28T23:00:02.000Z",
-    "url": "https://decrypt.co/365897/ai-agent-deletes-startup-database-9-seconds-founder-says",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Judge rejects Sam Bankman-Fried’s new trial request, slams claims as ‘wildly conspiratorial’",
-    "description": "...",
-    "date": "2026-04-28T22:34:52.000Z",
-    "url": "https://www.theblock.co/post/399283/judge-rejects-sam-bankman-fried-new-trial-request-slams-claims-wildly-conspiratorial?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Woman Gets 71 Months in Prison Over Bitcoin Investment Fraud Targeting Elderly Victims",
-    "description": "Federal prosecutors secured a prison term for a Saipan woman who defrauded elderly victims through a fake Bitcoin investment scheme...",
-    "date": "2026-04-28 22:01:02",
-    "url": "https://decrypt.co/365894/woman-71-months-prison-bitcoin-investment-fraud-targeting-elderly-victims",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "OpenClaw Insider Builds the Enterprise Safety Layer the Project Never Shipped",
-    "description": "...",
-    "date": "2026-04-28T21:46:02.000Z",
-    "url": "https://decrypt.co/365888/red-hat-tank-os-openclaw-enterprise-security",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "CFTC Backs Prediction Markets in Yet Another Lawsuit Against a State",
-    "description": "...",
-    "date": "2026-04-28T21:21:51.000Z",
-    "url": "https://decrypt.co/365889/cftc-prediction-markets-lawsuit-wisconsin",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Czech Central Bank Chief Backs Bitcoin as 1% Reserve Slice in ‘Conservative but Innovative’ Strategy",
-    "description": "...",
-    "date": "2026-04-28T21:05:37.000Z",
-    "url": "https://bitcoinmagazine.com/news/czech-central-bank-chief-backs-bitcoin",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Google DeepMind Veteran Raises $1.1 Billion to Build AI That Isn’t Trained With Human Data",
-    "description": "...",
-    "date": "2026-04-28T20:13:48.000Z",
-    "url": "https://decrypt.co/365853/google-deepmind-veteran-raises-1-1-billion-ai-isnt-trained-human-data",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "RedStone launches settlement layer to address RWA liquidity gap in DeFi lending",
-    "description": "...",
-    "date": "2026-04-28T19:42:43.000Z",
-    "url": "https://cointelegraph.com/news/redstone-settlement-layer-rwa-liquidity-gap-defi-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Your Bank is Becoming a Casino: River CEO Frames Bitcoin as the Alternative",
-    "description": "...",
-    "date": "2026-04-28T19:21:58.000Z",
-    "url": "https://bitcoinmagazine.com/news/your-bank-is-a-casino-bitcoin-alternative",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Soldier Charged in Polymarket Insider Trading Case Pleads Not Guilty",
-    "description": "...",
-    "date": "2026-04-28T19:21:17.000Z",
-    "url": "https://decrypt.co/365858/soldier-charged-polymarket-insider-trading-case-pleads-not-guilty",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "What would Satoshi say? Director of the FBI appears at Bitcoin 2026 – Victory or capture?",
-    "description": "...",
-    "date": "2026-04-28T17:21:33.000Z",
-    "url": "https://cryptoslate.com/would-satoshi-approve-of-the-director-of-the-fbi-appearing-on-stage-at-bitcoin-2026-is-institutional-adoption-victory-or-capture/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Blockstream Launches Jade Core to Simplify Bitcoin Self-Custody Without Sacrificing Security",
-    "description": "...",
-    "date": "2026-04-28T15:51:04.000Z",
-    "url": "https://bitcoinmagazine.com/news/blockstream-launches-jade-core",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Bitcoin’s $80k test should be decided by the bond market this week",
-    "description": "\nEveryone watching Bitcoin this week is watching the Federal Reserve, while the more important tell may be sitting in the Treasury market, where the 10-year yield has compressed into one of its tighte...",
-    "date": "2026-04-28 15:05:47",
-    "url": "https://cryptoslate.com/bitcoins-80k-test-should-be-decided-by-the-bond-market-this-week/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "AML crackdown eclipses securities enforcement as crypto’s top regulatory risk: Report",
-    "description": "...",
-    "date": "2026-04-28T14:50:36.000Z",
-    "url": "https://cointelegraph.com/news/aml-crackdown-eclipses-securities-enforcement-crypto-report?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "AML crackdown eclipses securities enforcement as crypto’s top regulatory risk: Report",
-    "description": "...",
-    "date": "2026-04-28T14:50:36.000Z",
-    "url": "https://cointelegraph.com/news/aml-crackdown-eclipses-securities-enforcement-crypto-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Japan tells real estate and crypto sectors to tighten AML checks on property deals",
-    "description": "...",
-    "date": "2026-04-28T14:22:35.000Z",
-    "url": "https://cointelegraph.com/news/japan-tells-real-estate-and-crypto-sectors-to-tighten-aml-checks-on-property-deals?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Japan tells real estate and crypto sectors to tighten AML checks on property deals",
-    "description": "...",
-    "date": "2026-04-28T14:22:35.000Z",
-    "url": "https://cointelegraph.com/news/japan-tells-real-estate-and-crypto-sectors-to-tighten-aml-checks-on-property-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin’s comeback is now in the Fed’s hands after big investors piled back in",
-    "description": "\nCrypto investment products recorded $1.2 billion in inflows last week, capping three straight weeks above $1 billion and a fourth consecutive positive week overall. According to CoinShares data, Bitc...",
-    "date": "2026-04-28 09:29:20",
-    "url": "https://cryptoslate.com/bitcoins-comeback-is-now-in-the-feds-hands-after-big-investors-piled-back-in/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
   }
 ]
