@@ -1,19 +1,18 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
-// Multiple CORS proxies - race them for fastest response
-const CORS_PROXIES = [
-  'https://corsproxy.io/?',
-  'https://api.allorigins.win/raw?url=',
-  'https://api.codetabs.com/v1/proxy?quest=',
-];
+// Server-side proxy (no CORS issues — preferred source in production)
+const OWN_API = '/api/btc-price';
+
+// Direct client-side sources — all verified CORS-enabled (access-control-allow-origin: *).
+// NOTE: CoinCap (api.coincap.io) was sunset and Binance returns HTTP 451 from US IPs,
+// so both were removed. Coinbase, Kraken, and CoinGecko all work from the browser.
+const COINBASE_API = 'https://api.coinbase.com/v2/prices/BTC-USD/spot';
+const KRAKEN_API = 'https://api.kraken.com/0/public/Ticker?pair=XBTUSD';
 const COINGECKO_API = 'https://api.coingecko.com/api/v3';
 
-// Alternative APIs (no CORS issues, more reliable)
-const BINANCE_API = 'https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT';
-const COINCAP_API = 'https://api.coincap.io/v2/assets/bitcoin';
-const BLOCKCHAIN_INFO_API = 'https://blockchain.info/ticker';
-const KRAKEN_API = 'https://api.kraken.com/0/public/Ticker?pair=XBTUSD';
-const COINBASE_API = 'https://api.coinbase.com/v2/prices/BTC-USD/spot';
+// CoinGecko free tier rejects historical ranges over 365 days (error 10012),
+// which is why the chart's live history silently failed before. Cap at 365.
+const MAX_HISTORY_DAYS = 365;
 
 // Cache configuration
 const CACHE_KEY = 'btc_price_cache';
@@ -23,11 +22,7 @@ const STALE_CACHE_TTL = 60 * 60 * 1000; // 1 hour — use stale cache before fal
 // Reduced timeout for faster failure detection
 const REQUEST_TIMEOUT = 3000;
 
-// Retry configuration
-const MAX_RETRIES = 2;
-const RETRY_DELAY = 1500; // ms between retries
-
-// Fallback static data in case API fails (2019 through Feb 2026)
+// Fallback static data in case all APIs fail
 const FALLBACK_PRICES = {
   // 2019 - Bear Market Recovery
   '2019-01': 3600, '2019-02': 3800, '2019-03': 4000, '2019-04': 5200,
@@ -53,13 +48,13 @@ const FALLBACK_PRICES = {
   '2024-01': 43000, '2024-02': 52000, '2024-03': 70000, '2024-04': 65000,
   '2024-05': 67000, '2024-06': 62000, '2024-07': 66000, '2024-08': 59000,
   '2024-09': 63000, '2024-10': 68000, '2024-11': 90000, '2024-12': 97000,
-  // 2025 - Post-Election Rally & Correction
-  '2025-01': 102000, '2025-02': 96000, '2025-03': 82000, '2025-04': 84000,
-  '2025-05': 103000, '2025-06': 106000, '2025-07': 97000, '2025-08': 59000,
-  '2025-09': 63000, '2025-10': 69000, '2025-11': 96000, '2025-12': 94000,
-  // 2026 - Current Year (updated with accurate prices)
-  '2026-01': 95000, // January average
-  '2026-02': 78000, // Current price ~$78k
+  // 2025 - Jan–May approximate (pre live-window); Jun onward are real CoinGecko monthly averages
+  '2025-01': 102000, '2025-02': 96000, '2025-03': 84000, '2025-04': 85000,
+  '2025-05': 104000, '2025-06': 107448, '2025-07': 115068, '2025-08': 115083,
+  '2025-09': 112962, '2025-10': 114210, '2025-11': 96899, '2025-12': 89006,
+  // 2026 - Real CoinGecko monthly averages (safety net; live fetch overrides these)
+  '2026-01': 90751, '2026-02': 69251, '2026-03': 69444, '2026-04': 73474,
+  '2026-05': 78067, '2026-06': 63895, '2026-07': 61450,
 };
 
 // Pre-computed fallback array (optimization: avoid repeated conversion)
@@ -67,85 +62,22 @@ const FALLBACK_ARRAY = Object.entries(FALLBACK_PRICES)
   .map(([month, price]) => ({ month, price }))
   .sort((a, b) => a.month.localeCompare(b.month));
 
-// Race multiple proxies - first successful response wins
-async function fetchWithProxyRace(url, timeout = REQUEST_TIMEOUT) {
-  const fetchPromises = CORS_PROXIES.map(async (proxy) => {
-    const proxyUrl = proxy.includes('?')
-      ? `${proxy}${encodeURIComponent(url)}`
-      : `${proxy}${url}`;
-
-    const response = await fetch(proxyUrl, {
-      headers: { 'Accept': 'application/json' },
-      signal: AbortSignal.timeout(timeout),
-    });
-
-    if (!response.ok) throw new Error('Response not ok');
-    return response.json();
-  });
-
-  // Promise.any returns first fulfilled promise
-  return Promise.any(fetchPromises);
-}
-
-// Fetch current price from Binance (no CORS, very reliable)
-async function fetchFromBinance(timeout = REQUEST_TIMEOUT) {
-  const response = await fetch(BINANCE_API, {
+// Fetch from our own Vercel serverless API (server-side, no CORS)
+async function fetchFromOwnAPI(timeout = REQUEST_TIMEOUT) {
+  const response = await fetch(OWN_API, {
     signal: AbortSignal.timeout(timeout),
   });
-  if (!response.ok) throw new Error('Binance API error');
+  if (!response.ok) throw new Error('Own API error');
   const data = await response.json();
+  if (!data.price) throw new Error('No price in response');
   return {
-    price: Math.round(parseFloat(data.price)),
-    change24h: null, // Binance ticker doesn't include 24h change
-    source: 'binance',
+    price: data.price,
+    change24h: data.change24h,
+    source: data.source || 'api',
   };
 }
 
-// Fetch current price from CoinCap (no CORS, generous limits)
-async function fetchFromCoinCap(timeout = REQUEST_TIMEOUT) {
-  const response = await fetch(COINCAP_API, {
-    signal: AbortSignal.timeout(timeout),
-  });
-  if (!response.ok) throw new Error('CoinCap API error');
-  const data = await response.json();
-  return {
-    price: Math.round(parseFloat(data.data.priceUsd)),
-    change24h: parseFloat(data.data.changePercent24Hr),
-    source: 'coincap',
-  };
-}
-
-// Fetch current price from Blockchain.info (no CORS, no key needed)
-async function fetchFromBlockchainInfo(timeout = REQUEST_TIMEOUT) {
-  const response = await fetch(BLOCKCHAIN_INFO_API, {
-    signal: AbortSignal.timeout(timeout),
-  });
-  if (!response.ok) throw new Error('Blockchain.info API error');
-  const data = await response.json();
-  return {
-    price: Math.round(data.USD.last),
-    change24h: null,
-    source: 'blockchain.info',
-  };
-}
-
-// Fetch current price from Kraken (no CORS, no key needed)
-async function fetchFromKraken(timeout = REQUEST_TIMEOUT) {
-  const response = await fetch(KRAKEN_API, {
-    signal: AbortSignal.timeout(timeout),
-  });
-  if (!response.ok) throw new Error('Kraken API error');
-  const data = await response.json();
-  if (data.error && data.error.length > 0) throw new Error(data.error[0]);
-  const pair = Object.keys(data.result)[0];
-  return {
-    price: Math.round(parseFloat(data.result[pair].c[0])),
-    change24h: null,
-    source: 'kraken',
-  };
-}
-
-// Fetch current price from Coinbase (no CORS, no key needed)
+// Client-side fallbacks (in case serverless function is down). All CORS-enabled.
 async function fetchFromCoinbase(timeout = REQUEST_TIMEOUT) {
   const response = await fetch(COINBASE_API, {
     signal: AbortSignal.timeout(timeout),
@@ -159,21 +91,32 @@ async function fetchFromCoinbase(timeout = REQUEST_TIMEOUT) {
   };
 }
 
-// Retry helper — retries a function up to maxRetries times with delay
-async function withRetry(fn, maxRetries = MAX_RETRIES, delay = RETRY_DELAY) {
-  let lastError;
-  for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    try {
-      const result = await fn();
-      if (result?.price) return result;
-    } catch (err) {
-      lastError = err;
-    }
-    if (attempt < maxRetries) {
-      await new Promise(resolve => setTimeout(resolve, delay));
-    }
-  }
-  throw lastError || new Error('All retry attempts failed');
+async function fetchFromKraken(timeout = REQUEST_TIMEOUT) {
+  const response = await fetch(KRAKEN_API, {
+    signal: AbortSignal.timeout(timeout),
+  });
+  if (!response.ok) throw new Error('Kraken API error');
+  const data = await response.json();
+  if (data.error?.length > 0) throw new Error(data.error[0]);
+  const pair = Object.keys(data.result)[0];
+  return {
+    price: Math.round(parseFloat(data.result[pair].c[0])),
+    change24h: null,
+    source: 'kraken',
+  };
+}
+
+async function fetchFromCoinGeckoSimple(timeout = REQUEST_TIMEOUT) {
+  const url = `${COINGECKO_API}/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true`;
+  const response = await fetch(url, { signal: AbortSignal.timeout(timeout) });
+  if (!response.ok) throw new Error('CoinGecko API error');
+  const data = await response.json();
+  if (!data.bitcoin?.usd) throw new Error('No price in CoinGecko response');
+  return {
+    price: Math.round(data.bitcoin.usd),
+    change24h: data.bitcoin.usd_24h_change ?? null,
+    source: 'coingecko',
+  };
 }
 
 // Load cached data from localStorage
@@ -214,7 +157,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
   const [error, setError] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
   const [isLive, setIsLive] = useState(false);
-  const [dataSource, setDataSource] = useState(null); // 'binance', 'coincap', 'coingecko', 'coinbase', 'kraken', 'blockchain.info', 'cache', or 'fallback'
+  const [dataSource, setDataSource] = useState(null);
   const isFetching = useRef(false);
   const retryTimeoutRef = useRef(null);
 
@@ -230,65 +173,42 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
     }
   }, []);
 
-  // Fetch current price with aggressive multi-source fallback chain.
-  // Strategy: race the two fastest sources first, then cascade through
-  // remaining sources one at a time. Each source gets retry attempts.
+  // Fetch current price: own API first (server-side, reliable), then client-side fallbacks.
   const fetchCurrentPrice = useCallback(async () => {
-    // Phase 1: Race CoinCap + Binance (both fast, no CORS)
+    // Phase 1: Our own serverless API (no CORS, fastest path)
+    try {
+      const result = await fetchFromOwnAPI();
+      if (result?.price) return result;
+    } catch {
+      // Own API failed, try client-side sources
+    }
+
+    // Phase 2: Race client-side APIs as fallback (all CORS-enabled & US-accessible)
     try {
       const result = await Promise.any([
-        fetchFromCoinCap().then(r => r?.price ? r : Promise.reject('no price')),
-        fetchFromBinance().then(r => r?.price ? r : Promise.reject('no price')),
+        fetchFromCoinbase().then(r => r?.price ? r : Promise.reject('no price')),
+        fetchFromKraken().then(r => r?.price ? r : Promise.reject('no price')),
+        fetchFromCoinGeckoSimple().then(r => r?.price ? r : Promise.reject('no price')),
       ]);
       if (result?.price) return result;
     } catch {
-      // Both failed, continue to phase 2
-    }
-
-    // Phase 2: Try remaining sources sequentially with retries
-    const fallbackSources = [
-      fetchFromCoinbase,
-      fetchFromKraken,
-      fetchFromBlockchainInfo,
-    ];
-
-    for (const fetchFn of fallbackSources) {
-      try {
-        const result = await withRetry(fetchFn, 1, 1000);
-        if (result?.price) return result;
-      } catch {
-        // This source failed, try next
-      }
-    }
-
-    // Phase 3: CoinGecko with CORS proxies as last resort
-    const priceUrl = `${COINGECKO_API}/simple/price?ids=${coin}&vs_currencies=usd&include_24hr_change=true`;
-    try {
-      const data = await fetchWithProxyRace(priceUrl);
-      if (data[coin]) {
-        return {
-          price: Math.round(data[coin].usd),
-          change24h: data[coin].usd_24h_change,
-          source: 'coingecko',
-        };
-      }
-    } catch {
-      // All sources failed
+      // All client-side sources failed
     }
     return null;
-  }, [coin]);
+  }, []);
 
-  // Fetch historical data (races all proxies)
+  // Fetch historical data from CoinGecko (CORS-enabled). Free tier caps history at
+  // 365 days — requesting more returns an error with zero prices, so we clamp.
   const fetchHistoricalData = useCallback(async () => {
-    const apiUrl = `${COINGECKO_API}/coins/${coin}/market_chart?vs_currency=usd&days=${days}&interval=daily`;
-
+    const cappedDays = Math.min(days, MAX_HISTORY_DAYS);
+    const apiUrl = `${COINGECKO_API}/coins/${coin}/market_chart?vs_currency=usd&days=${cappedDays}&interval=daily`;
     try {
-      const data = await fetchWithProxyRace(apiUrl, 5000); // Slightly longer for historical
-      if (data.prices && data.prices.length > 0) {
-        return data;
-      }
+      const response = await fetch(apiUrl, { signal: AbortSignal.timeout(6000) });
+      if (!response.ok) throw new Error('CoinGecko historical error');
+      const data = await response.json();
+      if (data.prices?.length > 0) return data;
     } catch {
-      // All proxies failed
+      // CoinGecko failed
     }
     return null;
   }, [coin, days]);
@@ -333,12 +253,15 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
           monthlyPrices[monthKey].count++;
         });
 
-        // Convert to array format
-        const processed = Object.entries(monthlyPrices)
-          .map(([month, data]) => ({
-            month,
-            price: Math.round(data.sum / data.count),
-          }))
+        // Merge real recent months (last ≤365 days) onto the full static history.
+        // CoinGecko free only returns ~12 months, so static fills 2019→last year while
+        // the live fetch keeps recent months accurate and self-updating.
+        const merged = { ...FALLBACK_PRICES };
+        Object.entries(monthlyPrices).forEach(([month, data]) => {
+          merged[month] = Math.round(data.sum / data.count);
+        });
+        const processed = Object.entries(merged)
+          .map(([month, price]) => ({ month, price }))
           .sort((a, b) => a.month.localeCompare(b.month));
 
         if (processed.length > 0) {
@@ -388,7 +311,7 @@ export function useCryptoPrice(coin = 'bitcoin', days = 2555, refreshInterval = 
       setLastUpdated(new Date());
       setError(null);
 
-    } catch (err) {
+    } catch {
       // Complete failure - try stale cache, then static fallback
       const staleCache = loadFromCache(false);
       if (staleCache?.priceData?.length > 0) {

@@ -230,25 +230,47 @@ export function PriceCorrelation({ trendData }) {
     axisLabel: isDark ? '#ffffff' : '#1f2937',
   }), [isDark]);
 
-  // Fetch live BTC price data (refresh every 5 minutes)
-  const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive, dataSource } = useCryptoPrice('bitcoin', 730, 300000);
+  // Fetch live BTC price data (refresh every 5 minutes).
+  // 365 = CoinGecko free-tier max; the hook merges this onto full static history.
+  const { priceData: livePriceData, currentPrice, loading: priceLoading, lastUpdated, isLive, dataSource } = useCryptoPrice('bitcoin', 365, 300000);
 
-  // Check if data is stale (older than 10 minutes)
-  const isStale = lastUpdated && (Date.now() - lastUpdated.getTime() > 10 * 60 * 1000);
+  // Check if data is stale (older than 10 minutes). Ticks once a minute so the
+  // check stays current without calling Date.now() impurely during render.
+  const [staleCheckTime, setStaleCheckTime] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setStaleCheckTime(Date.now()), 60 * 1000);
+    return () => clearInterval(id);
+  }, []);
+  const isStale = lastUpdated && (staleCheckTime - lastUpdated.getTime() > 10 * 60 * 1000);
   const isFallback = dataSource === 'fallback';
 
-  // Merge complaint data with price data
+  // Merge complaint data with price data over the UNION of months, so the timeline
+  // runs through the current month even though CFPB complaint data lags by a few
+  // weeks. Complaint bars stop at their real latest month; the BTC price line
+  // (which we have live through today) continues to the current month.
   const chartData = useMemo(() => {
     const priceMap = {};
-    livePriceData.forEach(item => {
-      priceMap[item.month] = item.price;
-    });
+    livePriceData.forEach(item => { priceMap[item.month] = item.price; });
 
-    return trendData.map(item => ({
-      ...item,
-      price: priceMap[item.month] || null,
-      priceK: priceMap[item.month] ? Math.round(priceMap[item.month] / 1000) : null,
-    })).filter(item => item.price !== null || item.count > 0);
+    const complaintMap = {};
+    trendData.forEach(item => { complaintMap[item.month] = item; });
+
+    const allMonths = [...new Set([
+      ...trendData.map(i => i.month),
+      ...livePriceData.map(i => i.month),
+    ])].sort((a, b) => a.localeCompare(b));
+
+    return allMonths.map(month => {
+      const complaint = complaintMap[month];
+      const price = priceMap[month] ?? null;
+      return {
+        month,
+        label: complaint?.label || format(parseISO(`${month}-01`), 'MMM yyyy'),
+        count: complaint?.count ?? null, // null → no bar for months without complaint data yet
+        price,
+        priceK: price ? Math.round(price / 1000) : null,
+      };
+    }).filter(item => item.price !== null || (item.count ?? 0) > 0);
   }, [trendData, livePriceData]);
 
   // Sort events newest first
