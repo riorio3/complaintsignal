@@ -37,14 +37,17 @@ export function CalendarPicker({ value, onChange, label, placeholder }) {
     return () => document.removeEventListener('mousedown', handler);
   }, []);
 
-  // When value changes externally, sync the view
-  useEffect(() => {
+  // When value changes externally, sync the view (render-time adjustment —
+  // avoids the extra re-render cascade of doing this in an effect)
+  const [prevValue, setPrevValue] = useState(value);
+  if (value !== prevValue) {
+    setPrevValue(value);
     const p = parseDate(value);
     if (p) {
       setViewYear(p.year);
       setViewMonth(p.month);
     }
-  }, [value]);
+  }
 
   const handleSelect = (day) => {
     onChange(formatDate(viewYear, viewMonth, day));

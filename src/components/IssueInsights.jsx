@@ -49,12 +49,6 @@ const DocumentTextIcon = ({ className }) => (
 // Escape special regex characters in a string
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-// Test if keyword appears as a whole word/phrase in text
-const matchesWholeWord = (text, keyword) => {
-  const pattern = new RegExp('\\b' + escapeRegex(keyword) + '\\b', 'i');
-  return pattern.test(text);
-};
-
 // Map CFPB structured `issue` values to our categories.
 // Used as a fallback for complaints without a narrative so every complaint
 // gets categorized, not just the narrative subset.
@@ -218,7 +212,7 @@ const ISSUE_PATTERNS = [
   },
 ];
 
-export function IssueInsights({ data, onFilterByKeyword }) {
+export function IssueInsights({ data }) {
   const [selectedPattern, setSelectedPattern] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showAllModal, setShowAllModal] = useState(false);

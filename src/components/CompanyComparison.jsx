@@ -5,6 +5,26 @@ import aiClassifications from '../data/classifications.json';
 // Colors for bars
 const COLORS = ['#1d4ed8', '#2563eb', '#3b82f6', '#0369a1', '#0891b2', '#0d9488', '#059669'];
 
+// Sort indicator (hoisted out of CompanyComparison so it isn't re-created every render)
+function SortIcon({ column, sortBy, sortOrder }) {
+  if (sortBy !== column) {
+    return (
+      <svg className="w-3.5 h-3.5 ml-1 text-gray-300 dark:text-gray-600 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+      </svg>
+    );
+  }
+  return sortOrder === 'desc' ? (
+    <svg className="w-3.5 h-3.5 ml-1 text-blue-500 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  ) : (
+    <svg className="w-3.5 h-3.5 ml-1 text-blue-500 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+    </svg>
+  );
+}
+
 export function CompanyComparison({ data, rawData = [] }) {
   const [sortBy, setSortBy] = useState('total');
   const [sortOrder, setSortOrder] = useState('desc');
@@ -105,26 +125,6 @@ export function CompanyComparison({ data, rawData = [] }) {
     }
   };
 
-  // Sort indicator
-  const SortIcon = ({ column }) => {
-    if (sortBy !== column) {
-      return (
-        <svg className="w-3.5 h-3.5 ml-1 text-gray-300 dark:text-gray-600 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
-        </svg>
-      );
-    }
-    return sortOrder === 'desc' ? (
-      <svg className="w-3.5 h-3.5 ml-1 text-blue-500 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-      </svg>
-    ) : (
-      <svg className="w-3.5 h-3.5 ml-1 text-blue-500 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-      </svg>
-    );
-  };
-
   if (!data || data.length === 0) {
     return (
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
@@ -158,7 +158,7 @@ export function CompanyComparison({ data, rawData = [] }) {
               >
                 <span className="hidden sm:inline">Company</span>
                 <span className="sm:hidden">Co.</span>
-                <SortIcon column="company" />
+                <SortIcon column="company" sortBy={sortBy} sortOrder={sortOrder} />
               </th>
               <th
                 className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
@@ -166,19 +166,19 @@ export function CompanyComparison({ data, rawData = [] }) {
               >
                 <span className="hidden sm:inline">Complaints</span>
                 <span className="sm:hidden">#</span>
-                <SortIcon column="total" />
+                <SortIcon column="total" sortBy={sortBy} sortOrder={sortOrder} />
               </th>
               <th
                 className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 whitespace-nowrap"
                 onClick={() => handleSort('timelyRate')}
               >
-                Timely % <SortIcon column="timelyRate" />
+                Timely % <SortIcon column="timelyRate" sortBy={sortBy} sortOrder={sortOrder} />
               </th>
               <th
                 className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 whitespace-nowrap"
                 onClick={() => handleSort('disputeRate')}
               >
-                Disputed % <SortIcon column="disputeRate" />
+                Disputed % <SortIcon column="disputeRate" sortBy={sortBy} sortOrder={sortOrder} />
               </th>
               <th
                 className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
@@ -186,14 +186,14 @@ export function CompanyComparison({ data, rawData = [] }) {
               >
                 <span className="hidden sm:inline">Fraud %</span>
                 <span className="sm:hidden">Fraud</span>
-                <SortIcon column="fraudRate" />
+                <SortIcon column="fraudRate" sortBy={sortBy} sortOrder={sortOrder} />
               </th>
               <th className="px-2 sm:px-3 py-2 sm:py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider whitespace-nowrap">
                 <span
                   className="cursor-pointer hover:text-gray-700 dark:hover:text-gray-200"
                   onClick={() => handleSort('reliefRate')}
                 >
-                  Relief % <SortIcon column="reliefRate" />
+                  Relief % <SortIcon column="reliefRate" sortBy={sortBy} sortOrder={sortOrder} />
                 </span>
                 <button
                   type="button"

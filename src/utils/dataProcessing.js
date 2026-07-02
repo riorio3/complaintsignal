@@ -1,4 +1,4 @@
-import { format, parseISO, startOfMonth } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 
 /**
  * Group complaints by month for trend chart

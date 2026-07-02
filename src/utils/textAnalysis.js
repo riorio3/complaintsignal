@@ -96,7 +96,7 @@ export function extractPhrases(complaints, limit = 20) {
   });
 
   return Object.entries(phraseCounts)
-    .filter(([phrase, count]) => count >= 5) // Only phrases appearing 5+ times
+    .filter(([, count]) => count >= 5) // Only phrases appearing 5+ times
     .sort((a, b) => b[1] - a[1])
     .slice(0, limit)
     .map(([text, value]) => ({ text, value }));

@@ -26,7 +26,7 @@ export function Dashboard() {
   const [searchId, setSearchId] = useState('');
   const [searchedComplaint, setSearchedComplaint] = useState(null);
   const [searchError, setSearchError] = useState(null);
-  const { data, loading, error, lastUpdated, isLive, totalCount } = useComplaints(filters);
+  const { data, loading, error } = useComplaints(filters);
 
   // Search for complaint by ID
   const handleSearch = (e) => {
