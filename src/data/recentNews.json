@@ -1,5 +1,205 @@
 [
   {
+    "title": "Moscow Bitcoin Mining Ban Hits Data Centers Until 2032",
+    "description": "\nThe government of Russia has included the city of Moscow and other regions in a 2024 decree banning cryptocurrency mining activities from August 15 to December 31, 2032. The amendment also includes t...",
+    "date": "2026-08-02 07:30:01",
+    "url": "https://news.bitcoin.com/regulation-and-legal/moscow-bitcoin-mining-ban-hits-data-centers-until-2032/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Latam Insights: Stablecoins Dominate Brazil’s $14.68B Crypto Market as Argentina Pushes Programmable Money",
+    "description": "\nWelcome to Latam Insights, a compilation of the most relevant crypto news from Latin America over the past week. In this edition, crypto demand booms in Brazil, Argentina’s banking groups are buildin...",
+    "date": "2026-08-02 06:30:52",
+    "url": "https://news.bitcoin.com/crypto-news/latam-insights-stablecoins-dominate-brazils-14-68b-crypto-market-as-argentina-pushes-programmable-money/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "$11 Billion in Crypto Losses Adds Pressure on CLARITY Act",
+    "description": "\nNew York Attorney General Letitia James urged Congress to strengthen cryptocurrency regulation as the FBI reported more than $11 billion in crypto-related losses. Her Senate testimony argued the pend...",
+    "date": "2026-08-02 05:30:57",
+    "url": "https://news.bitcoin.com/regulation-and-legal/11-billion-in-crypto-losses-adds-pressure-on-clarity-act/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "IRS Warns Fake Crypto Letters Target Wallets and Personal Data",
+    "description": "\nFraudsters are mailing counterfeit IRS notices that direct cryptocurrency holders toward a fabricated compliance portal designed to capture sensitive financial information. The campaign targets walle...",
+    "date": "2026-08-02 03:30:50",
+    "url": "https://news.bitcoin.com/regulation-and-legal/irs-warns-fake-crypto-letters-target-wallets-and-personal-data/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Funding stock buybacks by selling your primary reserve asset is a dangerous game, but Lite Strategy just pulled it off without using a dime of debt",
+    "description": "\nThe company sold part of its treasury without debt, while its share count only narrowly outpaced an 11.89% LTC decline.\nThe post Funding stock buybacks by selling your primary reserve asset is a dang...",
+    "date": "2026-08-02 02:05:43",
+    "url": "https://cryptoslate.com/lite-strategy-retired-13-of-its-shares-but-estimated-litecoin-per-share-rose-just-1-66/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "XRP Scam Ring Arrested After Stealing $9M From 71 Investors",
+    "description": "\nSouth Korean police arrested three suspects accused of stealing 12.3 billion won, or about $9 million, from 71 XRP investors. Investigators traced 27.3 billion won through related wallets, indicating...",
+    "date": "2026-08-02 02:05:21",
+    "url": "https://news.bitcoin.com/featured/xrp-scam-ring-arrested-after-stealing-9m-from-71-investors/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Grayscale Urges Senate CLARITY Act Vote Before August Recess",
+    "description": "\nGrayscale urged Senate leaders to schedule a CLARITY Act vote before the August recess, warning that delay threatens U.S. competitiveness. The bill would divide crypto oversight between federal regul...",
+    "date": "2026-08-02 00:45:52",
+    "url": "https://news.bitcoin.com/regulation-and-legal/grayscale-urges-senate-clarity-act-vote-before-august-recess/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitwise is liquidating six crypto option ETFs that offered 25% payouts while returning investors’ own capital",
+    "description": "\nAll six reported a 0% 30-day SEC yield, while remaining holders face an automatic August cash redemption.\nThe post Bitwise is liquidating six crypto option ETFs that offered 25% payouts while returni...",
+    "date": "2026-08-02 00:05:43",
+    "url": "https://cryptoslate.com/bitwise-is-liquidating-six-crypto-option-etfs-that-offered-25-payouts-while-returning-investors-own-capital/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Michael Saylor Rejects Report of New Strategy Bitcoin Sale Approval",
+    "description": "\nMichael Saylor rejected claims that Strategy had approved a new $5 billion bitcoin sale plan, identifying the authorization as an existing capital-management tool. His clarification separates potenti...",
+    "date": "2026-08-01 22:42:18",
+    "url": "https://news.bitcoin.com/featured/michael-saylor-rejects-report-of-new-strategy-bitcoin-sale-approval/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Digital asset SPAC delays crucial merger vote, leaving a deeply undercapitalized Old Glory Bank waiting on a $50M lifeline",
+    "description": "\nDAAQ disclosed no reason for the delay and no redemption tally showing what remains in trust.\nThe post Digital asset SPAC delays crucial merger vote, leaving a deeply undercapitalized Old Glory Bank ...",
+    "date": "2026-08-01 22:10:43",
+    "url": "https://cryptoslate.com/old-glory-bank-spac-delays-vote-as-50-million-cash-test-stays-unresolved/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Iran-linked exchange sent $676 million to Binance in alleged sanctions-evasion operation: Reuters",
+    "description": "Dubai-based Shelbit processed over $4 billion since May 2024 through a network tied to Iranian gambling sites, the central bank, and the IRGC, per Reuters....",
+    "date": "2026-08-01 21:18:45",
+    "url": "https://www.theblock.co/post/410355/iran-linked-exchange-sent-676-million-to-binance-in-alleged-sanctions-evasion-operation-reuters?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Onchain, in court: What happened in crypto legal news this week",
+    "description": "...",
+    "date": "2026-08-01T21:14:39.000Z",
+    "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Onchain, in court: What happened in crypto legal news this week",
+    "description": "\n\nA case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.\n...",
+    "date": "2026-08-01 21:14:39",
+    "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Strategy Holds STRC Dividend at 12% as Stock Stays Below Par",
+    "description": "\nStrategy confirmed its Stretch (STRC) preferred stock will keep paying a 12% annualized dividend in August 2026, even after the security closed July at roughly 12% below its $100 par value. A Rate Th...",
+    "date": "2026-08-01 20:49:23",
+    "url": "https://news.bitcoin.com/crypto-news/strategy-strc-dividend-12-percent-below-par/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Louisiana just armed crypto ATM users with a legal cheat code to demand full refunds from unlicensed operators",
+    "description": "\nAct 482 takes effect Aug. 1, while clearly disclosed document requests can reset the 90-day payment clock.\nThe post Louisiana just armed crypto ATM users with a legal cheat code to demand full refund...",
+    "date": "2026-08-01 18:10:38",
+    "url": "https://cryptoslate.com/louisiana-just-armed-crypto-atm-users-with-a-legal-cheat-code-to-demand-full-refunds-from-unlicensed-operators/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+    "description": "...",
+    "date": "2026-08-01T18:07:17.000Z",
+    "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+    "description": "\n\nState officials reported that Minnesota residents, and largely senior citizens, had lost about $1 million from scams tied to crypto kiosks from 2023 to 2025.\n...",
+    "date": "2026-08-01 18:07:17",
+    "url": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "If the Fed trusts this single 2.2% metric, Bitcoin could break $65.3k and ignite a path to $68k",
+    "description": "\nBitcoin is trading near $63,000, with rate markets assigning roughly 66% odds to a September Federal Reserve hike, under a policy framework Kevin Warsh has left partly hidden. The Fed chair has defin...",
+    "date": "2026-08-01 17:15:02",
+    "url": "https://cryptoslate.com/if-the-fed-trusts-this-single-2-2-metric-bitcoin-could-break-65300-and-ignite-a-path-to-68000/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+    "description": "Without that QQQ token, QQQB, July volume for tokenized equities would be roughly $2.03 billion, about 30% below June’s total....",
+    "date": "2026-08-01 16:51:35",
+    "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Russian decree bans crypto mining across Moscow region through 2032",
+    "description": "Regional energy officials had estimated that mining consumes 1 GW of power and could contribute to future electricity shortages. ...",
+    "date": "2026-08-01 16:09:15",
+    "url": "https://www.theblock.co/post/410345/russian-decree-bans-crypto-mining-across-moscow-region-through-2032?utm_source=rss&utm_medium=rss",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+    "description": "A mystery-shopping experiment found that exchange fees, foreign exchange spreads and banking rails mean stablecoin remittances are often no cheaper than traditional transfer means....",
+    "date": "2026-08-01 16:00:00",
+    "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+    "description": "CME argues that because bitcoin is a commodity, options tied to its value fall under CFTC jurisdiction, not the SEC's authority....",
+    "date": "2026-08-01 15:48:27",
+    "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Solana Foundation's new CISO warns AI is making crypto scams more convincing",
+    "description": "Michael Coates, the foundation’s new CISO, said that AI vulnerabilities and fake identities will drive the next wave of blockchain security concerns....",
+    "date": "2026-08-01 13:00:00",
+    "url": "https://www.coindesk.com/tech/2026/07/31/solana-foundation-s-new-ciso-warns-ai-is-making-crypto-scams-more-convincing",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Russia expands crypto mining ban to Moscow through 2032",
+    "description": "...",
+    "date": "2026-08-01T10:23:41.000Z",
+    "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Russia expands crypto mining ban to Moscow through 2032",
+    "description": "\n\nRussia has added Moscow, the Moscow Region and parts of Kursk Region to its cryptocurrency mining ban list, citing power supply concerns behind the restrictions.\n...",
+    "date": "2026-08-01 10:23:41",
+    "url": "https://cointelegraph.com/news/russia-expands-crypto-mining-ban-moscow-2032?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
     "title": "Binance founder CZ calls for wallet diversification after $70 million Coldcard exploit",
     "description": "Binance founder Changpeng Zhao says hardware wallets can still have bugs and suggests spreading funds across multiple wallets after the major Coldcard security failure....",
     "date": "2026-08-01 09:01:08",
@@ -286,6 +486,14 @@
     "url": "https://www.coindesk.com/markets/2026/07/31/crypto-faces-3-barriers-to-next-bull-run-sts-digital-ceo-says",
     "agency": "NEWS",
     "source": "CoinDesk"
+  },
+  {
+    "title": "Judge lets FTX recovery trust chase Binance for $1.76 billion over a 2021 share buyback",
+    "description": "...",
+    "date": "2026-07-31T14:20:41.000Z",
+    "url": "https://cryptoslate.com/judge-lets-ftx-recovery-trust-chase-binance-for-1-76-billion-over-a-2021-share-buyback/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
   },
   {
     "title": "ECB says digital euro app will exceed EU accessibility standards",
@@ -16526,253 +16734,5 @@
     "url": "https://www.coindesk.com/business/2026/06/02/defi-won-t-win-over-big-banks-until-it-fixes-its-hacking-problem-executives-say",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "Banks' survey says people don't want to rock the boat if stablecoin yield risks lending",
-    "description": "The American Bankers Association, which lobbies against the crypto sector over the Clarity Act's stablecoin section, unveiled its new polling....",
-    "date": "2026-06-03 09:00:00",
-    "url": "https://www.coindesk.com/policy/2026/06/02/banks-survey-says-people-don-t-want-to-rock-the-boat-if-stablecoins-would-risk-lending",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Mastercard expands stablecoin settlement options with USDC, PYUSD and RLUSD",
-    "description": "...",
-    "date": "2026-06-03T08:57:56.000Z",
-    "url": "https://www.theblock.co/post/403474/mastercard-expands-stablecoin-settlement-options-with-usdc-pyusd-and-rlusd?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bitcoin.com Checkout Launches With Zero Merchant Fees and Auto-Settlement to Stablecoins",
-    "description": "...",
-    "date": "2026-06-03T08:00:03.000Z",
-    "url": "https://news.bitcoin.com/bitcoin-com-checkout-launches-with-zero-merchant-fees-and-auto-settlement-to-stablecoins/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Big tech is 'terrified' of AI agents wiping out ad revenue, says Billions Network CEO",
-    "description": "Evin McMullen’s view on AI agents disrupting Google’s and Facebook’s business model was previously shared by Cardano Founder Charles Hoskinson and Cloudflare CSO Stephanie Cohen....",
-    "date": "2026-06-03 06:51:08",
-    "url": "https://www.coindesk.com/business/2026/06/03/big-tech-is-terrified-of-ai-agents-wiping-out-ad-revenue-says-billions-network-ceo",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bitcoin Falls to $65,710 as Record ETF Outflows and Strategy Sale Rattle Market",
-    "description": "\nBitcoin fell under $66,000 on June 3, albeit briefly, as record exchange-traded fund outflows and a rare sale by Strategy deepened a selloff that has wiped out billions in leveraged positions. A Broa...",
-    "date": "2026-06-03 06:45:02",
-    "url": "https://news.bitcoin.com/bitcoin-falls-under-66000-etf-outflows-strategy-sale/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "US Treasury issues sanctions on Iran, targets 4 crypto exchanges",
-    "description": "\n\nThe sanctions come four days after Treasury Secretary Scott Bessent said the US had seized nearly $1 billion in crypto from Iranian crypto exchanges and wallets since late February.\n...",
-    "date": "2026-06-03 06:12:44",
-    "url": "https://cointelegraph.com/news/us-sanctions-irans-top-crypto-exchange-as-war-rages-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "US Treasury issues sanctions on Iran, targets 4 crypto exchanges",
-    "description": "...",
-    "date": "2026-06-03T06:12:44.000Z",
-    "url": "https://cointelegraph.com/news/us-sanctions-irans-top-crypto-exchange-as-war-rages-on?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Becoming a Millionaire by 30, Warren Buffett Shares His Proven Strategy",
-    "description": "\nIn 1978, Warren Buffett cemented a partnership that would define Berkshire Hathaway for decades with Charlie Munger, a collaboration that ran until 2023. His rule for partners, Buffett says, is blunt...",
-    "date": "2026-06-03 05:30:24",
-    "url": "https://news.bitcoin.com/becoming-a-millionaire-by-30-warren-buffett-shares-his-proven-strategy-49201/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Blockchain Association urges Senate to pass Clarity Act with letter from 160 former security officials",
-    "description": "...",
-    "date": "2026-06-03T03:42:54.000Z",
-    "url": "https://www.theblock.co/post/403450/blockchain-association-letter-senate?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "UK Lords warn BoE could regulate pound stablecoins into irrelevance",
-    "description": "\n\nA UK House of Lords committee warned that strict stablecoin rules could make pound sterling tokens commercially unworkable despite supporting regulation.\n...",
-    "date": "2026-06-03 00:01:00",
-    "url": "https://cointelegraph.com/news/lords-warn-bank-of-england-not-to-regulate-gbp-stablecoins-into-irrelevance?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "UK Lords warn BoE could regulate pound stablecoins into irrelevance",
-    "description": "\n\nA UK House of Lords committee warned that strict stablecoin rules could make pound sterling tokens commercially unworkable despite supporting regulation.\n...",
-    "date": "2026-06-03 00:01:00",
-    "url": "https://cointelegraph.com/news/lords-warn-bank-of-england-not-to-regulate-gbp-stablecoins-into-irrelevance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "US lawmakers push back on Labor Department plans to include crypto in 401(k)s",
-    "description": "...",
-    "date": "2026-06-02T22:55:00.000Z",
-    "url": "https://cointelegraph.com/news/democrats-labor-department-digital-assets-retirement?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "US Treasury Sanctions Iranian Crypto Exchanges Including Nobitex for Terrorist Financing",
-    "description": "...",
-    "date": "2026-06-02T22:55:00.000Z",
-    "url": "https://decrypt.co/369816/us-treasury-sanctions-iranian-crypto-exchanges-nobitex-terrorist-financing",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "US lawmakers push back on Labor Department plans to include crypto in 401(k)s",
-    "description": "\n\nThe three members of Congress said the volatility of digital assets and “lack of regulation and safeguards” could put Americans’ retirement savings at risk.\n...",
-    "date": "2026-06-02 22:44:19",
-    "url": "https://cointelegraph.com/news/democrats-labor-department-digital-assets-retirement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "SEC makes digital assets strategic priority through 2030",
-    "description": "...",
-    "date": "2026-06-02T22:17:11.000Z",
-    "url": "https://cointelegraph.com/news/sec-makes-digital-assets-strategic-priority-through-2030?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Democrats Sanders and Warren Push Labor Department to Abandon Bitcoin 401(k) Rule",
-    "description": "...",
-    "date": "2026-06-02T21:12:32.000Z",
-    "url": "https://bitcoinmagazine.com/news/sanders-and-warren-push-bitcoin-401k-rule",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Microsoft Says Latest AI Models Beat Claude, Google's Nano Banana",
-    "description": "...",
-    "date": "2026-06-02T21:12:09.000Z",
-    "url": "https://decrypt.co/369806/microsoft-says-latest-ai-models-beat-claude-googles-nano-banana",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "US sanctions Nobitex and other Iranian crypto exchanges under ‘Economic Fury’ campaign",
-    "description": "Sanctioned exchange Nobitex handled more than half of Iran's crypto inflows last year, according to the U.S. Treasury....",
-    "date": "2026-06-02 20:50:53",
-    "url": "https://www.theblock.co/post/403436/us-sanctions-nobitex-iranian-crypto-exchanges-economic-fury-campaign?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Strategy Shares Fall for Second Straight Day After $56 Billion Bitcoin Giant Sells BTC",
-    "description": "...",
-    "date": "2026-06-02T20:43:39.000Z",
-    "url": "https://decrypt.co/369788/strategy-shares-fall-second-straight-day-bitcoin-giant-sells-btc",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "U.S. Treasury Sanctions Iran’s Largest Crypto Exchange in Sweeping Economic Warfare Push",
-    "description": "...",
-    "date": "2026-06-02T20:35:41.000Z",
-    "url": "https://bitcoinmagazine.com/news/u-s-treasury-sanctions-irans-crypto",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Microsoft Turns OpenClaw Into an Enterprise AI Agent With Scout",
-    "description": "...",
-    "date": "2026-06-02T20:25:22.000Z",
-    "url": "https://decrypt.co/369781/microsoft-scout-openclaw-enterprise-ai-agent",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bernie Sanders, Elizabeth Warren Urge Labor Department to Drop Bitcoin, Crypto 401K Plan",
-    "description": "The senators said a plan allowing fiduciaries to offer exposure to riskier assets like crypto and private equity would hurt retirees and personally benefit President Trump....",
-    "date": "2026-06-02 20:00:04",
-    "url": "https://decrypt.co/369773/bernie-sanders-elizabeth-warren-labor-dept-drop-bitcoin-crypto-401k-plan",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "As Strategy Sells Bitcoin, Strive Doubles Down With $4.2 Billion Offering",
-    "description": "...",
-    "date": "2026-06-02T18:24:08.000Z",
-    "url": "https://decrypt.co/369724/strategy-sells-bitcoin-strive-doubles-down-4-2-billion-offering",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Ethena taps Anchorage for secure offchain collateral in institutional lending push",
-    "description": "...",
-    "date": "2026-06-02T18:06:42.000Z",
-    "url": "https://www.theblock.co/post/403410/ethena-taps-anchorage-secure-offchain-collateral-institutional-lending-push?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "CFTC chair claims Gemini case was politically motivated, seeks to reverse settlement",
-    "description": "...",
-    "date": "2026-06-02T17:39:30.000Z",
-    "url": "https://cointelegraph.com/news/cftc-michael-selig-gemini-politically-motivated-reverse-settlement?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Georgia targets illegal crypto mining in Mestia crackdown: Report",
-    "description": "...",
-    "date": "2026-06-02T15:02:29.000Z",
-    "url": "https://cointelegraph.com/news/georgias-vice-pm-governmental-crackdown-illegal-bitcoin-mining?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Strive adds 2,500 BTC to treasury as Saylor’s Strategy sells",
-    "description": "...",
-    "date": "2026-06-02T14:32:01.000Z",
-    "url": "https://www.theblock.co/post/403352/strive-adds-2500-btc-treasury-saylor-strategy-sells?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Why a $150M Polymarket bet could pay the side that appeared to lose",
-    "description": "\nA nearly $150 million prediction market has devolved into chaos after the platform Polymarket moved to deny payouts to traders who accurately predicted that corporate treasury firm Strategy would sel...",
-    "date": "2026-06-02 14:05:41",
-    "url": "https://cryptoslate.com/why-a-150m-polymarket-bet-could-pay-the-side-that-appeared-to-lose/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Bitcoin faces first jobs-week test as US job openings data arrives before Friday payrolls",
-    "description": "\nAt 10 a.m. ET on Tuesday, the Bureau of Labor Statistics releases its Job Openings and Labor Turnover Survey for April, and a market that spent years branding Bitcoin as an escape hatch from central ...",
-    "date": "2026-06-02 12:35:30",
-    "url": "https://cryptoslate.com/bitcoin-faces-first-jobs-week-test-as-us-job-openings-data-arrives-before-friday-payrolls/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Crypto treasury inflows fall to lowest level since 2024",
-    "description": "...",
-    "date": "2026-06-02T11:07:20.000Z",
-    "url": "https://cointelegraph.com/news/crypto-treasury-inflows-may-lowest-october-2024?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Ripple Unlocks 1 Billion XRP for June as US Spot ETFs Log Record $118 Million in May Inflows",
-    "description": "\nRipple released 1 billion XRP from escrow at the start of June, the latest in its monthly unlock schedule, even as U.S. spot exchange-traded funds (ETFs) tied to the token posted their strongest mont...",
-    "date": "2026-06-02 10:30:37",
-    "url": "https://news.bitcoin.com/ripple-unlocks-1-billion-xrp-june-etf-inflows/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
   }
 ]
