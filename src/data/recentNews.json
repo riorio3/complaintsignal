@@ -1,5 +1,149 @@
 [
   {
+    "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
+    "description": "\n\nThe sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.\n...",
+    "date": "2026-08-17 03:42:48",
+    "url": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Austria Fines Bitpanda 70,000 Euros in First MiCA Crypto Penalty",
+    "description": "\nThe penalty, one of the first under the MiCA framework, marks the start of an era of oversight of VASPs’ activities to ensure the uniform application of the framework across the EU. The Austrian Fina...",
+    "date": "2026-08-17 03:05:38",
+    "url": "https://news.bitcoin.com/regulation-and-legal/austria-fines-bitpanda-70000-euros-in-first-mica-crypto-penalty/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Data Breach Hits 39,798 Safepal Customers After Order Plugin Flaw",
+    "description": "\nThe hardware wallet manufacturer stressed that unauthorized threat actors gained access to the data through a malfunctioning plugin used to track users’ orders. The incident, which transpired between...",
+    "date": "2026-08-17 01:45:38",
+    "url": "https://news.bitcoin.com/security/data-breach-hits-39798-safepal-customers-after-order-plugin-flaw/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December",
+    "description": "\nIts June 30 snapshot showed $19.1 million cash and about 662 unencumbered BTC against the upcoming principal.\nThe post How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with ...",
+    "date": "2026-08-16 23:50:15",
+    "url": "https://cryptoslate.com/how-a-bitcoin-treasury-company-sold-600-btc-to-cut-debt-but-still-ended-up-with-60-million-due-in-december/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Strategy CEO Sees 7 Fall Catalysts Bringing Bitcoin More Life",
+    "description": "\nStrategy CEO Phong Le expects regulatory action, expanding bank participation, and digital financial products to bring more activity to subdued bitcoin markets, while political and economic developme...",
+    "date": "2026-08-16 21:20:39",
+    "url": "https://news.bitcoin.com/featured/strategy-ceo-sees-7-fall-catalysts-bringing-bitcoin-more-life/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Slowing ETF demand and corporate treasury selling are breaking the math behind Wall Street’s $16 trillion Bitcoin target",
+    "description": "\nARK's scenario now requires 78.6% annual growth, with institutional allocation and digital gold supplying 92.8% of modeled value.\nThe post Slowing ETF demand and corporate treasury selling are breaki...",
+    "date": "2026-08-16 20:20:49",
+    "url": "https://cryptoslate.com/bitcoin-market-cap-16-trillion-2030-model-etf-reality-check-us/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Crypto Weekly: LINK and WLFI Post Double-Digit Gains Amid Market Drop",
+    "description": "\nDuring the past week, bitcoin tumbled from over $65,000 to close just above $63,200, an approximately 3.2% weekly loss and briefly hit a low below $62,500 on Aug. 14. Bitcoin Leads Mid-August Market ...",
+    "date": "2026-08-16 19:00:34",
+    "url": "https://news.bitcoin.com/market-updates/crypto-weekly-link-and-wlfi-post-double-digit-gains-amid-market-drop/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "The SEC meeting that wasn't: State of Crypto",
+    "description": "There were hopes that regulators could move if the Clarity Act didn't advance, but those, too, may be paused....",
+    "date": "2026-08-16 18:30:00",
+    "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Tether Completes Audit, Wintermute Bets on AI and High-Frequency Trading, And More – Weekly Recap",
+    "description": "\nThis week’s stories spanned old crypto fortunes, transparency, market forecasts, trading expansion, and macro shifts. Dormant Ethereum whales moved millions after more than a decade, while KPMG issue...",
+    "date": "2026-08-16 18:01:52",
+    "url": "https://news.bitcoin.com/opinion-and-analysis/tether-completes-audit-wintermute-bets-on-ai-and-high-frequency-trading-and-more-weekly-recap/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "This Nasdaq-listed Bitcoin treasury diluted shareholders 18-fold to survive a $212 million crypto loss without selling its stash",
+    "description": "\nThe 7,500-BTC holder’s filing separates a noncash crypto loss from equity sales that supported its operating runway.\nThe post This Nasdaq-listed Bitcoin treasury diluted shareholders 18-fold to survi...",
+    "date": "2026-08-16 17:55:52",
+    "url": "https://cryptoslate.com/gd-cultures-share-count-jumped-18-fold-as-bitcoin-loss-hit-212-million/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "This Public Company Quietly Controls 20% of Ethena’s ENA Supply",
+    "description": "\nStablecoinX Inc. emerged from its Nasdaq merger with about 3 billion ENA tokens, a position equal to roughly 20% of the token’s supply. The New York company disclosed the stake with results for the q...",
+    "date": "2026-08-16 16:50:42",
+    "url": "https://news.bitcoin.com/stablecoins/this-public-company-quietly-controls-20-of-ethenas-ena-supply/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
+    "description": "Investors are starting to judge crypto tokens on usage, economics and value capture rather than market-cap rank, industry executives said....",
+    "date": "2026-08-16 16:00:00",
+    "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Hackers exploited macOS Screen Sharing flaw to install Monero miners, Dutch cyber agency says",
+    "description": "U.S. officials rated the severity of the vulnerability a critical 9.8/10 on the CVSS scale, and experts are warning users to update their devices....",
+    "date": "2026-08-16 15:07:00",
+    "url": "https://www.theblock.co/news/defi/2026-08-16-hackers-exploited-macos-screen-sharing-flaw-to-install-monero-miners-dutch-cyber-agency-says-411932",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
+    "description": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists....",
+    "date": "2026-08-16 14:01:03",
+    "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "A $48 billion Bitcoin leverage trap is about to trigger a massive forced exit the moment price boundaries break",
+    "description": "\nSmall positive offshore funding exposes longs on a drop, while CME leveraged funds’ net short creates an upside squeeze channel.\nThe post A $48 billion Bitcoin leverage trap is about to trigger a mas...",
+    "date": "2026-08-16 14:00:32",
+    "url": "https://cryptoslate.com/a-48-billion-bitcoin-leverage-trap-is-about-to-trigger-a-massive-forced-exit-the-moment-price-boundaries-break/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+    "description": "Fraudsters impersonating regulators and licensed crypto exchanges to steal funds from users forced to migrate their accounts after the EU's MiCA deadline are on the rise....",
+    "date": "2026-08-16 14:00:00",
+    "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+    "description": "The bankers want people kept in lower-yield deposits for the good of the financial system as it's existed for generations, and their argument is gaining ground....",
+    "date": "2026-08-16 13:00:00",
+    "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "The 'long bitcoin, short the bankers' era is officially over as TradFi giants embrace digital assets",
+    "description": "Financial firms are partnering with specialists to build infrastructure, blurring lines between traditional and decentralized finance into a unified sector....",
+    "date": "2026-08-16 12:00:00",
+    "url": "https://www.coindesk.com/business/2026/08/13/the-long-bitcoin-short-the-bankers-era-is-officially-over-as-tradfi-giants-embrace-digital-assets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
     "title": "SEC Reviews Cboe Bid to List 3x Bitcoin and Ether ETFs",
     "description": "\nU.S. traders could gain access to bitcoin and ether funds designed to deliver three times each asset’s daily performance under a Cboe proposal covering six leveraged commodity products. The SEC initi...",
     "date": "2026-08-16 03:30:03",
@@ -89,16 +233,16 @@
   },
   {
     "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-    "description": "Direct holdings of IBIT also rose 12% to 407,890 shares, while put option exposure dropped roughly 53% to 143,300 underlying shares during the quarter....",
-    "date": "2026-08-15 15:56:05",
+    "description": "...",
+    "date": "2026-08-15T15:56:05.000Z",
     "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
     "agency": "NEWS",
     "source": "CoinDesk"
   },
   {
     "title": "Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city",
-    "description": "The Energy Ministry enacted the year-round restriction to mitigate power capacity shortages, as energy-intensive mining facilities continue to strain regional grids....",
-    "date": "2026-08-15 15:21:15",
+    "description": "...",
+    "date": "2026-08-15T15:21:15.000Z",
     "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
     "agency": "NEWS",
     "source": "CoinDesk"
@@ -121,8 +265,8 @@
   },
   {
     "title": "The $11.2 billion in 2026 funding that killed crypto’s permissionless era",
-    "description": "Dubai-based crypto lawyer Irina Heaver and her team parsed every crypto deal in the first half of 2026. BlackRock, Goldman, and Persian Gulf sovereigns all wrote checks to regulated firms....",
-    "date": "2026-08-15 14:00:00",
+    "description": "...",
+    "date": "2026-08-15T14:00:00.000Z",
     "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
     "agency": "NEWS",
     "source": "CoinDesk"
@@ -17182,293 +17326,5 @@
     "url": "https://cryptoslate.com/crypto-pacs-are-helping-senators-win-us-primaries-faster-than-the-senate-can-move-the-law-they-want/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "Kentucky files lawsuits against prediction market platforms Kalshi and Polymarket",
-    "description": "The lawsuits claim prediction market platforms have been offering unlicensed sports gambling in the state while bypassing local regulations....",
-    "date": "2026-06-18 06:37:46",
-    "url": "https://www.theblock.co/post/405185/kentucky-lawsuit-kalshi-polymarket?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Ghana and the UK Use Blockchain to Recover $15.1M From Cross-Border Scam",
-    "description": "\nLaw enforcement agencies from Ghana and the United Kingdom recently collaborated to seize $15.1 million in cryptocurrency from a transnational investment scam. An E-Commerce Front for Organized Crime...",
-    "date": "2026-06-18 06:30:39",
-    "url": "https://news.bitcoin.com/ghana-and-the-uk-use-blockchain-to-recover-15-1m-from-cross-border-scam/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ryan Salame’s wife to face charges over FTX-funded congressional run",
-    "description": "A federal judge has denied a bid from Michelle Bond, the wife of former FTX executive Ryan Salame, to have campaign finance charges against her dismissed....",
-    "date": "2026-06-18 06:17:01",
-    "url": "https://cointelegraph.com/news/ryan-salames-wife-to-face-charges-over-ftx-funded-congressional-run?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Florida man pleads guilty for promoting $1.8B ‘HyperFund’ crypto fraud",
-    "description": "Rodney “Bitcoin Rodney” Burton faces a maximum sentence of five years in federal prison for conspiracy to operate an unlicensed money transmitting business....",
-    "date": "2026-06-18 06:06:20",
-    "url": "https://cointelegraph.com/news/florida-man-pleads-guilty-to-18b-crypto-fraud-scheme?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "France to stop certifying products lacking quantum-resistant encryption",
-    "description": "France’s cybersecurity agency plans to block certification of products without quantum-resistant encryption starting in 2027, with full adoption targeted for 2030....",
-    "date": "2026-06-18 04:06:56",
-    "url": "https://cointelegraph.com/news/france-to-stop-certifying-products-lacking-quantum-resistant-encryption?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "CME chief executive says company plans to sue CFTC after perpetual futures approval",
-    "description": "Kalshi's perpetual futures product did not meet the Dodd-Frank Act's definition of a \"swap\" and should not have been approved, Terrence Duffy said....",
-    "date": "2026-06-18 03:44:30",
-    "url": "https://www.coindesk.com/policy/2026/06/17/cme-chief-executive-says-company-plans-to-sue-cftc-after-perpetual-futures-approval",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Zimbabwe Central Bank Unit Unveils Regulatory Framework for Crypto Firms",
-    "description": "\nThe Financial Intelligence Unit (FIU) of the Zimbabwean central bank has mandated that all virtual asset service providers (VASPs) formally register with the regulatory body. New Legal Definitions Th...",
-    "date": "2026-06-18 03:30:21",
-    "url": "https://news.bitcoin.com/zimbabwe-central-bank-unit-unveils-regulatory-framework-for-crypto-firms/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "HyperFund Promoter ‘Bitcoin Rodney’ Pleads Guilty in $1.8 Billion Crypto Scam",
-    "description": "\nHyperFund drew $1.8 billion from investors worldwide through a crypto platform prosecutors described as a global wire-fraud scheme. Promoter “ Bitcoin Rodney” pleaded guilty to a federal conspiracy c...",
-    "date": "2026-06-18 02:30:34",
-    "url": "https://news.bitcoin.com/hyperfund-promoter-bitcoin-rodney-pleads-guilty-in-1-8-billion-crypto-scam/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "CME Group to sue CFTC over approval of perpetual futures, CEO tells CNBC",
-    "description": "CME Group CEO Duffy said perpetual futures should be classified as swaps under the Dodd-Frank Act, which would form the basis of the lawsuit....",
-    "date": "2026-06-18 01:32:44",
-    "url": "https://www.theblock.co/post/405173/cme-group-to-sue-cftc-ceo-says?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Crypto Investors Could Lose Key Tax Advantage Under New House Proposal",
-    "description": "\nProposed crypto tax changes could limit loss-harvesting strategies by extending wash sale and constructive sale rules to many digital assets, while providing limited exemptions for certain categories...",
-    "date": "2026-06-18 01:30:48",
-    "url": "https://news.bitcoin.com/crypto-investors-could-lose-key-tax-advantage-under-new-house-proposal/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "France to Phase Out Non-Quantum Encryption as Bitcoin Security Concerns Grow",
-    "description": "French authorities said that government cybersecurity researchers will stop certifying security products that lack quantum-resistant encryption beginning in 2027....",
-    "date": "2026-06-18 00:31:06",
-    "url": "https://decrypt.co/371487/france-phase-out-non-quantum-encryption-bitcoin-security-concerns-grow",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Byte Federal Announces Successful Launch of Custom-Built Integration Supporting BurraPay’s Historic Entry into America’s Regulated Market",
-    "description": "\nPRESS RELEASE. VENICE, FLORIDA – June 17, 2026 – Byte Federal, Inc. is excited to announce the integration of our payment and exchange services with BurraPay, the first cryptocurrency payments proces...",
-    "date": "2026-06-18 00:18:29",
-    "url": "https://news.bitcoin.com/byte-federal-announces-successful-launch-of-custom-built-integration-supporting-burrapays-historic-entry-into-americas-regulated-market/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Michigan Federal Judge Rules Sports Prediction Markets Are Not Under CFTC Purview",
-    "description": "The judge said Polymarket is not likely to succeed on the merits of its case against Michigan state regulators....",
-    "date": "2026-06-17 22:06:19",
-    "url": "https://decrypt.co/371486/michigan-federal-judge-sports-prediction-markets-not-under-cftc-purview",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Gaming groups urge Congress to ban prediction markets sports betting in CLARITY Act",
-    "description": "...",
-    "date": "2026-06-17T21:37:01.000Z",
-    "url": "https://cointelegraph.com/news/gaming-organizations-congress-prediction-markets-ban-clarity-act?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "SpaceX Surge Could Be Worth Billions for FTX—Will Creditors Benefit?",
-    "description": "Defunct crypto exchange FTX gained exposure to SpaceX in 2022, and the rocket-maker’s post-IPO rally has lifted hopes among creditors....",
-    "date": "2026-06-17 21:25:59",
-    "url": "https://decrypt.co/371474/spacex-surge-worth-billions-ftx-will-creditors-benefit",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Fed Signals Possible Rate Hikes as Kevin Warsh Opens ‘New Chapter’ at Central Bank",
-    "description": "...",
-    "date": "2026-06-17T19:50:23.000Z",
-    "url": "https://bitcoinmagazine.com/news/fed-signals-rate-hikes-as-kevin-warsh",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Elon Musk’s wealth has now surpassed Bitcoin market cap amid SpaceX’s continued rally",
-    "description": "\nElon Musk’s personal fortune has surpassed the market value of Bitcoin, a milestone that shows how quickly SpaceX’s public-market debut has reshaped both wealth rankings and the broader conversation ...",
-    "date": "2026-06-17 19:10:15",
-    "url": "https://cryptoslate.com/elon-musks-wealth-has-now-surpassed-bitcoin-market-cap-amid-spacexs-continued-rally/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "‘One of the most anti-crypto laws in the US’: Illinois Gov. Pritzker signs 0.2% crypto tax",
-    "description": "Crypto industry lobbyists and representatives are speaking out against the Digital Asset Tax Act passed into law in Illinois on Tuesday. ...",
-    "date": "2026-06-17 18:50:22",
-    "url": "https://www.theblock.co/post/405146/one-most-anti-crypto-laws-in-us-illinois-gov-pritzker-signs-0-2-crypto-tax?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
-    "description": "...",
-    "date": "2026-06-17T17:29:28.000Z",
-    "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Mexican Billionaire Ricardo Salinas Bets 70% of His Portfolio on Bitcoin, Eyes $1 Million Price",
-    "description": "...",
-    "date": "2026-06-17T17:25:04.000Z",
-    "url": "https://bitcoinmagazine.com/news/mexican-billionaire-ricardo-salinas-bets",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "U.S. Congressman Nick Begich Wants America to Stop Selling Its Bitcoin — And Start Treating It Like Gold",
-    "description": "...",
-    "date": "2026-06-17T15:45:21.000Z",
-    "url": "https://bitcoinmagazine.com/news/nick-begich-selling-its-bitcoin",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Strategy’s $10 billion STRC Bitcoin yield product sinks to yearly low as market demands higher payout",
-    "description": "...",
-    "date": "2026-06-17T15:25:14.000Z",
-    "url": "https://cryptoslate.com/strategys-10-billion-strc-bitcoin-yield-product-sinks-to-yearly-low-as-market-demands-higher-payout/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Oman Launches Mandatory National Bitcoin Mining Pool in State-Backed Push for Regulatory Control",
-    "description": "...",
-    "date": "2026-06-17T14:11:15.000Z",
-    "url": "https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Onchain, in court: What happened in crypto legal news this week",
-    "description": "...",
-    "date": "2026-06-17T13:40:20.000Z",
-    "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news3?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Wall Street is paying up for Bitcoin miners’ AI infrastructure before most of it is built",
-    "description": "\nA megawatt leased to an AI tenant now commands a different price on Wall Street than a megawatt sitting in a Bitcoin miner's pipeline, and the distance between the two has become the central pricing ...",
-    "date": "2026-06-17 12:45:13",
-    "url": "https://cryptoslate.com/wall-street-is-paying-up-for-bitcoin-miners-ai-infrastructure-before-most-of-it-is-built/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Bitcoin's June downturn leaves $8.6 billion in options out of the money",
-    "description": "Only 20% of June 26 options open interest is currently in the money, while bitcoin's 12% monthly decline leaves most bullish positions underwater....",
-    "date": "2026-06-17 11:41:06",
-    "url": "https://www.coindesk.com/markets/2026/06/17/bitcoin-s-june-downturn-leaves-usd8-6-billion-in-options-out-of-the-money",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Heir to 135-year Gulf dynasty is moving a $6 trillion trade market onto blockchain rails",
-    "description": "Abdulla Kanoo says his ARP Digital firm is building settlement infrastructure for the growing flow of trade between emerging economies, a market that could reach $32 trillion by 2030....",
-    "date": "2026-06-17 11:30:37",
-    "url": "https://www.coindesk.com/business/2026/06/17/heir-to-135-year-gulf-dynasty-is-moving-a-usd6-trillion-trade-market-onto-blockchain-rails",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "CZ Calls Hyperliquid’s Innovation ‘Awesome’ While Uniswap’s Hayden Adams Blasts US Securities Law",
-    "description": "\nBinance’s CZ praised rival Hyperliquid as “actually awesome” even as he said he would never run it the same way, while Uniswap creator Hayden Adams argued U.S. securities law ensures “only people who...",
-    "date": "2026-06-17 11:30:25",
-    "url": "https://news.bitcoin.com/cz-calls-hyperliquids-innovation-awesome-while-uniswaps-hayden-adams-blasts-us-securities-law/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "China pays closer attention to stablecoins as cross-border role expands",
-    "description": "A senior PBOC official called for closer monitoring, stronger regulation and international coordination as stablecoins gain importance in global payments....",
-    "date": "2026-06-17 11:02:46",
-    "url": "https://cointelegraph.com/news/china-central-bank-stablecoins-cross-border-payments?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Forget retail traders: The real multi-trillion-dollar crypto future is building infrastructure for machines",
-    "description": "While legacy banks keep corporate money idled in slow regional accounts, a new protocol allows software systems to settle multi-currency trade instantly....",
-    "date": "2026-06-17 10:29:11",
-    "url": "https://www.coindesk.com/business/2026/06/17/forget-retail-traders-the-real-multi-trillion-dollar-future-of-crypto-is-building-infrastructure-for-machines",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Hyperliquid's $10B open interest coincides with growth in equity-linked markets: Talos",
-    "description": "Hyperliquid’s $10 billion open interest milestone shows growing demand for onchain equities and commodities trading with 24/7 accessibility, according to Talos....",
-    "date": "2026-06-17 10:03:16",
-    "url": "https://cointelegraph.com/news/hyperliquids-10b-open-interest-growth-equities-commodities?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Australia’s High Court backs regulator in Block Earner crypto yield case",
-    "description": "Australia’s High Court unanimously ruled that Block Earner required a financial services licence, overturning a 2025 appeal decision....",
-    "date": "2026-06-17 09:45:20",
-    "url": "https://www.theblock.co/post/405048/australia-high-court-block-earner-crypto-yield-case?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bitcoin’s Iran rally enters a 60-day test as oil shock fears shift to the Fed",
-    "description": "\nIran's foreign minister said negotiations with the US will begin the same day both countries sign a memorandum of understanding, with a 60-day window afterward to resolve the nuclear issue and secure...",
-    "date": "2026-06-17 09:39:02",
-    "url": "https://cryptoslate.com/bitcoins-iran-rally-enters-a-60-day-test-as-oil-shock-fears-shift-to-the-fed/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "House, Senate Strike Deal on Housing Bill With CBDC Ban Through 2030",
-    "description": "A bicameral deal on the 21st Century ROAD to Housing Act revives a provision barring the Fed from issuing a digital dollar until 2030....",
-    "date": "2026-06-17 09:34:43",
-    "url": "https://decrypt.co/371390/house-senate-strike-deal-on-housing-bill-with-cbdc-ban-through-2030",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "BitGo courts crypto firms awaiting MiCA approval amid Binance licensing concerns",
-    "description": "...",
-    "date": "2026-06-17T09:02:48.000Z",
-    "url": "https://cointelegraph.com/news/bitgo-mica-vasp-workaround-binance-license-uncertainty?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Kalshi’s Perpetual Futures Top $5.5 Billion in Two Weeks as It Eyes Markets Beyond Crypto",
-    "description": "\nPrediction-market platform Kalshi says its newly launched perpetual futures have generated more than $5.5 billion in trading volume in just two weeks, and the company is already planning to push the ...",
-    "date": "2026-06-17 08:30:20",
-    "url": "https://news.bitcoin.com/kalshi-perpetual-futures-5-5-billion-two-weeks/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
   }
 ]
