@@ -1,6 +1,350 @@
 [
   {
-    "title": "XRP sinks below $1 for first time since 2024 as Korean bank adopts Ripple Payments",
+    "title": "Polymarket US Tests Parlays as Kalshi Banks $25M in Fees",
+    "description": "\nPolymarket US began processing multi-leg sports contracts on Aug. 5 through an API-only beta that never surfaced in its consumer app. The launch lands as rival Kalshi is reported to be extending make...",
+    "date": "2026-08-19 04:30:24",
+    "url": "https://news.bitcoin.com/igaming/polymarket-us-tests-parlays-as-kalshi-banks-25m-in-fees/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "US accounting board FASB proposes conditions for stablecoins as cash equivalents",
+    "description": "\n\nThe FASB said secondary-market liquidity alone would not be enough, with holders needing direct issuer redemption rights and one-to-one liquid reserves.\n...",
+    "date": "2026-08-19 03:58:13",
+    "url": "https://cointelegraph.com/news/us-accounting-board-fasb-proposes-conditions-for-stablecoins-as-cash-equivalents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Riot Platforms Sold 9,665 Bitcoin in H1 2026 to Fund AI Pivot",
+    "description": "\nRiot Platforms sold 4,300 BTC in the second quarter of 2026, pushing its six-month total to 9,665 bitcoin as the Texas-based miner leans harder into artificial intelligence (AI) infrastructure. Q2 Sa...",
+    "date": "2026-08-19 03:30:39",
+    "url": "https://news.bitcoin.com/mining/riot-platforms-sold-8078-bitcoin-h1-2026-ai-pivot/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Ripple Pushes Into Korean Banking With Jeonbuk Payments Deal",
+    "description": "\nRipple’s partnership with Jeonbuk Bank will give regional businesses access to near-real-time cross-border settlement. The service targets international transfers that can take days to complete and p...",
+    "date": "2026-08-19 01:45:00",
+    "url": "https://news.bitcoin.com/crypto-news/ripple-pushes-into-korean-banking-with-jeonbuk-payments-deal/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "SEC Chair Pushes Crypto Exemptions to Bring Issuers Back to US",
+    "description": "\nSEC Chairman Paul Atkins framed proposed crypto exemptions as a route for returning issuers and investment to the United States. Commissioners Hester Peirce and Mark Uyeda emphasized workable rules, ...",
+    "date": "2026-08-19 00:43:52",
+    "url": "https://news.bitcoin.com/regulation-and-legal/sec-chair-pushes-crypto-exemptions-to-bring-issuers-back-to-us/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "UAE Pulls Iran Trade Plug as Hormuz Crisis Rattles Global Markets",
+    "description": "\nU.S. stocks got hit again on Tuesday as Treasury yields kept climbing, oil stayed expensive, and the semiconductor trade buckled under the weight of a market that had priced in too much good news. Th...",
+    "date": "2026-08-18 23:45:32",
+    "url": "https://news.bitcoin.com/finance/uae-pulls-iran-trade-plug-as-hormuz-crisis-rattles-global-markets/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Robinhood CEO urges U.S. to clear path for tokenized stocks as overseas markets advance",
+    "description": "Vlad Tenev says tokenized stocks could bring real-time settlement and 24/7 trading, but U.S. rules remain a hurdle....",
+    "date": "2026-08-18 23:11:12",
+    "url": "https://www.coindesk.com/markets/2026/08/18/robinhood-ceo-urges-u-s-to-clear-path-for-tokenized-stocks-as-overseas-markets-advance",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "SEC Proposes New Crypto Rules With a $75 Million Offering Path",
+    "description": "\nThe SEC proposed specialized exemptions for certain crypto investment contracts, including a pathway for offerings reaching $75 million annually. The plan also introduces a conditional safe harbor an...",
+    "date": "2026-08-18 22:16:00",
+    "url": "https://news.bitcoin.com/regulation-and-legal/sec-proposes-new-crypto-rules-with-a-75-million-offering-path/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "U.S. accounting-standards group proposes way to see stablecoins as 'cash equivalent'",
+    "description": "The Financial Accounting Standards Board, a nonprofit that governs accounting practices, proposed that certain stablecoins should fit the bill as cash-like....",
+    "date": "2026-08-18 21:25:42",
+    "url": "https://www.coindesk.com/policy/2026/08/18/u-s-accounting-standards-group-proposes-way-to-see-stablecoins-as-cash-equivalent",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "SEC proposes new crypto rules in absence of CLARITY Act",
+    "description": "...",
+    "date": "2026-08-18T21:24:15.000Z",
+    "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "SEC proposes new crypto rules in absence of CLARITY Act",
+    "description": "...",
+    "date": "2026-08-18T21:24:15.000Z",
+    "url": "https://cointelegraph.com/news/us-sec-crypto-rules-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Solana Policy Institute CEO says Clarity Act in ‘August recess purgatory,’ gives it 10% odds before midterms",
+    "description": "Miller Whitehouse-Levine urged regulators to move quickly, saying the industry \"can’t afford to keep waiting for Congress.\"...",
+    "date": "2026-08-18 21:22:47",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-solana-policy-institute-ceo-larity-act-august-recess-purgatory-gives-10-odds-midterms-412171",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "White House crypto adviser Patrick Witt says he is ‘optimistic and bullish’ on Clarity Act as stablecoin fight resurfaces",
+    "description": "The White House’s top crypto adviser said he is feeling \"optimistic and bullish\" ahead of the first planned vote on sweeping crypto legislation....",
+    "date": "2026-08-18 20:25:35",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-white-house-crypto-adviser-patrick-witt-optimistic-bullish-clarity-act-stablecoin-fight-412160",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-08-18 20:21:26",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Solana’s Alpenglow bug hunt charges researchers 0.5 SOL to report flaws",
+    "description": "...",
+    "date": "2026-08-18T20:10:16.000Z",
+    "url": "https://cryptoslate.com/solanas-alpenglow-bug-hunt-charges-researchers-0-5-sol-to-report-flaws/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "SEC Proposes Crypto Fundraising Exemptions in Abrupt About-Face",
+    "description": "The proposed rules would let crypto projects raise capital through token sales without full securities registration and create a path for tokens to separate from investment contracts....",
+    "date": "2026-08-18 20:00:25",
+    "url": "https://decrypt.co/375902/sec-regulation-crypto-fundraising-exemptions",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Ripple CLO says Sept. 15 will be a ‘bellwether’ for Clarity Act market structure bill",
+    "description": "...",
+    "date": "2026-08-18T19:49:12.000Z",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-ripple-clo-september-15-bellwether-clarity-act-market-structure-bill-412142",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "SEC Proposes Crypto Rulebook as Clarity Act Stalls",
+    "description": "\nBitcoin MagazineSEC Proposes Crypto Rulebook as Clarity Act Stalls\nRegulators are pushing ahead with legislation despite the Clarity Act stalling.\nThis post SEC Proposes Crypto Rulebook as Clarity Ac...",
+    "date": "2026-08-18 19:46:11",
+    "url": "https://bitcoinmagazine.com/news/sec-proposes-crypto-rules",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
+    "description": "...",
+    "date": "2026-08-18T19:23:53.000Z",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "U.S. SEC proposes first major crypto rule in surprise announcement",
+    "description": "...",
+    "date": "2026-08-18T19:09:33.000Z",
+    "url": "https://www.coindesk.com/policy/2026/08/18/r",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
+    "description": "...",
+    "date": "2026-08-18T18:57:00.000Z",
+    "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Trump Family Crypto Firm Tied to Chinese AI Models US Government Called a Security Risk",
+    "description": "WorldClaw accepts World Liberty’s USD1 stablecoin while offering AI models from Chinese companies facing U.S. national security restrictions....",
+    "date": "2026-08-18 18:36:04",
+    "url": "https://decrypt.co/375887/trump-crypto-firm-chinese-ai-government-called-security-risk",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Bitcoin Wallet Maker BitBox Says AI Found Severe Flaws in Firmware",
+    "description": "The Swiss hardware-wallet maker found two severe bugs with the help of frontier AI models, and warns that older firmware leaves you exposed....",
+    "date": "2026-08-18 18:06:42",
+    "url": "https://decrypt.co/375886/bitcoin-wallet-bitbox-ai-severe-flaws-firmware",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Google Is Paying $10 Million to Use Spirit Airlines Data to Train Its AI Models",
+    "description": "The bankrupt airline’s internal communications and business records could soon be used to improve Google’s AI systems....",
+    "date": "2026-08-18 17:19:44",
+    "url": "https://decrypt.co/375883/google-spirit-airlines-data-train-ai",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "SEC Proposes New Regulation Crypto Assets",
+    "description": "The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment con...",
+    "date": "2026-08-18 17:15:48",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+    "agency": "SEC",
+    "source": "SEC Press Releases"
+  },
+  {
+    "title": "Federal prosecutors blast ex-Celsius CEO’s motion to vacate as ‘without merit’",
+    "description": "...",
+    "date": "2026-08-18T16:49:58.000Z",
+    "url": "https://cointelegraph.com/news/us-prosecutors-celsius-ceo-alex-mashinsky-motion-vacate-deny?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Federal prosecutors blast ex-Celsius CEO’s motion to vacate as ‘without merit’",
+    "description": "...",
+    "date": "2026-08-18T16:49:58.000Z",
+    "url": "https://cointelegraph.com/news/us-prosecutors-celsius-ceo-alex-mashinsky-motion-vacate-deny?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Metaplanet expands Bitcoin treasury strategy to US with 2,100-BTC Nasdaq play",
+    "description": "...",
+    "date": "2026-08-18T16:21:58.000Z",
+    "url": "https://cointelegraph.com/news/metaplanet-expands-bitcoin-treasury-strategy-super-league?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Hunting Down the Coldcard Hacker. Wave 1 Thief May Be Known to FBI",
+    "description": "\nBitcoin MagazineHunting Down the Coldcard Hacker. Wave 1 Thief May Be Known to FBI\nClay Garrett’s investigation matched the 1,082.65 BTC sweeps to a major data provider’s internal logs with “extraord...",
+    "date": "2026-08-18 16:02:05",
+    "url": "https://bitcoinmagazine.com/technical/hunting-down-the-coldcard-hacker-wave-1-thief-may-be-known-to-fbi",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Neuberger teams with Securitize on multi-chain tokenized fixed-income fund launch",
+    "description": "...",
+    "date": "2026-08-18T15:59:54.000Z",
+    "url": "https://cointelegraph.com/news/neuberger-launches-tokenized-fixed-income-fund-with-securitize?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Citi to Launch Bitcoin Custody as Wall Street Pushes Deeper Into Crypto",
+    "description": "The banking giant plans to let institutional clients hold Bitcoin and traditional assets through the same custody framework....",
+    "date": "2026-08-18 15:56:05",
+    "url": "https://decrypt.co/375880/citi-bitcoin-custody-wall-street-crypto",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Citi to Debut Bitcoin Custody for Institutional Investors",
+    "description": "\nBitcoin MagazineCiti to Debut Bitcoin Custody for Institutional Investors\nThe bank's new Custody+ service will allow institutional investors to hold Bitcoin alongside other assets on one platform. \nT...",
+    "date": "2026-08-18 15:24:52",
+    "url": "https://bitcoinmagazine.com/news/citi-to-debut-bitcoin-custody",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Metaplanet takes 96% of Super League in 2,100 BTC, cash deal to launch US bitcoin treasury firm",
+    "description": "...",
+    "date": "2026-08-18T15:09:55.000Z",
+    "url": "https://www.theblock.co/news/deals/2026-08-18-metaplanet-super-league-2100-btc-cash-deal-launch-us-bitcoin-treasury-sle-stock-sruge-412101",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Why the Trump-backed crypto venture is distancing itself from Hong Kong AI aggregator WorldClaw",
+    "description": "...",
+    "date": "2026-08-18T15:07:52.000Z",
+    "url": "https://www.coindesk.com/markets/2026/08/18/trump-linked-world-liberty-says-worldclaw-is-independent-after-questions-over-ai-model-access",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Securitize brings Neuberger’s $230 billion fixed-income platform onchain with new tokenized fund",
+    "description": "...",
+    "date": "2026-08-18T15:04:21.000Z",
+    "url": "https://www.theblock.co/news/markets/2026-08-18-securitize-neubergers-230-billion-fixed-income-platform-onchain-new-tokenized-fund-412102",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Japan's Metaplanet launching U.S. bitcoin treasury company through $135 million nanocap deal",
+    "description": "...",
+    "date": "2026-08-18T14:35:08.000Z",
+    "url": "https://www.coindesk.com/business/2026/08/18/japan-s-metaplanet-launching-u-s-bitcoin-treasury-company-through-usd135-million-nanocap-deal",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Visa looking for new stablecoin settlement partner after BVNK sale to Mastercard",
+    "description": "...",
+    "date": "2026-08-18T12:20:48.000Z",
+    "url": "https://www.coindesk.com/business/2026/08/18/visa-is-looking-for-a-new-stablecoin-settlement-partner-now-that-bvnk-is-owned-by-mastercard",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Citi expects to launch bitcoin custody later this year under its new Custody+ platform",
+    "description": "The platform also includes real-time asset servicing, instant settlements, liquidity tools, and AI-powered market intelligence....",
+    "date": "2026-08-18 12:15:31",
+    "url": "https://www.theblock.co/news/business/2026-08-18-citi-bitcoin-custody-412090",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Blockchain Association backs SEC’s proposal to scrap outdated NMS rules, citing tokenization benefits",
+    "description": "...",
+    "date": "2026-08-18T09:35:26.000Z",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-blockchain-association-backs-secs-proposal-to-scrap-outdated-nms-rules-citing-tokenization-benefits-412069",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "China adds 8 banks to digital yuan network as operator count hits 30",
+    "description": "...",
+    "date": "2026-08-18T08:48:51.000Z",
+    "url": "https://cointelegraph.com/news/china-adds-8-banks-to-digital-yuan-network-as-operator-count-hits-30?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "South Korea moves to block Polymarket over gambling concerns",
+    "description": "\n\nThe Korea Media and Communications Commission said Polymarket’s structure and operations amount to illegal gambling despite its noncustodial design and smart contracts.\n...",
+    "date": "2026-08-18 08:39:57",
+    "url": "https://cointelegraph.com/news/south-korea-block-polymarket-gambling-concerns?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "BitBox patches ‘severe’ wallet flaws that could put funds at risk",
+    "description": "...",
+    "date": "2026-08-18T08:07:04.000Z",
+    "url": "https://cointelegraph.com/news/bitbox-patches-severe-wallet-firmware-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Ripple partners with South Korea’s Jeonbuk Bank for cross-border payments",
+    "description": "...",
+    "date": "2026-08-18T06:17:53.000Z",
+    "url": "https://www.theblock.co/news/business/2026-08-18-ripple-south-korea-jeonbuk-bank-412049",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "XRP sinks below $1 for first time since 2024 even as Korean bank adopts Ripple Payments",
     "description": "...",
     "date": "2026-08-18T05:34:32.000Z",
     "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
@@ -73,8 +417,8 @@
   },
   {
     "title": "Kraken Parent Payward Joins Glasswing, Gets Access to Claude Mythos to Hunt Security Flaws",
-    "description": "Payward is joining Project Glasswing, Anthropic’s program for giving vetted organizations access to its powerful cybersecurity AI....",
-    "date": "2026-08-17 22:35:46",
+    "description": "...",
+    "date": "2026-08-17T22:35:46.000Z",
     "url": "https://decrypt.co/375836/kraken-payward-anthropic-project-glasswing-claude-mythos",
     "agency": "NEWS",
     "source": "Decrypt"
@@ -137,8 +481,8 @@
   },
   {
     "title": "Treasury Proposes Rules Defining Who Can Legally Sell Stablecoins in US",
-    "description": "Exchanges and other crypto platforms would face new restrictions on selling stablecoins to US customers beginning in 2027....",
-    "date": "2026-08-17 20:31:04",
+    "description": "...",
+    "date": "2026-08-17T20:31:04.000Z",
     "url": "https://decrypt.co/375817/treasury-rules-sell-stablecoins-us",
     "agency": "NEWS",
     "source": "Decrypt"
@@ -153,8 +497,8 @@
   },
   {
     "title": "IREN delivers first of four AI cloud deployments to Microsoft under $9.7 billion deal",
-    "description": "IREN is targeting 480 MW of AI cloud capacity in 2026 and 1.2 gigawatts by 2027 as it continues to pivot away from bitcoin mining....",
-    "date": "2026-08-17 19:54:52",
+    "description": "...",
+    "date": "2026-08-17T19:54:52.000Z",
     "url": "https://www.theblock.co/news/business/2026-08-17-iren-delivers-first-four-ai-cloud-deployments-microsoft-under-9-7-billion-deal-412016",
     "agency": "NEWS",
     "source": "The Block"
@@ -169,8 +513,8 @@
   },
   {
     "title": "Binance to plan UK relaunch with FCA license application: Report",
-    "description": "\n\nBinance’s UK arm has been barred from offering regulated activities in the country since June 2021, but the company will reportedly move to secure licensing under new crypto rules.\n...",
-    "date": "2026-08-17 18:45:00",
+    "description": "...",
+    "date": "2026-08-17T18:45:00.000Z",
     "url": "https://cointelegraph.com/news/binance-uk-launch-plans-fca-license?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -185,8 +529,8 @@
   },
   {
     "title": "CFTC seeks public input on AI compute futures contracts as CME eyes October launch",
-    "description": "\n\nThe regulatory review could shape an emerging market that lets companies and investors trade and hedge the cost of increasingly scarce AI computing power.\n\n...",
-    "date": "2026-08-17 17:11:39",
+    "description": "...",
+    "date": "2026-08-17T17:11:39.000Z",
     "url": "https://cointelegraph.com/news/cftc-ai-compute-futures-cme-october-launch?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -208,17 +552,17 @@
     "source": "The Block"
   },
   {
-    "title": "US Treasury Asks For Public Input on Landmark Genius Act Crypto Legislation ",
-    "description": "\nBitcoin MagazineUS Treasury Asks For Public Input on Landmark Genius Act Crypto Legislation \nThe U.S. Department of the Treasury is moving fast with crypto regulation, with the government body asking...",
-    "date": "2026-08-17 16:36:51",
+    "title": "US Treasury Asks For Public Input on Landmark Genius Act Crypto Legislation",
+    "description": "...",
+    "date": "2026-08-17T16:36:51.000Z",
     "url": "https://bitcoinmagazine.com/news/us-treasury-asks-for-input-on-genius-act",
     "agency": "NEWS",
     "source": "Bitcoin Magazine"
   },
   {
     "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-    "description": "\n\nThe stablecoin bill signed into law last year is scheduled to go into effect in January 2027, potentially without finalized regulations from US government agencies.\n...",
-    "date": "2026-08-17 16:29:48",
+    "description": "...",
+    "date": "2026-08-17T16:29:48.000Z",
     "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -233,8 +577,8 @@
   },
   {
     "title": "Wall Street Pushback Halts SEC's Crypto Fundraising Framework, Sources Say",
-    "description": "The securities regulator cited an \"unforeseen scheduling issue,\" but sources point to a legal threat from Wall Street trade group SIFMA and an administration waiting to see whether the Clarity Act pas...",
-    "date": "2026-08-17 16:27:26",
+    "description": "...",
+    "date": "2026-08-17T16:27:26.000Z",
     "url": "https://decrypt.co/375779/wall-street-pushback-halts-sec-crypto-fundraising-framework",
     "agency": "NEWS",
     "source": "Decrypt"
@@ -249,8 +593,8 @@
   },
   {
     "title": "What Stripe's $7 Billion OpenRouter Deal Actually Means for AI",
-    "description": "Stripe just bought the layer that decides which AI model answers your prompt—and it was already collecting the money for it....",
-    "date": "2026-08-17 15:54:29",
+    "description": "...",
+    "date": "2026-08-17T15:54:29.000Z",
     "url": "https://decrypt.co/375769/what-stripe-openrouter-deal-means-ai",
     "agency": "NEWS",
     "source": "Decrypt"
@@ -296,12 +640,12 @@
     "source": "The Block"
   },
   {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-08-17 13:20:20",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "title": "Hackers Are Abusing a macOS Screen Sharing Flaw to Secretly Mine Monero",
+    "description": "...",
+    "date": "2026-08-17T13:31:04.000Z",
+    "url": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
     "agency": "NEWS",
-    "source": "Cointelegraph"
+    "source": "Decrypt"
   },
   {
     "title": "Austria’s FMA fines crypto broker Bitpanda $81,000 in first published MiCA penalty",
@@ -336,9 +680,17 @@
     "source": "The Block"
   },
   {
+    "title": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
+    "description": "...",
+    "date": "2026-08-17T10:13:41.000Z",
+    "url": "https://decrypt.co/375757/dutch-prosecutors-sell-2-5m-of-crypto-from-bankrupt-platform-knaken",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
     "title": "Bitpanda fined in Austria’s first published MiCA penalty",
-    "description": "\n\nThe FMA said Bitpanda breached MiCA rules on crypto white papers and marketing communications, with the decision now final.\n...",
-    "date": "2026-08-17 09:31:47",
+    "description": "...",
+    "date": "2026-08-17T09:31:47.000Z",
     "url": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -465,8 +817,8 @@
   },
   {
     "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
-    "description": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists....",
-    "date": "2026-08-16 14:01:03",
+    "description": "...",
+    "date": "2026-08-16T14:01:03.000Z",
     "url": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
     "agency": "NEWS",
     "source": "Decrypt"
@@ -17308,174 +17660,6 @@
     "description": "\nBitcoin’s emerging digital-credit trade broke below its promise of calm this week. This week, Strategy’s STRC preferred shares fell as low as $82.50 before rebounding, while Strive’s SATA slid from a...",
     "date": "2026-06-20 11:18:13",
     "url": "https://cryptoslate.com/bitcoins-digital-credit-yield-trade-breaks-below-par-as-margin-calls-hit-10-billion-market/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Cuba Passes 176 Historic Reforms to Open Its Economy to Private Banks and Real Estate",
-    "description": "\nThe Cuban National Assembly passed a set of reforms that would open the Cuban system to private investment and private banks in the island’s financial system. The measure came after the Trump Adminis...",
-    "date": "2026-06-20 07:30:27",
-    "url": "https://news.bitcoin.com/cuba-passes-176-historic-reforms-to-open-its-economy-to-private-banks-and-real-estate/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Philippine SEC signals readiness for RWA tokenization",
-    "description": "Philippine SEC Commissioner Rogelio Quevedo told Cointelegraph that tokenized assets could give Filipinos more legitimate investment options while helping steer them away from scams....",
-    "date": "2026-06-20 07:05:20",
-    "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Ireland Targets Crypto Assets in New Strategy to Disrupt Illicit Cash Flows",
-    "description": "\nIreland has launched a National Risk Assessment and a 30-point action plan to combat money laundering, terrorist financing, and sophisticated financial crime. Targeting Digital Assets and Crypto Loop...",
-    "date": "2026-06-20 05:30:51",
-    "url": "https://news.bitcoin.com/ireland-targets-crypto-assets-in-new-strategy-to-disrupt-illicit-cash-flows/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "FBI Director Kash Patel Vows to Bring ‘Pig Butchering’ Crypto Criminals to Justice",
-    "description": "\nPatel stressed that the bureau would find those involved in these crypto crimes to “bring them to justice.” The FBI has been battling social crypto fraud, commonly known as “pig butchering” schemes, ...",
-    "date": "2026-06-20 03:30:54",
-    "url": "https://news.bitcoin.com/fbi-director-kash-patel-vows-to-bring-pig-butchering-crypto-criminals-to-justice/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Congress to Probe Whether Crypto Can Challenge China and Russia’s Grip on Financial Freedom",
-    "description": "\nHouse lawmakers will review how digital assets could support people living under repressive governments or failing financial systems, tying cryptocurrency access to U.S. national security. House Roun...",
-    "date": "2026-06-20 02:30:22",
-    "url": "https://news.bitcoin.com/congress-to-probe-whether-crypto-can-challenge-china-and-russias-grip-on-financial-freedom/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Crypto-Pal Fraud Verdict Exposes Fake No-Risk Returns That Cost Investors Nearly $1M",
-    "description": "\nFederal jurors convicted a former cryptocurrency promoter after prosecutors tied him to investment fraud schemes that cost investors nearly $1 million. The case centered on Crypto-Pal, which was mark...",
-    "date": "2026-06-19 23:30:42",
-    "url": "https://news.bitcoin.com/crypto-pal-fraud-verdict-exposes-fake-no-risk-returns-that-cost-investors-nearly-1m/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "WhiteBIT secures MiCA license in Austria ahead of July 1 EU deadline",
-    "description": "...",
-    "date": "2026-06-19T20:07:27.000Z",
-    "url": "https://cointelegraph.com/news/whitebit-secures-mica-license-austria-gains-access-eu-crypto-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Franklin Templeton new ETFs would convert US companies stock dividends into Bitcoin exposure",
-    "description": "\nFranklin Templeton, the $1.78 trillion asset management firm, is attempting to push cryptocurrency deeper into conventional investment portfolios with a new proposal that would automatically redirect...",
-    "date": "2026-06-19 20:05:15",
-    "url": "https://cryptoslate.com/franklin-templeton-new-etfs-would-convert-us-companies-stock-dividends-into-bitcoin-exposure/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
-    "description": "...",
-    "date": "2026-06-19T19:36:09.000Z",
-    "url": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Republican lawmaker proposes prediction markets insider trading ban, not including White House officials",
-    "description": "...",
-    "date": "2026-06-19T18:30:21.000Z",
-    "url": "https://cointelegraph.com/news/prediction-markets-law-white-house-officials?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Schwab to join prediction markets race with S&amp;P 500 event-based options: WSJ",
-    "description": "The planned offering would let customers bet on index moves as Coinbase and Robinhood expand in the sector....",
-    "date": "2026-06-19 17:51:12",
-    "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "TD Cowen says CME has the upper hand in lawsuit against CFTC over crypto perpetual futures",
-    "description": "\"We expect CME will seek a preliminary injunction to block perps as the case proceeds,\" said TD Cowen's Jaret Seiberg....",
-    "date": "2026-06-19 17:47:02",
-    "url": "https://www.theblock.co/post/405446/td-cowen-cme-upper-hand-cftc-lawsuit-crypto-perpetual-futures?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "The 5 Largest Publicly Traded Solana Treasury Firms",
-    "description": "...",
-    "date": "2026-06-19T17:40:59.000Z",
-    "url": "https://decrypt.co/339551/5-largest-publicly-traded-solana-treasury-firms",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Crypto Biz: Is AI the exit strategy for miners?",
-    "description": "Bitcoin miners double down on AI, tokenized RWAs top $43 billion, Ripple strengthens its African payments network and Sam Bankman-Fried loses his appeal....",
-    "date": "2026-06-19 17:03:40",
-    "url": "https://cointelegraph.com/news/crypto-biz-ai-exit-strategy-bitcoin-miners?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "STRC’s plunge puts Saylor’s Bitcoin dividend machine under pressure",
-    "description": "\nSTRC, Strategy's perpetual preferred stock, traded as low as $82.61 on June 18 before recovering to $88.59, putting the security nearly 17% below its $100 stated amount at the intraday low. MSTR fell...",
-    "date": "2026-06-19 16:15:38",
-    "url": "https://cryptoslate.com/strcs-plunge-puts-saylors-bitcoin-dividend-machine-under-pressure/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Amazon Won't Release Sam Altman Film 'Artificial' Following $50 Billion OpenAI Investment",
-    "description": "...",
-    "date": "2026-06-19T15:06:59.000Z",
-    "url": "https://decrypt.co/371682/amazon-wont-release-sam-altman-film-50-billion-openai-investment",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Pump Fun revenue slows as Collector Crypt’s $5.1M card-pack week reshapes Solana’s consumer loop",
-    "description": "\nDefiLlama shows Pump.fun generated $108.3 million in gross revenue during the first quarter and $69.2 million in the second quarter to date, marking a 36.1% decline from the prior quarter's pace. The...",
-    "date": "2026-06-19 14:25:45",
-    "url": "https://cryptoslate.com/pump-fun-revenue-slows-as-collector-crypts-5-1m-card-pack-week-reshapes-solanas-consumer-loop/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Binance’s MiCA fight raises questions over ECB influence",
-    "description": "Lawyers say MiCA rules do not bar the European Central Bank from communicating with national regulators during the application process, though crypto licensing decisions remain with member states....",
-    "date": "2026-06-19 13:38:00",
-    "url": "https://cointelegraph.com/news/mica-rules-questions-ecb-role-binance-licensing?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "BlockShoals lawyer clarifies Binance’s regulatory status in the Philippines",
-    "description": "...",
-    "date": "2026-06-19T12:15:20.000Z",
-    "url": "https://cointelegraph.com/news/blockshoals-binance-regulatory-status-philippines?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "CME lawsuit challenges whether Kalshi’s Bitcoin leverage push can become an everything-exchange",
-    "description": "\nThe CFTC approved KalshiEX's BTCPERP contract on May 29, one day after Kalshi submitted it under Regulation 40.3. The contract references spot Bitcoin, carries no expiry date, and perps generally all...",
-    "date": "2026-06-19 11:09:26",
-    "url": "https://cryptoslate.com/cme-lawsuit-challenges-whether-kalshis-bitcoin-leverage-push-can-become-an-everything-exchange/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Europe’s MiCA July deadline puts Binance access and USDT liquidity on the line",
-    "description": "\nEurope’s crypto rulebook is squeezing much of the industry before it has even fully taken effect, with Binance and Tether as the most visible examples of a wider scramble to remain within the bloc’s ...",
-    "date": "2026-06-19 10:06:32",
-    "url": "https://cryptoslate.com/europes-mica-july-deadline-puts-binance-access-and-usdt-liquidity-on-the-line/",
     "agency": "NEWS",
     "source": "CryptoSlate"
   }
