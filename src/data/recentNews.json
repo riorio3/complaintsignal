@@ -1,24 +1,208 @@
 [
   {
-    "title": "Inside the 15-minute trading pulse that moves $14 billion in Bitcoin perpetual futures",
+    "title": "Citi, DBS complete first weekend tokenized cross-border deposit on Swift",
+    "description": "\n\nCiti and DBS completed their first tokenized cross-border transfer over the weekend, using Swift’s blockchain-based ledger to circumvent the constraints of traditional banking hours.\n...",
+    "date": "2026-09-07 10:34:47",
+    "url": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Philippines eyes payment operator registration freeze, tighter VASP checks",
+    "description": "\n\nA central bank proposal would pause new payment operator registrations while requiring enhanced monitoring and transaction limits for arrangements involving virtual asset firms.\n...",
+    "date": "2026-09-07 09:51:00",
+    "url": "https://cointelegraph.com/news/philippines-payment-operator-freeze-vasp-checks?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Philippines eyes payment operator registration freeze, tighter VASP checks",
+    "description": "\n\nA central bank proposal would pause new payment operator registrations while requiring enhanced monitoring and transaction limits for arrangements involving virtual asset firms.\n...",
+    "date": "2026-09-07 09:51:00",
+    "url": "https://cointelegraph.com/news/philippines-payment-operator-freeze-vasp-checks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "‘CLARITY Act Is Dead’ in Washington, Ex Federal Prosecutor Says",
     "description": "...",
-    "date": "2026-09-06T11:00:27.000Z",
+    "date": "2026-09-07T09:30:07.000Z",
+    "url": "https://news.bitcoin.com/regulation-and-legal/clarity-act-dead-mariotti-lummis-2030/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "A whitehat hacker is holding $320 million in drained Bitcoin until developers prove they patched a fatal network flaw",
+    "description": "...",
+    "date": "2026-09-07T08:55:13.000Z",
+    "url": "https://cryptoslate.com/a-whitehat-hacker-is-holding-320-million-in-drained-bitcoin-until-developers-prove-they-patched-a-fatal-network-flaw/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
+    "description": "BTC fell on Friday and Treasury yields rose, but the hawkish market reaction looks overdone when compared to the largely steady Fed rate hike odds....",
+    "date": "2026-09-07 08:38:17",
+    "url": "https://www.coindesk.com/markets/2026/09/07/no-friday-s-jobs-report-hasn-t-materially-boost-fed-rate-hike-odds",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Once-hyped Ethereum rival Harmony wants to shut its blockchain over AI threats",
+    "description": "Developers want to voluntarily shut down the network, saying state actors and AI agents have made security too difficult, then redirect ONE emissions into an AI video business....",
+    "date": "2026-09-07 08:02:18",
+    "url": "https://www.coindesk.com/markets/2026/09/07/once-hyped-ethereum-rival-harmony-wants-to-shut-its-blockchain-over-ai-threats",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Zcash Breaches $1,200 as Market Cap Hits $20 Billion",
+    "description": "...",
+    "date": "2026-09-07T07:30:09.000Z",
+    "url": "https://news.bitcoin.com/altcoins/zcash-breaches-1200-as-market-cap-hits-20-billion/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-09-07 06:29:41",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "South Korea’s Hanwha develops tokenized securities platform on Avalanche as local regulation takes shape: report",
+    "description": "South Korea passed amendments that integrate tokenized securities into the existing financial system, coming into effect next February....",
+    "date": "2026-09-07 06:24:46",
+    "url": "https://www.theblock.co/news/business/2026-09-07-south-korea-hanwha-tokenized-securities-platform-avalanche-413652",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "DOJ Nails Cartel Intermediary in $4M Crypto Money Laundering Scheme",
+    "description": "...",
+    "date": "2026-09-07T05:30:38.000Z",
+    "url": "https://news.bitcoin.com/regulation-and-legal/doj-nails-cartel-intermediary-in-4m-crypto-money-laundering-scheme/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Harmony proposes shutting down layer 1, migrating ONE to Ethereum",
+    "description": "\n\nHarmony proposed sunsetting its layer-1 blockchain and migrating ONE to Ethereum, weeks after an exploit led to plans to discard 109,000 transactions.\n...",
+    "date": "2026-09-07 05:00:49",
+    "url": "https://cointelegraph.com/news/harmony-proposes-shutting-down-layer-1-migrating-one-to-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
+    "description": "Liquid Network, a settlement layer used by exchanges, halted all transactions after losing $320 million worth of bitcoin in a security exploit....",
+    "date": "2026-09-07 03:43:12",
+    "url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "How FBI Traced and Seized $560K in Crypto From Hamas’ Network",
+    "description": "...",
+    "date": "2026-09-07T03:30:24.000Z",
+    "url": "https://news.bitcoin.com/featured/how-fbi-traced-and-seized-560k-in-crypto-from-hamas-network/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Spot bitcoin ETFs pull in $987 million last week as institutional demand recovers",
+    "description": "Spot bitcoin ETFs drew in $3.52 billion in net inflows in August, their largest monthly positive flows since September 2025....",
+    "date": "2026-09-07 02:15:55",
+    "url": "https://www.theblock.co/news/markets/2026-09-06-bitcoin-etfs-987-million-weekly-inflow-413639",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
+    "description": "\n\nPurported white hat hackers have taken 4000 Bitcoin from the Liquid sidechain in a major security breach. The Bitcoin ETFs see the best three weeks of inflows in 2026.\n...",
+    "date": "2026-09-07 00:05:02",
+    "url": "https://cointelegraph.com/magazine/white-hats-take-4000-btc-from-liquid-btc-etfs-best-week-of-2026-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Fomo Takes Crypto by Storm, Grayscale Predicts Rotation From Stocks, and More – Weekly Recap",
+    "description": "\nThis week’s stories spanned retail trading, portfolio diversification, regulation, privacy, and sanctions. Fomo broke into the top five U.S. finance apps, while Grayscale argued that record stock con...",
+    "date": "2026-09-06 22:30:13",
+    "url": "https://news.bitcoin.com/featured/fomo-takes-crypto-by-storm-grayscale-predicts-rotation-from-stocks-and-more-weekly-recap/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "US Spot XRP ETF Inflows Reach $1.68 Billion as Demand Accelerates",
+    "description": "\nU.S. spot XRP ETFs have accumulated approximately $1.68 billion in net inflows, while their combined net assets stood at about $1.48 billion. The totals show continued demand for exchange-listed XRP ...",
+    "date": "2026-09-06 21:19:06",
+    "url": "https://news.bitcoin.com/crypto-news/us-spot-xrp-etf-inflows-reach-1-68-billion-as-demand-accelerates/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Three DeFi projects face possible exclusion from future Arbitrum DAO programs",
+    "description": "\nGood Entry, Limitless and APX Finance could face separate off-chain ban votes, but the combined figure is not one repayable balance.\nThe post Three DeFi projects face possible exclusion from future A...",
+    "date": "2026-09-06 21:05:28",
+    "url": "https://cryptoslate.com/three-defi-projects-face-possible-exclusion-from-future-arbitrum-dao-programs/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitcoin’s faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates",
+    "description": "...",
+    "date": "2026-09-06T19:00:20.000Z",
+    "url": "https://cryptoslate.com/bitcoin-uncertain-the-fed-and-treasury-are-pulling-the-bond-market-in-opposite-directions/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Coinbase-backed Router Protocol to shut down, burn 303 million ROUTE tokens",
+    "description": "The shutdown comes after attempts to commercialize, license or find a buyer for its technology failed to produce a sustainable business. ...",
+    "date": "2026-09-06 18:03:26",
+    "url": "https://www.theblock.co/news/defi/2026-09-06-coinbase-backed-router-protocol-to-shut-down-burn-303-million-route-tokens-413618",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Stablecoins Won't Scale Without Banks",
+    "description": "With a growing number of institutions exploring stablecoins, the bottleneck is regulated infrastructure they can trust....",
+    "date": "2026-09-06 15:01:03",
+    "url": "https://decrypt.co/377280/stablecoins-wont-scale-without-banks",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "The $63 billion revolving door carrying the entire US Bitcoin ETF market",
+    "description": "\nBitcoin's best and newest large buyer has no face, no investment committee, and no public opinion about whether the price looks cheap. It appears near the end of the US trading day as an entry beside...",
+    "date": "2026-09-06 15:00:20",
+    "url": "https://cryptoslate.com/the-63-billion-revolving-door-carrying-the-entire-us-bitcoin-etf-market/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Inside the 15-minute trading pulse that moves $14 billion in Bitcoin perpetual futures",
+    "description": "\nAt 14:59:59 UTC, Bitcoin perpetual futures look like any other electronic market, with prices flickering and orders flowing from traders around the world. But when the clock turns to 15:00:00, the ma...",
+    "date": "2026-09-06 11:00:27",
     "url": "https://cryptoslate.com/the-invisible-opening-bell-inside-cryptos-endless-trading-day/",
     "agency": "NEWS",
     "source": "CryptoSlate"
   },
   {
     "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
-    "description": "...",
-    "date": "2026-09-06T10:00:43.000Z",
+    "description": "\nTheir 6.01% combined weight shows how crypto-linked volatility can reach a generalist stock portfolio.\nThe post Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for cry...",
+    "date": "2026-09-06 10:00:43",
     "url": "https://cryptoslate.com/strategy-and-robinhood-now-lead-a-4-5-billion-large-cap-etf-that-was-not-built-for-crypto/",
     "agency": "NEWS",
     "source": "CryptoSlate"
   },
   {
     "title": "From power laws to AI networks, why complex Bitcoin price models memorize market noise",
-    "description": "...",
-    "date": "2026-09-06T07:00:57.000Z",
+    "description": "\nBitcoin price forecasting has accumulated an unusually colorful collection of methods. You have basic scarcity models that convert the halving schedule into a price, and run-of-the-mill on-chain mode...",
+    "date": "2026-09-06 07:00:57",
     "url": "https://cryptoslate.com/the-smartest-bitcoin-price-models-keep-losing-to-the-dumbest-forecast/",
     "agency": "NEWS",
     "source": "CryptoSlate"
@@ -102,14 +286,6 @@
     "url": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
     "agency": "NEWS",
     "source": "Decrypt"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-09-05 11:16:19",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
@@ -16894,469 +17070,5 @@
     "url": "https://cryptoslate.com/clarity-act-misses-july-target-and-runs-into-an-august-7-senate-clock/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "A $1 billion HYPE treasury trade is hitting public markets before liquidity has been tested",
-    "description": "\nHyperliquid Strategies has built its treasury around HYPE, but its first SEC filings show the strategy already faces a fundamental challenge. The company wants to accumulate more tokens for sharehold...",
-    "date": "2026-07-09 12:40:17",
-    "url": "https://cryptoslate.com/a-1-billion-hype-treasury-trade-is-hitting-public-markets-before-its-liquidity-has-been-tested/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Swift rolls out new blockchain ledger to bring 24/7 banking to 17 global giants",
-    "description": "...",
-    "date": "2026-07-09T11:08:37.000Z",
-    "url": "https://www.coindesk.com/business/2026/07/09/swift-rolls-out-24-7-blockchain-payment-systems-with-17-global-banks-across-six-continents",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Sony Bank Clears OCC Hurdle for Dollar Stablecoin",
-    "description": "...",
-    "date": "2026-07-09T11:03:08.000Z",
-    "url": "https://decrypt.co/373109/sony-bank-clears-occ-hurdle-for-dollar-stablecoin",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Singapore's Temasek investment fund says crypto is off the table, will focus on AI",
-    "description": "The $400 billion wealth fund plans to expand AI holdings to 15% of its portfolio by 2031 from the current 6%....",
-    "date": "2026-07-09 10:22:35",
-    "url": "https://www.coindesk.com/business/2026/07/09/singapore-s-temasek-investment-fund-says-crypto-is-off-the-table-will-focus-on-ai",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Swift launches blockchain ledger for tokenized deposit pilot with 17 banks",
-    "description": "Swift launched a blockchain-based ledger that enables 17 banks to pilot 24/7 cross-border payments using tokenized deposits....",
-    "date": "2026-07-09 09:52:21",
-    "url": "https://www.theblock.co/post/407687/swift-launches-blockchain-ledger-for-tokenized-deposit-pilot-with-17-banks?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Sony secures conditional approval to set up U.S. stablecoin trust bank",
-    "description": "...",
-    "date": "2026-07-09T09:49:26.000Z",
-    "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "INTERPOL-led global fraud crackdown arrests over 5,800, uncovers crypto laundering network tied to $122.5 million wallet",
-    "description": "The operation uncovered a crypto laundering network using cross-chain swaps to obscure funds, with one wallet processing $122.5M in 10 months....",
-    "date": "2026-07-09 09:39:20",
-    "url": "https://www.theblock.co/post/407685/interpol-led-global-fraud-crackdown-arrests-over-5800-uncovers-crypto-laundering-network-tied-to-122-5-million-wallet?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Two blockbuster AI IPO's on the horizon could leave crypto further behind",
-    "description": "A wave of blockbuster AI listings is drawing billions of dollars from global investors, reinforcing a rotation away from crypto....",
-    "date": "2026-07-09 09:31:56",
-    "url": "https://www.coindesk.com/markets/2026/07/09/two-blockbuster-ai-ipo-s-on-the-horizon-could-leave-crypto-further-behind",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bank of Korea stands firm on bank-led stablecoin push as deposit token pilots advance",
-    "description": "...",
-    "date": "2026-07-09T09:19:38.000Z",
-    "url": "https://cointelegraph.com/news/bank-of-korea-bank-led-stablecoins-deposit-token-pilots?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Bank of Korea stands firm on bank-led stablecoin push as deposit token pilots advance",
-    "description": "\n\nThe Bank of Korea reiterated its call for bank-led won stablecoin issuance while advancing deposit token pilots, as issuer rules remain a sticking point in South Korea’s digital asset bill.\n...",
-    "date": "2026-07-09 09:19:38",
-    "url": "https://cointelegraph.com/news/bank-of-korea-bank-led-stablecoins-deposit-token-pilots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Russia’s Alfa Bank plans to launch digital depository to offer crypto services: report",
-    "description": "The move aligns with similar announcements from other major Russian banks, amid the development of the country's crypto law....",
-    "date": "2026-07-09 09:10:50",
-    "url": "https://www.theblock.co/post/407679/russia-alfa-bank-crypto?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "SWIFT launches blockchain ledger with 17-bank tokenized deposit pilot",
-    "description": "\n\nSWIFT launched its new blockchain ledger that will host a tokenized bank deposit pilot for 17 major banks seeking faster cross-border payments.\n...",
-    "date": "2026-07-09 08:51:48",
-    "url": "https://cointelegraph.com/news/swift-launches-blockchain-announces-tokenized-deposit-pilot-with-17-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Regulators invited Binance to seek new licenses after MiCA setback, co-CEO says",
-    "description": "...",
-    "date": "2026-07-09T08:26:30.000Z",
-    "url": "https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Regulators invited Binance to seek new licenses after MiCA setback, co-CEO says",
-    "description": "\n\nBinance is exploring new licensing paths into Europe while continuing to expand its regulatory footprint in Asia, says co-CEO Richard Teng.\n\n...",
-    "date": "2026-07-09 08:26:30",
-    "url": "https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Russia's largest private bank, Alfa-Bank, tests crypto trading",
-    "description": "...",
-    "date": "2026-07-09T08:22:36.000Z",
-    "url": "https://cointelegraph.com/news/russia-largest-private-bank-alfa-bank-crypto-services?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Russia's largest private bank Alfa-Bank tests crypto trading",
-    "description": "\n\nAlfa-Bank is testing cryptocurrency trading for qualified investors as Russia moves toward regulating digital assets and banks prepare new crypto services.\n...",
-    "date": "2026-07-09 08:22:36",
-    "url": "https://cointelegraph.com/news/russia-largest-private-bank-alfa-bank-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Sony Bank gets conditional OCC approval for US trust bank to issue dollar-backed stablecoin",
-    "description": "The trust bank subsidiary, Connectia Trust, is expected to issue and manage a dollar-backed stablecoin, pending final approval....",
-    "date": "2026-07-09 07:50:55",
-    "url": "https://www.theblock.co/post/407670/sony-bank-conditional-occ-approval?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Live markets: Second day of U.S, Iran conflict keeps markets volatile as oil drops",
-    "description": "...",
-    "date": "2026-07-09T06:51:10.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/09/live-markets-bitcoin-etfs-slip-back-to-outflows-while-ether-funds-extend-their-streak",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Hyundai Card completes its first real-world stablecoin pilot with Avalanche, Tether",
-    "description": "Visa and Circle will participate in Hyundai Card's second stablecoin PoC, which is set to begin later this month....",
-    "date": "2026-07-09 06:46:10",
-    "url": "https://www.theblock.co/post/407660/hyundai-stablecoin-poc-avalanche-tether?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bank of Japan may speed up rate hikes, pushing borrowing costs above 2%, ex-BOJ official warns",
-    "description": "...",
-    "date": "2026-07-09T06:42:09.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/09/bank-of-japan-may-speed-up-rate-hikes-pushing-borrowing-costs-above-2-ex-boj-official-warns",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "'CASHCAT' trader turns $800 into over $1 million on Robinhood's brand new blockchain",
-    "description": "Robinhood's blockchain went live on July 1 to move stocks onchain. Its first breakout hit is a memecoin named after the mascot the company abandoned....",
-    "date": "2026-07-09 06:40:50",
-    "url": "https://www.coindesk.com/tech/2026/07/09/cashcat-trader-turns-usd800-into-over-usd1-million-on-robinhood-s-brand-new-blockchain",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Harry Hwang Warns Compliant Solana Order Flow Lanes Could Concentrate Institutional Liquidity",
-    "description": "\nMoneygram has deployed an active Solana validator node and joined the Solana Developer Platform. Rather than an immediate integration with its retail remittance engine, this serves as an infrastructu...",
-    "date": "2026-07-09 06:30:59",
-    "url": "https://news.bitcoin.com/harry-hwang-warns-compliant-solana-order-flow-lanes-could-concentrate-institutional-liquidity/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Wyden urges Senate leaders to keep dev protections in crypto bill",
-    "description": "...",
-    "date": "2026-07-09T06:03:49.000Z",
-    "url": "https://cointelegraph.com/news/senate-leaders-urged-to-keep-dev-protections-in-crypto-bill?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Wyden urges Senate leaders to keep dev protections in crypto bill",
-    "description": "\n\nSenator Ron Wyden has called on Senate leaders to ensure the Blockchain Regulatory Certainty Act remains in the CLARITY Act when it is brought to the floor.\n...",
-    "date": "2026-07-09 06:03:49",
-    "url": "https://cointelegraph.com/news/senate-leaders-urged-to-keep-dev-protections-in-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Trader loses $1M after signing phishing token approval",
-    "description": "\n\nOnchain scammers netted more than $14 billion last year, and approval phishing remains a primary attack vector.\n...",
-    "date": "2026-07-09 05:57:23",
-    "url": "https://cointelegraph.com/news/trader-loses-1m-after-signing-phishing-token-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "AI is shortening the shelf life of crypto security audits, researchers warn",
-    "description": "\n\nHackers have also been exploiting the codebases of defunct decentralized finance protocols, draining millions of dollars in customer funds.\n...",
-    "date": "2026-07-09 05:47:09",
-    "url": "https://cointelegraph.com/news/ai-is-shortening-the-shelf-life-of-crypto-security-audits-researchers-warn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "AscendEX crypto exchange shuts down, no assurance on user payouts",
-    "description": "AscendEx announced on July 6 that its platform ceased operations effective July 1, citing regulatory, financial, and operational challenges....",
-    "date": "2026-07-09 04:39:49",
-    "url": "https://www.theblock.co/post/407654/ascendex-shuts-down?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Kraken Wins $22 Million Arbitration as Arjun Sethi Calls for Clear Crypto Rules",
-    "description": "\nPayward, Kraken’s parent company, has asked the Delaware Court of Chancery to enter final judgment against Mazars USA after winning a $22 million arbitration award. Co-CEO Arjun Sethi framed the case...",
-    "date": "2026-07-09 04:30:34",
-    "url": "https://news.bitcoin.com/kraken-wins-22-million-arbitration-as-arjun-sethi-calls-for-clear-crypto-rules/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "France’s Gambling Regulator Warns All Esports Betting Is Illegal as the $75M Esports World Cup Opens in Paris",
-    "description": "\nAs the Esports World Cup opens in Paris with the largest prize pool in the sport’s history, France’s national gambling authority has reminded fans that wagering on any of it is illegal. No licensed o...",
-    "date": "2026-07-09 03:30:32",
-    "url": "https://news.bitcoin.com/frances-gambling-regulator-warns-all-esports-betting-is-illegal-as-the-75m-esports-world-cup-opens-in-paris/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Mark Cuban-backed DeFi dashboard Zapper shutters after 7 years",
-    "description": "...",
-    "date": "2026-07-09T02:32:20.000Z",
-    "url": "https://cointelegraph.com/news/defi-dashboard-zapper-to-shut-down-after-seven-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Flexa Expands Crypto Payments Across 37 European Markets",
-    "description": "\nFlexa has expanded its regulated payments platform across Europe, allowing merchants, institutions, and developers throughout the Single Euro Payments Area (SEPA) to accept crypto payments and proces...",
-    "date": "2026-07-09 02:30:31",
-    "url": "https://news.bitcoin.com/flexa-expands-crypto-payments-across-37-european-markets/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Tennessee Crypto ATM Ban Takes Effect After Federal Court Rejects Emergency Challenge",
-    "description": "...",
-    "date": "2026-07-09T01:30:34.000Z",
-    "url": "https://news.bitcoin.com/tennessee-crypto-atm-ban-takes-effect-after-federal-court-rejects-emergency-challenge/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Coinbase UK License Marks Major Step Toward Bringing ‘Everything Exchange’ to Life",
-    "description": "...",
-    "date": "2026-07-09T00:30:37.000Z",
-    "url": "https://news.bitcoin.com/coinbase-uk-license-marks-major-step-toward-bringing-everything-exchange-to-life/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "LAB Token Crashes 80% to $1.25 as $5B Market Cap Vanishes in 48 Hours",
-    "description": "\nLAB Trade’s native token collapses 90% in 48 hours, wiping out billions in market cap amid insider control and manipulation allegations. LAB Trade Blames ‘Large Market Participants’ LAB, the native t...",
-    "date": "2026-07-08 22:49:34",
-    "url": "https://news.bitcoin.com/lab-token-crashes-80-to-1-25-as-5b-market-cap-vanishes-in-48-hours/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Sen. Wyden urges Senate leaders to preserve contested blockchain developer protections in broader crypto bill",
-    "description": "...",
-    "date": "2026-07-08T22:01:09.000Z",
-    "url": "https://www.theblock.co/post/407648/wyden-urges-senate-leaders-preserve-contested-blockchain-developer-protections-in-broader-crypto-bill?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Paradigm Raises $1.2 Billion Fund as Crypto VC Pushes Further Into AI",
-    "description": "...",
-    "date": "2026-07-08T20:40:38.000Z",
-    "url": "https://decrypt.co/373088/paradigm-billion-fund-crypto-vc-ai",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "BNB Chain makes moonshot bet on 1,000,000 TPS for AI as BNB interest falls away",
-    "description": "\nBinance-backed BNB Chain is restructuring its underlying architecture and setting a long-term goal of processing 1 million transactions per second while integrating protocol-level privacy. The strate...",
-    "date": "2026-07-08 20:10:52",
-    "url": "https://cryptoslate.com/binance-backed-network-chases-ai-agent-economy-with-1m-tps-privacy-overhaul-amid-bnbs-price-struggles/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Officials set to revise MiCA to cover non-EU stablecoin issuers: Report",
-    "description": "\n\nEU officials reportedly plan to consider changes to the Markets in Crypto-Assets framework, dubbed by some as “MiCA 2.0,” in response to a US stablecoin law and rules on tokenized payments and depos...",
-    "date": "2026-07-08 19:14:15",
-    "url": "https://cointelegraph.com/news/officials-revise-mica-non-eu-issuers?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Cash App owner Block to pay $45 million after states say it made false security promises",
-    "description": "...",
-    "date": "2026-07-08T19:00:29.000Z",
-    "url": "https://www.theblock.co/post/407623/cash-app-owner-block-pay-45-million-states-say-it-made-false-security-promises?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bitcoin ETFs 'Turning a Corner' After Record Bleed Hits $8 Billion",
-    "description": "...",
-    "date": "2026-07-08T18:24:56.000Z",
-    "url": "https://decrypt.co/373029/bitcoin-etfs-turning-corner-after-record-bleed",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "CFTC Chair Says Clarity Act Is ‘So Close’ As August Deadline Nears",
-    "description": "...",
-    "date": "2026-07-08T17:55:34.000Z",
-    "url": "https://bitcoinmagazine.com/news/cftc-chair-says-clarity-act-is-so-close",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Adam Back’s Bitcoin treasury company seeks new terms with Cantor for SPAC merger",
-    "description": "...",
-    "date": "2026-07-08T17:31:36.000Z",
-    "url": "https://cointelegraph.com/news/adam-back-bitcoin-treasury-company-terms-spac?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bank of England governor denies Farage lobbying swayed CBDC policy: Report",
-    "description": "...",
-    "date": "2026-07-08T17:11:05.000Z",
-    "url": "https://cointelegraph.com/news/bank-of-england-governor-denies-farage-lobbying-swayed-cbdc-policy-report?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Bank of England governor denies Farage lobbying swayed CBDC policy: Report",
-    "description": "...",
-    "date": "2026-07-08T17:11:05.000Z",
-    "url": "https://cointelegraph.com/news/bank-of-england-governor-denies-farage-lobbying-swayed-cbdc-policy-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin’s rally has 4 weeks to get its Washington CLARITY catalyst before the clock runs out",
-    "description": "\nThe US Senate returns to Washington next week with 20 working days to decide whether the CLARITY Act, which is the most advanced crypto market-structure bill in Congress, becomes law this summer or s...",
-    "date": "2026-07-08 17:05:38",
-    "url": "https://cryptoslate.com/bitcoins-rally-has-four-weeks-to-get-its-washington-clarity-catalyst-before-the-clock-runs-out/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Paradigm raises $1.2 billion fourth fund, expanding beyond crypto into AI and robotics",
-    "description": "...",
-    "date": "2026-07-08T17:02:55.000Z",
-    "url": "https://www.theblock.co/post/407617/paradigm-raises-1-2-billion-fourth-fund-crypto-ai-robotics?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bull Bitcoin Files Landmark Legal Challenge to Annul France’s DAC8 Crypto Data Surveillance Rules",
-    "description": "\nBitcoin MagazineBull Bitcoin Files Landmark Legal Challenge to Annul France’s DAC8 Crypto Data Surveillance Rules\nThe filing marks the first major legal challenge to DAC8 in the EU. Bull Bitcoin warn...",
-    "date": "2026-07-08 16:40:26",
-    "url": "https://bitcoinmagazine.com/legal/bull-bitcoin-files-landmark-legal-challenge-to-annul-frances-dac8-crypto-data-surveillance-rules",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Polymarket bets on U.S. marketing blitz to win back trust after 4-year ban: Report",
-    "description": "...",
-    "date": "2026-07-08T15:58:40.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/08/polymarket-bets-on-u-s-marketing-blitz-to-win-back-trust-after-4-year-ban-report",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Malaysia Seizes Over 75,000 Crypto Mining Rigs in Power-Theft Crackdown",
-    "description": "...",
-    "date": "2026-07-08T15:40:15.000Z",
-    "url": "https://decrypt.co/373030/malaysia-seizes-over-75000-crypto-mining-rigs-in-power-theft-crackdown",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets",
-    "description": "...",
-    "date": "2026-07-08T15:11:45.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/08/crypto-vc-paradigm-launches-usd1-2-billion-ai-fund-as-it-broadens-beyond-digital-assets-bbg",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Cantor SPAC and Adam Back’s Bitcoin Treasury Renegotiate Merger Terms, Vow New Structure",
-    "description": "...",
-    "date": "2026-07-08T15:10:56.000Z",
-    "url": "https://bitcoinmagazine.com/news/cantor-spac-adam-backs-bitcoin-treasury",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Bitcoin miners are resorting to using BTC treasuries as collateral for debt to weather Bitcoin winter",
-    "description": "\nIts June update shows why headline Bitcoin holdings can be harder to read when coins are collateral, receivables, restricted balances, or already tied to treasury trades.\nThe post Bitcoin miners are ...",
-    "date": "2026-07-08 15:10:25",
-    "url": "https://cryptoslate.com/cleanspark-exposes-the-liquidity-test-inside-miner-btc-reserves/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Kraken Wins $22M From Auditor That Abandoned It During Operation Choke Point 2.0",
-    "description": "...",
-    "date": "2026-07-08T15:05:02.000Z",
-    "url": "https://decrypt.co/373001/kraken-wins-22m-from-auditor-that-abandoned-it-during-operation-choke-point-2-0",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Adam Back's bitcoin treasury firm scraps SPAC merger, seeks new deal",
-    "description": "...",
-    "date": "2026-07-08T14:17:26.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/08/adam-back-s-bstr-scraps-original-spac-terms-seeks-new-deal",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bull Bitcoin asks French court to strike down DAC8 implementing decree",
-    "description": "...",
-    "date": "2026-07-08T13:36:44.000Z",
-    "url": "https://cointelegraph.com/news/bull-bitcoin-legal-action-france-dac8?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "One Bitcoin treasury’s paper loss just made Strategy’s stress everyone’s problem",
-    "description": "...",
-    "date": "2026-07-08T13:00:05.000Z",
-    "url": "https://cryptoslate.com/one-bitcoin-treasurys-paper-loss-just-made-strategys-stress-everyones-problem/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee",
-    "description": "...",
-    "date": "2026-07-08T12:45:30.000Z",
-    "url": "https://www.coindesk.com/policy/2026/07/08/citadel-drops-u-s-portofino-suit-seeks-bankruptcy-order-against-firm-s-founder-in-uk",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bankers Filed Suspicious Activity Report Over Farage's £5M Gift From Tether Billionaire",
-    "description": "...",
-    "date": "2026-07-08T12:06:35.000Z",
-    "url": "https://decrypt.co/372994/bankers-filed-suspicious-activity-report-over-farages-5m-gift-from-tether-billionaire",
-    "agency": "NEWS",
-    "source": "Decrypt"
   }
 ]
