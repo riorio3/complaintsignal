@@ -1,5 +1,301 @@
 [
   {
+    "title": "Albuquerque Bans Bitcoin ATMs, Giving Operators 45 Days to Remove Them",
+    "description": "A councilor said 90% of crypto kiosk transactions in the city are tied to fraud, calling the machines a conduit for crime....",
+    "date": "2026-09-11 10:10:41",
+    "url": "https://decrypt.co/377939/albuquerque-bans-bitcoin-atms-giving-operators-45-days-to-remove-them",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Sam Bankman-Fried Asks Supreme Court to Overturn FTX Fraud Conviction",
+    "description": "SBF’s lawyers say he was barred from arguing customers lost nothing, and call the $11 billion forfeiture an \"crushing fine.\"...",
+    "date": "2026-09-11 09:04:11",
+    "url": "https://decrypt.co/377931/sam-bankman-fried-asks-supreme-court-to-overturn-ftx-fraud-conviction",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
+    "description": "\n\nBlockstream said it would work with law enforcement, exchanges and forensic specialists to recover the Bitcoin if the hackers do not return it.\n...",
+    "date": "2026-09-11 08:43:19",
+    "url": "https://cointelegraph.com/news/blockstream-rejects-ransom-liquid-hackers-return-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "SBF asks Supreme Court to overturn conviction, $11B forfeiture: Report",
+    "description": "\n\nBankman-Fried’s lawyers challenged the exclusion of evidence about customer losses and argued that his $11 billion forfeiture was excessive.\n...",
+    "date": "2026-09-11 07:43:19",
+    "url": "https://cointelegraph.com/news/sbf-appeals-supreme-court-conviction-forfeiture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitcoin Red Team Claims Blockstream Ignored Warnings Before Hack",
+    "description": "\nThe security team, which has already uncovered thousands of vulnerabilities, hinted at a previous disclosure of the bug that allowed a white-hat hacker to take control of nearly 4,000 BTC. Calle, who...",
+    "date": "2026-09-11 07:30:33",
+    "url": "https://news.bitcoin.com/security/bitcoin-red-team-claims-blockstream-ignored-warnings-before-hack/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Quantus Targets $2.7 Trillion Crypto Risk With Quantum-Safe Mainnet",
+    "description": "\nQuantus has launched its proof-of-work mainnet with post-quantum cryptography built in from day one, betting that quantum resistance will become a defining requirement for crypto networks. Quantus Bu...",
+    "date": "2026-09-11 06:30:19",
+    "url": "https://news.bitcoin.com/security/quantus-targets-2-7-trillion-crypto-risk-with-quantum-safe-mainnet/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-09-11 06:14:41",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Revised CLARITY Act targets ‘non-decentralized’ DeFi operators",
+    "description": "\n\nThe bill’s ethics section remained largely unchanged despite being one of the main points of contention ahead of a pivotal Senate vote.\n...",
+    "date": "2026-09-11 06:08:26",
+    "url": "https://cointelegraph.com/news/revised-clarity-act-targets-non-decentralized-defi-operators?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Revised CLARITY Act targets ‘non-decentralized’ DeFi operators",
+    "description": "\n\nThe bill’s ethics section remained largely unchanged despite being one of the main points of contention ahead of a pivotal Senate vote.\n...",
+    "date": "2026-09-11 06:08:26",
+    "url": "https://cointelegraph.com/news/revised-clarity-act-targets-non-decentralized-defi-operators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Denmark’s Central Bank Flags Risks From US Dollar Stablecoins",
+    "description": "\nStablecoin adoption in Denmark is currently very low and poses no immediate threat to domestic financial stability. However, according to the central bank, the rapid global growth in U.S. dollar-pegg...",
+    "date": "2026-09-11 05:50:10",
+    "url": "https://news.bitcoin.com/stablecoins/denmarks-central-bank-flags-risks-from-us-dollar-stablecoins/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
+    "description": "SEBI’s Demat 2.0 pilot turns corporate bonds into digital tokens and settles payment through the RBI’s wholesale digital rupee, with secondary trading and retail access expected in later phases....",
+    "date": "2026-09-11 05:13:15",
+    "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance pre-IPO contract pushes Anthropic to a $2.1 trillion implied valuation",
+    "description": "\nIts leveraged contract uses a one-billion-share denominator that can change before IPO terms create an external anchor.\nThe post Binance pre-IPO contract pushes Anthropic to a $2.1 trillion implied v...",
+    "date": "2026-09-11 05:10:17",
+    "url": "https://cryptoslate.com/binance-pre-ipo-contract-pushes-anthropic-to-a-2-1-trillion-implied-valuation/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Ripple puts AI agents inside its $1 billion corporate treasury bet",
+    "description": "The software can monitor cash, risk and forecasts and suggest financial moves, but humans still have to approve every action....",
+    "date": "2026-09-11 04:25:21",
+    "url": "https://www.coindesk.com/markets/2026/09/11/ripple-puts-ai-agents-inside-its-usd1-billion-corporate-treasury-bet",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Brevo login flaw enabled phishing email targeting 347K Trezor subscribers",
+    "description": "\n\nTrezor told Cointelegraph that the phishing email was sent to 347,000 subscribers and said it is treating every address as “known to the attacker and possibly reusable for phishing.”\n...",
+    "date": "2026-09-11 04:21:14",
+    "url": "https://cointelegraph.com/news/brevo-login-flaw-trezor-bitbox-cointracking-phishing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
+    "description": "Bankman-Fried says he was unfairly barred from providing evidence that FTX had more than enough assets to cover losses from the collapse....",
+    "date": "2026-09-11 04:20:15",
+    "url": "https://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Coinbase-Moov Deal Opens Stablecoins to 1,000+ Banks and Credit Unions",
+    "description": "\nMore than 1,000 community banks and credit unions could gain access to stablecoin payments, settlement, custody, and real-time funding through a new partnership connecting Coinbase’s digital asset in...",
+    "date": "2026-09-11 03:05:03",
+    "url": "https://news.bitcoin.com/featured/coinbase-moov-deal-opens-stablecoins-to-1000-banks-and-credit-unions/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin tests critical $76,000 support cluster during macro energy shock",
+    "description": "\nBitcoin fell below $77,000 on Sept. 10 as oil rose above $100, and a global bond selloff pushed traders toward another Fed hike. BTC reached an intraday low of $76,676.07, Nasdaq 100 futures fell 0.7...",
+    "date": "2026-09-11 02:40:34",
+    "url": "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Mastercard Wallet Pay Enters Massive 4.3 Billion-User Market",
+    "description": "\nMastercard has launched Wallet Pay to connect digital wallets with its global network across contactless, QR code, online, and cross-border payments. The expansion enters a market serving more than 4...",
+    "date": "2026-09-11 02:30:52",
+    "url": "https://news.bitcoin.com/featured/mastercard-wallet-pay-enters-massive-4-3-billion-user-market/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Strategy erased nearly $8 billion of net debt in 11 months and put S&amp;P’s junk rating on the clock",
+    "description": "\nStrategy, the largest Bitcoin treasury firm, is making a case for an escape from its B- junk credit rating after building billions of dollars in liquidity and reducing debt. On Sept. 10, Strategy’s h...",
+    "date": "2026-09-11 01:20:25",
+    "url": "https://cryptoslate.com/strategy-erased-nearly-8-billion-of-net-debt-in-11-months-and-put-sps-junk-rating-on-the-clock/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bessent Urges Senate to Advance Clarity Act Ahead of Tuesday Vote",
+    "description": "\nTreasury Secretary Scott Bessent urged senators to advance the CLARITY Act before Tuesday’s scheduled procedural vote. The measure would establish federal digital asset rules, but unresolved politica...",
+    "date": "2026-09-11 01:05:32",
+    "url": "https://news.bitcoin.com/regulation-and-legal/bessent-urges-senate-to-advance-clarity-act-ahead-of-tuesday-vote/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "This XRP project is shutting down after wallet flaw exposed 4,000 accounts and drained $450,000",
+    "description": "\nForensics traced 10,281 payments from 4,011 sender wallets, but the attacker’s exact route remains unproven and users need entirely new seeds.\nThe post This XRP project is shutting down after wallet ...",
+    "date": "2026-09-11 00:00:10",
+    "url": "https://cryptoslate.com/this-xrp-project-is-shutting-down-after-wallet-flaw-exposed-4000-accounts-and-drained-450000/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
+    "description": "\n\nShareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.\n...",
+    "date": "2026-09-10 23:21:26",
+    "url": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "OpenAI’s math breakthrough exposes the next weak link in crypto security",
+    "description": "\nIts Navier–Stokes claim suggests a possible role for AI in contract verification, where flawed specifications can leave vulnerabilities undetected.\nThe post OpenAI’s math breakthrough exposes the nex...",
+    "date": "2026-09-10 22:30:50",
+    "url": "https://cryptoslate.com/openais-math-breakthrough-exposes-the-next-weak-link-in-crypto-security/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Updated Crypto Clarity Act Starts Circulating Days Before Key Vote ",
+    "description": "\nBitcoin MagazineUpdated Crypto Clarity Act Starts Circulating Days Before Key Vote \nA new draft of the long-awaited bill has been circulated by Senate Republicans. \nThis post Updated Crypto Clarity A...",
+    "date": "2026-09-10 20:23:59",
+    "url": "https://bitcoinmagazine.com/news/updated-clarity-act-starts-circulating",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
+    "description": "The Clarity Act needs 60 votes when the Senate returns from its recess next week. Republicans circulated a fresh draft on Thursday ahead of the vote....",
+    "date": "2026-09-10 20:21:57",
+    "url": "https://www.coindesk.com/policy/2026/09/10/new-clarity-act-text-tweaks-defi-credit-union-provisions-but-road-ahead-for-bill-remains-murky",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
+    "description": "\n\nThe EU securities regulator flagged tokenized equities, DeFi exploits and prediction markets as areas where growing crypto ties could pose risks to the broader financial system.\n...",
+    "date": "2026-09-10 20:10:29",
+    "url": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Visa’s $2.5 billion crypto credit bet puts card settlement financing onchain",
+    "description": "\nPrivate Visa files size the loans, smart contracts collect repayment, and undisclosed terms determine who takes the first loss.\nThe post Visa’s $2.5 billion crypto credit bet puts card settlement fin...",
+    "date": "2026-09-10 20:00:19",
+    "url": "https://cryptoslate.com/visas-2-5-billion-onchain-credit-bet-puts-card-settlement-financing-onchain/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Senate Republicans unveil revised crypto bill ahead of key Clarity Act vote next week",
+    "description": "Ahead of a pivotal initial vote next week, Senate Republicans released a revised version of landmark cryptocurrency legislation....",
+    "date": "2026-09-10 19:42:06",
+    "url": "https://www.theblock.co/news/regulation/2026-09-10-senate-republicans-unveil-revised-crypto-bill-ahead-of-key-clarity-act-vote-next-week-414180",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
+    "description": "The SEC's new proposal to overhaul transfer-agent rules could eliminate duplicate offchain shareholder records, reducing reconciliation costs and legal uncertainty for tokenized securities....",
+    "date": "2026-09-10 19:01:30",
+    "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Banks Have Minutes, Not Weeks, to Fix Flaws as AI Speeds Up Attacks: BIS",
+    "description": "The Bank for International Settlements says routine patching schedules are increasingly inadequate and cites guidance urging banks to accept planned downtime for urgent fixes....",
+    "date": "2026-09-10 18:13:13",
+    "url": "https://decrypt.co/377902/ai-hacks-shrinking-bank-time-fix-flaws-bis",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
+    "description": "\n\nThe amendment would require the UK Treasury to develop a strategy covering cryptoassets, stablecoins, tokenized securities and digital financial infrastructure.\n...",
+    "date": "2026-09-10 17:54:12",
+    "url": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
+    "description": "\n\nThe amendment would require the UK Treasury to develop a strategy covering cryptoassets, stablecoins, tokenized securities and digital financial infrastructure.\n...",
+    "date": "2026-09-10 17:54:12",
+    "url": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Europe’s top regulator questions Polymarket and Kalshi’s EU access, warns of authorization gaps",
+    "description": "ESMA said that event contracts may fall under existing EU binary-options bans, crypto-asset frameworks like MiCA or national gambling laws....",
+    "date": "2026-09-10 17:03:34",
+    "url": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "EU finance groups push to remove tokenized securities cap",
+    "description": "\n\nEuropean finance and tokenization groups say Brussels should remove limits on assets admitted to DLT infrastructure or set a 1.5 trillion euro baseline if a cap remains.\n\n...",
+    "date": "2026-09-10 15:49:22",
+    "url": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Anthropic Discloses Fourth Claude Hacking Incident as Debate Around Regulation Grows",
+    "description": "The company now says attacks during security tests exposed model behavior failures, after initially emphasizing errors in its testing infrastructure....",
+    "date": "2026-09-10 15:33:11",
+    "url": "https://decrypt.co/377889/anthropic-discloses-fourth-claude-hacking-incident-as-debate-around-regulation-grows",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Coinbase, Moov to bring stablecoin payment infrastructure to community banks and credit unions",
+    "description": "The integration will use Coinbase's Payments API and custodial wallets to embed stablecoin rails into Moov's existing payments platform....",
+    "date": "2026-09-10 15:11:41",
+    "url": "https://www.theblock.co/news/business/2026-09-10-coinbase-moov-bring-stablecoin-payment-infrastructure-community-banks-credit-unions-414153",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Citadel urges SEC to assert oversight of event contracts tied to public firms",
+    "description": "Citadel Securities urges SEC oversight of equity-linked event contracts, challenging CFTC self-certification....",
+    "date": "2026-09-10 13:43:09",
+    "url": "https://www.theblock.co/news/regulation/2026-09-10-citadel-urges-sec-assert-oversight-event-contracts-tied-public-firms-414140",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
     "title": "Treasury Secretary Bessent urges CLARITY Act passage after Senate returns",
     "description": "...",
     "date": "2026-09-10T10:20:00.000Z",
@@ -62,14 +358,6 @@
     "url": "https://news.bitcoin.com/exchanges/singapore-grants-gemini-major-crypto-license-for-trading-push/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-09-10 05:59:21",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "Trezor, BitBox warn users about fake hardware wallet security alerts",
@@ -16924,158 +17212,6 @@
     "description": "\nBrad Garlinghouse's account shows how a token reserve can shape a company's room to survive a long regulatory fight.\nThe post Ripple CEO says SEC suit nearly pushed company to shut down appeared firs...",
     "date": "2026-07-13 12:09:15",
     "url": "https://cryptoslate.com/ripple-ceo-says-sec-suit-nearly-pushed-company-to-shut-down/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Chinese Prosecutors Float Treating Crypto Mixer, Privacy Coin Use as Sign of Money Laundering",
-    "description": "...",
-    "date": "2026-07-13T10:43:13.000Z",
-    "url": "https://decrypt.co/373374/chinese-prosecutors-float-treating-crypto-mixer-privacy-coin-use-as-sign-of-money-laundering",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Clarity Act Enters a Make-or-Break Week as Senate Returns With Aug. 7 Clock Ticking",
-    "description": "\nThe Digital Asset Market Clarity Act faces a decisive stretch as the U.S. Senate returns from recess on Monday with roughly 20 working days left before the Aug. 7 break. The coming days should bring ...",
-    "date": "2026-07-13 09:25:59",
-    "url": "https://news.bitcoin.com/clarity-act-make-or-break-week-august-7/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Japan stablecoin payments advance with Lawson trial, Netstars launch",
-    "description": "\n\nLawson will test yen stablecoin payments in Tokyo as Netstars launches a merchant service supporting USDC, USDT and JPYC.\n...",
-    "date": "2026-07-13 08:58:51",
-    "url": "https://cointelegraph.com/news/japan-lawson-netstars-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "U.S. inflation, second-quarter earnings reports: Crypto Week Ahead",
-    "description": "Your look at what's coming in the week starting July 13....",
-    "date": "2026-07-13 08:55:50",
-    "url": "https://www.coindesk.com/markets/2026/07/13/u-s-inflation-second-quarter-earnings-reports-crypto-week-ahead",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Blackrock’s Tokenized Funds Hit $2.93B Onchain as Ethereum Leads With $1.1B",
-    "description": "\nBlackrock now manages $2.93 billion in tokenized assets onchain, with Ethereum leading the pack ahead of Avalanche, Solana, and BNB Chain. A Multichain Footprint Anchored by BUIDL The bulk of Blackro...",
-    "date": "2026-07-13 08:25:55",
-    "url": "https://news.bitcoin.com/blackrock-tokenized-funds-2-93-billion-onchain/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Cape Town Expands Crypto Fraud Fight as Police Seize Luxury Cars With Fake Plates",
-    "description": "\nSouth African mayor recently joined the metro police in a targeted night operation to impound luxury vehicles driven by self-proclaimed cryptocurrency and forex “traders” operating with fake or missi...",
-    "date": "2026-07-13 05:30:18",
-    "url": "https://news.bitcoin.com/cape-town-expands-crypto-fraud-fight-as-police-seize-luxury-cars-with-fake-plates/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
-    "description": "...",
-    "date": "2026-07-13T04:43:50.000Z",
-    "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
-    "description": "\n\nThailand has been plagued by Chinese-affiliated scam centers, with illicit gains flowing through a “gray money” economy. \n...",
-    "date": "2026-07-13 04:43:50",
-    "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "The US Government Owes $39 Trillion. Here’s Why That’s Bitcoin’s Best Argument Yet",
-    "description": "\nU.S. gross national debt crossed $39 trillion in mid-March, and debt held by the public stood at over $31 trillion. With the Congressional Budget Office projecting a $1.9 trillion deficit in fiscal 2...",
-    "date": "2026-07-13 04:30:36",
-    "url": "https://news.bitcoin.com/the-us-government-owes-39-trillion-heres-why-thats-bitcoins-best-argument-yet-49201/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Combating Illicit Flows: Thailand Implements Strict New Checks on High-Volume Stablecoin Trades",
-    "description": "\nThe institution announced that this measure targets the country’s shadow economy, which accounted for nearly 41% of its GDP by 2015. The Bank of Thailand is already applying the proposed checks on la...",
-    "date": "2026-07-13 03:30:50",
-    "url": "https://news.bitcoin.com/combating-illicit-flows-thailand-implements-strict-new-checks-on-high-volume-stablecoin-trades/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ripple Almost Shut Down and Distributed XRP After SEC Lawsuit, CEO Reveals",
-    "description": "\nRipple nearly shut down after the U.S. Securities and Exchange Commission (SEC) sued the company, with CEO Brad Garlinghouse considering whether to end operations, distribute XRP holdings to sharehol...",
-    "date": "2026-07-13 01:31:12",
-    "url": "https://news.bitcoin.com/ripple-almost-shut-down-and-distributed-xrp-after-sec-lawsuit-ceo-reveals/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
-    "description": "\n\nStandard Chartered sees communication challenges facing the biggest digital asset treasury company as \"muddying the waters\" for Bitcoin in the near term.\n...",
-    "date": "2026-07-12 18:16:45",
-    "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Convicted scammer’s “seized” crypto moves to unknown wallets while in prison as DOJ failed to secure funds",
-    "description": "\nDOJ’s account separates a forfeiture order from the unresolved question of who could authorize a transfer.\nThe post Convicted scammer’s “seized” crypto moves to unknown wallets while in prison as DOJ...",
-    "date": "2026-07-12 17:10:24",
-    "url": "https://cryptoslate.com/prisoners-seized-crypto-moves-to-unknown-wallets-before-doj-secures-the-funds/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "XRP loses $700 million in futures bets while XRPL builds a $4 billion institutional pipeline",
-    "description": "\nDemand for XRP is weakening across several key market indicators, testing whether the XRP Ledger’s (XRPL) growing institutional pipeline can translate into sustained investor and network activity. US...",
-    "date": "2026-07-12 16:05:46",
-    "url": "https://cryptoslate.com/xrp-investors-head-for-the-exits-as-700-million-in-futures-bets-disappear/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Bitcoin’s $64,000 rebound is outrunning ETF demand despite a $197 million inflow",
-    "description": "\nUS spot Bitcoin exchange-traded funds (ETFs) recorded their first weekly net inflow in more than two months, attracting $197 million across 13 products. The inflow ended an eight-week run of net rede...",
-    "date": "2026-07-12 14:35:44",
-    "url": "https://cryptoslate.com/bitcoins-64000-rebound-is-outrunning-etf-demand-despite-a-197-million-inflow/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Adam Back’s 30,021 BTC Bitcoin treasury deal just lost the funding structure holding it together",
-    "description": "\nCantor and BSTR are negotiating new terms after the old financing package stopped being binding, turning a Bitcoin treasury launch into a test of investor demand.\nThe post Adam Back’s 30,021 BTC Bitc...",
-    "date": "2026-07-12 13:45:43",
-    "url": "https://cryptoslate.com/adam-backs-30021-btc-bitcoin-treasury-deal-just-lost-the-funding-structure-holding-it-together/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
-    "description": "The market shrank by $7.7 billion in June alone, the largest dollar amount since May 2022's Terra-Luna crash, but stablecoins will likely resume their long-term growth, one analyst said....",
-    "date": "2026-07-12 13:00:00",
-    "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Pakistan crypto chief seeks dialogue after scholar rules against crypto payments",
-    "description": "\n\nPakistan’s virtual-assets regulator called for continued dialogue on the treatment of digital assets after meeting an Islamic scholar who backed a ruling against purchases made with crypto.\n...",
-    "date": "2026-07-12 12:26:09",
-    "url": "https://cointelegraph.com/news/pakistan-crypto-chief-dialogue-islamic-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "A $407 million Treasury fund reveals how Wall Street is building crypto’s missing collateral layer",
-    "description": "\nTokenized sovereign debt spent years sounding like a conference phrase in search of a market. But now, the category has enough working components to deserve serious attention: tokenized government mo...",
-    "date": "2026-07-12 12:15:03",
-    "url": "https://cryptoslate.com/a-407-million-treasury-fund-reveals-how-wall-street-is-building-cryptos-missing-collateral-layer/",
     "agency": "NEWS",
     "source": "CryptoSlate"
   }
