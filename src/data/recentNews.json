@@ -1,8 +1,216 @@
 [
   {
-    "title": "Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push, analysts say",
+    "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
+    "description": "Open interest climbed 7.59% to $156 billion even as positions were closed out, a sign traders are chasing the move rather than stepping back....",
+    "date": "2026-09-21 10:30:00",
+    "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-hits-usd85-000-as-short-squeeze-forces-out-usd648-million-of-bearish-bets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Hana Bank issues South Korea’s first digital bond using Euroclear’s blockchain",
+    "description": "South Korea's second-largest bank’s $100 million foreign-currency bond blockchain issuance shortened settlement time to the same day from three to five business days....",
+    "date": "2026-09-21 08:49:59",
+    "url": "https://www.coindesk.com/business/2026/09/21/hana-bank-issues-south-korea-s-first-digital-bond-using-euroclear-s-blockchain",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Bank of Korea launches 24-hour won settlement pilot for foreign investors",
+    "description": "\n\nThe Bank of Korea’s new network will let foreign investors settle won transactions during business hours in their home countries.\n...",
+    "date": "2026-09-21 06:41:23",
+    "url": "https://cointelegraph.com/news/bank-korea-won-settlement-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "US Blacklists Bitbank Over Hundreds of Millions in Bitcoin Transfers",
     "description": "...",
-    "date": "2026-09-20T12:00:00.000Z",
+    "date": "2026-09-21T05:30:30.000Z",
+    "url": "https://news.bitcoin.com/regulation-and-legal/us-blacklists-bitbank-over-hundreds-of-millions-in-bitcoin-transfers/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-09-21 04:44:48",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Hana Bank taps Euroclear blockchain for $100M bond issuance: Report",
+    "description": "\n\nThe five-year digital bond reportedly shortened settlement from three to five business days to the same day using Euroclear’s blockchain infrastructure.\n...",
+    "date": "2026-09-21 04:27:32",
+    "url": "https://cointelegraph.com/news/hana-bank-euroclear-blockchain-100m-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "House Panel Advances US Bitcoin Reserve Bill With 20-Year Hold",
+    "description": "\nA House committee advanced legislation that would codify the existing U.S. Strategic Bitcoin Reserve and prohibit sales of qualifying federal bitcoin for 20 years. The amended bill would place the cu...",
+    "date": "2026-09-21 03:30:56",
+    "url": "https://news.bitcoin.com/regulation-and-legal/house-panel-advances-us-bitcoin-reserve-bill-with-20-year-hold/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Four Armed Men Tie up Family in French Crypto Home Invasion",
+    "description": "\nCryptocurrency networks are secured by advanced mathematics, but criminal networks in France are bypassing it entirely with iron bars and home invasions. In a terrifying new trend labeled “crypto-rap...",
+    "date": "2026-09-20 21:31:01",
+    "url": "https://news.bitcoin.com/crypto-news/four-armed-men-tie-up-family-in-french-crypto-home-invasion/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Charles Hoskinson says Cardano no longer comes first – its treasury vote explains why",
+    "description": "\nThe Pogun rejection blocked a 12.29 million ADA withdrawal while Hoskinson says future products will not default to Cardano.\nThe post Charles Hoskinson says Cardano no longer comes first – its treasu...",
+    "date": "2026-09-20 21:30:57",
+    "url": "https://cryptoslate.com/charles-hoskinson-says-cardano-no-longer-comes-first-its-treasury-vote-explains-why/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Why keeping your private keys safe won’t always stop crypto theft",
+    "description": "\nAlmost 4,000 Bitcoin left Liquid's reserve on Sept. 6 through a withdrawal the network approved, even though the private keys used to authorize it hadn't been stolen. Software had accepted a withdraw...",
+    "date": "2026-09-20 20:30:43",
+    "url": "https://cryptoslate.com/who-pays-when-bitcoin-disappears-without-anyone-stealing-the-keys/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "CLARITY Fails, Kraken Prepares for On-Chain Perps, And More – Weekly Recap",
+    "description": "\nThis week’s stories centered on regulation, institutional adoption and market infrastructure. Seven Democratic senators vowed to keep negotiating on the CLARITY Act, while Tom Lee forecast a bullish ...",
+    "date": "2026-09-20 19:48:00",
+    "url": "https://news.bitcoin.com/featured/clarity/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Why Solana’s new 250ms speed boost could actually trigger network instability",
+    "description": "\nEarly mainnet data look stable, but the path to 200ms may depend more on leader handoffs, client agreement and infrastructure diversity than headline throughput.\nThe post Why Solana’s new 250ms speed...",
+    "date": "2026-09-20 19:20:38",
+    "url": "https://cryptoslate.com/solanas-250ms-slots-turn-validator-coordination-into-the-networks-next-security-test/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "ACI Announces 5th Annual Forum on Digital Assets, Bringing Regulatory, Legal and Compliance Leaders to New York",
+    "description": "\nNEW YORK, NY — American Conference Institute will host its 5th Annual Forum on Digital Assets: Compliance, Enforcement &amp; Regulatory Oversight on November 17–18, 2026, at 3 Times Square in New Yor...",
+    "date": "2026-09-20 19:13:57",
+    "url": "https://news.bitcoin.com/press-releases/aci-announces-5th-annual-forum-on-digital-assets-bringing-regulatory-legal-and-compliance-leaders-to-new-york/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Offshore Bitcoin futures crash 97% as traders abandon traditional risk",
+    "description": "\nA strange thing has happened to Bitcoin's derivatives market over the past five years. The market is larger, institutions play a much bigger role, exchanges offer more sophisticated products, and tra...",
+    "date": "2026-09-20 17:15:37",
+    "url": "https://cryptoslate.com/goodbye-futures-bitcoin-found-better-ways-to-trade/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Polymarket faced $10 million fraud attempt as its CEO pushed growth over compliance concerns: WSJ",
+    "description": "In a separate attack, hackers compromised nearly 500 users' accounts using stolen personal information, according to the report....",
+    "date": "2026-09-20 16:07:19",
+    "url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
+    "description": "After banks lost their push for tighter stablecoin rules in the failed Clarity Act, JP Morgan scored a narrower win as Visa moves to stop meme coin purchases from being coded as ordinary \"digital medi...",
+    "date": "2026-09-20 16:01:03",
+    "url": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "EU staking review threatens crypto yields and network security could pay the price",
+    "description": "\nSome of the most consequential financial rules begin with surprisingly little text. For example, on page 36 of the European Commission's current MiCA review, item 66 asks whether Europe's treatment o...",
+    "date": "2026-09-20 15:05:37",
+    "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Crypto platform Gemini’s stock is down 80% from its IPO. That’s reviving takeover speculation",
+    "description": "The crypto platform’s market value has fallen to about $753 million, putting fresh attention on the licenses, custody infrastructure and customer relationships a buyer could inherit....",
+    "date": "2026-09-20 14:54:48",
+    "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Why Russia’s harsh 1% crypto cap actually protects bank customer assets",
+    "description": "\nThe draft counts banks’ own holdings and crypto-linked instruments against capital but conditionally excludes customer assets.\nThe post Why Russia’s harsh 1% crypto cap actually protects bank custome...",
+    "date": "2026-09-20 13:35:19",
+    "url": "https://cryptoslate.com/bank-of-russia-proposes-1-crypto-capital-cap-while-carving-out-some-client-custody/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "T. Rowe Price’s Blue Macellari: Bitcoin is Now Core to the Debasement Conversation",
+    "description": "\nBitcoin MagazineT. Rowe Price’s Blue Macellari: Bitcoin is Now Core to the Debasement Conversation\nT. Rowe Price’s Blue Macellari shares her insider perspective on the current state of the Treasury m...",
+    "date": "2026-09-20 13:24:37",
+    "url": "https://bitcoinmagazine.com/videos/t-rowe-prices-blue-macellari-bitcoin-is-now-core-to-the-debasement-conversation",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Coinbase Policy Chief: Strategic Bitcoin Reserve Bill Outlook",
+    "description": "\nBitcoin MagazineCoinbase Policy Chief: Strategic Bitcoin Reserve Bill Outlook\nThe Clarity Act's cloture vote failed. Coinbase Chief Policy Officer Faryar Shirzad breaks down what went wrong and where...",
+    "date": "2026-09-20 13:15:42",
+    "url": "https://bitcoinmagazine.com/videos/coinbase-policy-chief-strategic-bitcoin-reserve-bill-outlook",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Strategy CEO Phong Le: We Want to Be the JPMorgan of Bitcoin",
+    "description": "\nBitcoin MagazineStrategy CEO Phong Le: We Want to Be the JPMorgan of Bitcoin\nCEO Phong Le explains how MicroStrategy plans to become the \"JPMorgan of Bitcoin\" by making markets and providing liquidit...",
+    "date": "2026-09-20 13:06:46",
+    "url": "https://bitcoinmagazine.com/videos/strategy-ceo-phong-le-jpmorgan-of-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Why Legendary Investor Bill Miller IV has “Never Been More Bullish on Bitcoin”",
+    "description": "\nBitcoin MagazineWhy Legendary Investor Bill Miller IV has “Never Been More Bullish on Bitcoin”\nMiller Value Partners CEO Bill Miller IV explains why worsening fiscal deficits make Bitcoin further und...",
+    "date": "2026-09-20 12:57:34",
+    "url": "https://bitcoinmagazine.com/videos/bill-miller-iv-bullish-on-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Stablecoin salaries can leave workers paying to access their wages",
+    "description": "\nEvery paycheck eventually has to pay for something: rent, groceries, transport, or bills. Stablecoins can move between wallets in seconds. But that does not mean an employee can spend the money immed...",
+    "date": "2026-09-20 12:05:36",
+    "url": "https://cryptoslate.com/stablecoin-salaries-can-leave-workers-paying-to-access-their-wages/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Trump says US will form ‘AI Force’ and appoint AI czar: Reports",
+    "description": "\n\nTrump posted on Truth Social that his new project would manage the fast-growing sector without adding regulations that could slow innovation.\n...",
+    "date": "2026-09-20 12:00:52",
+    "url": "https://cointelegraph.com/news/trump-says-us-will-form-ai-force-and-appoint-ai-czar-reports?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Trump says US will form ‘AI Force’ and appoint AI czar: Reports",
+    "description": "\n\nTrump posted on Truth Social that his new project would manage the fast-growing sector without adding regulations that could slow innovation.\n...",
+    "date": "2026-09-20 12:00:52",
+    "url": "https://cointelegraph.com/news/trump-says-us-will-form-ai-force-and-appoint-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push, analysts say",
+    "description": "Goldman Sachs and Citizens analysts said the agency's move create new opportunities in custody, tokenization infrastructure and stablecoin settlement, while giving brokers room to expand onchain produ...",
+    "date": "2026-09-20 12:00:00",
     "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
     "agency": "NEWS",
     "source": "CoinDesk"
@@ -58,7 +266,7 @@
   {
     "title": "REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive",
     "description": "...",
-    "date": "2026-09-19T19:18:00.000Z",
+    "date": "2026-09-19T19:14:38.000Z",
     "url": "https://cointelegraph.com/news/rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
@@ -145,8 +353,8 @@
   },
   {
     "title": "Bastion wins conditional OCC approval for national trust bank charter",
-    "description": "\n\nBastion Platforms National Trust Company will offer stablecoin custody and wallets, payment infrastructure and white-label issuance from a single federally regulated entity.\n...",
-    "date": "2026-09-19 11:51:00",
+    "description": "...",
+    "date": "2026-09-19T11:51:00.000Z",
     "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -154,7 +362,7 @@
   {
     "title": "Bastion wins conditional OCC approval for national trust bank charter",
     "description": "...",
-    "date": "2026-09-19T11:51:00.000Z",
+    "date": "2026-09-19T11:47:29.000Z",
     "url": "https://cointelegraph.com/news/bastion-wins-conditional-occ-approval-for-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
@@ -169,16 +377,16 @@
   },
   {
     "title": "Hong Kong jails ex-banker over $1.6B false credit, cryptocurrency bribes: Report",
-    "description": "\n\nFormer banking official gets four years in prison over false letters of credit and accepting $470,000 in cryptocurrency bribes.\n...",
-    "date": "2026-09-19 07:52:00",
+    "description": "...",
+    "date": "2026-09-19T07:52:00.000Z",
     "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
   },
   {
-    "title": "Hong Kong jails ex-banker over $1.6B false credit, cryptocurrency bribes: Report",
+    "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
     "description": "...",
-    "date": "2026-09-19T07:52:00.000Z",
+    "date": "2026-09-19T07:50:58.000Z",
     "url": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
@@ -238,14 +446,6 @@
     "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia",
     "agency": "NEWS",
     "source": "Decrypt"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-09-18 21:00:00",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "CFTC Sends Proposal To Regulate Crypto Transactions Following Clarity Act Fail",
@@ -329,8 +529,8 @@
   },
   {
     "title": "CFTC submits crypto market regulation plan for White House review",
-    "description": "\n\nThe US commodities regulator submitted a new crypto market regulatory action for White House review days after the Senate failed to advance the CLARITY Act.\n\n...",
-    "date": "2026-09-18 16:04:22",
+    "description": "...",
+    "date": "2026-09-18T16:04:22.000Z",
     "url": "https://cointelegraph.com/news/cftc-submits-crypto-market-regulation-plan-for-white-house-review?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -369,8 +569,8 @@
   },
   {
     "title": "Banks double on EU MiCA crypto provider list as share hits 23%",
-    "description": "\n\nBanks now represent nearly one in four providers on ESMA’s MiCA register after roughly doubling their presence since late June.\n...",
-    "date": "2026-09-18 14:04:43",
+    "description": "...",
+    "date": "2026-09-18T14:04:43.000Z",
     "url": "https://cointelegraph.com/news/banks-double-eu-mica-crypto-register-esma?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -577,8 +777,8 @@
   },
   {
     "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
-    "description": "\n\nUS Treasury says the Iranian exchange processed payments received through Iran’s Strait of Hormuz maritime scheme and helped move hundreds of millions of dollars in Bitcoin to the IRGC.\n...",
-    "date": "2026-09-18 01:33:54",
+    "description": "...",
+    "date": "2026-09-18T01:33:54.000Z",
     "url": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -665,8 +865,8 @@
   },
   {
     "title": "CFTC expands regulatory relief for passive trading software providers",
-    "description": "\n\nThe US regulator’s move could make it easier for crypto wallets and other apps to offer access to regulated derivatives and prediction markets without registering as introducing brokers.\n\n...",
-    "date": "2026-09-17 19:30:48",
+    "description": "...",
+    "date": "2026-09-17T19:30:48.000Z",
     "url": "https://cointelegraph.com/news/cftc-expands-regulatory-relief-for-passive-trading-software-providers?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -16670,397 +16870,5 @@
     "url": "https://www.coindesk.com/policy/2026/07/23/goldman-sachs-ceo-backs-clarity-act-despite-banking-industry-s-concerns-over-stablecoin-rules",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "Strategy, BlackRock form Bitcoin Security Consortium to prepare for quantum computing threat",
-    "description": "...",
-    "date": "2026-07-23T13:40:41.000Z",
-    "url": "https://www.theblock.co/post/409522/strategy-blackrock-form-bitcoin-security-consortium-to-prepare-for-quantum-computing-threat?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "BlackRock, Coinbase, Strategy Among Nine Firms Launching the Bitcoin Security Consortium, Pledging $15 Million To BTC Security Development",
-    "description": "...",
-    "date": "2026-07-23T13:33:43.000Z",
-    "url": "https://bitcoinmagazine.com/news/blackrock-coinbase-strategy-bitcoin",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Latest $3.8 billion RWA recovery shows how quickly DeFi absorbed the KelpDAO shock",
-    "description": "...",
-    "date": "2026-07-23T13:10:17.000Z",
-    "url": "https://cryptoslate.com/a-3-8-billion-rwa-recovery-shows-how-quickly-defi-absorbed-the-kelpdao-shock/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "LayerZero, Keeta enable tokenized bank deposits across Ethereum, Solana and Base",
-    "description": "...",
-    "date": "2026-07-23T13:00:00.000Z",
-    "url": "https://www.theblock.co/post/409507/layerzero-keeta-enable-tokenized-bank-deposits-across-ethereum-solana-and-base?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bitget secures license for New Zealand expansion",
-    "description": "...",
-    "date": "2026-07-23T12:33:07.000Z",
-    "url": "https://cointelegraph.com/news/bitget-secures-license-new-zealand-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Morning Minute: Wall Street Moving Onchain Will Drive the Next Bull Market",
-    "description": "At least that's what Bitwise's CIO believes. Plus Republicans publish new Clarity Act draft, and the SEC Commissioner has a warning for DeFi....",
-    "date": "2026-07-23 12:02:52",
-    "url": "https://decrypt.co/374139/morning-minute-wall-street-moving-onchain-will-drive-the-next-bull-market",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Circle partners with Kakao, Toss Bank to explore stablecoin payment rails in South Korea",
-    "description": "...",
-    "date": "2026-07-23T09:09:42.000Z",
-    "url": "https://www.theblock.co/post/409497/circle-partners-with-kakao-toss?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Live markets: Bitcoin trades above $65,000 as Alphabet's bigger AI bill props up the chip trade",
-    "description": "...",
-    "date": "2026-07-23T09:03:33.000Z",
-    "url": "https://www.coindesk.com/tech/2026/07/23/live-markets-bitcoin-trades-above-usd65-000-as-alphabet-s-bigger-ai-bill-props-up-the-chip-trade",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "BitMEX, the exchange that invented perps, is shutting down",
-    "description": "BitMEX, co-founded by Arthur Hayes in 2014, redefined the global crypto market by introducing the 100x leverage perpetual swap....",
-    "date": "2026-07-23 08:42:26",
-    "url": "https://www.coindesk.com/markets/2026/07/23/bitmex-s-11-year-run-comes-to-an-end-notifies-users-it-is-ending-operations-in-by-sept-23",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "24/7 financial rails: How BNY plans to eliminate the weekend lag in U.S. Treasuries",
-    "description": "The bank will begin testing tokenized Treasuries on a private blockchain by year-end and expand its settlement network to cover more international trading hours....",
-    "date": "2026-07-23 08:42:21",
-    "url": "https://www.coindesk.com/business/2026/07/23/24-7-financial-rails-how-bny-plans-to-eliminate-the-weekend-lag-in-u-s-treasuries",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "New Verus-Ethereum bridge attack drains $7.5 million through flaw used in May: Blockaid",
-    "description": "...",
-    "date": "2026-07-23T08:37:38.000Z",
-    "url": "https://www.theblock.co/post/409489/new-verus-ethereum-bridge-attack?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Bitcoin ETFs approach $1B in 7-session inflow run",
-    "description": "\n\nUS spot Bitcoin ETFs recorded $69 million in inflows on Wednesday, extending their inflow streak to seven sessions and bringing total inflows during the period to nearly $1 billion\n...",
-    "date": "2026-07-23 07:08:25",
-    "url": "https://cointelegraph.com/markets/bitcoin-etfs-1-billion-7-session-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Kakao taps Circle to explore won stablecoin payment infrastructure",
-    "description": "\n\nKakao Group and Circle signed an MOU to explore won stablecoin payments, remittances, merchant settlement and tokenized financial services.\n...",
-    "date": "2026-07-23 06:46:58",
-    "url": "https://cointelegraph.com/news/kakao-circle-won-stablecoin-payment-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Swiss Bank BancaStato Launches Bitcoin Trading Through Sygnum and Avaloq",
-    "description": "...",
-    "date": "2026-07-23T06:00:00.000Z",
-    "url": "https://bitcoinmagazine.com/news/swiss-bank-bancastato-launches-bitcoin",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Swiss bank BancaStato launches regulated crypto trading with Sygnum",
-    "description": "\n\nSwiss cantonal bank BancaStato integrated Sygnum’s crypto trading and custody services into its Avaloq-powered digital banking apps for Bitcoin and other assets.\n...",
-    "date": "2026-07-23 06:00:00",
-    "url": "https://cointelegraph.com/news/bancastato-regulated-crypto-trading-sygnum-avaloq?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Arbitrum-based AFX Trade drained of $24 million after bridge keys compromised",
-    "description": "Security firms said the attacker used enough hot-validator signatures to approve a 24.15 million USDC withdrawal, while Arbitrum said its native bridge was not affected....",
-    "date": "2026-07-23 05:01:06",
-    "url": "https://www.coindesk.com/tech/2026/07/23/arbitrum-based-afx-trade-drained-of-usd24-million-after-bridge-keys-compromised",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bitcoin wilts as oil and rates rise. Clarity Act odds tumble to 38%",
-    "description": "Geopolitical risks, rising rates, and fresh regulatory setbacks send crypto lower as key Democrats demand stronger safeguards in the market structure bill....",
-    "date": "2026-07-23 03:50:20",
-    "url": "https://www.coindesk.com/markets/2026/07/23/bitcoin-wilts-as-oil-and-rates-rise-clarity-act-odds-tumble-to-38",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "SEC settles Coinbase suit over ‘text messages that disappeared’",
-    "description": "...",
-    "date": "2026-07-23T02:57:10.000Z",
-    "url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "SEC settles Coinbase suit over ‘text messages that disappeared’",
-    "description": "\n\nThe settlement follows a watchdog report last year that blamed “avoidable errors” for the loss of nearly a year’s worth of Gary Gensler’s text messages.\n...",
-    "date": "2026-07-23 02:57:10",
-    "url": "https://cointelegraph.com/news/sec-settles-coinbase-suit-over-text-messages-that-disappeared?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Why Tokenized Assets Aren’t Taking off Despite the Hype—What’s Holding Investors Back",
-    "description": "\nAs financial institutions expand tokenized real-world asset (RWA) offerings, Franklin Templeton’s Chetan Karkhanis examines the market’s evolution, its remaining structural barriers, and what could b...",
-    "date": "2026-07-23 02:30:12",
-    "url": "https://news.bitcoin.com/why-tokenized-assets-arent-taking-off-despite-the-hype-whats-holding-investors-back/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ripple Makes CNBC’s 2026 Top Fintech List as Digital Assets Enter Institutional Era",
-    "description": "\nCNBC says digital assets are becoming institutionalized as banks, asset managers, and payments companies adopt blockchain infrastructure, with Ripple recognized among firms developing technology for ...",
-    "date": "2026-07-23 01:30:23",
-    "url": "https://news.bitcoin.com/ripple-makes-cnbcs-2026-top-fintech-list-as-digital-assets-enter-institutional-era/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Democrats Reject CLARITY Act Draft as Crypto Ethics Dispute Intensifies",
-    "description": "\nSeven Senate Democrats rejected the latest CLARITY Act draft, saying it does not go far enough on ethics, consumer protection, and illicit finance, while Republicans argue the bill contains the stron...",
-    "date": "2026-07-23 00:17:39",
-    "url": "https://news.bitcoin.com/democrats-reject-clarity-act-draft-as-crypto-ethics-dispute-intensifies/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Senator Lummis: Ethics, other provisions in crypto Clarity Act to be further discussed",
-    "description": "...",
-    "date": "2026-07-22T23:19:41.000Z",
-    "url": "https://www.coindesk.com/policy/2026/07/22/senator-lummis-ethics-other-provisions-in-crypto-clarity-act-to-be-further-discussed",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Kambi Calls Entirely AI-Traded World Cup a Success, Weighs Prediction Market Entry",
-    "description": "\nKambi says its first entirely AI-traded World Cup processed more than $1.14 billion in stakes and over 100 million bets without manual trading intervention. The sportsbook supplier is also evaluating...",
-    "date": "2026-07-22 23:10:40",
-    "url": "https://news.bitcoin.com/kambi-calls-entirely-ai-traded-world-cup-a-success-weighs-prediction-market-entry/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Key Democratic lawmakers say crypto Clarity Act 'falls short' on ethics, other issues",
-    "description": "...",
-    "date": "2026-07-22T22:22:25.000Z",
-    "url": "https://www.coindesk.com/policy/2026/07/22/key-democratic-lawmakers-say-crypto-clarity-act-falls-short-on-ethics-other-issues",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bipartisan support ‘critical’ as Democrats push back on GOP crypto bill on ethics grounds",
-    "description": "...",
-    "date": "2026-07-22T21:57:28.000Z",
-    "url": "https://www.theblock.co/post/409470/bipartisan-support-critical-as-democrats-push-back-on-gop-crypto-bill-on-ethics-grounds?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "950K Contacts Back CLARITY Act as Coinbase CEO Says Bill Is Ready for Full Senate Vote",
-    "description": "...",
-    "date": "2026-07-22T21:23:47.000Z",
-    "url": "https://news.bitcoin.com/950k-contacts-back-clarity-act-as-coinbase-ceo-says-bill-is-ready-for-full-senate-vote/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Nasdaq-listed Zhibao Technology to Take 3,500 Bitcoin in Proposed PIPE Financing",
-    "description": "\nBitcoin MagazineNasdaq-listed Zhibao Technology to Take 3,500 Bitcoin in Proposed PIPE Financing\nNasdaq-listed Zhibao Technology plans to accept 3,500 bitcoin in a proposed $220 million PIPE deal, a ...",
-    "date": "2026-07-22 21:15:49",
-    "url": "https://bitcoinmagazine.com/news/zhibao-technology-to-take-3500-bitcoin",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Bitcoin ETFs Add $203 Million as Assets Climb Above $80 Billion",
-    "description": "...",
-    "date": "2026-07-22T20:47:07.000Z",
-    "url": "https://news.bitcoin.com/bitcoin-etfs-add-203-million-as-assets-climb-above-80-billion/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Tesla holds bitcoin treasury steady, reports $112M impairment loss",
-    "description": "...",
-    "date": "2026-07-22T20:40:24.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/22/tesla-holds-bitcoin-steady-reports-usd112m-impairment-loss",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Benchmark Raises Hut 8 Price Target After Bitcoin Miner Signs $9.8 Billion AI Data Center Deal",
-    "description": "...",
-    "date": "2026-07-22T20:02:28.000Z",
-    "url": "https://bitcoinmagazine.com/markets/benchmark-ups-bitcoin-miner-hut8-price",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "US officials barred until 2029 from issuing or sponsoring tokens under CLARITY’s proposed ethics rules",
-    "description": "\n\nAccording to Senator Cynthia Lummis, one of the bill’s advocates, the ethics language would apply to US presidents’ crypto ventures, including Donald Trump’s.\n...",
-    "date": "2026-07-22 18:41:30",
-    "url": "https://cointelegraph.com/news/clarity-act-ethics-public-officials-president-barred-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "New CLARITY Act update bans officials including presidents from issuing or even holding crypto tokens",
-    "description": "\nOn July 22, US Senate Republicans released an updated version of the CLARITY Act, moving one of Washington’s most consequential cryptocurrency bills back toward a potential floor vote. The updated te...",
-    "date": "2026-07-22 18:15:09",
-    "url": "https://cryptoslate.com/new-clarity-act-update-bans-officials-including-presidents-from-issuing-crypto/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Clarity Act Latest Draft Bars Trump From Crypto Ventures—But Only Until 2029",
-    "description": "The long-awaited market-structure bill would block officials and their spouses from issuing digital assets and shield non-custodial developers, but the ethics ban expires in 2029 and enforcement rests...",
-    "date": "2026-07-22 17:51:54",
-    "url": "https://decrypt.co/374056/clarity-act-draft-trump-crypto-ventures",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "MVMT Labs bankruptcy lists under $1 million in assets after $38M raise",
-    "description": "\nMVMT Labs is the sole named debtor, while Move Industries says it is uninvolved and key asset boundaries remain unresolved.\nThe post MVMT Labs bankruptcy lists under $1 million in assets after $38M r...",
-    "date": "2026-07-22 17:50:08",
-    "url": "https://cryptoslate.com/mvmt-labs-bankruptcy-lists-only-1-million-in-assets-after-movement-labs-announced-a-38m-raise/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "SEC’s Peirce says crypto vaults and onchain lending may fall under securities laws",
-    "description": "...",
-    "date": "2026-07-22T17:39:57.000Z",
-    "url": "https://cointelegraph.com/news/secs-hester-peirce-says-crypto-vaults-and-onchain-lending-may-fall-under-securities-laws?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "New Clarity Act Draft Would Bar Trump and Officials From Issuing Crypto, With a 2029 Sunset",
-    "description": "\nBitcoin MagazineNew Clarity Act Draft Would Bar Trump and Officials From Issuing Crypto, With a 2029 Sunset\nSenate Republicans unveiled a revised Clarity Act that adds a temporary ban on top federal ...",
-    "date": "2026-07-22 17:28:56",
-    "url": "https://bitcoinmagazine.com/news/new-clarity-act-draft-bar-trump",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "SEC reaches settlement with Coinbase over records requests from Gensler era",
-    "description": "...",
-    "date": "2026-07-22T16:55:08.000Z",
-    "url": "https://www.theblock.co/post/409437/sec-reaches-settlement-coinbase-over-records-requests-gensler-era?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "US targets $26.4 million in five crypto scam cases as DOJ says $800 million recovered",
-    "description": "\nThe filings show an asset-first strategy, but restraint, forfeiture and victim repayment remain separate stages.\nThe post US targets $26.4 million in five crypto scam cases as DOJ says $800 million r...",
-    "date": "2026-07-22 16:45:50",
-    "url": "https://cryptoslate.com/us-targets-26-4-million-in-five-crypto-scam-cases-as-doj-says-800-million-recovered/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Digital Chamber sues Illinois officials over new state 0.2% crypto tax",
-    "description": "\n\nThe group alleged that the tax signed into law in June “discriminates against people who transact in digital assets“ and should be blocked from implementation and enforcement.\n...",
-    "date": "2026-07-22 16:28:10",
-    "url": "https://cointelegraph.com/news/digital-chamber-lawsuit-illinois-crypto-tax?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Revolut hits $115 billion valuation in employee share sale: WSJ",
-    "description": "...",
-    "date": "2026-07-22T15:53:54.000Z",
-    "url": "https://www.coindesk.com/business/2026/07/22/revolut-hits-usd115-billion-valuation-in-employee-share-sale-wsj",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
-    "description": "...",
-    "date": "2026-07-22T15:37:36.000Z",
-    "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Celsius founders face permanent crypto bans that could cost more than their $16.5M obligations",
-    "description": "\nTogether, the court-entered orders restrict marketing across deposit, exchange, investment, withdrawal and trading products, including assisted activity.\nThe post Celsius founders face permanent cryp...",
-    "date": "2026-07-22 15:35:04",
-    "url": "https://cryptoslate.com/celsius-founders-face-permanent-crypto-bans-that-could-cost-more-than-their-16-5m-in-obligations/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Coinbase Settles FOIA Fight With the SEC Over Gensler’s Vanished Texts",
-    "description": "...",
-    "date": "2026-07-22T15:16:06.000Z",
-    "url": "https://bitcoinmagazine.com/news/coinbase-settles-foia-fight-with-the-sec",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "‘You will have a painful fall’: SEC’s Peirce warns crypto vault builders against twisting securities law",
-    "description": "...",
-    "date": "2026-07-22T15:11:57.000Z",
-    "url": "https://www.theblock.co/post/409409/you-will-have-a-painful-fall-secs-peirce-warns-crypto-vault-builders-against-twisting-securities-law?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "US Seizes More Than $25M in Crypto Tied to Investment and Romance Scams",
-    "description": "Prosecutors filed five forfeiture cases as Secret Service agents traced funds from thousands of victims to launderers in Southeast Asia....",
-    "date": "2026-07-22 15:10:46",
-    "url": "https://decrypt.co/374049/us-seizes-more-than-25m-in-crypto-tied-to-investment-and-romance-scams",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Benchmark lowers Coinbase earnings estimates but says Clarity Act could eclipse weak second quarter",
-    "description": "...",
-    "date": "2026-07-22T15:03:42.000Z",
-    "url": "https://www.theblock.co/post/409390/benchmark-lowers-coinbase-earnings-estimates-clarity-act-eclipse-weak-quarter?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Centralized Elements 'Frequently Persist' in DeFi and Should Be Regulated: FATF",
-    "description": "Nearly every country has yet to apply the rules, the watchdog said, warning of outright bans for platforms that don’t comply....",
-    "date": "2026-07-22 14:41:56",
-    "url": "https://decrypt.co/374041/centralized-elements-frequently-persist-in-defi-and-should-be-regulated-fatf",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Tokenized equity perps drive RWA trading boom to $470 billion monthly volume",
-    "description": "...",
-    "date": "2026-07-22T14:08:01.000Z",
-    "url": "https://www.theblock.co/post/408961/tokenized-equity-perps-drive-rwa-trading-boom-to-470-billion-monthly-volume?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
   }
 ]
