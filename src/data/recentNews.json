@@ -1,5 +1,365 @@
 [
   {
+    "title": "KelpDAO Takes Layerzero to Court Over a $292M Bridge Blowup",
+    "description": "...",
+    "date": "2026-09-25T10:30:13.000Z",
+    "url": "https://news.bitcoin.com/regulation-and-legal/kelpdao-takes-layerzero-to-court-over-a-292m-bridge-blowup/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Grayscale’s Zcash ETF Hits $1 Billion but Most of It Isn’t New Money",
+    "description": "...",
+    "date": "2026-09-25T09:30:24.000Z",
+    "url": "https://news.bitcoin.com/crypto-news/grayscale-zcash-etf-zcsh-1-billion-aum-inflows/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin ETFs have erased a $5.8 billion hole",
+    "description": "...",
+    "date": "2026-09-25T09:13:01.000Z",
+    "url": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+    "description": "\n\nKelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.\n...",
+    "date": "2026-09-25 08:51:17",
+    "url": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bond Yields Hit a 24-Year High: Schiff, Ackman, Hayes Can’t Agree Why",
+    "description": "\nThe 30-year U.S. Treasury yield closed at 5.47% on Sept. 24, its highest since February 2002. Peter Schiff, Bill Ackman, Brian Armstrong and Arthur Hayes are reading the hike in four different ways. ...",
+    "date": "2026-09-25 08:30:01",
+    "url": "https://news.bitcoin.com/finance/bond-yields-24-year-high-schiff-ackman-armstrong-hayes-bitcoin/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Live updates: Bitcoin steadies near $84,000 as the bond selloff pauses",
+    "description": "Treasury yields eased from multi-decade highs and oil slipped on reports of a phased U.S.-Iran deal, with roughly $14 billion in bitcoin options set to expire on Deribit on Friday....",
+    "date": "2026-09-25 07:09:11",
+    "url": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Amazon vs Meta: Why ZK Cryptography Could Secure the Future of AI Commerce",
+    "description": "...",
+    "date": "2026-09-25T06:50:03.000Z",
+    "url": "https://news.bitcoin.com/technology/amazon-vs-meta-why-zk-cryptography-could-secure-the-future-of-ai-commerce/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-09-25 05:30:56",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "North Capital Deal Expands Moonpay’s Tokenized Securities Ambitions",
+    "description": "...",
+    "date": "2026-09-25T05:30:25.000Z",
+    "url": "https://news.bitcoin.com/finance/north-capital-deal-expands-moonpays-tokenized-securities-ambitions/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Ondo unlocks BlackRock portfolio strategies, but only non-US traders benefit",
+    "description": "\nBlackRock supplies the allocations; Ondo issues the securities and requires onboarding before direct minting or redemption.\nThe post Ondo unlocks BlackRock portfolio strategies, but only non-US trade...",
+    "date": "2026-09-25 05:20:44",
+    "url": "https://cryptoslate.com/ondo-unlocks-blackrock-portfolio-strategies-but-only-non-us-traders-benefit/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Australian PM warns of AI’s ‘furious pace’ after agent breached government site",
+    "description": "\n\nAnthony Albanese said governments must help shape AI’s development, after revealing earlier that an OpenAI agent accessed non-public files on an Australian Medicare data portal.\n...",
+    "date": "2026-09-25 05:06:22",
+    "url": "https://cointelegraph.com/news/australia-pm-warns-of-ais-furious-pace-after-agent-breached-government-site?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Lightning Labs discloses critical bug marking canceled invoices paid, risking free product delivery",
+    "description": "\nThe disclosed flaw affected older software and could mislead merchants; the tapd and lnd fixes shipped in 2025.\nThe post Lightning Labs discloses critical bug marking canceled invoices paid, risking ...",
+    "date": "2026-09-25 00:40:46",
+    "url": "https://cryptoslate.com/lightning-labs-discloses-critical-bug-marking-canceled-invoices-paid-risking-free-product-delivery/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+    "description": "\n\nBitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group. \n...",
+    "date": "2026-09-25 00:32:46",
+    "url": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "New York sues Polymarket, seeks triple gains and $100,000 penalties over prediction markets",
+    "description": "\nNew York has sued Polymarket, alleging its US prediction market is an unlicensed gambling business operating across the state. On Sept. 24, Attorney General Letitia James asked a New York state court...",
+    "date": "2026-09-24 22:50:47",
+    "url": "https://cryptoslate.com/new-york-sues-polymarket-seeks-triple-gains-and-100000-penalties-over-prediction-markets/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+    "description": "The state wants to block Polymarket from operating without a gambling license and recover allegedly illegal gains....",
+    "date": "2026-09-24 22:41:44",
+    "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+    "description": "The Fed proposed rules on putting last year's GENIUS Act into place with regulations, including those governing stablecoin yield programs....",
+    "date": "2026-09-24 22:28:49",
+    "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+    "description": "\n\nThe Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.\n...",
+    "date": "2026-09-24 22:10:09",
+    "url": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "New York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation",
+    "description": "\nBitcoin MagazineNew York Sues Polymarket, Calling Prediction Market an Illegal Gambling Operation\nAttorney General Letitia James and Governor Kathy Hochul allege Polymarket operates without a license...",
+    "date": "2026-09-24 22:09:02",
+    "url": "https://bitcoinmagazine.com/news/new-york-sues-polymarket",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+    "description": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to i...",
+    "date": "2026-09-24 21:56:03",
+    "url": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Bitget confirms $352M security breach, suspends withdrawals",
+    "description": "...",
+    "date": "2026-09-24T21:47:17.000Z",
+    "url": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+    "description": "...",
+    "date": "2026-09-24T21:42:51.000Z",
+    "url": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+    "description": "...",
+    "date": "2026-09-24T21:42:51.000Z",
+    "url": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bitget confirms $351.6 million security breach affecting exchange hot wallets",
+    "description": "...",
+    "date": "2026-09-24T21:20:47.000Z",
+    "url": "https://www.theblock.co/news/markets/2026-09-24-more-than-170-million-in-crypto-moves-from-bitget-wallets-unidentified-address-416345",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "SEC Commissioner Hester ‘Crypto Mom’ Peirce Advocates Privacy-Preserving Tech",
+    "description": "...",
+    "date": "2026-09-24T20:58:35.000Z",
+    "url": "https://bitcoinmagazine.com/news/hester-peirce-advocates-privacy-tech",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+    "description": "...",
+    "date": "2026-09-24T20:32:16.000Z",
+    "url": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+    "description": "The group aims to link onchain shares to official shareholder records following the U.S. SEC's innovation exemption for tokenized stock trading....",
+    "date": "2026-09-24 20:05:00",
+    "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+    "description": "...",
+    "date": "2026-09-24T20:04:46.000Z",
+    "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+    "description": "...",
+    "date": "2026-09-24T20:01:03.000Z",
+    "url": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Man sentenced to 12 years for $16M Coinbase customer support scam",
+    "description": "\nBrooklyn prosecutors say about 100 U.S. users were told their funds were at risk and steered into wallets Spektor could access.\nThe post Man sentenced to 12 years for $16M Coinbase customer support s...",
+    "date": "2026-09-24 20:00:28",
+    "url": "https://cryptoslate.com/man-sentenced-to-12-years-for-16m-coinbase-customer-support-scam/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+    "description": "...",
+    "date": "2026-09-24T19:17:47.000Z",
+    "url": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
+    "description": "...",
+    "date": "2026-09-24T18:37:22.000Z",
+    "url": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+    "description": "...",
+    "date": "2026-09-24T17:51:31.000Z",
+    "url": "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+    "description": "...",
+    "date": "2026-09-24T17:31:03.000Z",
+    "url": "https://decrypt.co/379217/sec-peirce-end-kyc-panopticon-zero-knowledge-proofs",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Crypto treasury model loses its edge as stock premiums fade: DWF",
+    "description": "...",
+    "date": "2026-09-24T17:14:35.000Z",
+    "url": "https://cointelegraph.com/news/crypto-treasury-firms-below-nav-sequans-bitcoin-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Sequans exits Bitcoin treasury strategy after selling remaining 314 BTC",
+    "description": "...",
+    "date": "2026-09-24T17:13:38.000Z",
+    "url": "https://cointelegraph.com/news/sequans-exits-bitcoin-treasury-strategy-after-selling-remaining-314-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "US Aims to Turn Stablecoins Into a Weapon for Dollar Dominance",
+    "description": "Washington may fund private stablecoin ventures abroad to protect the dollar's reserve status and prop up Treasury demand....",
+    "date": "2026-09-24 16:55:43",
+    "url": "https://decrypt.co/379219/us-stablecoins-weapon-dollar-dominance",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "New York moves to block Polymarket from the state, alleging it’s running an illegal gambling operation",
+    "description": "New York has sued Polymarket, accusing it of operating an illegal gambling operation and asking a court to block it from operating....",
+    "date": "2026-09-24 16:25:05",
+    "url": "https://www.theblock.co/news/regulation/2026-09-24-new-york-block-polymarket-alleging-illegal-gambling-operation-416279",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Bitcoin Traders Brace for $15B Options Expiry as Bulls Eye $100,000",
+    "description": "\nBitcoin MagazineBitcoin Traders Brace for $15B Options Expiry as Bulls Eye $100,000\nThere are more bitcoin bets on higher prices ahead of Friday’s expiry. \nThis post Bitcoin Traders Brace for $15B Op...",
+    "date": "2026-09-24 16:16:37",
+    "url": "https://bitcoinmagazine.com/markets/bitcoin-traders-await-15-billion-expiry",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "SoFi tie-up shows stablecoins can provide alternative blockchain settlement rail",
+    "description": "...",
+    "date": "2026-09-24T15:57:00.000Z",
+    "url": "https://cointelegraph.com/news/sofi-moves-25b-card-program-to-stablecoin-settlement-with-mastercard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "New York sues Polymarket over alleged illegal gambling business",
+    "description": "\n\nThe action filed by state lawmakers followed a similar lawsuit against prediction markets company Kalshi in July that alleged the platform was running an illegal gambling operation.\n...",
+    "date": "2026-09-24 15:27:29",
+    "url": "https://cointelegraph.com/news/new-york-polymarket-illegal-gambling-operation-lawsuit?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "UK’s largest banks complete world’s first interbank transactions using tokenized deposits",
+    "description": "...",
+    "date": "2026-09-24T15:07:18.000Z",
+    "url": "https://www.coindesk.com/business/2026/09/24/uk-s-largest-banks-complete-world-s-first-interbank-transactions-using-tokenized-deposits",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Former CFTC Commissioner Giancarlo: Why Rate Hikes Could Benefit Bitcoin",
+    "description": "...",
+    "date": "2026-09-24T13:06:00.000Z",
+    "url": "https://bitcoinmagazine.com/videos/former-cftc-commissioner-giancarlo-why-rate-hikes-could-benefit-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Elliptic Wants Every Cop to Read a Crypto Wallet in Seconds—With AI",
+    "description": "...",
+    "date": "2026-09-24T13:01:03.000Z",
+    "url": "https://decrypt.co/379113/elliptic-crypto-wallet-ai-pulse",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes",
+    "description": "...",
+    "date": "2026-09-24T13:00:00.000Z",
+    "url": "https://www.coindesk.com/business/2026/09/24/cathie-wood-s-ark-teams-with-securitize-to-tokenize-venture-fund-with-openai-anthropic-stakes",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "HIFI raises $37 million Series A to expand tokenized capital markets infrastructure",
+    "description": "HIFI raised $37 million in Series A funding led by Left Lane Capital to scale tokenized settlement infrastructure....",
+    "date": "2026-09-24 12:00:00",
+    "url": "https://www.theblock.co/news/business/2026-09-24-hifi-raises-37-million-series-a-to-expand-tokenized-capital-markets-infrastructure-416242",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
     "title": "Morning Minute: Selig Says ‘It’s Go Time’ for CFTC Crypto Rules",
     "description": "...",
     "date": "2026-09-24T11:56:11.000Z",
@@ -94,14 +454,6 @@
     "url": "https://news.bitcoin.com/igaming/5-billion-nearly-identical-kalshi-trades-draw-cftc-scrutiny/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-09-24 05:23:34",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   },
   {
     "title": "US weighs overseas push for dollar-backed stablecoins: Bloomberg",
@@ -368,20 +720,20 @@
     "source": "CoinDesk"
   },
   {
-    "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
-    "description": "...",
-    "date": "2026-09-23T13:00:00.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
     "title": "Stablecoin adoption intent rises from 36% to 56% with bank-level protections, Visa says",
     "description": "...",
     "date": "2026-09-23T13:00:00.000Z",
     "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136",
     "agency": "NEWS",
     "source": "The Block"
+  },
+  {
+    "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
+    "description": "...",
+    "date": "2026-09-23T13:00:00.000Z",
+    "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
+    "agency": "NEWS",
+    "source": "CoinDesk"
   },
   {
     "title": "Galaxy adds $100 million in Sky’s sUSDS to treasury, buys SKY token as firms deepen lending ties",
@@ -16846,213 +17198,5 @@
     "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "Strategy extends bitcoin pause to five weeks, sells $544.5 million in MSTR as USD reserve hits $3.75 billion",
-    "description": "...",
-    "date": "2026-07-27T12:23:19.000Z",
-    "url": "https://www.theblock.co/post/409721/strategy-extends-bitcoin-pause-to-five-weeks-sells-544-5-million-in-mstr-as-usd-reserve-hits-3-75-billion?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Michael Saylor's Strategy boosted cash reserve to $3.75 billion, repurchased $25 million of STRC",
-    "description": "...",
-    "date": "2026-07-27T12:12:54.000Z",
-    "url": "https://www.coindesk.com/markets/2026/07/27/michael-saylor-s-strategy-boosted-cash-reserve-to-usd3-75-billion",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "STORJ token falls 20% as decentralized storage firm files for Chapter 11 bankruptcy amid crypto shutdown wave",
-    "description": "...",
-    "date": "2026-07-27T11:31:27.000Z",
-    "url": "https://www.theblock.co/post/409712/storj-token-falls-20-as-decentralized-storage-firm-files-for-chapter-11-bankruptcy-amid-crypto-shutdown-wave?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Saylor: Rejecting Bitcoin’s Bank and Market Integration ‘Dooms It to 1% of Its Potential’",
-    "description": "...",
-    "date": "2026-07-27T11:05:13.000Z",
-    "url": "https://news.bitcoin.com/saylor-bitcoin-bank-integration-99-percent/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "BNY Mellon unit joins MiCA register as ESMA adds 15 providers",
-    "description": "\n\nBNY Mellon’s European subsidiary joined the MiCA register as ESMA added 15 CASPs, including banks and crypto platforms, in the third post-deadline update.\n...",
-    "date": "2026-07-27 10:38:09",
-    "url": "https://cointelegraph.com/news/mica-register-expands-third-post-deadline-update?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "KB Kookmin Taps JPMorgan’s Kinexys as South Korea’s Largest Bank Pushes Instant Dollar Payments",
-    "description": "...",
-    "date": "2026-07-27T10:05:50.000Z",
-    "url": "https://news.bitcoin.com/kb-kookmin-jpmorgan-kinexys-cross-border-payments/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Brazilian police bust cocaine traffickers in crypto-linked transnational probe",
-    "description": "\n\nBrazilian police suspect the group of shipping around 6.5 metric tons of cocaine and laundering billions in Brazilian reals through crypto-enabled illicit money brokers.\n\n...",
-    "date": "2026-07-27 09:29:49",
-    "url": "https://cointelegraph.com/news/brazilian-police-cracks-down-on-crypto-fueled-international-drug-traffickers-suspected-of-moving-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Thailand's SEC Files Criminal Complaint Against Bitkub Over Undisclosed $47M Hack",
-    "description": "...",
-    "date": "2026-07-27T09:16:14.000Z",
-    "url": "https://decrypt.co/374343/thailands-sec-files-criminal-complaint-against-bitkub-over-undisclosed-47m-hack",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Cloud data firm Storj files for Chapter 11, extending a week of crypto failures. Token slides 16%",
-    "description": "The decentralized data storage company says operations continue and proposes that token holders take equity in the restructured business — an unusual arrangement in bankruptcy....",
-    "date": "2026-07-27 09:15:43",
-    "url": "https://www.coindesk.com/business/2026/07/27/cloud-data-firm-storj-files-for-chapter-11-extending-a-week-of-crypto-failures-token-slides-16",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "SUI Slips to Support Near $0.72 as Traders Eye a Gaussian Channel Bounce",
-    "description": "\nSUI dropped back to the lower band of its Gaussian Channel indicator this week, trading near $0.72 as chart watchers debate whether the token can climb back toward the midpoint. The pullback landed a...",
-    "date": "2026-07-27 09:05:25",
-    "url": "https://news.bitcoin.com/sui-price-gaussian-channel-support/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Inside the $87 million BTC sell-off driving a Bitcoin treasury pivot into AI data centers",
-    "description": "...",
-    "date": "2026-07-27T08:22:36.000Z",
-    "url": "https://cryptoslate.com/inside-the-87-million-bitcoin-sell-off-driving-a-companys-high-stakes-pivot-into-ai-data-centers/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Lummis: CLARITY Act Closes Gaps North Korea’s Lazarus Group Used to Steal $6.75 Billion",
-    "description": "...",
-    "date": "2026-07-27T08:05:38.000Z",
-    "url": "https://news.bitcoin.com/lummis-clarity-act-lazarus-group-treasury-freeze/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "South Korea’s KB Kookmin Bank to launch cross-border payment service on JPMorgan’s Kinexys: report",
-    "description": "...",
-    "date": "2026-07-27T06:38:09.000Z",
-    "url": "https://www.theblock.co/post/409702/kb-kookmin-bank-payment-jpmorgans-kinexys?utm_source=rss&utm_medium=rss",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "A Gamer Boosted His RAM With DIY Copper Pipe Heatsinks in 45 Minutes",
-    "description": "\nA PC modder known as sunrise2209 shared a DIY RAM cooling hack on Reddit, crafting copper pipe heatsinks in about 45 minutes per stick to avoid spending roughly $20 on commercial versions. The build ...",
-    "date": "2026-07-27 05:30:00",
-    "url": "https://news.bitcoin.com/a-gamer-boosted-his-ram-with-diy-copper-pipe-heatsinks-in-45-minutes-49201/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Triple-A confirms treasury-wallet breach after losses reach $11.8M",
-    "description": "...",
-    "date": "2026-07-27T05:15:54.000Z",
-    "url": "https://cointelegraph.com/news/triple-a-treasury-wallet-breach-11-8-million-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "BitMart withdrawals appear to slow following wind-down announcement",
-    "description": "\n\nUsers reported withdrawal delays and freeze notices as wallets attributed to BitMart fell to about $69 million and its BMX token extended an 81.5% weekly decline.\n...",
-    "date": "2026-07-27 04:34:44",
-    "url": "https://cointelegraph.com/news/bitmart-withdrawals-slow-exchange-wind-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Latam Insights: Tokenized Cows in Brazil, El Salvador’s Remittance Reality, and Argentina’s Crypto Bill",
-    "description": "...",
-    "date": "2026-07-27T04:30:57.000Z",
-    "url": "https://news.bitcoin.com/latam-insights-tokenized-cows-in-brazil-el-salvadors-remittance-reality-and-argentinas-crypto-bill/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Storj files for bankruptcy, explores equity path for tokenholders",
-    "description": "...",
-    "date": "2026-07-27T01:01:43.000Z",
-    "url": "https://cointelegraph.com/news/storj-chapter-11-bankruptcy-tokenholder-equity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "CLARITY Act Passage Odds Cut to 30% as Senate Vote Faces Challenges",
-    "description": "\nGalaxy Research lowered its estimate for the CLARITY Act becoming law in 2026 to 30% after lawmakers released final text of the crypto market structure bill, with unresolved disputes threatening the ...",
-    "date": "2026-07-27 00:30:10",
-    "url": "https://news.bitcoin.com/clarity-act-passage-odds-cut-to-30-as-senate-vote-faces-challenges/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "CLARITY hopes fade, BitMEX shuts as lawsuit looms: Hodler’s Digest, July 26",
-    "description": "...",
-    "date": "2026-07-27T00:03:44.000Z",
-    "url": "https://cointelegraph.com/magazine/clarity-hopes-fade-bitmex-shuts-as-lawsuit-looms-hodlers-digest-july-27?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
-    "description": "...",
-    "date": "2026-07-26T17:45:05.000Z",
-    "url": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
-    "description": "...",
-    "date": "2026-07-26T17:45:05.000Z",
-    "url": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Lawsuit claims 3.8M dormant BTC using police lost-and-found rules as Congress races to stop it with CLARITY",
-    "description": "...",
-    "date": "2026-07-26T17:40:35.000Z",
-    "url": "https://cryptoslate.com/clarity-moves-to-close-the-legal-opening-behind-the-200-billion-bitcoin-case/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
-    "description": "...",
-    "date": "2026-07-26T16:07:11.000Z",
-    "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Russia’s Sberbank to launch crypto trading infrastructure this year",
-    "description": "...",
-    "date": "2026-07-26T16:07:11.000Z",
-    "url": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin traders ran out of excuses for the market’s flatline – and now a $2.5 billion bet is running out of time",
-    "description": "...",
-    "date": "2026-07-26T15:25:30.000Z",
-    "url": "https://cryptoslate.com/bitcoin-traders-ran-out-of-excuses-for-the-markets-flatline-and-now-a-2-5-billion-bet-is-running-out-of-time/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
   }
 ]
