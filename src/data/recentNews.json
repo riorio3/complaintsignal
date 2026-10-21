@@ -1,5 +1,93 @@
 [
   {
+    "title": "SpaceX’s $194 billion share unlock exposes a major risk in Aave’s tokenized stock ambitions",
+    "description": "...",
+    "date": "2026-10-21T09:50:35.000Z",
+    "url": "https://cryptoslate.com/spacexs-194-billion-share-unlock-exposes-a-major-risk-in-aaves-tokenized-stock-ambitions/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Just 0.7 Bitcoin Now Makes You a Billionaire in Indonesia",
+    "description": "...",
+    "date": "2026-10-21T07:30:02.000Z",
+    "url": "https://news.bitcoin.com/market-updates/bitcoin-rupiah-billionaire-indonesia/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Germany’s main savings bank network launches Bitcoin trading",
+    "description": "...",
+    "date": "2026-10-21T07:10:17.000Z",
+    "url": "https://cryptoslate.com/germanys-main-savings-bank-network-launches-bitcoin-trading/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Switzerland approves landmark Bitcoin ETF after ruling trading volume sufficient",
+    "description": "...",
+    "date": "2026-10-21T04:40:25.000Z",
+    "url": "https://cryptoslate.com/switzerland-approves-landmark-bitcoin-etf-after-ruling-trading-volume-sufficient/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "U.S. CFTC sets agenda for AI forum, exploring trading and agentic finance",
+    "description": "...",
+    "date": "2026-10-20T21:12:21.000Z",
+    "url": "https://www.coindesk.com/policy/2026/10/20/u-s-cftc-sets-agenda-for-ai-forum-exploring-trading-and-agentic-finance",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Crypto firms, Wall Street push SEC to revise Regulation Crypto Assets as comments close",
+    "description": "...",
+    "date": "2026-10-20T19:19:54.000Z",
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-sec-regulation-crypto-assets-comment-period-hyperliquid-sifma-aima-421444",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Utah likens Kalshi to a ‘back-alley gambling den’ in lawsuit naming Susquehanna firms",
+    "description": "...",
+    "date": "2026-10-20T19:12:38.000Z",
+    "url": "https://www.theblock.co/news/regulation/2026-10-20-utah-likens-kalshi-back-alley-gambling-den-lawsuit-naming-susquehanna-firms-421442",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "What Is Strategy (MSTR)? The Bitcoin Treasury Company",
+    "description": "...",
+    "date": "2026-10-20T16:17:02.000Z",
+    "url": "https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Blockchain.com rolls out crypto options as it pursues US derivatives licenses",
+    "description": "...",
+    "date": "2026-10-20T14:31:29.000Z",
+    "url": "https://www.theblock.co/news/markets/2026-10-20-blockchain-com-launches-options-trading-bitcoin-ether-sol-421326",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "French Lawmakers Back Stablecoin Swap Tax by Just One Vote",
+    "description": "...",
+    "date": "2026-10-20T14:04:10.000Z",
+    "url": "https://decrypt.co/381413/french-lawmakers-back-stablecoin-swap-tax-by-just-one-vote",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre",
+    "description": "...",
+    "date": "2026-10-20T13:35:08.000Z",
+    "url": "https://www.coindesk.com/business/2026/10/20/kazakhstan-court-bars-coinbase-five-others-from-unlicensed-crypto-services-in-astana-international-financial-centre",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
     "title": "Swiss regulator FINMA approves country’s first spot bitcoin ETF for retail investors",
     "description": "FINMA approved Switzerland's first retail bitcoin ETF, following earlier crypto ETP listings and a fund restricted to qualified investors....",
     "date": "2026-10-20 12:15:05",
@@ -11,17 +99,17 @@
     "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
     "description": "...",
     "date": "2026-10-20T12:13:44.000Z",
-    "url": "https://cointelegraph.com/news/uk-banks-crypto-transfer-complaints-stand-with-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
-    "description": "\n\nUK banks are facing scrutiny over crypto transfer limits and bans as Stand With Crypto reports thousands of complaints ahead of the country’s 2027 regulatory regime.\n...",
-    "date": "2026-10-20 12:13:44",
     "url": "https://cointelegraph.com/news/uk-banks-crypto-transfer-complaints-stand-with-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
+  },
+  {
+    "title": "Lloyds and Barclays among UK banks named in crypto transfer complaints, advocacy group says",
+    "description": "...",
+    "date": "2026-10-20T12:13:44.000Z",
+    "url": "https://cointelegraph.com/news/uk-banks-crypto-transfer-complaints-stand-with-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "Netflix FTX trailer was ‘enough to upset me’ in first 30 seconds: former FTX COO",
@@ -14000,14 +14088,6 @@
     "source": "Bitcoin.com News"
   },
   {
-    "title": "What Is Strategy (MSTR)? The Bitcoin Treasury Company",
-    "description": "...",
-    "date": "2026-08-28T16:08:02.000Z",
-    "url": "https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
     "title": "Bitcoin Drops Before Shrugging Off Fed Chair’s Inflation Comments ",
     "description": "\nBitcoin MagazineBitcoin Drops Before Shrugging Off Fed Chair’s Inflation Comments \nBitcoin dropped, then popped after Federal Reserve Chair Kevin Warsh gave his first major speech as head of the U.S....",
     "date": "2026-08-28 15:49:18",
@@ -15494,269 +15574,5 @@
     "url": "https://www.coindesk.com/news-analysis/2026/08/21/kalshi-off-limits-in-multiple-states-as-prediction-markets-cftc-team-up-for-battle",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-    "description": "Bitcoin and crypto staged their strongest rally in months as Treasury intervention, regulatory moves and a historic short squeeze collided, while banks and technology companies pushed deeper into stab...",
-    "date": "2026-08-22 12:00:00",
-    "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Adam Back’s Bitcoin treasury deal died, but its $15M obligation did not",
-    "description": "\nThe public Bitcoin treasury structure is gone, while two 2026 payments carry a narrow seven-day release condition.\nThe post Adam Back’s Bitcoin treasury deal died, but its $15M obligation did not app...",
-    "date": "2026-08-22 07:00:55",
-    "url": "https://cryptoslate.com/adam-backs-bitcoin-treasury-deal-died-but-its-15m-obligation-did-not/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
-    "description": "ZEC traded above its January 2018 peak as futures volume hit billions of dollars and a Grayscale filing showed fresh progress toward converting its Zcash Trust into a spot ETF....",
-    "date": "2026-08-22 05:37:43",
-    "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-    "description": "...",
-    "date": "2026-08-22T05:05:13.000Z",
-    "url": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Analysts See Strong Bitcoin Rally, But Profit-Taking Risk Remains",
-    "description": "\nBitcoin’s climb to multi-month highs ran on spot buying, not borrowed money, giving the rally a longer runway than a typical squeeze, Bitfinex analysts say. The coins now in profit could still trigge...",
-    "date": "2026-08-22 02:30:38",
-    "url": "https://news.bitcoin.com/market-updates/analysts-see-strong-bitcoin-rally-but-profit-taking-risk-remains/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Grayscale Names 3 Crypto Tokens That Could Gain From New SEC Rules",
-    "description": "\nGrayscale says proposed SEC fundraising rules could benefit ETH, SOL and BNB by increasing token issuance, bringing more U.S. issuers and investors onchain and potentially driving value to the three ...",
-    "date": "2026-08-22 01:30:24",
-    "url": "https://news.bitcoin.com/regulation-and-legal/grayscale-names-3-crypto-tokens-that-could-gain-from-new-sec-rules/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "New Phase for XRP Could Emerge as AI Agents Move Toward Real Spending",
-    "description": "\nAI agents could open a new phase for XRP by moving from digital purchases toward real-world spending under user-defined limits. Chandler Fang says lasting XRPL adoption will depend on useful economic...",
-    "date": "2026-08-22 00:30:53",
-    "url": "https://news.bitcoin.com/featured/new-phase-for-xrp-could-emerge-as-ai-agents-move-toward-real-spending/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ethereum researchers are racing to close a zkEVM security gap before December",
-    "description": "\nThe better.codes contest puts Ethereum’s abstract security target against live certificates, but its score covers only koalaIRS12.\nThe post Ethereum researchers are racing to close a zkEVM security g...",
-    "date": "2026-08-22 00:20:14",
-    "url": "https://cryptoslate.com/ethereum-researchers-are-racing-to-close-a-zkevm-security-gap-before-december/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "South Korea Deploys AI to Bust Crypto Market Manipulation",
-    "description": "\nSouth Korea’s Financial Supervisory Service has deployed an AI-powered surveillance system to monitor crypto markets and detect unfair trading practices in real time. Algorithms Track ‘Racehorse’ and...",
-    "date": "2026-08-21 23:30:11",
-    "url": "https://news.bitcoin.com/regulation-and-legal/south-korea-deploys-ai-to-bust-crypto-market-manipulation/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Crypto advocates join in suing Illinois over digital asset tax",
-    "description": "The Crypto Council for Innovation and the Blockchain Association added another lawsuit against the state for its recently approved 0.2% crypto tax....",
-    "date": "2026-08-21 22:10:28",
-    "url": "https://www.coindesk.com/policy/2026/08/21/crypto-advocates-join-in-suing-illinois-over-digital-asset-tax",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does not show",
-    "description": "\nThe gap is verifiable, even as Justin Sun’s broader claims of fraud remain unsupported by available evidence.\nThe post Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does no...",
-    "date": "2026-08-21 21:55:39",
-    "url": "https://cryptoslate.com/trump-backed-4-billion-usd1-stablecoin-has-wallet-powers-its-own-github-does-not-show/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
-    "description": "Grayscale is inching closer to launching its Zcash ETF, filing another amendment with the Securities and Exchange Commission on Friday....",
-    "date": "2026-08-21 21:34:53",
-    "url": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-    "description": "...",
-    "date": "2026-08-21T21:31:05.000Z",
-    "url": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin, Stocks and Gold Rip Higher While Bond Market Fear Festers",
-    "description": "\nU.S. stocks ripped higher Friday while bitcoin held the $77,000 line after a nearly 24% weekly tear to a seven-day peak of $79,461, as softer Treasury yields gave markets breathing room while inflati...",
-    "date": "2026-08-21 21:17:03",
-    "url": "https://news.bitcoin.com/finance/bitcoin-stocks-and-gold-rip-higher-while-bond-market-fear-festers/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
-    "description": "Institutional buying, improving macro conditions and a friendlier regulatory outlook are supporting Bitcoin's rally, while billions in short liquidations have accelerated the move....",
-    "date": "2026-08-21 20:07:05",
-    "url": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Ray Dalio says to buy ‘a bit’ of Bitcoin amid potential debt crisis",
-    "description": "\n\nThe hedge fund founder with an estimated net worth of $15 billion recommended that investors overweight Bitcoin and gold rather than bonds.\n...",
-    "date": "2026-08-21 20:00:47",
-    "url": "https://cointelegraph.com/news/ray-dalio-buy-bitcoin-debt-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Binance Opens New EU Accounts Without MiCA License, Report Finds",
-    "description": "\nA recent report indicates that even after Binance announced it would wind down its services in several EU nations after failing to obtain a MiCA license, the exchange still allows European users in c...",
-    "date": "2026-08-21 19:19:58",
-    "url": "https://news.bitcoin.com/regulation-and-legal/binance-opens-new-eu-accounts-without-mica-license-report-finds/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Onchain, in court: What happened in crypto legal news this week",
-    "description": "...",
-    "date": "2026-08-21T19:19:27.000Z",
-    "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Onchain, in court: What happened in crypto legal news this week",
-    "description": "...",
-    "date": "2026-08-21T19:19:27.000Z",
-    "url": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Pass the Clarity Act",
-    "description": "Reopening a settled provision four weeks before a vote would sink the bill, argues Summer Mersinger, CEO of the Blockchain Association....",
-    "date": "2026-08-21 19:00:00",
-    "url": "https://www.coindesk.com/opinion/2026/08/21/pass-the-clarity-act",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Washington Goes All-In on Crypto: Trump Pushes Clarity, SEC Rules, and CFTC Warnings",
-    "description": "...",
-    "date": "2026-08-21T18:06:56.000Z",
-    "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
-    "description": "...",
-    "date": "2026-08-21T17:28:55.000Z",
-    "url": "https://decrypt.co/376230/strategy-profit-bitcoin-holdings-btc-rallies",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "The latest $1.61 billion crypto ETF surge risks grinding to a halt against a 30-year US Treasury yield spike",
-    "description": "\nFour days of fund inflows now face a $183 billion Treasury auction window that can test the rally’s staying power.\nThe post The latest $1.61 billion crypto ETF surge risks grinding to a halt against ...",
-    "date": "2026-08-21 17:25:58",
-    "url": "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Pakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward",
-    "description": "\nBitcoin MagazinePakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward\nPakistan has announced a new regulatory framework for crypto after banning the asset class for close to ...",
-    "date": "2026-08-21 16:59:45",
-    "url": "https://bitcoinmagazine.com/news/pakistan-tells-companies-to-build-there",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "US expands Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom plot",
-    "description": "\nThe approximately $6 million figure stems from a 2017 attempted extortion, and DOJ materials do not allege that HBO paid.\nThe post US expands Iran-linked hacking case to 17 defendants over HBO’s $6 m...",
-    "date": "2026-08-21 16:45:42",
-    "url": "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Digital Asset, Paul Ryan foundation target US state benefits with Canton pilot",
-    "description": "\n\nThe RISE program would use the Canton Network to combine and distribute state-administered benefits across three US states beginning in 2027.\n...",
-    "date": "2026-08-21 16:25:29",
-    "url": "https://cointelegraph.com/news/paul-ryan-foundation-digital-asset-plan-blockchain-based-benefits-pilot-on-canton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
-    "description": "...",
-    "date": "2026-08-21T16:11:07.000Z",
-    "url": "https://cointelegraph.com/markets/bitcoin-rally-crypto-stocks-canaan-strive-metaplanet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
-    "description": "ENA is rallying on a $1 billion FalconX deal, while HYPE tests its record, though flat dominance shows this is no broad alt season....",
-    "date": "2026-08-21 16:10:37",
-    "url": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
-    "description": "...",
-    "date": "2026-08-21T15:50:08.000Z",
-    "url": "https://cointelegraph.com/news/crypto-biz-treasurys-not-qe-playbook-sends-bitcoin-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge",
-    "description": "\nBitcoin MagazineBitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge\nBitcoin has continued its rocket upwards, and blew past $79,000 on Friday. \nThis post Bitcoin...",
-    "date": "2026-08-21 15:24:23",
-    "url": "https://bitcoinmagazine.com/news/bitcoin-surges-towards-80000",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
-    "description": "...",
-    "date": "2026-08-21T14:57:28.000Z",
-    "url": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
-    "description": "...",
-    "date": "2026-08-21T14:27:31.000Z",
-    "url": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Solana cuts blockchain slot time to 350 milliseconds",
-    "description": "...",
-    "date": "2026-08-21T13:45:13.000Z",
-    "url": "https://cointelegraph.com/news/solana-cuts-blockchain-slot-time-350-milliseconds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
   }
 ]
