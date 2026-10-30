@@ -1,16 +1,392 @@
 [
   {
-    "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+    "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
+    "description": "\n\nFollow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen. \n...",
+    "date": "2026-10-30 13:20:29",
+    "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance says it has $6.34 billion ready to cover hack losses",
+    "description": "Binance has allocated $6.34 billion to cover hack losses, while industry partners have frozen another $3 billion in affected assets....",
+    "date": "2026-10-30 13:14:56",
+    "url": "https://www.theblock.co/news/ecosystems/2026-10-30-binance-says-it-has-6-34-billion-ready-to-cover-hack-losses-432208",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Binance working with FBI to recover assets following $6.3B hack",
+    "description": "\n\nBinance is working with law enforcement to recover $3 billion that is frozen, after setting aside more than $6.3 billion from the company’s funds to cover the shortfall.\n...",
+    "date": "2026-10-30 13:11:10",
+    "url": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Israel Extradites Alleged Nomad Bridge Exploiter to US Over $2.8M Theft: Report",
+    "description": "Israel's Supreme Court ruled that exploiting a coding flaw can count as computer intrusion, even when the software allowed the transaction....",
+    "date": "2026-10-30 13:00:09",
+    "url": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "A $10 sports bet helped trigger 13 felony charges against Kalshi in Utah",
+    "description": "\nAn agent alleges he confirmed Utah before trading and paying a fee, while the CFTC contests state authority.\nRead the full story on CryptoSlate\nUnderstand the crypto stories that matter and what to w...",
+    "date": "2026-10-30 13:00:00",
+    "url": "https://cryptoslate.com/a-10-sports-bet-helped-trigger-13-felony-charges-against-kalshi-in-utah/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Binance says it holds $5B in matching tokens to cover hack losses",
+    "description": "\n\nThe exchange said it set aside more than $6.34 billion to cover losses and would include the assets in its next proof-of-reserves report.\n...",
+    "date": "2026-10-30 12:41:43",
+    "url": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance Secures $6.34B to Cover Losses From Historic Crypto Hack",
+    "description": "\nThrough its social media channels, Binance announced it had already reserved over $6.34 billion in company funds to cover losses from the hack suffered on Thursday, with $5 billion held in the tokens...",
+    "date": "2026-10-30 12:30:47",
+    "url": "https://news.bitcoin.com/exchanges/binance-secures-6-34b-to-cover-losses-from-historic-crypto-hack/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "TRM and Chainalysis Tie $6.4B Binance Hack to North Korea's TraderTraitor",
+    "description": "Both firms blame the group behind the Bybit hack, as Binance says it has set aside $6.34 billion of its own funds to cover user losses....",
+    "date": "2026-10-30 12:22:04",
+    "url": "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
+    "description": "Binance said it reserved its own funds to cover the $6.3 billion hack, including freezes of roughly $3 billion in stolen assets....",
+    "date": "2026-10-30 12:13:02",
+    "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
+    "description": "On Ethereum, the attacker used a 2025 upgrade built to make ordinary wallets smarter, armed with 50 signatures from Binance's own wallet....",
+    "date": "2026-10-30 11:35:16",
+    "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance Hack Fallout: Aave Freezes Lending Across 16 Networks",
+    "description": "\nAave froze 292 reserves across its V3 and V4 markets following a major Binance security breach that saw attackers steal more than 195,000 ETH and millions of dollars in altcoins. Binance Exploit Drai...",
+    "date": "2026-10-30 11:30:41",
+    "url": "https://news.bitcoin.com/defi/binance-hack-fallout-aave-freezes-lending-across-16-networks/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+    "description": "\n\nBitcoin held above $76,000 after a $6.3 billion Binance hack and a tech-stock sell-off, as momentum indicators pointed to a possible rebound.\n...",
+    "date": "2026-10-30 11:29:23",
+    "url": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance uncovers more breach points in $6 billion hack",
+    "description": "\nBinance said investigators uncovered additional breach points in the approximately $6 billion hack after initially suspecting a compromised employee laptop. The exchange has not disclosed what those ...",
+    "date": "2026-10-30 11:13:40",
+    "url": "https://cryptoslate.com/binance-breach-points-6-billion-hack/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+    "description": "Bitcoin traded near $77,350 after $6.3 billion Binance hack, with crypto futures liquidations jumping to $1.57 billion....",
+    "date": "2026-10-30 11:09:24",
+    "url": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "EIP-7702 didn’t cause Binance hack, but may have amplified losses",
+    "description": "\n\nSecurity experts say attackers could have drained Binance’s wallets without EIP-7702, but the Ethereum upgrade may have helped bypass withdrawal safeguards.\n...",
+    "date": "2026-10-30 11:00:10",
+    "url": "https://cointelegraph.com/news/binance-hack-security-ethereum-eip-7702-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
+    "description": "\n\nThe attackers held 18,270 BTC early Friday, topping Coinbase’s reported corporate holdings, and an Ether stash exceeding 500,000 ETH.\n...",
+    "date": "2026-10-30 10:54:30",
+    "url": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Polymarket suffers second multimillion-dollar security breach in just four months",
+    "description": "\nJune's reported theft and October's recovered code reveal recurring exposure inside the trading interface, while broader security changes remain unclear.\nRead the full story on CryptoSlate\nUnderstand...",
+    "date": "2026-10-30 10:30:57",
+    "url": "https://cryptoslate.com/polymarket-suffers-second-multimillion-dollar-security-breach-in-just-four-months/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
+    "description": "Andrew Kang’s departure comes as Strategy reports $21 billion in quarterly operating income and bitcoin holdings of 848,517 BTC....",
+    "date": "2026-10-30 09:41:07",
+    "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance Finds 'Additional Points of Breach' in $6.3B Hack",
+    "description": "CEO Richard Teng said the attack was \"not a single 'one-click' action,\" as Binance confirmed about $3 billion has been frozen....",
+    "date": "2026-10-30 09:31:59",
+    "url": "https://decrypt.co/382203/binance-finds-additional-points-of-breach-in-6-3b-hack",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Binance Hack Has Logan Paul Calling Crypto ‘a Scam’ Despite Cryptozoo Past",
+    "description": "\nLogan Paul called crypto “a scam” following the $6.3 billion Binance hack, and critics were quick to point to his own Cryptozoo project. “I Don’t Trust Crypto” Youtuber and boxer Logan Paul has a new...",
+    "date": "2026-10-30 09:30:52",
+    "url": "https://news.bitcoin.com/featured/logan-paul-calls-crypto-scam-binance-hack-cryptozoo/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+    "description": "A $6.3 billion Binance hack adds to crypto jitters, while weak earnings outlooks and mounting concerns over AI spending push QQQ down more than 2%....",
+    "date": "2026-10-30 08:36:52",
+    "url": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Circle and ACI plan USDC settlement pilot alongside Colombia’s payment rails",
+    "description": "\nThe Colombia-focused pilot explores integration through Connetic, while bank participation, production volumes and measured benefits remain undisclosed.\nRead the full story on CryptoSlate\nUnderstand ...",
+    "date": "2026-10-30 08:00:23",
+    "url": "https://cryptoslate.com/aci-circle-usdc-settlement-pilot-colombia/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Binance Hack Sparks $1.5B Liquidation Bloodbath Across Crypto",
+    "description": "\nCryptocurrency liquidations exceeded $1.54 billion following a Binance hack-related marketwide sell-off that disproportionately affected leveraged long positions. Market Crash Triggers $1.5B in Liqui...",
+    "date": "2026-10-30 07:45:01",
+    "url": "https://news.bitcoin.com/market-updates/binance-hack-sparks-1-5b-liquidation-bloodbath-across-crypto/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "China Gave Its First Fully AI-Made Movie 10,000 Screenings. Advance Ticket Sales Barely Reached $10,000",
+    "description": "\nSanxingdui: Future Past, billed as China’s first fully AI-generated feature film, opened nationwide on October 23 with more than 10,000 screenings scheduled for its first day. Yet presale revenue as ...",
+    "date": "2026-10-30 07:30:53",
+    "url": "https://news.bitcoin.com/technology/china-gave-its-first-fully-ai-made-movie-10000-screenings-advance-ticket-sales-barely-reached-10000-49201/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance Hack Pinned on North Korea’s Lazarus Group by TRM Labs and ZachXBT",
+    "description": "\nSeveral blockchain investigators say North Korea’s Tradertraitor (a sub-unit of the larger Lazarus/DPRK ecosystem) likely carried out the roughly $6.3 billion Binance hack, the largest crypto theft o...",
+    "date": "2026-10-30 07:01:57",
+    "url": "https://news.bitcoin.com/security/binance-hack-north-korea-lazarus-tradertraitor/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Central banks map their role in a payments system shared with stablecoins",
+    "description": "\nThe October 29 official summaries connect settlement access, infrastructure, oversight and coordination while keeping potential benefits and risks conditional.\nRead the full story on CryptoSlate\nUnde...",
+    "date": "2026-10-30 06:30:55",
+    "url": "https://cryptoslate.com/central-banks-map-their-role-in-a-payments-system-shared-with-stablecoins/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+    "description": "Bets on rising prices accounted for nearly 84% of forced closures, with Binance handling almost half the total. A rebound has since started catching short sellers....",
+    "date": "2026-10-30 06:22:00",
+    "url": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
+    "description": "CoinDCX has restricted new futures positions after Binance’s security incident disrupted a key liquidity provider. Deposits, withdrawals and customer funds remain unaffected, the exchange said....",
+    "date": "2026-10-30 05:43:07",
+    "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Binance hack began with a $296 million XRP drain after 36-hour preparation",
+    "description": "\nThe Binance attacker spent at least 36 hours preparing for the $6.36 billion crypto exchange hack that began with $296 million in XRP. According to an Oct. 29 investigation by TRM Labs, the attacker ...",
+    "date": "2026-10-30 05:40:52",
+    "url": "https://cryptoslate.com/binance-hack-began-with-a-296-million-xrp-drain-after-36-hour-preparation/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Bitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion",
+    "description": "\nBitcoin MagazineBitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion\nBinance says the attacker reportedly gained access through a compromised employee laptop, an...",
+    "date": "2026-10-30 04:05:40",
+    "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-near-76000-binance",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "20 institutions join DTCC token service, but only 34 securities qualify",
     "description": "...",
-    "date": "2026-10-29T12:20:27.000Z",
+    "date": "2026-10-30T01:50:12.000Z",
+    "url": "https://cryptoslate.com/20-institutions-join-dtcc-token-service-but-only-34-securities-qualify/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Trump’s crypto firm joins Tether, Circle, and Ripple in $2.6 billion stablecoin freeze as Binance hack outflows near $6 billion",
+    "description": "...",
+    "date": "2026-10-29T23:50:05.000Z",
+    "url": "https://cryptoslate.com/trumps-crypto-firm-joins-tether-circle-and-ripple-in-2-6-billion-stablecoin-freeze-as-binance-hack-outflows-near-6-billion/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "The Fed’s rate freeze will mean nothing unless banks fix a repo market bottleneck",
+    "description": "...",
+    "date": "2026-10-29T23:20:53.000Z",
+    "url": "https://cryptoslate.com/the-feds-rate-freeze-will-mean-nothing-unless-banks-fix-a-repo-market-bottleneck/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026",
+    "description": "\nBitcoin MagazineStrategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026\nStrategy reported record $20.91 billion in Q3 2026 operating income, driven by Bitcoin’s rebound, despite ...",
+    "date": "2026-10-29 23:18:27",
+    "url": "https://bitcoinmagazine.com/news/strategy-posts-record-operating-income",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Bitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack",
+    "description": "\nBitcoin MagazineBitcoin Price Slides Below $79,000 as Binance Loses $5.8 Billion in Massive Hack\nBitcoin price fell below $79,000 as reports of a suspected Binance hack, with outflows of up to $5.8 b...",
+    "date": "2026-10-29 23:06:37",
+    "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
+    "description": "Tether and Circle froze $1.79 billion in USDT and USDC after billions moved out of Binance hot wallets. Binance says it is investigating....",
+    "date": "2026-10-29 21:49:16",
+    "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
+    "description": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion....",
+    "date": "2026-10-29 21:36:24",
+    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Strategy reports $19.5 billion in Q3 net income as preferred shareholders approve daily dividends",
+    "description": "Strategy reported $19.53B in Q3 net income on a $20.91B bitcoin gain, holds 848,517 BTC, and moves preferreds to daily dividends....",
+    "date": "2026-10-29 20:58:35",
+    "url": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Coinbase Swings to $719 Million Q3 Profit on Crypto Gains",
+    "description": "Coinbase reported third-quarter net income of $719 million, driven largely by gains on its crypto holdings, as revenue held flat at $1.22 billion....",
+    "date": "2026-10-29 20:46:43",
+    "url": "https://decrypt.co/382188/coinbase-beats-719-million-q3-profit-crypto-gains",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Polymarket Pauses Trading as Prediction Market Investigates Security Incident",
+    "description": "Polymarket restricted trading and paused relayer actions as users report funds leaving their accounts. A suspected attacker wallet holds about $2.65 million in POL, per Arkham data....",
+    "date": "2026-10-29 18:53:44",
+    "url": "https://decrypt.co/382185/polymarket-pauses-trading-prediction-market-security-incident",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Russia Approves Securities Group to Oversee Crypto Exchanges",
+    "description": "\nBitcoin MagazineRussia Approves Securities Group to Oversee Crypto Exchanges\nThe Bank of Russia approved NAUFOR as the country’s first self-regulatory organization for crypto exchanges and digital de...",
+    "date": "2026-10-29 15:03:46",
+    "url": "https://bitcoinmagazine.com/news/russia-approves-securities-oversee-crypto",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "French Senate adopts bill for automatic sharing of crypto tax data",
+    "description": "\n\nThe French Senate adopted a bill authorizing the automatic exchange of crypto-asset tax information between international tax authorities, pending completion of the legislative process.\n...",
+    "date": "2026-10-29 15:00:02",
+    "url": "https://cointelegraph.com/news/french-senate-adopts-bill-automatic-crypto-tax-data?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "U.S. Treasury Sanctions Crypto Launderers Behind North Korea’s Fake Workers",
+    "description": "\nBitcoin MagazineU.S. Treasury Sanctions Crypto Launderers Behind North Korea’s Fake Workers\nThe U.S. Treasury sanctioned ten people and one entity, including two Russian crypto middlemen, for launder...",
+    "date": "2026-10-29 14:37:46",
+    "url": "https://bitcoinmagazine.com/news/sanctions-crypto-behind-north-korea-worker",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Bank of England opens consultation on tokenized collateral for clearing",
+    "description": "\n\nCentral counterparties would need to show tokenized collateral meets liquidity and risk tests under proposed Bank of England guidance.\n...",
+    "date": "2026-10-29 14:27:46",
+    "url": "https://cointelegraph.com/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Crypto Exchange HTX Agrees to Leave UK in Settlement With FCA ",
+    "description": "\nBitcoin MagazineCrypto Exchange HTX Agrees to Leave UK in Settlement With FCA \nHTX is leaving the UK under a confidential FCA settlement that ends its first crypto marketing case, while sanctions fro...",
+    "date": "2026-10-29 13:49:03",
+    "url": "https://bitcoinmagazine.com/news/crypto-exchange-htx-agrees-to-leave-uk",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Brazil’s Halloween eve crypto deadline brings more tricks than treats",
+    "description": "\n\nBrazil’s crypto exchanges face an application deadline on Friday, with costly requirements and unanswered regulatory questions complicating compliance.\n...",
+    "date": "2026-10-29 13:30:00",
+    "url": "https://cointelegraph.com/news/brazil-crypto-license-filing-deadline-hurdles-uncertainty?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
+    "description": "Polygon added Solana to its payments platform, connecting businesses to bank funding, cross-chain transfers, stablecoins and global payouts....",
+    "date": "2026-10-29 13:00:00",
+    "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+    "description": "\n\nHTX has pledged to stop crypto marketing in the UK until October 2031, with deposits and new account registrations already blocked there.\n...",
+    "date": "2026-10-29 12:20:27",
     "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
   },
   {
     "title": "Coinbase seeks Brazil crypto license, expects no service disruption",
-    "description": "...",
-    "date": "2026-10-29T12:00:00.000Z",
+    "description": "\n\nCoinbase has applied for authorization ahead of Brazil’s Oct. 30 deadline and says it expects to maintain existing services while regulators review its application.\n...",
+    "date": "2026-10-29 12:00:00",
     "url": "https://cointelegraph.com/news/coinbase-brazil-license-no-service-disruption-expected?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -22,6 +398,14 @@
     "url": "https://news.bitcoin.com/security/google-builds-crypto-custody-security-platform-for-banks/",
     "agency": "NEWS",
     "source": "Bitcoin.com News"
+  },
+  {
+    "title": "ECB President Christine Lagarde to step down in February 2027",
+    "description": "\n\nLagarde announced plans to step down as European Central Bank President after serving more than seven years in the role.\n...",
+    "date": "2026-10-29 10:33:00",
+    "url": "https://cointelegraph.com/news/ecb-president-lagarde-step-down-february-2027?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "She Trained to Be a Ballerina in Brazil. At 30, She’s the World’s Youngest Self-Made Female Billionaire",
@@ -54,6 +438,14 @@
     "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc",
     "agency": "NEWS",
     "source": "Decrypt"
+  },
+  {
+    "title": "Canadian ‘crypto king’ case to go to jury as criminal trial winds down",
+    "description": "\n\nAiden Pleterski, facing fraud charges in Canada over his alleged role in a digital asset Ponzi scheme, said that he was innocent at closing.\n...",
+    "date": "2026-10-28 21:35:52",
+    "url": "https://cointelegraph.com/news/canada-crypto-king-jury-criminal-trial-closing?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "AI Security Startup Upwind Raises $400M at $3.8B Valuation",
@@ -14870,149 +15262,5 @@
     "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "DeFi protocols just lost $83 million to an attack financial regulators already warned about",
-    "description": "\nMalicious actors exposed two decentralized finance (DeFi) lenders to over $84 million in losses over four days, using variations of a price-manipulation strategy previously targeted by US regulators....",
-    "date": "2026-08-31 13:45:33",
-    "url": "https://cryptoslate.com/defi-protocols-just-lost-83-million-to-an-attack-financial-regulators-already-warned-about/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Cronos Halts Chain After $75M  Tectonic Exploit",
-    "description": "\nThe Cronos network remains frozen following a massive price manipulation exploit targeting the Tectonic money market protocol. The Validator Dilemma: Restart or Roll Back The Cronos network, an Ether...",
-    "date": "2026-08-31 13:17:11",
-    "url": "https://news.bitcoin.com/security/cronos-halts-chain-after-75m-tectonic-exploit/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Bitcoin treasury company registers 93% of shares for resale and puts third of its crypto into options",
-    "description": "\nThe shares are already issued and may never be sold, while loan, treasury and cash risks remain.\nThe post Bitcoin treasury company registers 93% of shares for resale and puts third of its crypto into...",
-    "date": "2026-08-31 12:45:04",
-    "url": "https://cryptoslate.com/bitcoin-treasury-company-registers-93-of-shares-for-resale-and-puts-third-of-its-crypto-into-options/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Saylor Strikes Again: Strategy Scoops Up $370M Worth of Bitcoin",
-    "description": "\nStrategy purchased another 4,603 bitcoin for $369.7 million, pushing Michael Saylor’s company deeper into its long-running bitcoin treasury strategy after he teased the acquisition on Sunday. Saylor ...",
-    "date": "2026-08-31 12:16:48",
-    "url": "https://news.bitcoin.com/crypto-news/saylor-strikes-again-strategy-scoops-up-370m-worth-of-bitcoin/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Digital Sovereignty and the Global Race for Stablecoin Regulation",
-    "description": "\nThe Digital Sovereignty Alliance (DSA) is a nonprofit social welfare organization committed to advocating for public policies that support ethical innovation in decentralized technologies, blockchain...",
-    "date": "2026-08-31 11:00:05",
-    "url": "https://news.bitcoin.com/interview/digital-sovereignty-and-the-global-race-for-stablecoin-regulation/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Metaplanet Sends $188M More Bitcoin to Coinbase in 3 Hours",
-    "description": "\nMetaplanet moved 2,400 BTC, worth about $186 million, into Coinbase Prime in just three hours on August 31, its third large transfer to the exchange since August 25. Six Transactions, Three Hours, $1...",
-    "date": "2026-08-31 10:30:04",
-    "url": "https://news.bitcoin.com/crypto-news/metaplanet-186m-bitcoin-coinbase-prime-third-transfer/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ireland Bans Crypto From New State Investment Scheme",
-    "description": "\nIreland is excluding cryptocurrencies from a new state-backed savings and investment scheme designed to encourage residents to move cash out of bank accounts into capital markets. Bridging the Deposi...",
-    "date": "2026-08-31 09:30:05",
-    "url": "https://news.bitcoin.com/crypto-news/ireland-bans-crypto-from-new-state-investment-scheme/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Russia’s largest bank forecasts $46 billion in first-year crypto exchange trading under new rules: report",
-    "description": "Sberbank's forecast comes as the country's new crypto regulations are set to take effect on Sept. 1, 2026....",
-    "date": "2026-08-31 08:15:48",
-    "url": "https://www.theblock.co/news/business/2026-08-31-russias-largest-bank-forecasts-46-billion-in-first-year-crypto-exchange-trading-under-new-rules-report-413082",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Tether CEO Slams BIS Over Tokenized Bank Deposit Push",
-    "description": "\nTether CEO Paolo Ardoino stressed that stablecoins are a more trusted form of money than tokenized bank deposits, explaining that they are collateralized by U.S. treasuries, while tokenized bank depo...",
-    "date": "2026-08-31 07:30:54",
-    "url": "https://news.bitcoin.com/stablecoins/tether-ceo-slams-bis-over-tokenized-bank-deposit-push/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "XRP’s next rally could put this 115 million-token short under pressure",
-    "description": "\nThe Aug. 25 CFTC snapshot shows 115.7 million XRP-equivalent net short against rising dealer and asset-manager net longs.\nThe post XRP’s next rally could put this 115 million-token short under pressu...",
-    "date": "2026-08-31 06:30:46",
-    "url": "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Belgium Seeks Crypto Wallet Data From EU Registrars in Piracy Probe",
-    "description": "\nBelgian authorities are intensifying their fight against digital piracy by requiring European domain registrars to hand over sensitive operator data, including cryptocurrency wallet details. Crackdow...",
-    "date": "2026-08-31 06:30:11",
-    "url": "https://news.bitcoin.com/regulation-and-legal/belgium-seeks-crypto-wallet-data-from-eu-registrars-in-piracy-probe/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Zcash private transactions could go from three-second waits to under 200 milliseconds",
-    "description": "Zakura says a new cryptography stack makes mobile proof generation more than 14 times faster, removing one of the biggest delays users face when sending private ZEC....",
-    "date": "2026-08-31 05:23:57",
-    "url": "https://www.coindesk.com/tech/2026/08/31/zcash-private-transactions-could-go-from-three-second-waits-to-under-200-milliseconds",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
-    "description": "...",
-    "date": "2026-08-30T23:31:03.000Z",
-    "url": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
-    "description": "...",
-    "date": "2026-08-30T22:31:04.000Z",
-    "url": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
-    "description": "...",
-    "date": "2026-08-30T19:39:55.000Z",
-    "url": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "US treasury relies on stablecoins to fund short-term debt, but they can’t fix its $28B long-bond problem",
-    "description": "\nGENIUS reserves stop at 93 days while Treasury expands liquidity buybacks across 10- to 30-year debt.\nThe post US treasury relies on stablecoins to fund short-term debt, but they can’t fix its $28B l...",
-    "date": "2026-08-30 18:25:24",
-    "url": "https://cryptoslate.com/us-treasury-relies-on-stablecoins-to-fund-short-term-debt-but-they-cant-fix-its-28b-long-bond-problem/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
-    "description": "The lawsuit asks a federal court to block the $95 million TRM contract and require ICE to conduct a full and open competition....",
-    "date": "2026-08-30 17:51:54",
-    "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "One mid-tier Bitcoin treasury just gambled its entire BTC reserve on a single 30-day reset price",
-    "description": "\nThe Aug. 25 unwind was capitalized into principal, while a one-time Sept. 24 test determines whether the $75,000 ceiling applies.\nThe post One mid-tier Bitcoin treasury just gambled its entire BTC re...",
-    "date": "2026-08-30 15:05:44",
-    "url": "https://cryptoslate.com/one-mid-tier-bitcoin-treasury-just-gambled-its-entire-btc-reserve-on-a-single-30-day-reset-price/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
   }
 ]
