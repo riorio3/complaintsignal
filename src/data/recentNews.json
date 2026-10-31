@@ -1,11 +1,315 @@
 [
   {
-    "title": "Live updates: Binance says $6.34B set aside to cover hack losses",
-    "description": "\n\nFollow live updates as Binance says $6.3 billion in assets have been stolen in a major hack. Around $3 billion in stolen funds have been frozen. \n...",
-    "date": "2026-10-30 13:20:29",
+    "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+    "description": "The Binance hack has revived debates about whether decentralization is the digital asset industry’s greatest security advantage or its biggest point of weakness....",
+    "date": "2026-10-31 12:00:00",
+    "url": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+    "description": "\n\nChainalysis has engaged world-class third-party experts to support a review of its security and strengthen its defenses.\n...",
+    "date": "2026-10-31 11:22:49",
+    "url": "https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Wall Street Downplays Binance Hack as Bitwise Sees ‘Recovery In a Week’",
+    "description": "\nWall Street analysts are telling clients to buy the dip after the $6.3 billion Binance hack, and Bitwise CIO Matt Hougan expects bitcoin’s price to recover fairly soon. Hougan Calls the Hack a Mere ‘...",
+    "date": "2026-10-31 10:30:32",
+    "url": "https://news.bitcoin.com/featured/wall-street-binance-hack-buy-dip-bitwise-hougan/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance Starts Shopping for Stolen Coins as Ethena Ships $24M in ENA",
+    "description": "\nBinance has started buying back the tokens lost in its $6.3 billion hack, and onchain data shows wallets associated with Ethena sent 128.63 million ENA worth about $24 million to the exchange. Ethena...",
+    "date": "2026-10-31 09:30:33",
+    "url": "https://news.bitcoin.com/market-updates/binance-buys-back-stolen-tokens-ethena-ena/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance Inside Job Theories Explode Ahead of Monday’s Reserve Reports",
+    "description": "\nClaims that the $6.3 billion Binance hack was an inside job are spreading across X as the exchange holds back its proof-of-reserves results until Monday, Nov. 2. Skeptics Question the Timing of Monda...",
+    "date": "2026-10-31 08:30:36",
+    "url": "https://news.bitcoin.com/security/binance-hack-inside-job-theories-proof-of-reserves/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Westpac limits crypto exchange deposits driven by fraud rules",
+    "description": "\nFrom December 1, 2026, the bank may combine payments to identified exchanges across relevant accounts and methods under one monthly limit.\nRead the full story on CryptoSlate\nUnderstand the crypto sto...",
+    "date": "2026-10-31 07:50:36",
+    "url": "https://cryptoslate.com/westpac-limits-crypto-exchange-deposits-driven-by-fraud-rules/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Israel Extradites Suspect to US Over $2.8M Crypto Hack",
+    "description": "\nAn Israeli-Russian citizen accused of stealing $2.8 million in digital assets, has been extradited to the U.S. after Israel’s Supreme Court rejected his final appeals. Federal Indictment and Extradit...",
+    "date": "2026-10-31 07:30:55",
+    "url": "https://news.bitcoin.com/regulation-and-legal/israel-extradites-suspect-to-us-over-2-8m-crypto-hack/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Australia Casts Doubt on Retail Prediction Markets, Calls Them Bets",
+    "description": "\nAustralia’s corporate regulator cast doubt on the notion that prediction markets for retail clients are in the public interest, arguing the contracts have “all the features of a bet.” The statement s...",
+    "date": "2026-10-31 05:05:39",
+    "url": "https://news.bitcoin.com/igaming/australia-casts-doubt-retail-prediction-markets-calls-them-bets/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+    "description": "The 18,270 BTC haul is worth about $1.4 billion and comes within 442 coins of SpaceX’s disclosed holdings. Blockchain investigators link the attack to North Korea....",
+    "date": "2026-10-31 05:01:32",
+    "url": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Blockchain Revenues Plunge 30%, but a New Growth Engine Emerges",
+    "description": "\nGlobal blockchain revenues are projected to decline year over year to $100 billion in 2026, down from approximately $140 billion in 2025. Despite the downturn, the DeFi and finance sector remains the...",
+    "date": "2026-10-31 03:05:49",
+    "url": "https://news.bitcoin.com/defi/blockchain-revenues-plunge-30-but-new-growth-engine-emerges/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance Hackers Deploy ‘Never-Seen-Before’ Crypto Laundering Tactics",
+    "description": "\nChainalysis identified previously unseen laundering patterns as attackers circulated stolen Binance assets through thousands of transactions, suggesting automated efforts to obscure the trail. Its in...",
+    "date": "2026-10-31 01:05:18",
+    "url": "https://news.bitcoin.com/security/binance-hackers-deploy-never-seen-before-crypto-laundering-tactics/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "What to Know About the $6.3 Billion Binance Hack",
+    "description": "\n▶\n\nBitcoin MagazineWhat to Know About the $6.3 Billion Binance Hack\nBinance suffers a record $6.3B hack with $3.3B unrecovered. BMTV breaks down what happened, Binance's response, and why every day i...",
+    "date": "2026-10-31 00:57:26",
+    "url": "https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Binance Prepares to Resume Withdrawals, Unveils $6.3B Hack Recovery Plan",
+    "description": "\nBinance is preparing to restore withdrawals in phases after its $6.3 billion hack, with reopening dependent on security checks. The exchange committed company funds to replace stolen assets while inv...",
+    "date": "2026-10-30 23:05:47",
+    "url": "https://news.bitcoin.com/security/binance-prepares-to-resume-withdrawals-unveils-6-3b-hack-recovery-plan/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Senators Warren, Curtis Press Kalshi and Polymarket on Election Insider Trading",
+    "description": "\nSens. Elizabeth Warren and John Curtis have asked Kalshi and Polymarket to explain how they keep insiders out of election markets, giving the companies until Nov. 3, Election Day, to answer seven que...",
+    "date": "2026-10-30 22:05:53",
+    "url": "https://news.bitcoin.com/igaming/senators-warren-curtis-press-kalshi-polymarket-election-insider-trading/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance hackers raced to move billions before it could be frozen",
+    "description": "\n\nAttackers raced to convert stolen stablecoins into crypto that issuers could not freeze as industry players like Tether and Circle moved to immobilize billions of dollars in assets.\n...",
+    "date": "2026-10-30 22:00:00",
+    "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
+    "description": "Investigators tie the $6B Binance hack to North Korea. Here's how hot-wallet signing infrastructure was compromised and where funds went....",
+    "date": "2026-10-30 21:20:23",
+    "url": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Binance Hack Shows Why Offshore Exchanges Need US Oversight, CFTC Chair Says",
+    "description": "Michael Selig said the record $6.4 billion theft shows why offshore exchanges should register with the CFTC and adopt U.S.-grade cybersecurity standards....",
+    "date": "2026-10-30 21:16:04",
+    "url": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "President Trump says they’re looking into Binance hack as calls grow for crypto rules",
+    "description": "Following the $6.3 billion hack of the world's largest crypto exchange, Binance, calls are growing for legislation....",
+    "date": "2026-10-30 21:06:03",
+    "url": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "A16z, Uniswap Warn Illinois Crypto Tax Rules Could Effectively Ban DeFi",
+    "description": "\nVenture capital giant Andreessen Horowitz (a16z), Uniswap Labs, and the DeFi Education Fund are urging Illinois regulators to overhaul proposed cryptocurrency tax regulations, warning that the rules ...",
+    "date": "2026-10-30 21:05:59",
+    "url": "https://news.bitcoin.com/regulation-and-legal/a16z-uniswap-warn-illinois-crypto-tax-rules-ban-defi/",
+    "agency": "NEWS",
+    "source": "Bitcoin.com News"
+  },
+  {
+    "title": "Binance hackers deploy never-seen-before laundering tactics to conceal $6.3 billion theft",
+    "description": "\nHackers behind Binance's $6.3 billion breach are using previously unseen laundering tactics while rapidly converting stolen assets into other cryptocurrencies. On Oct. 30, blockchain analytics firm C...",
+    "date": "2026-10-30 20:30:08",
+    "url": "https://cryptoslate.com/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
+    "description": "Analysts at Cantor Fitzgerald, TD Cowen and Compass Point say the record $6.4 billion theft is a Binance security failure, not a crypto-wide threat, pointing clients toward proxies like Coinbase, Robi...",
+    "date": "2026-10-30 20:06:03",
+    "url": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+    "description": "Tether, Circle and others moved within hours to block billions in stolen crypto, but legal experts question whether smaller victims would get the same protection....",
+    "date": "2026-10-30 19:55:00",
+    "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+    "description": "\n\nThe stablecoin issuer’s US Treasury holdings are comparable to those of major foreign holders, while its Bitcoin reserves were valued at $8.37 billion at the end of September.\n...",
+    "date": "2026-10-30 19:01:58",
+    "url": "https://cointelegraph.com/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-15b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales",
+    "description": "\nBitcoin MagazineCoinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales\nCoinbase missed revenue expectations as users declined, despite growth in recurring revenue, ...",
+    "date": "2026-10-30 18:54:24",
+    "url": "https://bitcoinmagazine.com/news/coinbase-falls-armstrong-sets-up-new-share",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+    "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked....",
+    "date": "2026-10-30 18:45:03",
+    "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+    "description": "Raymond and Isiah Garcia held a Minnesota family at gunpoint for more than nine hours, forcing the father to transfer over $8 million in crypto, in one of the clearest “wrench attack” prosecutions yet...",
+    "date": "2026-10-30 18:16:02",
+    "url": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+    "description": "Binance says it has set aside $6.34 billion to cover losses from the breach and the FBI and Secret Service are now working with the exchange as investigators trace the stolen funds....",
+    "date": "2026-10-30 17:50:26",
+    "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+    "description": "\n\nCircle, Strategy and other crypto-linked stocks fell sharply Friday, a day after Binance disclosed a $6.3 billion security breach.\n...",
+    "date": "2026-10-30 17:48:27",
+    "url": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Lagarde to leave ECB with Europe’s tokenized-finance blueprint still undecided",
+    "description": "\nAppia’s consultation findings expose a trade-off between pooling settlement liquidity and preserving competition among networks, with the architecture still open.\nRead the full story on CryptoSlate\nU...",
+    "date": "2026-10-30 17:30:21",
+    "url": "https://cryptoslate.com/lagarde-sets-her-exit-as-europe-weighs-who-controls-its-tokenized-money/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
+    "description": "\n\nBitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.\n...",
+    "date": "2026-10-30 17:09:31",
+    "url": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "As it happened: Binance’s record $6.3B crypto hack",
+    "description": "\n\nHow Binance’s $6.3 billion hack unfolded, from the first onchain alerts to $3 billion in frozen funds and a widening security investigation.\n...",
+    "date": "2026-10-30 16:49:50",
     "url": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
+  },
+  {
+    "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+    "description": "CEO Richard Teng said hackers erased evidence and bypassed security checks. Binance plans to publish its proof of reserves Monday....",
+    "date": "2026-10-30 16:31:17",
+    "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Elon Musk, CZ Trade Blows Over SpaceX Shares After $6.4B Binance Hack",
+    "description": "After Musk appeared to mock Binance’s $6.3 billion hack, CZ reminded him that the exchange’s $500 million bet on his Twitter takeover is now worth over $1 billion in SpaceX shares....",
+    "date": "2026-10-30 16:25:06",
+    "url": "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "SEC Charges Two Companies in $130 Million Crypto Trading Scheme",
+    "description": "\nBitcoin MagazineSEC Charges Two Companies in $130 Million Crypto Trading Scheme\nThe SEC has charged two companies with defrauding investors of over $130 million through a crypto Ponzi-like scheme.\nTh...",
+    "date": "2026-10-30 14:38:43",
+    "url": "https://bitcoinmagazine.com/news/sec-charges-companies-130-million-crypto",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+    "description": "Analysts at Cantor Fitzgerald, TD Cowen and Compass Point say the $6.3 billion Binance hack is unlikely to derail the crypto market's recovery....",
+    "date": "2026-10-30 14:13:34",
+    "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Blockchain Firms Link North Korea to $6.3 Billion Binance Hack ",
+    "description": "\nBitcoin MagazineBlockchain Firms Link North Korea to $6.3 Billion Binance Hack \nChainalysis and TRM Labs have linked yesterday’s $6.3 billion Binance hack to North Korea’s TraderTraitor group.\nThis p...",
+    "date": "2026-10-30 14:13:15",
+    "url": "https://bitcoinmagazine.com/news/north-korea-6-3-billion-binance-hack",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
+    "date": "2026-10-30 14:07:42",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Doomberg: US Treasury Sanctions are “Wildly Bullish” for Bitcoin &amp; Gold",
+    "description": "\n▶\n\nBitcoin MagazineDoomberg: US Treasury Sanctions are “Wildly Bullish” for Bitcoin &amp; Gold\nU.S. pressure to hold Treasuries forces central banks to sell what they can, says Doomberg, setting up a...",
+    "date": "2026-10-30 13:26:43",
+    "url": "https://bitcoinmagazine.com/videos/doomberg-us-treasury-sanctions-are-wildly-bullish-for-bitcoin-gold",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Alexandre Laizet on The French Debt Crisis: “Europe is in Need of Bitcoin”",
+    "description": "\n▶\n\nBitcoin MagazineAlexandre Laizet on The French Debt Crisis: “Europe is in Need of Bitcoin”\nFrance hits 120% debt-to-GDP. Capital B's Alexandre Laizet explains why misspent debt and currency debase...",
+    "date": "2026-10-30 13:17:11",
+    "url": "https://bitcoinmagazine.com/videos/alexandre-laizet-on-the-french-debt-crisis-europe-is-in-need-of-bitcoin",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
   },
   {
     "title": "Binance says it has $6.34 billion ready to cover hack losses",
@@ -377,16 +681,16 @@
   },
   {
     "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
-    "description": "\n\nHTX has pledged to stop crypto marketing in the UK until October 2031, with deposits and new account registrations already blocked there.\n...",
-    "date": "2026-10-29 12:20:27",
+    "description": "...",
+    "date": "2026-10-29T12:20:27.000Z",
     "url": "https://cointelegraph.com/news/htx-halt-unlawful-uk-crypto-promotions-fca?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
   },
   {
     "title": "Coinbase seeks Brazil crypto license, expects no service disruption",
-    "description": "\n\nCoinbase has applied for authorization ahead of Brazil’s Oct. 30 deadline and says it expects to maintain existing services while regulators review its application.\n...",
-    "date": "2026-10-29 12:00:00",
+    "description": "...",
+    "date": "2026-10-29T12:00:00.000Z",
     "url": "https://cointelegraph.com/news/coinbase-brazil-license-no-service-disruption-expected?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -2028,14 +2332,6 @@
     "description": "...",
     "date": "2026-10-19T13:30:00.000Z",
     "url": "https://cointelegraph.com/magazine/made-an-honest-mistake-with-crypto-taxes-new-bill-offers-way-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Here’s what happened in crypto today",
-    "description": "\n\nNeed to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.\n...",
-    "date": "2026-10-19 13:19:50",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
   },
@@ -14932,334 +15228,6 @@
     "description": "...",
     "date": "2026-09-01T15:36:27.000Z",
     "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
-    "description": "...",
-    "date": "2026-09-01T13:15:35.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/01/ethena-pushes-stablecoins-into-everyday-banking-with-high-yield-savings-cards-and-payments",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Hut 8's Texas power site sits inside Anthropic’s $35 billion AI deal",
-    "description": "...",
-    "date": "2026-09-01T12:11:44.000Z",
-    "url": "https://www.coindesk.com/tech/2026/09/01/hut-8-s-texas-power-site-sits-inside-anthropic-s-usd35-billion-ai-deal",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Singapore proposes 100% reserves and a ban on yields for stablecoin issuers",
-    "description": "...",
-    "date": "2026-09-01T10:35:21.000Z",
-    "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bitfinex Securities lists tokenized notes tied to Strategy, Metaplanet",
-    "description": "...",
-    "date": "2026-09-01T10:00:00.000Z",
-    "url": "https://cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Singapore weighs recognizing some foreign-issued stablecoins",
-    "description": "\n\nSingapore is considering allowing jointly issued cross-border stablecoins into its regulatory regime, revisiting its earlier decision to restrict the framework to domestic issuance.\n...",
-    "date": "2026-09-01 09:55:11",
-    "url": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Singapore weighs recognizing some foreign-issued stablecoins",
-    "description": "\n\nSingapore is considering allowing jointly issued cross-border stablecoins into its regulatory regime, revisiting its earlier decision to restrict the framework to domestic issuance.\n...",
-    "date": "2026-09-01 09:55:11",
-    "url": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "UK's National Crime Agency Freezes $13.6M of Premier League Money in Sorare Probe: Report",
-    "description": "The sum was the first payment under a $163 million deal with the Messi-backed fantasy card game, now facing a gambling prosecution....",
-    "date": "2026-09-01 09:46:27",
-    "url": "https://decrypt.co/377006/uks-national-crime-agency-freezes-13-6m-of-premier-league-money-in-sorare-probe-report",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Trump Jr.-linked 1789 Capital leads Polymarket’s $1B raise: Report",
-    "description": "\n\nDonald Trump Jr.-linked 1789 Capital will reportedly lead a $1 billion investment round into Polymarket, which would value the platform at $21 billion, just below Kalshi’s $22 billion valuation.\n...",
-    "date": "2026-09-01 07:47:13",
-    "url": "https://cointelegraph.com/news/trump-jr-linked-fund-invest-300m-polymarket-1b-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "How Saylor’s $2 billion capital loop is quietly rewriting the rules of Bitcoin ownership",
-    "description": "\nHis essay preserves self-custody while legitimizing the layered claims that now finance Strategy’s balance sheet.\nThe post How Saylor’s $2 billion capital loop is quietly rewriting the rules of Bitco...",
-    "date": "2026-09-01 06:55:19",
-    "url": "https://cryptoslate.com/how-saylors-2-billion-capital-loop-is-quietly-rewriting-the-rules-of-bitcoin-ownership/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Ark Invest buys $37 million worth of shares in Jack Dorsey’s Block Inc",
-    "description": "Last month, Ark had purchased a bulk of Block shares after its second-quarter results that raised its full-year profit forecast to $12.5 billion...",
-    "date": "2026-09-01 04:57:33",
-    "url": "https://www.theblock.co/news/markets/2026-09-01-ark-invest-buys-37-million-block-413195",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
-    "description": "\n\nEther ETFs extended their inflow streak to 11 trading sessions, while XRP and Solana funds each logged a 10th consecutive positive session.\n...",
-    "date": "2026-09-01 04:48:47",
-    "url": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "‘An Unserious Company’: Santos Fires Back at Kalshi Lifetime Ban",
-    "description": "\nKalshi issued its first permanent ban on Monday, barring former U.S. Rep. George Santos and fining him $71,356 over trades on his own State of the Union attendance. The exchange cited his failure to ...",
-    "date": "2026-09-01 04:30:51",
-    "url": "https://news.bitcoin.com/igaming/an-unserious-company-santos-fires-back-at-kalshi-lifetime-ban/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Trump Jr's firm leads $1 billion Polymarket raise at $21 billion value: Report",
-    "description": "...",
-    "date": "2026-09-01T04:19:54.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/01/trump-jr-s-firm-leads-usd1-billion-polymarket-raise-at-usd21-billion-value-report",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Thailand SEC proposes retail access to regulated overseas crypto derivatives",
-    "description": "...",
-    "date": "2026-09-01T03:49:00.000Z",
-    "url": "https://cointelegraph.com/news/thailand-sec-retail-overseas-crypto-derivatives?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Thailand SEC proposes retail access to regulated overseas crypto derivatives",
-    "description": "...",
-    "date": "2026-09-01T03:49:00.000Z",
-    "url": "https://cointelegraph.com/news/thailand-sec-retail-overseas-crypto-derivatives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Social Trading Predictions Point to Crypto’s Next Roaring Kitty",
-    "description": "\nSocial trading could produce celebrity traders, powerful online groups, and crypto’s next Gamestop-style movement. New predictions suggest trading applications will increasingly combine markets, cont...",
-    "date": "2026-09-01 03:30:06",
-    "url": "https://news.bitcoin.com/featured/social-trading-predictions-point-to-cryptos-next-roaring-kitty/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ninth Circuit Ruling Sets Up a Kalshi Supreme Court Fight on Sept. 3",
-    "description": "\nNew Jersey has until Thursday to ask the U.S. Supreme Court to review a Third Circuit decision protecting Kalshi’s sports event contracts from state gambling law. On Friday, a federal appeals court i...",
-    "date": "2026-08-31 23:45:21",
-    "url": "https://news.bitcoin.com/igaming/ninth-circuit-ruling-sets-up-a-kalshi-supreme-court-fight-on-sept-3/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ontology halts mainnet transactions as technical team investigates potential security issue",
-    "description": "\nThe project said no incident or asset loss had been confirmed, while a public node remained at block 20,770,893 and no restart time was disclosed.\nThe post Ontology halts mainnet transactions as tech...",
-    "date": "2026-08-31 22:40:23",
-    "url": "https://cryptoslate.com/ontology-halts-mainnet-transactions-as-technical-team-investigates-potential-security-issue/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Phemex puts 82 tokens on notice over liquidity and project compliance concerns",
-    "description": "\nEach market met at least one risk criterion, but Phemex did not disclose which issue applied to each pair.\nThe post Phemex puts 82 tokens on notice over liquidity and project compliance concerns appe...",
-    "date": "2026-08-31 21:50:11",
-    "url": "https://cryptoslate.com/phemex-puts-82-tokens-on-notice-over-liquidity-and-project-compliance-concerns/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding",
-    "description": "Gov. Greg Abbott ordered state agencies to stop paying for the AI-powered license-plate readers as privacy concerns and officer-misuse scandals mount across Texas....",
-    "date": "2026-08-31 21:46:04",
-    "url": "https://decrypt.co/376999/texas-bans-flock-surveillance-funding",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
-    "description": "...",
-    "date": "2026-08-31T21:01:05.000Z",
-    "url": "https://decrypt.co/376992/strive-adds-143-million-bitcoin",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Strategy Opposes MSCI Proposal, Says Bitcoin Treasury Firms Are Being Targeted a Second Time",
-    "description": "...",
-    "date": "2026-08-31T20:44:36.000Z",
-    "url": "https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-opposes-msci",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
-    "description": "...",
-    "date": "2026-08-31T20:16:03.000Z",
-    "url": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
-    "description": "...",
-    "date": "2026-08-31T19:31:04.000Z",
-    "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Russia's Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
-    "description": "...",
-    "date": "2026-08-31T18:46:04.000Z",
-    "url": "https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Hyperliquid seeks US foothold through Kraken parent Payward in crypto perpetuals deal: Bloomberg",
-    "description": "Payward has reportedly presented the CFTC with an outline of the proposed structure, though regulatory approval is still pending....",
-    "date": "2026-08-31 18:16:29",
-    "url": "https://www.theblock.co/news/markets/2026-08-31-hyperliquid-eyes-us-entry-kraken-parent-payward-perpetual-futures-deal-bloomberg-413129",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Why Bitcoin’s $2B corporate treasuries are a ticking time bomb of hidden conditional supply",
-    "description": "\nPowerCompute and USBC show how collars, options and secured loans can turn passive holdings into contractual obligations.\nThe post Why Bitcoin’s $2B corporate treasuries are a ticking time bomb of hi...",
-    "date": "2026-08-31 18:10:27",
-    "url": "https://cryptoslate.com/why-bitcoins-2b-corporate-treasuries-are-a-ticking-time-bomb-of-hidden-conditional-supply/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Strive Becomes Fifth-Largest Bitcoin Treasury, Stock Jumps on Latest Buy",
-    "description": "...",
-    "date": "2026-08-31T17:22:58.000Z",
-    "url": "https://bitcoinmagazine.com/news/strive-becomes-fifth-biggest-treasury",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Former SEC, CFTC Officials Urge Lighter Touch to Bring Crypto Perps Trading Onshore",
-    "description": "...",
-    "date": "2026-08-31T17:06:04.000Z",
-    "url": "https://decrypt.co/376936/sec-cftc-crypto-perps-trading-onshore",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
-    "description": "\n\nBitcoin price action saw sharp moves within its local range as US Treasury Secretary Scott Bessent addressed US bond yields.\n...",
-    "date": "2026-08-31 16:38:51",
-    "url": "https://cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Russia’s Sberbank Estimates $46.4B Trading Volume in First Year of Crypto Buildout",
-    "description": "...",
-    "date": "2026-08-31T16:34:14.000Z",
-    "url": "https://bitcoinmagazine.com/news/russia-sberbank-expects-big-crypto-trading",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Sony Argues in Court That Digital Games Can't Be Owned",
-    "description": "...",
-    "date": "2026-08-31T15:46:03.000Z",
-    "url": "https://decrypt.co/376935/sony-argues-in-court-that-digital-games-cant-be-owned",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
-    "description": "\n\nBitmine has bought Ether for 65 consecutive weeks, maintaining its accumulation strategy through a prolonged crypto downturn and $5.1 billion in paper losses.\n\n...",
-    "date": "2026-08-31 15:39:00",
-    "url": "https://cointelegraph.com/news/bitmine-ether-buying-streak-65-weeks-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Strive becomes fifth-largest public bitcoin treasury after 1,800 BTC buy, TD Cowen lifts ASST price target",
-    "description": "TD Cowen expects Strive (ASST) to end 2026 with 27,156 BTC, nearly 4,300 more bitcoin than previously forecast....",
-    "date": "2026-08-31 15:35:11",
-    "url": "https://www.theblock.co/news/business/2026-08-31-strive-fifth-largest-public-bitcoin-treasury-1800-btc-buy-td-cowen-lifts-asst-price-target-413112",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
-    "description": "...",
-    "date": "2026-08-31T15:33:14.000Z",
-    "url": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Kalshi issues first permanent ban to former Rep. George Santos over State of the Union trading",
-    "description": "Former U.S. Rep. George Santos has been permanently banned from trading on Kalshi, marking the platform’s first-ever permanent ban....",
-    "date": "2026-08-31 15:23:17",
-    "url": "https://www.theblock.co/news/regulation/2026-08-31-kalshi-issues-first-permanent-ban-to-former-rep-george-santos-over-state-of-the-union-trading-413120",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Strategy Resumes Bitcoin Buying After 10-Week Hiatus ",
-    "description": "\nBitcoin MagazineStrategy Resumes Bitcoin Buying After 10-Week Hiatus \nThe bitcoin treasury last week spent nearly $370 million on the big orange coin after taking a break to rebalance its cash reserv...",
-    "date": "2026-08-31 15:18:11",
-    "url": "https://bitcoinmagazine.com/news/strategy-resumes-bitcoin-buys",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "NYSE parent ICE partners with tZERO on infrastructure for tokenized securities",
-    "description": "tZERO will be a design partner for ICE’s upcoming tokenized securities platform, and ICE will also invest in tZERO’s latest financing round....",
-    "date": "2026-08-31 15:04:14",
-    "url": "https://www.theblock.co/news/markets/2026-08-31-nyse-parent-ice-partners-with-tzero-infrastructure-tokenized-securities-413111",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
-    "description": "\n\nRegulated cryptocurrency exchanges may see more than $46 billion in crypto trading volume during the first year after legalization, according to estimates from the country’s largest bank.\n...",
-    "date": "2026-08-31 14:50:58",
-    "url": "https://cointelegraph.com/news/russian-crypto-trading-bring-46b-regulated-exchanges-legalization?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Why the SEC’s $75 million crypto path is not the same deal Congress is offering",
-    "description": "\nThe SEC proposal and Congress’s unfinished ancillary-asset framework diverge on who qualifies, what investors can enforce and how overlapping rules would interact.\nThe post Why the SEC’s $75 million ...",
-    "date": "2026-08-31 14:50:46",
-    "url": "https://cryptoslate.com/why-the-secs-75-million-crypto-path-isnt-the-same-deal-congress-is-offering/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
-    "description": "...",
-    "date": "2026-08-31T14:44:26.000Z",
-    "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
     "agency": "NEWS",
     "source": "CoinDesk"
   }
