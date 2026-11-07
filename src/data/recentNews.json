@@ -1,5 +1,125 @@
 [
   {
+    "title": "U.S. Treasury Cuts Off MEXC From U.S. Financial System Over Alleged $16 Billion in Illicit Flows",
+    "description": "...",
+    "date": "2026-11-06T21:28:56.000Z",
+    "url": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+    "description": "FinCEN’s order, part of Operation Economic Outcast, bars U.S. institutions from any transfers to or from MEXC, which Treasury says facilitated $16 billion in illicit finance tied to Iran, North Korea ...",
+    "date": "2026-11-06 21:06:03",
+    "url": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+    "description": "...",
+    "date": "2026-11-06T21:05:25.000Z",
+    "url": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
+    "description": "Greece has approved a crypto tax framework with a €500 ($557) annual gains threshold and new rules for staking and DeFi income, but lawmakers left important questions about token swaps unresolved....",
+    "date": "2026-11-06 20:36:03",
+    "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
+    "description": "While the proposal doesn’t exclude altcoins and smaller cryptocurrencies, experts say they could face challenges getting into retirement plans. ...",
+    "date": "2026-11-06 20:04:27",
+    "url": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
+    "description": "Hyperliquid Strategies has applied to become a U.S. futures commission merchant, a move that could let Americans trade perpetual futures on permissioned Hyperliquid markets, pending regulatory approva...",
+    "date": "2026-11-06 19:46:03",
+    "url": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Paraguay Protests Over Bank Lockout Intensify as Impeachment Vote Nears",
+    "description": "Savers locked out of Ueno Bank burned their cards, booed a former presidential candidate out of the crowd, and watched Congress move to remove President Peña....",
+    "date": "2026-11-06 19:16:03",
+    "url": "https://decrypt.co/382740/paraguay-protests-bitcoin-impeachment-vote-nears",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+    "description": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December....",
+    "date": "2026-11-06 18:47:45",
+    "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+    "description": "The Commodity Futures Trading Commission said regulated exchanges can't cut off customers state-by-state, but firms like Kalshi are under court orders to do so....",
+    "date": "2026-11-06 17:42:28",
+    "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Thailand SEC Files Criminal Complaint Against Bitget Ahead of Dec. 5 Access Block",
+    "description": "...",
+    "date": "2026-11-06T17:30:00.000Z",
+    "url": "https://bitcoinmagazine.com/news/thailand-sec-bitget-criminal-dec-5",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Former FBI Agent Pleads Guilty to Stealing $2.47 Million in Crypto From Investigations",
+    "description": "...",
+    "date": "2026-11-06T17:00:00.000Z",
+    "url": "https://bitcoinmagazine.com/news/former-fbi-agent-pleads-crypto-theft",
+    "agency": "NEWS",
+    "source": "Bitcoin Magazine"
+  },
+  {
+    "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
+    "description": "Bitcoin fell toward $75,500 after AI stocks plunged, and over $1 billion in the crypto derivatives market has been wiped out....",
+    "date": "2026-11-06 16:34:07",
+    "url": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+    "description": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025....",
+    "date": "2026-11-06 14:33:49",
+    "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "What Democrats’ US midterm sweep means for the CLARITY Act",
+    "description": "The CLARITY Act faces a new test as Democrats control Congress, raising questions over consumer protections, ethics and what the crypto industry may have to concede....",
+    "date": "2026-11-06 14:30:00",
+    "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+    "description": "...",
+    "date": "2026-11-06T13:57:14.000Z",
+    "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
     "title": "Crypto ETFs see over half a billion dollars in outflows amid post-midterm market slide",
     "description": "...",
     "date": "2026-11-06T12:33:31.000Z",
@@ -121,8 +241,8 @@
   },
   {
     "title": "Paraguay president resigns after collapse of Ueno digital bank",
-    "description": "Santiago Peña stepped down amid mounting scrutiny over his former ties to Ueno Bank’s parent company, as the lender’s collapse left millions of customers unable to access their funds....",
-    "date": "2026-11-05 17:40:25",
+    "description": "...",
+    "date": "2026-11-05T17:40:25.000Z",
     "url": "https://cointelegraph.com/news/paraguay-president-resigns-after-collapse-ueno-digital-bank?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -184,6 +304,14 @@
     "source": "Bitcoin Magazine"
   },
   {
+    "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+    "description": "...",
+    "date": "2026-11-05T13:29:40.000Z",
+    "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
     "title": "Morning Minute: Democrat Sweep Pumps Crypto as Clarity Act Resurfaces",
     "description": "The Dems are already talking compromise on the Clarity Act and their requests all seem logical - does the bill have new life?...",
     "date": "2026-11-05 13:14:05",
@@ -198,6 +326,22 @@
     "url": "https://cryptoslate.com/riots-28-billion-ai-lease-gives-anthropic-a-veto-on-voluntary-power-cuts/",
     "agency": "NEWS",
     "source": "CryptoSlate"
+  },
+  {
+    "title": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+    "description": "...",
+    "date": "2026-11-05T12:55:03.000Z",
+    "url": "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+    "description": "...",
+    "date": "2026-11-05T12:50:57.000Z",
+    "url": "https://www.coindesk.com/business/2026/11/05/ukraine-s-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns",
+    "agency": "NEWS",
+    "source": "CoinDesk"
   },
   {
     "title": "Binance Cuts Off SignalPlus API Keys Over 'Potential Security Issue' at Trading Platform",
@@ -257,8 +401,8 @@
   },
   {
     "title": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
-    "description": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions....",
-    "date": "2026-11-05 09:36:32",
+    "description": "...",
+    "date": "2026-11-05T09:36:32.000Z",
     "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-miner-riot-could-pay-anthropic-12-interest-under-usd28-billion-ai-deal",
     "agency": "NEWS",
     "source": "CoinDesk"
@@ -273,8 +417,8 @@
   },
   {
     "title": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-    "description": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028....",
-    "date": "2026-11-05 08:35:37",
+    "description": "...",
+    "date": "2026-11-05T08:35:37.000Z",
     "url": "https://www.coindesk.com/policy/2026/11/04/hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities",
     "agency": "NEWS",
     "source": "CoinDesk"
@@ -15134,205 +15278,5 @@
     "url": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin ETFs are still $1 billion shy of breaking even in 2026",
-    "description": "...",
-    "date": "2026-09-08T11:26:27.000Z",
-    "url": "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Visa stablecoin settlement tops $20 billion annualized run rate, up more than 15x year over year",
-    "description": "...",
-    "date": "2026-09-08T11:09:21.000Z",
-    "url": "https://www.theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Polish prosecutors charge fifth suspect in Zondacrypto probe involving around $100 million in estimated losses",
-    "description": "...",
-    "date": "2026-09-08T10:38:15.000Z",
-    "url": "https://www.theblock.co/news/regulation/2026-09-08-polish-prosecutors-charge-fifth-suspect-in-zondacrypto-probe-involving-around-100-million-in-estimated-losses-413745",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Uzbekistan begins government bond-backed stablecoin payment pilot",
-    "description": "\n\nHumo Digital will test HUMO payments with more than 20 merchants under a sandbox jointly overseen by NAPP and Uzbekistan’s central bank.\n...",
-    "date": "2026-09-08 10:07:10",
-    "url": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Polish Court Detains Fifth Suspect in Zondacrypto Exchange Probe",
-    "description": "...",
-    "date": "2026-09-08T09:54:59.000Z",
-    "url": "https://decrypt.co/377650/polish-court-detains-fifth-suspect-in-zondacrypto-exchange-probe",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Stablecoins could save South Korean merchants up to $3.8 billion a year, budget office says",
-    "description": "...",
-    "date": "2026-09-08T09:51:01.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Swiss stablecoin sandbox enters testing phase, adds two new partners",
-    "description": "\n\nFinancial market operator SIX and payment app TWINT have joined numerous banks in the sandbox seeking to develop a Swiss franc-based stablecoin.\n...",
-    "date": "2026-09-08 07:18:32",
-    "url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
-    "description": "...",
-    "date": "2026-09-08T07:00:00.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/02/bit2me-sets-up-specialized-unit-to-help-law-enforcement-track-down-crypto-assets",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "UK Regulator Revisits the 2019 Ban Blocking Prediction Markets",
-    "description": "...",
-    "date": "2026-09-08T06:30:21.000Z",
-    "url": "https://news.bitcoin.com/igaming/uk-regulator-revisits-the-2019-ban-blocking-prediction-markets/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Australia says it removed 45 crypto, remittance registrations over the past year",
-    "description": "\n\nAUSTRAC said its yearlong sweep included canceled, suspended and unrenewed registrations, while its action against GetCoins helped disrupt organized investment scams.\n...",
-    "date": "2026-09-08 05:10:33",
-    "url": "https://cointelegraph.com/news/australia-removes-45-crypto-remittance-registrations?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Australia says it removed 45 crypto, remittance registrations over the past year",
-    "description": "\n\nAUSTRAC said its yearlong sweep included canceled, suspended and unrenewed registrations, while its action against GetCoins helped disrupt organized investment scams.\n...",
-    "date": "2026-09-08 05:10:33",
-    "url": "https://cointelegraph.com/news/australia-removes-45-crypto-remittance-registrations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Sixteen Years After 12,000 Tons of Orange Peels, a Costa Rica Forest Grew Back",
-    "description": "\nTree biomass jumped 176% on a degraded plot inside Costa Rica’s Guanacaste Conservation Area after 12,000 tonnes of orange peels were spread there in 1997. The experiment was later halted by Costa Ri...",
-    "date": "2026-09-08 04:30:57",
-    "url": "https://news.bitcoin.com/featured/sixteen-years-after-12000-tons-of-orange-peels-a-costa-rica-forest-grew-back-49201/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Ethereum aims for quantum-safe L1 by 2029 as Hegotá upgrade takes form",
-    "description": "Ethereum is targeting full post-quantum security by 2029, starting with account abstraction and censorship resistance upgrades for Hegotá....",
-    "date": "2026-09-08 04:17:21",
-    "url": "https://www.theblock.co/news/ecosystems/2026-09-08-ethereum-foundation-quantum-resistance-2029-413716",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Casino Lobby Blames Prediction Markets for First Flat NFL Betting Season",
-    "description": "\nThe American Gaming Association expects citizens to wager $29.5 billion with regulated sportsbooks on the 2026 NFL season, the first one without meaningful growth since the Supreme Court struck down ...",
-    "date": "2026-09-08 03:50:42",
-    "url": "https://news.bitcoin.com/igaming/casino-lobby-blames-prediction-markets-for-first-flat-nfl-betting-season/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Liquid ‘white hats’ return $270M in Bitcoin as network prepares restart",
-    "description": "\n\nThe actors returned 85% of the Bitcoin withdrawn from Liquid’s federation wallet following the security incident.\n...",
-    "date": "2026-09-08 03:46:17",
-    "url": "https://cointelegraph.com/news/liquid-white-hats-return-270m-bitcoin-network-restart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Sweden Hits 6 Crypto Firms With $51M Back Tax Demand",
-    "description": "\nThe Swedish Tax Agency ordered six cryptocurrency mining entities to pay approximately $56.5 million in back taxes and penalties. Audit Uncovers Systemic Tax Evasion The Swedish Tax Agency (STA) has ...",
-    "date": "2026-09-08 03:10:44",
-    "url": "https://news.bitcoin.com/crypto-news/sweden-hits-6-crypto-firms-with-51m-back-tax-demand/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "A seven-year-old blockchain is permanently abandoning its own network to seek refuge on Ethereum",
-    "description": "...",
-    "date": "2026-09-07T23:10:48.000Z",
-    "url": "https://cryptoslate.com/a-seven-year-old-blockchain-is-permanently-abandoning-its-own-network-to-seek-refuge-on-ethereum/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Your LG TV Might Still Be Listening to You—Even When It Looks Like It’s Off",
-    "description": "A Gamers Nexus investigation found LG sets scanning every device on a home network and capturing microphone audio with the screen off, four months after LG promised Texas regulators it had cleaned up ...",
-    "date": "2026-09-07 21:46:04",
-    "url": "https://decrypt.co/377637/lg-tv-might-be-listening-even-when-off",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "UK financial watchdog weighs lifting prediction markets ban: Report",
-    "description": "...",
-    "date": "2026-09-07T20:40:17.000Z",
-    "url": "https://cointelegraph.com/news/uk-financial-watchdog-prediction-markets-ban?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "UK financial watchdog weighs lifting prediction markets ban: Report",
-    "description": "...",
-    "date": "2026-09-07T20:40:17.000Z",
-    "url": "https://cointelegraph.com/news/uk-financial-watchdog-prediction-markets-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
-    "description": "...",
-    "date": "2026-09-07T20:31:03.000Z",
-    "url": "https://decrypt.co/377621/brazilian-banks-expand-crypto-offerings",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Middle East Crypto Activity Triples to $350 Billion Amid Ongoing Conflict, Report Finds",
-    "description": "...",
-    "date": "2026-09-07T18:16:04.000Z",
-    "url": "https://decrypt.co/377597/middle-east-crypto-activity-350-billion",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Polish prosecutors charge suspect in Zondacrypto probe, seek pretrial detention",
-    "description": "...",
-    "date": "2026-09-07T17:58:00.000Z",
-    "url": "https://cointelegraph.com/news/polish-prosecutors-charge-man-in-zondacrypto-probe-seek-pretrial-detention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Malone Lam Faces Plea Hearing Over $245M Bitcoin Theft",
-    "description": "...",
-    "date": "2026-09-07T17:41:55.000Z",
-    "url": "https://decrypt.co/377595/malone-lam-faces-plea-hearing-over-245m-bitcoin-theft",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
-    "description": "...",
-    "date": "2026-09-07T15:28:43.000Z",
-    "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
-    "agency": "NEWS",
-    "source": "CoinDesk"
   }
 ]
