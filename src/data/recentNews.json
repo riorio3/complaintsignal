@@ -1,11 +1,107 @@
 [
   {
+    "title": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
+    "description": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month....",
+    "date": "2026-11-11 12:57:36",
+    "url": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules",
+    "description": "The Financial Stability Board cited progress on crypto licensing and urged stronger enforcement and cooperation with foreign regulators....",
+    "date": "2026-11-11 12:44:10",
+    "url": "https://cointelegraph.com/news/fsb-turkey-crypto-oversight-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
+    "description": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company....",
+    "date": "2026-11-11 10:51:34",
+    "url": "https://www.coindesk.com/business/2026/11/11/kraken-s-xstocks-adds-200-uk-and-eu-shares-as-its-assets-top-usd1-1-billion",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "ECB warns legislative delays could postpone digital euro launch",
+    "description": "ECB Executive Board member Piero Cipollone warned EU lawmakers that delays in finalizing digital euro legislation could push back its potential 2029 rollout....",
+    "date": "2026-11-11 09:03:49",
+    "url": "https://cointelegraph.com/news/ecb-warns-legislative-delays-digital-euro-launch?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
+    "description": "The SEC filed 348 actions in fiscal 2026, down from 456 a year earlier. Cases included alleged Bitcoin mining fraud and an FTX audit settlement....",
+    "date": "2026-11-11 08:43:30",
+    "url": "https://cointelegraph.com/news/sec-crypto-cases-enforcement-actions-fall-23-2025?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+    "description": "The prediction markets operator says the issue involves procedural errors affecting a handful of contracts, many of which weren’t live, according to Politico. ...",
+    "date": "2026-11-10 23:49:51",
+    "url": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+    "description": "Crypto custodians are moving into a market handling billions in daily settlements, but regulatory relief and a shift in congressional control leave questions over their long-term role....",
+    "date": "2026-11-10 21:34:40",
+    "url": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
+    "description": "The chipmaker has erased its 2026 gains as a suspected Chinese espionage case brings fresh scrutiny of CEO Jensen Huang....",
+    "date": "2026-11-10 20:45:50",
+    "url": "https://decrypt.co/382974/nvidia-erases-2026-gains-republicans-threaten-ceo-subpoena",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
+    "description": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient....",
+    "date": "2026-11-10 20:36:33",
+    "url": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Near AI Breach Exposes User Details and Data From 18 AI Agents",
+    "description": "An SGLang flaw let an attacker reach internal systems and potentially view confidential AI requests, exposing the limits of hardware-backed privacy protections....",
+    "date": "2026-11-10 20:16:03",
+    "url": "https://decrypt.co/382965/near-ai-breach-exposes-user-details-data-ai-agents",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+    "description": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S....",
+    "date": "2026-11-10 17:32:22",
+    "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
     "title": "Anthropic Sets IPO Price Range at $70 to $78, Valuing Company at Up to $1.4 Trillion",
     "description": "The Claude developer is also lining up $26 billion from Nvidia, Google and other tech giants in a private placement alongside the listing....",
     "date": "2026-11-10 14:06:02",
     "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
     "agency": "NEWS",
     "source": "Decrypt"
+  },
+  {
+    "title": "Poland’s lower house backs sanctions bill covering crypto freezes",
+    "description": "The bill is now before the Senate and would broaden the grounds for adding people and companies to Poland’s national sanctions list....",
+    "date": "2026-11-10 13:40:39",
+    "url": "https://cointelegraph.com/news/poland-bill-freeze-sanctions-crypto-assets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "Any Bitcoin recovery faces a cash problem as Binance’s stablecoins fall to $32 billion",
@@ -305,8 +401,8 @@
   },
   {
     "title": "Coinbase’s US national trust bank charter takes effect",
-    "description": "Coinbase plans to expand its institutional crypto custody business under the federal charter and is exploring digital asset payment products....",
-    "date": "2026-11-09 11:38:52",
+    "description": "...",
+    "date": "2026-11-09T11:38:52.000Z",
     "url": "https://cointelegraph.com/news/coinbase-occ-approval-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -14500,166 +14596,6 @@
     "description": "\n\nAnthropic is said to be seeking to raise as much as $100 billion in the offering, which could value the AI company at about $2 trillion.\n...",
     "date": "2026-09-12 15:12:40",
     "url": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "The dilution trap where Bitcoin holdings rise while shareholder value stalls",
-    "description": "\nBuying shares in a Bitcoin treasury company gives ownership in a business that holds Bitcoin, and management decides how to pay for the coins and when to buy or sell them. The company also has bills ...",
-    "date": "2026-09-12 13:40:26",
-    "url": "https://cryptoslate.com/the-dilution-trap-where-bitcoin-holdings-rise-while-shareholder-value-stalls/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "ChatGPT Images 2.5 vs Nano Banana 2: Which One is Better?",
-    "description": "...",
-    "date": "2026-09-12T13:01:03.000Z",
-    "url": "https://decrypt.co/377998/chatgpt-images-2-5-vs-nano-banana-2-review",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
-    "description": "Passports, selfies and home addresses were also handed over after the digital bank treated a fraudulent request as legitimate, but no customer funds were lost....",
-    "date": "2026-09-12 10:11:01",
-    "url": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "A16z Wants Your Crypto Private and Your Car Tracked by Flock",
-    "description": "\nBig money, huge interests, and two different positions on privacy: Venture capital powerhouse Andreessen Horowitz (A16z) has fiercely defended its investment in the controversial Flock surveillance n...",
-    "date": "2026-09-12 07:30:20",
-    "url": "https://news.bitcoin.com/security/a16z-wants-your-crypto-private-and-your-car-tracked-by-flock/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Canada Regulator Clears Tokenized Deposits for Banking System",
-    "description": "\nThe Office of the Superintendent of Financial Institutions adopted an innovation-friendly approach to tokenized deposits, stressing that they are “not legally distinct” from traditional deposits, pav...",
-    "date": "2026-09-12 05:30:45",
-    "url": "https://news.bitcoin.com/regulation-and-legal/canada-regulator-clears-tokenized-deposits-for-banking-system/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors",
-    "description": "\nMetaplanet is cutting executive rewards after concluding that later Bitcoin purchases created less value per share. On Sept. 11, the Tokyo-listed Bitcoin treasury company announced it has reset its S...",
-    "date": "2026-09-12 04:10:06",
-    "url": "https://cryptoslate.com/metaplanet-ceo-surrenders-220-million-in-stock-rights-to-rebuild-trust-with-investors/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Clearpool Targets XRP Ledger Credit Market With Token Overhaul",
-    "description": "\nClearpool plans to bring institutional lending infrastructure to the XRP Ledger while replacing CPOOL with a proposed CLEAR token. The overhaul would recapitalize its treasury and fund incentives int...",
-    "date": "2026-09-12 01:05:34",
-    "url": "https://news.bitcoin.com/featured/clearpool-targets-xrp-ledger-credit-market-with-token-overhaul/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
-    "description": "In a post on Friday, Vlad Tenev said securities issuers should control shareholder rights, but not separate products that track their publicly traded shares....",
-    "date": "2026-09-11 23:47:51",
-    "url": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "US Bank moves USBDC across borders on Stellar, but only inside its own walls",
-    "description": "\nThe live payment linked the bank's North American and European entities while testing minting, redemption and issuer controls.\nThe post US Bank moves USBDC across borders on Stellar, but only inside ...",
-    "date": "2026-09-11 23:30:04",
-    "url": "https://cryptoslate.com/us-bank-moves-usbdc-across-borders-on-stellar-but-only-inside-its-own-walls/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Banks get cross-exchange crypto hedge relief under Canada’s new 2027 capital rule",
-    "description": "\nOSFI’s final rule fixes a cross-exchange capital mismatch only for tightly matched, qualifying Group 2a positions.\nThe post Banks get cross-exchange crypto hedge relief under Canada’s new 2027 capita...",
-    "date": "2026-09-11 22:30:05",
-    "url": "https://cryptoslate.com/banks-get-cross-exchange-crypto-hedge-relief-under-canadas-new-2027-capital-rule/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
-    "description": "...",
-    "date": "2026-09-11T21:45:05.000Z",
-    "url": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
-    "description": "\n\nThe Swiss crypto financial services firm plans to move back-office functions to lower-cost international hubs as it expands its global wealth and asset management business, according to Finews.\n\n...",
-    "date": "2026-09-11 19:46:24",
-    "url": "https://cointelegraph.com/news/bitcoin-suisse-to-shift-up-to-half-of-swiss-jobs-abroad?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Why Circle is spending $400M to fix the last mile holding stablecoins back from real-world payouts",
-    "description": "\nThe purchase could tighten Circle’s control of regulated payout infrastructure while partner banks retain their own risks and duties.\nThe post Why Circle is spending $400M to fix the last mile holdin...",
-    "date": "2026-09-11 19:05:03",
-    "url": "https://cryptoslate.com/why-circle-is-spending-400m-to-fix-the-last-mile-holding-stablecoins-back-from-real-world-payouts/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Italy’s Second Biggest Bank UniCredit Is Weighting up Crypto Custody: Report",
-    "description": "...",
-    "date": "2026-09-11T18:47:07.000Z",
-    "url": "https://bitcoinmagazine.com/news/unicredit-working-on-crypto-custody",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Hyperliquid’s biggest risk is regulation, says Ran Neuner",
-    "description": "...",
-    "date": "2026-09-11T18:45:15.000Z",
-    "url": "https://cointelegraph.com/news/hyperliquids-biggest-risk-is-regulation-says-ran-neuner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
-    "description": "...",
-    "date": "2026-09-11T18:16:04.000Z",
-    "url": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Government Defeated as Lords Back UK Digital Assets Strategy",
-    "description": "\nBitcoin MagazineGovernment Defeated as Lords Back UK Digital Assets Strategy\nThe act would force the UK Treasury to consult a strategy for the regulation of cryptoassets, stablecoins, tokenized secur...",
-    "date": "2026-09-11 17:28:32",
-    "url": "https://bitcoinmagazine.com/news/house-of-lords-backs-uk-crypto-bill",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
-    "description": "...",
-    "date": "2026-09-11T17:12:45.000Z",
-    "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "‘DeFi’s federal bank’: Standard Chartered sees SKY token rising fivefold by end-2028",
-    "description": "...",
-    "date": "2026-09-11T16:48:11.000Z",
-    "url": "https://www.theblock.co/news/markets/2026-09-11-standard-chartered-sky-token-defi-federal-bank-414280",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Anchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin",
-    "description": "\n\nThe US federally chartered crypto bank will allow institutional clients to hold, mint, redeem and stake Frgmnt’s fUSD stablecoin through its custody platform.\n...",
-    "date": "2026-09-11 16:05:15",
-    "url": "https://cointelegraph.com/news/anchorage-digital-adds-institutional-access-to-frgmnts-fusd-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph"
   }
