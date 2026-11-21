@@ -1,5 +1,77 @@
 [
   {
+    "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+    "description": "BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure....",
+    "date": "2026-11-21 12:30:00",
+    "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
+    "description": "Whistleblowers could receive 10% to 30% of monetary sanctions in qualifying prediction market fraud cases exceeding $1 million in penalties. ...",
+    "date": "2026-11-21 07:51:47",
+    "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+    "description": "The token broke its previous November lows during Saturday's crypto selloff, with long positions accounting for most XRP liquidations and technical indicators showing further weakness....",
+    "date": "2026-11-21 05:59:19",
+    "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Hong Kong pushes to bring crypto custodians, advisers under licensing rules",
+    "description": "Hong Kong’s securities regulator says the proposal would strengthen investor protections, with the bill set for its first reading in the Legislative Council on Dec. 2....",
+    "date": "2026-11-21 05:40:35",
+    "url": "https://cointelegraph.com/news/hong-kong-crypto-custody-advisory-licensing-bill?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Kalshi races to get ahead of New York order that could shut down exchange",
+    "description": "The U.S. prediction market firm asked a New York court to give the company a chance to argue against a pending restraining order stemming from a new court loss....",
+    "date": "2026-11-20 22:51:14",
+    "url": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+    "description": "The firm is the latest to join in building blockchain-based stock markets under the agency’s five-year \"innovation exemption\" for tokenized trading....",
+    "date": "2026-11-20 22:05:31",
+    "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
+    "description": "Nvidia shares fell about 13% to a 52-week low after reports that SEC enforcement staff are examining potential accounting issues, adding to pressure on the chipmaker after Jensen Huang’s resignation....",
+    "date": "2026-11-20 20:36:54",
+    "url": "https://decrypt.co/383744/nvidia-shares-sink-52-week-low-sec-probing-accounting",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "SBF’s 'The Altruists' Plot Twist: FTX’s Anthropic Shares Would Be Worth $43 Billion",
+    "description": "Anthropic’s IPO made FTX’s liquidated AI bet a $43 billion what-if, just as Netflix premiered its Sam Bankman-Fried drama....",
+    "date": "2026-11-20 19:36:03",
+    "url": "https://decrypt.co/383739/sbf-altruists-ftx-anthropic-shares-worth-43-billion",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "US Senate advances prediction market restrictions with DEATH BETS Act",
+    "description": "The Senate-approved bill would ban prediction market contracts tied to war, assassination and death amid concerns over potential insider trading on military events....",
+    "date": "2026-11-20 15:55:22",
+    "url": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
     "title": "Senate Passes Bill Banning Prediction Market Bets on War, Terrorism and Death",
     "description": "Sen. Adam Schiff's DEATH BETS Act would bar U.S.-regulated exchanges from listing contracts tied to war, assassinations or deaths....",
     "date": "2026-11-20 15:42:51",
@@ -88,8 +160,8 @@
     "source": "CoinDesk"
   },
   {
-    "title": "SEC charges eight firms over fake crypto platforms tied to $37M fraud",
-    "description": "Fraudsters allegedly used social media ads, chat groups and forged SEC filings to defraud US investors of approximately $37 million.\n...",
+    "title": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+    "description": "The SEC says the operators showed investors fake certificates and pointed them to filings on the agency’s website as proof of regulatory approval....",
     "date": "2026-11-20 08:03:34",
     "url": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
@@ -13366,213 +13438,5 @@
     "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
     "agency": "NEWS",
     "source": "CoinDesk"
-  },
-  {
-    "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
-    "description": "...",
-    "date": "2026-09-22T14:32:59.000Z",
-    "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Jeff Walton: How Strive Supercharged its Bitcoin Buying Strategy",
-    "description": "...",
-    "date": "2026-09-22T13:19:04.000Z",
-    "url": "https://bitcoinmagazine.com/videos/jeff-walton-how-strive-supercharged-its-bitcoin-buying-strategy",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
-    "description": "...",
-    "date": "2026-09-22T12:05:55.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "SoFi begins stablecoin settlement on Mastercard network for program expected to exceed $25 billion in annualized volume",
-    "description": "...",
-    "date": "2026-09-22T12:00:00.000Z",
-    "url": "https://www.theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-    "description": "...",
-    "date": "2026-09-22T10:07:52.000Z",
-    "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "US Probes Whether Binance 'Knowingly' Let Iran-Linked Trades Through: Report",
-    "description": "Binance says it has a \"zero-tolerance policy\" for sanctions violations. Prosecutors are asking whether its 2023 compliance fixes held....",
-    "date": "2026-09-22 09:47:47",
-    "url": "https://decrypt.co/378902/us-probes-whether-binance-knowingly-let-iran-linked-trades-through-report",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "White hats outrun Coldcard hackers in 52-Bitcoin evacuation",
-    "description": "\n\nWhite hats secured about 40% of the Bitcoin moved in the Coldcard exploit’s second wave, transferring it to a Wyoming trust for victims.\n...",
-    "date": "2026-09-22 09:06:59",
-    "url": "https://cointelegraph.com/news/white-hats-coldcard-btc-exploit-galaxy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Report: Polymarket Ignored Warnings During $10M Fraud Attack",
-    "description": "\nBad actors targeted Polymarket’s U.S. platform in a $10 million fraud scheme using stolen debit cards, pushing payment processor Checkout.com to reject over 80% of deposits as fraudulent. High Reject...",
-    "date": "2026-09-22 08:30:57",
-    "url": "https://news.bitcoin.com/featured/report-polymarket-ignored-warnings-during-10m-fraud-attack/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Bitcoin’s $87,000 breakout puts $90,000 in sight, but history comes with a catch",
-    "description": "\nBitcoin closed the week of Sept. 20 at $81,178, its first weekly settlement above the 50-week moving average since November 2025, and pushed further to an intraday high above $87,000 the next day. Th...",
-    "date": "2026-09-22 08:10:28",
-    "url": "https://cryptoslate.com/bitcoins-87000-breakout-puts-90000-in-sight-but-history-comes-with-a-catch/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Spot bitcoin ETFs attract nearly $1 billion in largest daily inflow in 11 months",
-    "description": "...",
-    "date": "2026-09-22T07:44:17.000Z",
-    "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
-    "description": "Inflows into spot bitcoin ETFs picked up Monday as bitcoin rallied to its highest since January....",
-    "date": "2026-09-22 07:40:41",
-    "url": "https://www.coindesk.com/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
-    "description": "\n\nUS spot Bitcoin ETFs drew nearly $1 billion on Monday, their largest daily inflow since October 2025, as Bitcoin briefly climbed above $87,000.\n...",
-    "date": "2026-09-22 07:33:37",
-    "url": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Draftkings Shelved a Problem-Gambling AI While Targeting Likely Losers",
-    "description": "\nAccording to a New York Times investigation published Saturday, Draftkings built a machine-learning model to steer promotions toward the gamblers it predicted would lose the most, and shut down inter...",
-    "date": "2026-09-22 06:30:15",
-    "url": "https://news.bitcoin.com/igaming/draftkings-shelved-problem-gambling-ai-targeting-likely-losers/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Australian 40-year economic outlook recognizes ‘AI revolution,’ omits crypto",
-    "description": "\n\nTreasury named AI among five major transitions expected to reshape Australia’s economy, while Coinbase says the report overlooks the digital financial infrastructure AI agents could eventually need....",
-    "date": "2026-09-22 05:29:31",
-    "url": "https://cointelegraph.com/news/australian-40-year-economic-outlook-recognizes-ai-revolution-omits-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Kakao Pay, KakaoBank to explore stablecoin opportunities with Fireblocks",
-    "description": "\n\nKakao Pay and KakaoBank are exploring digital asset opportunities with Fireblocks, including infrastructure for stablecoins.\n...",
-    "date": "2026-09-22 03:13:22",
-    "url": "https://cointelegraph.com/news/kakao-pay-kakaobank-fireblocks-stablecoin-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Manhattan US Attorney leading probe into Binance’s Iran compliance: Bloomberg",
-    "description": "...",
-    "date": "2026-09-22T02:22:59.000Z",
-    "url": "https://cointelegraph.com/news/doj-probing-binance-over-alleged-iran-sanction-violations-bloomberg?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Google Admits Gemini AI Hacked Three Companies—It Stayed Silent for 7 Weeks",
-    "description": "Google learned in late July that Gemini had breached three real companies during a May security test, but said nothing publicly for seven weeks....",
-    "date": "2026-09-21 22:46:03",
-    "url": "https://decrypt.co/378900/google-gemini-ai-hacked-companies-stayed-silent",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "L2 growth and $120 billion in staking hide Ethereum’s supply reality",
-    "description": "\nLarge network balances sit alongside uneven ETF flows, while the benefit to ETH holders depends on purchases and fees.\nThe post L2 growth and $120 billion in staking hide Ethereum’s supply reality ap...",
-    "date": "2026-09-21 22:40:20",
-    "url": "https://cryptoslate.com/l2-growth-and-120-billion-in-staking-hide-ethereums-supply-reality/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "ECB launches ‘digital euro for banks’ and prepares to buy tokenized bonds",
-    "description": "\nThe Eurosystem launched the wholesale settlement system while the ECB began work on a small, undisclosed investment in tokenized public-sector securities.\nThe post ECB launches ‘digital euro for bank...",
-    "date": "2026-09-21 21:00:23",
-    "url": "https://cryptoslate.com/ecb-launches-digital-euro-for-banks-and-prepares-to-buy-tokenized-bonds/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "X Sues Two Bitcoin Influencers Over Bot Army That Milked Creator Payouts",
-    "description": "A lawsuit accuses UK users of running six coordinated accounts to pull at least $278,000 from X's now-defunct Creator Revenue Sharing Program....",
-    "date": "2026-09-21 20:16:03",
-    "url": "https://decrypt.co/378877/x-sues-bitcoin-influencers-bot-army-creator-payout",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules",
-    "description": "TD Cowen expects limited demand for tokenized stocks despite new SEC rules opening a path for trading outside traditional markets....",
-    "date": "2026-09-21 19:08:40",
-    "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Europe’s Central Bank Prepares to Invest Own Funds in Tokenized Securities",
-    "description": "...",
-    "date": "2026-09-21T19:00:04.000Z",
-    "url": "https://decrypt.co/378872/europe-central-bank-invest-funds-tokenized-securities",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "What Is VVV? The Privacy-Obsessed AI Token That’s Up 3,000% in 2026",
-    "description": "Venice (VVV) has clawed back from under a dollar to a record $34, and the pitch behind it is simple: an AI chatbot that promises to forget you the moment you close the tab....",
-    "date": "2026-09-21 18:31:03",
-    "url": "https://decrypt.co/378840/what-is-vvv-privacy-ai-token-up-3000-percent-2026",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin hits $86,000 putting ETF investors back in profit after $86 billion wipeout",
-    "description": "\nBitcoin’s rally toward $86,000 has pushed US spot exchange-traded fund (ETF) investors back into profit after months underwater. Data from CryptoSlate showed Bitcoin gained about 6% over the past 24 ...",
-    "date": "2026-09-21 17:20:48",
-    "url": "https://cryptoslate.com/bitcoin-hits-86000-putting-etf-investors-back-in-profit-after-86-billion-wipeout/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "xAI Launches Grok 4.7. It's Bigger, But Late to the AI Frontier Party",
-    "description": "xAI says the new model is a \"notable improvement\" over Grok 4.6 at the same price. The benchmarks say it's still in second place....",
-    "date": "2026-09-21 17:16:03",
-    "url": "https://decrypt.co/378824/xai-launches-grok-4-7",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Russian Crypto Industry Could Be Operating Legally by Year-End: Central Bank",
-    "description": "...",
-    "date": "2026-09-21T16:48:50.000Z",
-    "url": "https://bitcoinmagazine.com/news/russia-crypto-industry-could-be-operating",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
   }
 ]
