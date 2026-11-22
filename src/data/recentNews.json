@@ -1,11 +1,51 @@
 [
   {
+    "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "description": "Quantum computers can’t break Bitcoin network’s security yet, but Leo Fan warns that upgrading it and moving funds could take longer than expected....",
+    "date": "2026-11-22 14:00:00",
+    "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+    "description": "The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices....",
+    "date": "2026-11-21 17:50:00",
+    "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+    "description": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of mo...",
+    "date": "2026-11-21 17:01:02",
+    "url": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It",
+    "description": "The encrypted-messaging app will restrict screenshots on iOS 27 and auto-enable screen security on Android when it detects an AI assistant reading a chat....",
+    "date": "2026-11-21 16:01:02",
+    "url": "https://decrypt.co/383750/signal-os-level-ai-existential-threat-blocks-screenshots",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
     "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
     "description": "BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure....",
     "date": "2026-11-21 12:30:00",
     "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
     "agency": "NEWS",
     "source": "CoinDesk"
+  },
+  {
+    "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+    "description": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis....",
+    "date": "2026-11-21 09:48:56",
+    "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
   },
   {
     "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
@@ -13108,334 +13148,6 @@
     "description": "...",
     "date": "2026-09-23T15:07:21.000Z",
     "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "BitGo CEO Mike Belshe: Why Dollar Debasement Fuels the K-Shaped Economy",
-    "description": "\nBitcoin MagazineBitGo CEO Mike Belshe: Why Dollar Debasement Fuels the K-Shaped Economy\nBitGo CEO Mike Belshe breaks down why tokenization is about expanding access, fixing a settlement system built ...",
-    "date": "2026-09-23 13:53:27",
-    "url": "https://bitcoinmagazine.com/videos/bitgo-ceo-mike-belshe-why-dollar-debasement-fuels-the-k-shaped-economy",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Dave Weisberger on Why Bitcoin FOMO Hasn’t Even Started Yet",
-    "description": "\nBitcoin MagazineDave Weisberger on Why Bitcoin FOMO Hasn’t Even Started Yet\nCoinRoutes’ Dave Weisberger explains why ending Bitcoin's 100% bank collateral haircut will be bigger for institutions than...",
-    "date": "2026-09-23 13:31:49",
-    "url": "https://bitcoinmagazine.com/videos/dave-weisberger-bitcoin-fomo-hasnt-started-yet",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Winners and losers of the SEC’s new tokenized stocks rules",
-    "description": "...",
-    "date": "2026-09-23T13:30:00.000Z",
-    "url": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Winners and losers of the SEC’s new tokenized stocks rules",
-    "description": "...",
-    "date": "2026-09-23T13:30:00.000Z",
-    "url": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-    "description": "...",
-    "date": "2026-09-23T13:02:43.000Z",
-    "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Stablecoin adoption intent rises from 36% to 56% with bank-level protections, Visa says",
-    "description": "...",
-    "date": "2026-09-23T13:00:00.000Z",
-    "url": "https://www.theblock.co/news/regulation/2026-09-23-stablecoin-adoption-intent-rises-from-36-to-56-with-bank-level-protections-visa-says-416136",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
-    "description": "...",
-    "date": "2026-09-23T13:00:00.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Galaxy adds $100 million in Sky’s sUSDS to treasury, buys SKY token as firms deepen lending ties",
-    "description": "...",
-    "date": "2026-09-23T12:00:02.000Z",
-    "url": "https://www.theblock.co/news/business/2026-09-23-galaxy-adds-100-million-in-skys-susds-to-treasury-buys-sky-token-as-firms-deepen-lending-ties-416137",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-    "description": "...",
-    "date": "2026-09-23T10:43:46.000Z",
-    "url": "https://decrypt.co/379030/cftc-staff-advisory-says-prediction-market-mention-contracts-invite-manipulation",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
-    "description": "...",
-    "date": "2026-09-23T10:06:55.000Z",
-    "url": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
-    "description": "...",
-    "date": "2026-09-23T10:06:55.000Z",
-    "url": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-    "description": "...",
-    "date": "2026-09-23T09:53:07.000Z",
-    "url": "https://decrypt.co/379021/former-polish-police-officer-charged-as-zondacrypto-probe-searches-fuel-depot",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-    "description": "\n\nBitpanda will provide crypto infrastructure to Raiffeisen network banks, potentially extending digital asset access to about 18 million customers.\n...",
-    "date": "2026-09-23 09:42:39",
-    "url": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Bitcoin faces $16 billion options expiry Friday, then two more tests hit the rally",
-    "description": "...",
-    "date": "2026-09-23T09:10:42.000Z",
-    "url": "https://cryptoslate.com/bitcoin-faces-16-billion-options-expiry-friday-then-two-more-tests-hit-the-rally/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "From Wallet to Wallet: How BIX Is Making Crypto More Usable in Everyday Life",
-    "description": "\nThere is a particular frustration familiar to anyone holding stablecoins. The balance sits in the app. It is dollar-denominated, it is liquid, and it is useless at the till. Reaching spendable money ...",
-    "date": "2026-09-23 08:32:36",
-    "url": "https://news.bitcoin.com/press-releases/from-wallet-to-wallet-how-bix-is-making-crypto-more-usable-in-everyday-life/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "EU central banks attack MiCA rules and stablecoin runs are blamed",
-    "description": "...",
-    "date": "2026-09-23T08:10:31.000Z",
-    "url": "https://cryptoslate.com/eu-central-banks-attack-mica-rules-and-stablecoin-runs-are-blamed/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "XRP Ledger retries upgrade that lets banks split payment and compliance duties",
-    "description": "...",
-    "date": "2026-09-23T07:37:46.000Z",
-    "url": "https://www.coindesk.com/tech/2026/09/23/xrp-ledger-retries-upgrade-that-lets-banks-split-payment-and-compliance-duties",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis",
-    "description": "\n\nUS spot Bitcoin ETFs recorded more than $1.7 billion in net inflows over two days as Bitcoin rose above investors’ estimated average cost basis.\n...",
-    "date": "2026-09-23 07:25:05",
-    "url": "https://cointelegraph.com/markets/bitcoin-etf-inflow-2-days-holder-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "US Treasury secretary emerges as frontrunner for Trump’s AI czar role: Report",
-    "description": "\n\nUS President Donald Trump previously tapped David Sacks as his AI and crypto czar before Sacks stepped down from the role earlier this year after reaching his service limit as a special government e...",
-    "date": "2026-09-23 05:34:49",
-    "url": "https://cointelegraph.com/news/us-treasury-secretary-emerges-as-contender-for-trumps-ai-czar-role?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds",
-    "description": "...",
-    "date": "2026-09-23T05:16:22.000Z",
-    "url": "https://www.coindesk.com/tech/2026/09/23/solana-starts-testing-upgrade-that-could-cut-finality-from-12-8-seconds-to-150-milliseconds",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Canada’s big six banks explore tokenized deposit system to modernize payments",
-    "description": "...",
-    "date": "2026-09-23T04:57:07.000Z",
-    "url": "https://www.theblock.co/news/business/2026-09-23-canada-banks-tokenized-deposit-system-416129",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Zcash leads crypto majors with a 10% gain as bitcoin holds near $87,000",
-    "description": "Falling oil eased inflation worries through the Asian session, while a bill to make the government's bitcoin stockpile permanent moved further through Congress than any before it....",
-    "date": "2026-09-23 04:10:08",
-    "url": "https://www.coindesk.com/markets/2026/09/23/zcash-leads-crypto-majors-with-a-10-gain-as-bitcoin-holds-near-usd87-000",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "XRPL fixes critical pre-mainnet flaw, but client apps remain at risk",
-    "description": "...",
-    "date": "2026-09-23T03:50:07.000Z",
-    "url": "https://cryptoslate.com/xrpl-fixes-critical-pre-mainnet-flaw-but-client-apps-remain-at-risk/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Coinbase CEO Brian Armstrong Challenges Banks as Stablecoin Rewards Fight Grows",
-    "description": "\nCoinbase CEO Brian Armstrong says USDC rewards should not be treated like bank-deposit interest, arguing that fully reserved stablecoins pose fundamentally different risks from fractional-reserve ban...",
-    "date": "2026-09-23 03:30:25",
-    "url": "https://news.bitcoin.com/regulation-and-legal/coinbase-ceo-brian-armstrong-challenges-banks-stablecoin-rewards/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "CFTC issues warning over risky prediction market ‘mention’ contracts",
-    "description": "...",
-    "date": "2026-09-23T00:18:44.000Z",
-    "url": "https://cointelegraph.com/news/cftc-issues-warning-over-risky-prediction-market-mention-contracts?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "SoFi Moves $25 Billion Mastercard Program Onto Stablecoin Rails",
-    "description": "\nMastercard welcomed SoFi on Tuesday as the first nationally chartered bank to begin settling card transactions with stablecoins via the financial giant’s network. SoFi will use stablecoin settlement ...",
-    "date": "2026-09-22 23:43:23",
-    "url": "https://news.bitcoin.com/stablecoins/sofi-settles-25-billion-mastercard-transactions-stablecoins/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Rogue iPhone app escapes iOS sandbox to hijack $580,000 in USDT",
-    "description": "\nFomopeek, a malicious iPhone app distributed through Apple’s App Store, has been linked to nearly $580,000 in stolen USDT. Blockchain security firm SlowMist began investigating the app over the weeke...",
-    "date": "2026-09-22 22:50:41",
-    "url": "https://cryptoslate.com/rogue-iphone-app-escapes-ios-sandbox-to-hijack-580000-in-usdt/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Crypto VC Hashed anchors new digital asset private credit fund targeting $300 million",
-    "description": "The fund aims to address a critical financing bottleneck in the institutional digital asset sector by using 'covenant-based' underwriting....",
-    "date": "2026-09-22 22:30:00",
-    "url": "https://www.theblock.co/news/markets/2026-09-22-hashed-private-credit-fund-416013",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-    "description": "...",
-    "date": "2026-09-22T22:16:03.000Z",
-    "url": "https://decrypt.co/379008/un-security-council-ai-risks-anthropic-openai-deepseek",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "CFTC warns ‘mention market’ prediction contracts carry heightened manipulation risk",
-    "description": "...",
-    "date": "2026-09-22T21:42:19.000Z",
-    "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Why newly granted federal approval won’t save these 3 crypto banks",
-    "description": "...",
-    "date": "2026-09-22T21:20:03.000Z",
-    "url": "https://cryptoslate.com/why-federal-approval-wont-save-these-3-crypto-banks/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-    "description": "Four ancient wallets moved 1,971 BTC between Sept. 6 and Sept. 22, including a 600 BTC transfer worth $51.9 million just hours ago, with three of the four carrying \"Noah Doe\" lawsuit tags....",
-    "date": "2026-09-22 21:16:03",
-    "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "CFTC Chairman Selig says markets must prepare for ‘mass tokenization’",
-    "description": "...",
-    "date": "2026-09-22T21:08:20.000Z",
-    "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "Republican senator calls for probe into US presidents’ sons, citing crypto ventures",
-    "description": "...",
-    "date": "2026-09-22T20:57:51.000Z",
-    "url": "https://cointelegraph.com/news/us-senator-probe-donald-trump-hunter-biden-crypto-business?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Bitcoin may go quantum-safe while Lightning privacy stays exposed",
-    "description": "\nPQLN protects five off-chain surfaces with sub-millisecond cryptography, but its default design drives gossip downloads up 10.2 times.\nThe post Bitcoin may go quantum-safe while Lightning privacy sta...",
-    "date": "2026-09-22 20:15:00",
-    "url": "https://cryptoslate.com/bitcoin-may-go-quantum-safe-while-lightning-privacy-stays-exposed/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
-    "description": "...",
-    "date": "2026-09-22T20:01:03.000Z",
-    "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "Bitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Market Returns",
-    "description": "\nBitcoin MagazineBitcoin Investors Buy Nearly $1B in BTC ETFs as Bull Market Returns\nThe Bitcoin bulls are back — if ETF flows are to be believed.  U.S. bitcoin exchange-traded funds received $999 mil...",
-    "date": "2026-09-22 19:55:41",
-    "url": "https://bitcoinmagazine.com/news/bitcoin-etf-investors-buy-nearly-1-billion",
-    "agency": "NEWS",
-    "source": "Bitcoin Magazine"
-  },
-  {
-    "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
-    "description": "...",
-    "date": "2026-09-22T17:34:03.000Z",
-    "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "Solo GP Jed Breed raises $15 million for his second early-stage crypto fund",
-    "description": "...",
-    "date": "2026-09-22T16:15:02.000Z",
-    "url": "https://www.theblock.co/news/deals/2026-09-22-jed-breed-vc-second-crypto-fund-416075",
-    "agency": "NEWS",
-    "source": "The Block"
-  },
-  {
-    "title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
-    "description": "...",
-    "date": "2026-09-22T15:37:17.000Z",
-    "url": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph Regulation"
-  },
-  {
-    "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-    "description": "...",
-    "date": "2026-09-22T15:21:28.000Z",
-    "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
     "agency": "NEWS",
     "source": "CoinDesk"
   }
