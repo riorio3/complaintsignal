@@ -1,5 +1,117 @@
 [
   {
+    "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
+    "description": "Sepblac can now suspend crypto, bank and payment accounts for up to five working days, with courts deciding on any extension....",
+    "date": "2026-11-26 16:43:02",
+    "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "OpenAI Fixes ChatGPT Billing Error, Promises to Make it 40% Worse",
+    "description": "OpenAI says a billing mistake made its new AI models cheaper to use than intended. Subscribers will now burn through their allowances faster, but get a free one-time usage reset....",
+    "date": "2026-11-26 15:11:14",
+    "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+    "description": "Under existing rules, Sepblac could only suspend accounts when requested by a foreign financial intelligence unit....",
+    "date": "2026-11-26 14:05:58",
+    "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "New York Wins $1.37B Judgment Against NovaTech Founders Who Fled the US",
+    "description": "The couple fled the U.S. before a default ruling in 2025, so victims of the scheme may struggle to recover their money....",
+    "date": "2026-11-26 11:25:58",
+    "url": "https://decrypt.co/384025/new-york-wins-1-37b-judgment-against-novatech-founders-who-fled-the-us",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
+    "title": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
+    "description": "U.S. export controls have halted Nvidia server shipments to four Southeast Asian countries and put billions in data centre financing under review....",
+    "date": "2026-11-26 10:56:08",
+    "url": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "New York Attorney General wins $1.4 billion ruling against founders of crypto trading firm NovaTech",
+    "description": "AWS Mining and NovaTech founders Cynthia and Eddie Petion were ordered to pay $1.37 billion after defrauding hundreds of thousands of people, including 11,000 New Yorkers....",
+    "date": "2026-11-26 10:40:33",
+    "url": "https://www.coindesk.com/policy/2026/11/26/new-york-attorney-general-wins-usd1-4-billion-ruling-against-founders-of-crypto-trading-firm-novatech",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
+    "description": "Spot bitcoin ETFs have already hit record monthly net outflows of $5.39 billion in November, with several trading days remaining....",
+    "date": "2026-11-26 08:50:46",
+    "url": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "$7 billion of bitcoin options expire Friday, and the biggest bets look starkly different from October",
+    "description": "Bitcoin options positioning has flipped bearish ahead of Friday’s $7 billion expiry, with traders piling into downside protection as volatility rises....",
+    "date": "2026-11-26 08:01:33",
+    "url": "https://www.coindesk.com/markets/2026/11/26/usd7-billion-of-bitcoin-options-expire-friday-and-the-biggest-bets-look-starkly-different-from-october",
+    "agency": "NEWS",
+    "source": "CoinDesk"
+  },
+  {
+    "title": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
+    "description": "North Korea-linked hackers used DeFi protocols to launder stolen Binance funds, while US prosecutors moved to recover more than $1.1 billion in crypto....",
+    "date": "2026-11-26 05:53:08",
+    "url": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Fidelity files for Chainlink ETF, Musk’s X wins ruling in alleged bitcoin content-farm case, and more",
+    "description": "In today's newsletter, Fidelity files for spot Chainlink ETF; Musk's X wins ruling in alleged bitcoin content-farm case; and more....",
+    "date": "2026-11-26 05:45:00",
+    "url": "https://www.theblock.co/newsletters/the-daily/2026-11-26-fidelity-chainlink-etf-musk-x-ruling-alleged-bitcoin-content-farm-case-more-crypto-news-446755",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+    "description": "US Senators Elizabeth Warren and Chris Van Hollen, among others, have taken aim at two recent SEC efforts to ease regulatory requirements for the crypto industry....",
+    "date": "2026-11-26 04:24:45",
+    "url": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "House Committee advances Strategic Bitcoin Reserve bill with narrow path to passage",
+    "description": "The current 119th Congress is expected to adjourn in the coming weeks, leaving little time for full passage before the session ends....",
+    "date": "2026-11-26 03:03:01",
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-house-committee-advances-strategic-bitcoin-reserve-bill-446778",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "Sens. Warren, Van Hollen lead push to scrap SEC’s Regulation Crypto and innovation exemption",
+    "description": "Sens. Warren and Van Hollen sent two letters to SEC Chair Atkins demanding he rescind the innovation exemption and Regulation Crypto....",
+    "date": "2026-11-25 22:20:02",
+    "url": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756",
+    "agency": "NEWS",
+    "source": "The Block"
+  },
+  {
+    "title": "What Happened to Alice Huang, the Woman at the Center of Nvidia’s Scandal?",
+    "description": "U.S. intelligence found no evidence that Beijing directed Alice Huang to spy on Nvidia’s CEO, but the former Megaspeed executive still faces entry bans and scrutiny of business ties....",
+    "date": "2026-11-25 21:46:02",
+    "url": "https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal",
+    "agency": "NEWS",
+    "source": "Decrypt"
+  },
+  {
     "title": "Elon Musk’s X Wins Court Judgment Against Alleged Bitcoin Bot Farm Operators",
     "description": "London’s High Court entered a default judgment against Vivek Kumar Sen and Zamyang Sherpa after they failed to respond, though damages, which X estimates at over £207,000, won’t be set until a later h...",
     "date": "2026-11-25 17:16:02",
@@ -120,6 +232,14 @@
     "source": "Bitcoin.com News"
   },
   {
+    "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+    "description": "...",
+    "date": "2026-11-24T21:50:25.000Z",
+    "url": "https://cointelegraph.com/news/europol-crypto-trail-streaming-piracy-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
     "title": "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits",
     "description": "...",
     "date": "2026-11-24T21:16:02.000Z",
@@ -142,6 +262,22 @@
     "url": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+    "description": "...",
+    "date": "2026-11-24T19:04:26.000Z",
+    "url": "https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
+  },
+  {
+    "title": "Hong Kong wants banks to secure new approval before holding customers’ crypto",
+    "description": "...",
+    "date": "2026-11-24T19:00:30.000Z",
+    "url": "https://cryptoslate.com/hong-kong-wants-banks-to-secure-new-approval-before-holding-customers-crypto/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
   },
   {
     "title": "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t",
@@ -169,11 +305,19 @@
   },
   {
     "title": "CFTC sets new prediction market rules as more firms seek US entry",
-    "description": "The US regulator has approved permanent reporting rules for certain event contracts as more companies look to launch prediction markets....",
-    "date": "2026-11-24 18:31:42",
+    "description": "...",
+    "date": "2026-11-24T18:31:42.000Z",
     "url": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
+  },
+  {
+    "title": "CFTC sets new prediction market rules as more firms seek US entry",
+    "description": "...",
+    "date": "2026-11-24T18:31:42.000Z",
+    "url": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "agency": "NEWS",
+    "source": "Cointelegraph"
   },
   {
     "title": "Ansem Meme Coin Crashes After $2.57 Million Wallet Drain, Bullpen Confirms Security Breach",
@@ -182,6 +326,22 @@
     "url": "https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach",
     "agency": "NEWS",
     "source": "Decrypt"
+  },
+  {
+    "title": "US moves to seize $1.1 billion from Binance hackers without accessing their wallets",
+    "description": "...",
+    "date": "2026-11-24T16:50:10.000Z",
+    "url": "https://cryptoslate.com/us-moves-to-seize-1-1-billion-from-binance-hackers-without-accessing-their-wallets/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
+  },
+  {
+    "title": "BlackRock drives Bitcoin ETFs to worst month on record as crypto fund withdrawals near $6 billion",
+    "description": "...",
+    "date": "2026-11-24T15:30:51.000Z",
+    "url": "https://cryptoslate.com/blackrock-drives-bitcoin-etfs-to-worst-month-on-record-as-crypto-fund-withdrawals-near-6-billion/",
+    "agency": "NEWS",
+    "source": "CryptoSlate"
   },
   {
     "title": "Ethereum treasury firm BTCS sells $43.8 million in ETH to cut Aave debt, CEO says ‘we do not take this lightly’",
@@ -265,8 +425,8 @@
   },
   {
     "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
-    "description": "The draft bill would also reopen domestic initial coin offerings after a ban dating to 2017 and require issuers to disclose risks before soliciting buyers....",
-    "date": "2026-11-24 12:04:16",
+    "description": "...",
+    "date": "2026-11-24T12:04:16.000Z",
     "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -377,8 +537,8 @@
   },
   {
     "title": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
-    "description": "The staff guidance allows Bitcoin, Ether and payment stablecoins to count towards operating reserves....",
-    "date": "2026-11-23 23:43:34",
+    "description": "...",
+    "date": "2026-11-23T23:43:34.000Z",
     "url": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -393,8 +553,8 @@
   },
   {
     "title": "Kalshi secures temporary win in New York gambling law dispute",
-    "description": "The ruling allows Kalshi to continue operating as its legal battle with New York over sports-related event contracts moves toward a January hearing....",
-    "date": "2026-11-23 20:38:43",
+    "description": "...",
+    "date": "2026-11-23T20:38:43.000Z",
     "url": "https://cointelegraph.com/news/kalshi-temporary-win-new-york-gambling-law-dispute?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
     "agency": "NEWS",
     "source": "Cointelegraph Regulation"
@@ -12446,93 +12606,5 @@
     "url": "https://cryptoslate.com/cosmos-intercepts-1-23-million-stolen-atom-but-refunds-now-wait-on-governance-vote/",
     "agency": "NEWS",
     "source": "CryptoSlate"
-  },
-  {
-    "title": "SEC staff’s staking-token split spotlights the exit risks behind staked ETH tokens",
-    "description": "\nIts conditional categories do not classify either product. Coinbase terms and Lido's withdrawal queue govern the practical route back to ETH.\nThe post SEC staff’s staking-token split spotlights the e...",
-    "date": "2026-09-27 16:00:54",
-    "url": "https://cryptoslate.com/sec-staffs-staking-token-split-spotlights-the-exit-risks-behind-cbeth-and-steth/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "SEC Staff Says Token Buybacks Don't Make Crypto a Security—If the Network Works",
-    "description": "...",
-    "date": "2026-09-27T13:01:03.000Z",
-    "url": "https://decrypt.co/379398/sec-staff-token-buybacks-dont-make-crypto-security",
-    "agency": "NEWS",
-    "source": "Decrypt"
-  },
-  {
-    "title": "How months of work on the Clarity Act all fell apart",
-    "description": "Interviews with industry participants and legislative aides paint a picture of a blown bill-writing process, with sources pointing to nearly every facet of the bill's development and the debate around...",
-    "date": "2026-09-27 12:00:00",
-    "url": "https://www.coindesk.com/news-analysis/2026/09/27/how-months-of-work-on-the-clarity-act-all-fell-apart",
-    "agency": "NEWS",
-    "source": "CoinDesk"
-  },
-  {
-    "title": "SEC’s Hester Peirce Wants Zero-Knowledge Proofs to Fix KYC System",
-    "description": "...",
-    "date": "2026-09-27T11:30:52.000Z",
-    "url": "https://news.bitcoin.com/technology/secs-hester-peirce-wants-zero-knowledge-proofs-to-fix-kyc-system/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Crypto ATM Numbers Fall to 2021 Levels Amid Regulatory Crackdown",
-    "description": "...",
-    "date": "2026-09-27T09:30:33.000Z",
-    "url": "https://news.bitcoin.com/crypto-news/crypto-atm-numbers-fall-to-2021-levels-amid-regulatory-crackdown/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Saylor outlines ‘bill of digital rights’ to help build prosperity in future economy",
-    "description": "...",
-    "date": "2026-09-27T07:18:42.000Z",
-    "url": "https://cointelegraph.com/news/saylor-outlines-bill-of-digital-rights-to-help-build-prosperity-in-future-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "agency": "NEWS",
-    "source": "Cointelegraph"
-  },
-  {
-    "title": "‘Crypto Mom’ Hester Peirce Resigns From SEC Effective Oct 2",
-    "description": "...",
-    "date": "2026-09-27T05:30:46.000Z",
-    "url": "https://news.bitcoin.com/crypto-news/crypto-mom-hester-peirce-resigns-from-sec-effective-oct-2/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Bitcoin Price Gains 44% for Second-Best Q3 as Ethereum Jumps 71%",
-    "description": "...",
-    "date": "2026-09-27T00:10:22.000Z",
-    "url": "https://news.bitcoin.com/market-updates/bitcoin-price-gains-44-for-second-best-q3-as-ethereum-jumps-71/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "Solana’s Alpenglow Hits Second Testnet, 100ms Finality in Sight",
-    "description": "\nSolana’s biggest consensus overhaul since launch has crossed a major hurdle. Alpenglow activated on testnet Sept. 24 and devnet Sept. 25, replacing TowerBFT with Votor and targeting transaction final...",
-    "date": "2026-09-26 21:45:02",
-    "url": "https://news.bitcoin.com/blockchain/solanas-alpenglow-hits-second-testnet-100ms-finality-in-sight/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
-  },
-  {
-    "title": "SEC clears regulatory hurdle as crypto token buybacks hit record $638 million",
-    "description": "\nCrypto projects spent about $638 million with token buybacks through late August 2026, according to Allium Labs data. That is already a record, up from $545 million over the same stretch of 2025. Hyp...",
-    "date": "2026-09-26 20:20:52",
-    "url": "https://cryptoslate.com/sec-clears-regulatory-hurdle-as-crypto-token-buybacks-hit-record-638-million/",
-    "agency": "NEWS",
-    "source": "CryptoSlate"
-  },
-  {
-    "title": "Anthropic Loses Pentagon Fight Ahead of Anticipated $2 Trillion IPO",
-    "description": "\nA federal appeals court upheld the Pentagon’s supply chain risk designation for Anthropic on Sept. 25, adding a legal setback ahead of the AI company’s reported November IPO. Investors have anticipat...",
-    "date": "2026-09-26 18:34:22",
-    "url": "https://news.bitcoin.com/featured/anthropic-loses-pentagon-fight-ahead-of-anticipated-2-trillion-ipo/",
-    "agency": "NEWS",
-    "source": "Bitcoin.com News"
   }
 ]
